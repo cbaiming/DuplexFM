@@ -1,0 +1,1050 @@
+{
+  "selected_architecture": "PairAC16 direct concatenation; no MoE; no manual products",
+  "purpose": "code review only; not a validated replacement for original execution locks",
+  "source_model_code_unchanged_except_text_encoding": true,
+  "numeric_solver_code_unchanged_except_text_encoding": true,
+  "files": [
+    {
+      "path": "source_full/code/duplexfm_joint/__init__.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_joint/__init__.py",
+      "origin_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_joint/backbones.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_joint/backbones.py",
+      "origin_sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+      "packaged_sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_joint/data.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_joint/data.py",
+      "origin_sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+      "packaged_sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_joint/io_utils.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_joint/io_utils.py",
+      "origin_sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+      "packaged_sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_joint/model.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_joint/model.py",
+      "origin_sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+      "packaged_sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/__init__.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/__init__.py",
+      "origin_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/common.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/common.py",
+      "origin_sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+      "packaged_sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/data_plan.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/data_plan.py",
+      "origin_sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+      "packaged_sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/durable_io.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/durable_io.py",
+      "origin_sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+      "packaged_sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/efficiency.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/efficiency.py",
+      "origin_sha256": "4e4c5ae7b403fc496f67181cce07819c5dc9d491c9041e5fa64d2e0d6a449329",
+      "packaged_sha256": "4e4c5ae7b403fc496f67181cce07819c5dc9d491c9041e5fa64d2e0d6a449329",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/engineering_three.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/engineering_three.py",
+      "origin_sha256": "b3e918869c74d23dbb81a48138d917715937d22474a54c81ffe4026e725548ab",
+      "packaged_sha256": "b3e918869c74d23dbb81a48138d917715937d22474a54c81ffe4026e725548ab",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/evaluation.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/evaluation.py",
+      "origin_sha256": "7cdda9797652c503fd7e15aab3453d079f477f60213c1d583acc0c71bd339426",
+      "packaged_sha256": "7cdda9797652c503fd7e15aab3453d079f477f60213c1d583acc0c71bd339426",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/model.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/model.py",
+      "origin_sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+      "packaged_sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/parallel.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/parallel.py",
+      "origin_sha256": "5de26abfc69f59bfb6acf44ca170b4d8c091844f19e0ff5ac6177c2aa59a4774",
+      "packaged_sha256": "5de26abfc69f59bfb6acf44ca170b4d8c091844f19e0ff5ac6177c2aa59a4774",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/protocol.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/protocol.py",
+      "origin_sha256": "c12ae3d60f4208caa198dcebdf95f77e1aa10a07b0e160f976448e836a4aba8e",
+      "packaged_sha256": "c12ae3d60f4208caa198dcebdf95f77e1aa10a07b0e160f976448e836a4aba8e",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/runtime.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/runtime.py",
+      "origin_sha256": "929a8cb1ea88cc7634dc0ba33fddbf2f1c0ba5892b624368aaa22c2eb62cc086",
+      "packaged_sha256": "929a8cb1ea88cc7634dc0ba33fddbf2f1c0ba5892b624368aaa22c2eb62cc086",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/duplexfm_mechanism/training_hourly.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/duplexfm_mechanism/training_hourly.py",
+      "origin_sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+      "packaged_sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/evaluate_sources.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/evaluate_sources.py",
+      "origin_sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+      "packaged_sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/parallel_run.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/parallel_run.py",
+      "origin_sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+      "packaged_sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/prepare_pairac.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/prepare_pairac.py",
+      "origin_sha256": "7c8855b242ef6f572f6e0ebfde6622367176f4ade6ed75a0bc4343cdd8472bf9",
+      "packaged_sha256": "7c8855b242ef6f572f6e0ebfde6622367176f4ade6ed75a0bc4343cdd8472bf9",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/tests/conftest.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/tests/conftest.py",
+      "origin_sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+      "packaged_sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/tests/test_controller.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/tests/test_controller.py",
+      "origin_sha256": "bfc46149770c9478d6bf025268a9abd163ebd28fd12d1353070e5582d0b668e6",
+      "packaged_sha256": "bfc46149770c9478d6bf025268a9abd163ebd28fd12d1353070e5582d0b668e6",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/tests/test_durability.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/tests/test_durability.py",
+      "origin_sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+      "packaged_sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/tests/test_pairac.py",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/tests/test_pairac.py",
+      "origin_sha256": "50853bdd52921070437e5a998ea20a886716eebb6e265efa08681646cc6a8e79",
+      "packaged_sha256": "50853bdd52921070437e5a998ea20a886716eebb6e265efa08681646cc6a8e79",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "source_full/code/foundation_reference.json",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/code/foundation_reference.json",
+      "origin_sha256": "3f145e587f25ace40f1361482f11787a26548ecb1e87a0f39e6006d15efb7348",
+      "packaged_sha256": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d",
+      "changes": [
+        "Removed private location metadata; retained reference hashes"
+      ]
+    },
+    {
+      "path": "source_full/start_h100_two.sh",
+      "origin": "H100_remote/PairAC_3Seed_2H100_20261016/start_h100_two.sh",
+      "origin_sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8",
+      "packaged_sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_joint/__init__.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_joint/__init__.py",
+      "origin_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_joint/backbones.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_joint/backbones.py",
+      "origin_sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+      "packaged_sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_joint/data.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_joint/data.py",
+      "origin_sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+      "packaged_sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_joint/io_utils.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_joint/io_utils.py",
+      "origin_sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+      "packaged_sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_joint/model.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_joint/model.py",
+      "origin_sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+      "packaged_sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/__init__.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/__init__.py",
+      "origin_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/ablation_summary.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/ablation_summary.py",
+      "origin_sha256": "e28bd6909f5d464cc58790ffc12d61b987f05c72ff2862cde552b3e2654ab199",
+      "packaged_sha256": "e28bd6909f5d464cc58790ffc12d61b987f05c72ff2862cde552b3e2654ab199",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/common.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/common.py",
+      "origin_sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+      "packaged_sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/data_plan.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/data_plan.py",
+      "origin_sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+      "packaged_sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/durable_io.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/durable_io.py",
+      "origin_sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+      "packaged_sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/efficiency.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/efficiency.py",
+      "origin_sha256": "3a6aba47fad57081bb1356e46ad1ea6309ad82789ad002c6779df9fac4ddf77b",
+      "packaged_sha256": "3a6aba47fad57081bb1356e46ad1ea6309ad82789ad002c6779df9fac4ddf77b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/engineering_three.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/engineering_three.py",
+      "origin_sha256": "60c81be0e39ce6d49f1cafe939ef5d3360f92c8abbc5cb05a44b38e9c8489400",
+      "packaged_sha256": "60c81be0e39ce6d49f1cafe939ef5d3360f92c8abbc5cb05a44b38e9c8489400",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/evaluation.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/evaluation.py",
+      "origin_sha256": "4dc430442bb243fec83780f6ee08f90a367bf0755033c46dc85c605447391ed4",
+      "packaged_sha256": "4dc430442bb243fec83780f6ee08f90a367bf0755033c46dc85c605447391ed4",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/model.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/model.py",
+      "origin_sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6",
+      "packaged_sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/parallel.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/parallel.py",
+      "origin_sha256": "74910228ae3daa00ab99397ebad672ccb57e435aa1467c53c72b3f729f146c65",
+      "packaged_sha256": "74910228ae3daa00ab99397ebad672ccb57e435aa1467c53c72b3f729f146c65",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/protocol.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/protocol.py",
+      "origin_sha256": "5ecccdccb81897f0246e266c56cb8f8c76821aec5723ccaca22854c180615265",
+      "packaged_sha256": "5ecccdccb81897f0246e266c56cb8f8c76821aec5723ccaca22854c180615265",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/reference_initial.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/reference_initial.py",
+      "origin_sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7",
+      "packaged_sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/runtime.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/runtime.py",
+      "origin_sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5",
+      "packaged_sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/duplexfm_mechanism/training_hourly.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/duplexfm_mechanism/training_hourly.py",
+      "origin_sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+      "packaged_sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/evaluate_sources.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/evaluate_sources.py",
+      "origin_sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+      "packaged_sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/parallel_run.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/parallel_run.py",
+      "origin_sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+      "packaged_sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/prepare_pairac.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/prepare_pairac.py",
+      "origin_sha256": "31b04f481745c11545038699fa809ef8f1ef8dda5c96f6f6460bae5876f704ee",
+      "packaged_sha256": "31b04f481745c11545038699fa809ef8f1ef8dda5c96f6f6460bae5876f704ee",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/tests/conftest.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/tests/conftest.py",
+      "origin_sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+      "packaged_sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/tests/reference_fusion.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/tests/reference_fusion.py",
+      "origin_sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+      "packaged_sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/tests/test_ablation.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/tests/test_ablation.py",
+      "origin_sha256": "4baa57b239906ca1e49e1c3da65b5b9829c334f89ff38caaf0fc6695978f6b5b",
+      "packaged_sha256": "4baa57b239906ca1e49e1c3da65b5b9829c334f89ff38caaf0fc6695978f6b5b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/tests/test_controller.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/tests/test_controller.py",
+      "origin_sha256": "8239f86dd31e2135ec6eb0dc6fa73f1165e78b276d78ddb538d0ca1dd54fc716",
+      "packaged_sha256": "8239f86dd31e2135ec6eb0dc6fa73f1165e78b276d78ddb538d0ca1dd54fc716",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/tests/test_durability.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/tests/test_durability.py",
+      "origin_sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+      "packaged_sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/tests/test_pairac.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/tests/test_pairac.py",
+      "origin_sha256": "6b583e2209532acab211904dbacdb96245faddc1dc5ef38fd784a0d2759b5558",
+      "packaged_sha256": "6b583e2209532acab211904dbacdb96245faddc1dc5ef38fd784a0d2759b5558",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/foundation_reference.json",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/foundation_reference.json",
+      "origin_sha256": "3f145e587f25ace40f1361482f11787a26548ecb1e87a0f39e6006d15efb7348",
+      "packaged_sha256": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d",
+      "changes": [
+        "Removed private location metadata; retained reference hashes"
+      ]
+    },
+    {
+      "path": "ablations/seed42/code/reference_full.json",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/code/reference_full.json",
+      "origin_sha256": "507412ee51a925070cdaec558c9e5bc4abbfebe513cde7f4c44f92e4b392cfe2",
+      "packaged_sha256": "5337a3693ee8fff69558b64092da50dd638bd69103068de6dbf030def3a01719",
+      "changes": [
+        "Removed private location metadata; retained reference hashes"
+      ]
+    },
+    {
+      "path": "ablations/seed42/start_h100_two.sh",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seed42_2H100_20261017/start_h100_two.sh",
+      "origin_sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8",
+      "packaged_sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_joint/__init__.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_joint/__init__.py",
+      "origin_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_joint/backbones.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_joint/backbones.py",
+      "origin_sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+      "packaged_sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_joint/data.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_joint/data.py",
+      "origin_sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+      "packaged_sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_joint/io_utils.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_joint/io_utils.py",
+      "origin_sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+      "packaged_sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_joint/model.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_joint/model.py",
+      "origin_sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+      "packaged_sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/__init__.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/__init__.py",
+      "origin_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/ablation_summary.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/ablation_summary.py",
+      "origin_sha256": "462bc025d6378dfee31182c60f9a23ddf441c9c78b441b90039119b4737f0452",
+      "packaged_sha256": "462bc025d6378dfee31182c60f9a23ddf441c9c78b441b90039119b4737f0452",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/common.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/common.py",
+      "origin_sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+      "packaged_sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/data_plan.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/data_plan.py",
+      "origin_sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+      "packaged_sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/durable_io.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/durable_io.py",
+      "origin_sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+      "packaged_sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/efficiency.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/efficiency.py",
+      "origin_sha256": "eda30bf15aacb319f12c3cab63eaf7498f2c5c36c81df6fa9590849f90ab6984",
+      "packaged_sha256": "eda30bf15aacb319f12c3cab63eaf7498f2c5c36c81df6fa9590849f90ab6984",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/engineering_three.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/engineering_three.py",
+      "origin_sha256": "774590481e2f9a0247967c4514b5fdd6db83ff44f58e1a02a3315c50961ce72b",
+      "packaged_sha256": "774590481e2f9a0247967c4514b5fdd6db83ff44f58e1a02a3315c50961ce72b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/evaluation.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/evaluation.py",
+      "origin_sha256": "a4ab4cabd3fec8ff30328bea6cb3990087fba36c7acce8b58f57b8488f942a0d",
+      "packaged_sha256": "a4ab4cabd3fec8ff30328bea6cb3990087fba36c7acce8b58f57b8488f942a0d",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/model.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/model.py",
+      "origin_sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6",
+      "packaged_sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/parallel.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/parallel.py",
+      "origin_sha256": "6bb9baef27a3248ad7d9dc27e0b4a5dbbb4d1587ef39b6e0104c5d6f4a9ecc2d",
+      "packaged_sha256": "6bb9baef27a3248ad7d9dc27e0b4a5dbbb4d1587ef39b6e0104c5d6f4a9ecc2d",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/protocol.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/protocol.py",
+      "origin_sha256": "9555f7d2979669e36e52065214e479ae8faed099cdb9352c219c57c0ff315135",
+      "packaged_sha256": "9555f7d2979669e36e52065214e479ae8faed099cdb9352c219c57c0ff315135",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/reference_initial.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/reference_initial.py",
+      "origin_sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7",
+      "packaged_sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/runtime.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/runtime.py",
+      "origin_sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5",
+      "packaged_sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/duplexfm_mechanism/training_hourly.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/duplexfm_mechanism/training_hourly.py",
+      "origin_sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+      "packaged_sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/evaluate_sources.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/evaluate_sources.py",
+      "origin_sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+      "packaged_sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/parallel_run.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/parallel_run.py",
+      "origin_sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+      "packaged_sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/prepare_pairac.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/prepare_pairac.py",
+      "origin_sha256": "29d2c32927897d28a110a42b983228d03ebd95f00c50afae60516e0daee5a07e",
+      "packaged_sha256": "29d2c32927897d28a110a42b983228d03ebd95f00c50afae60516e0daee5a07e",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/tests/conftest.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/tests/conftest.py",
+      "origin_sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+      "packaged_sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/tests/reference_fusion.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/tests/reference_fusion.py",
+      "origin_sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+      "packaged_sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/tests/test_ablation.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/tests/test_ablation.py",
+      "origin_sha256": "93bc19dc56f514ce739b0031ce2a6f68cead870d73109eaf4cc7908da344166b",
+      "packaged_sha256": "93bc19dc56f514ce739b0031ce2a6f68cead870d73109eaf4cc7908da344166b",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/tests/test_controller.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/tests/test_controller.py",
+      "origin_sha256": "8239f86dd31e2135ec6eb0dc6fa73f1165e78b276d78ddb538d0ca1dd54fc716",
+      "packaged_sha256": "8239f86dd31e2135ec6eb0dc6fa73f1165e78b276d78ddb538d0ca1dd54fc716",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/tests/test_durability.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/tests/test_durability.py",
+      "origin_sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+      "packaged_sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/tests/test_pairac.py",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/tests/test_pairac.py",
+      "origin_sha256": "bf6e839e401ff42586b9d22b499b6ee082f11bb3f381617de940f08548f0e4ad",
+      "packaged_sha256": "bf6e839e401ff42586b9d22b499b6ee082f11bb3f381617de940f08548f0e4ad",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/foundation_reference.json",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/foundation_reference.json",
+      "origin_sha256": "3f145e587f25ace40f1361482f11787a26548ecb1e87a0f39e6006d15efb7348",
+      "packaged_sha256": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d",
+      "changes": [
+        "Removed private location metadata; retained reference hashes"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/code/reference_full.json",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/code/reference_full.json",
+      "origin_sha256": "64f4450719122a9d6d950946d5940e9cfae0c136a4753b29b3f120d29b0d9ee6",
+      "packaged_sha256": "65e20092d6194d26fa937923f8946cade0a5c2ac6ab31cc9f0ed83fb883349d3",
+      "changes": [
+        "Removed private location metadata; retained reference hashes"
+      ]
+    },
+    {
+      "path": "ablations/seeds43_44/start_h100_two.sh",
+      "origin": "H100_remote/PairAC_ExpertAblation_Seeds43_44_2H100_20261018/start_h100_two.sh",
+      "origin_sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8",
+      "packaged_sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "execution_reference/backup_compat.py",
+      "origin": "research/pairac_ablation_remaining_20261018/debug_20261019/backup_compat.py",
+      "origin_sha256": "3934943eba419939ebf45c06c504a88375a81ceab0f2de291429daf6cc5375dd",
+      "packaged_sha256": "3934943eba419939ebf45c06c504a88375a81ceab0f2de291429daf6cc5375dd",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "execution_reference/parallel_compat_run.py",
+      "origin": "research/pairac_ablation_remaining_20261018/debug_20261019/parallel_compat_run.py",
+      "origin_sha256": "e9923074d50871b22939d643e85be548953d418cf1f3d1a6c10cd3bc4b0a27a6",
+      "packaged_sha256": "e9923074d50871b22939d643e85be548953d418cf1f3d1a6c10cd3bc4b0a27a6",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "execution_reference/test_backup_compat.py",
+      "origin": "research/pairac_ablation_remaining_20261018/debug_20261019/test_backup_compat.py",
+      "origin_sha256": "0629369ec8ec76315ead30481bf97d64995ecb577f7ebf6d716833c087d3a220",
+      "packaged_sha256": "0629369ec8ec76315ead30481bf97d64995ecb577f7ebf6d716833c087d3a220",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "execution_reference/test_backup_compat_v2.py",
+      "origin": "research/pairac_ablation_remaining_20261018/debug_20261019/test_backup_compat_v2.py",
+      "origin_sha256": "c64cc4a4e18259d617570b291f0c1731ae5d7a08328c56aa6fb070617f31cb1e",
+      "packaged_sha256": "c64cc4a4e18259d617570b291f0c1731ae5d7a08328c56aa6fb070617f31cb1e",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round17/nuclear.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round17/nuclear.py",
+      "origin_sha256": "d62370f7bc4dbcc6d3355c50a3775adfb7038fdffd8176d34206bf0b69b65575",
+      "packaged_sha256": "d62370f7bc4dbcc6d3355c50a3775adfb7038fdffd8176d34206bf0b69b65575",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round21/coordinate_sparse.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round21/coordinate_sparse.py",
+      "origin_sha256": "38f3e5017bd192c6b4ca6f14229b0fc16d1190a5f36db0d8285e4a9ddc222a3a",
+      "packaged_sha256": "38f3e5017bd192c6b4ca6f14229b0fc16d1190a5f36db0d8285e4a9ddc222a3a",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round25/native_trace.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round25/native_trace.py",
+      "origin_sha256": "416127b3ae266f6716854d5371a29d19a5f3aa06ab6d47ecdd2fda657989672d",
+      "packaged_sha256": "416127b3ae266f6716854d5371a29d19a5f3aa06ab6d47ecdd2fda657989672d",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round26/head.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round26/head.py",
+      "origin_sha256": "0600bd8fb8ed5e70e3a353ffcdd5d9d844d3cc869d4ad1c122ac649175676d5a",
+      "packaged_sha256": "0600bd8fb8ed5e70e3a353ffcdd5d9d844d3cc869d4ad1c122ac649175676d5a",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round4/core.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round4/core.py",
+      "origin_sha256": "4c102398638948579c163efbb371782330862c596d00b7f2f0c7d79edaa56b3c",
+      "packaged_sha256": "4c102398638948579c163efbb371782330862c596d00b7f2f0c7d79edaa56b3c",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round4/verify.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round4/verify.py",
+      "origin_sha256": "4fc57ac62865ec5ea02e8e879e0649a57c24aae598e5958eb4125545ac8ff682",
+      "packaged_sha256": "4fc57ac62865ec5ea02e8e879e0649a57c24aae598e5958eb4125545ac8ff682",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round49/group_nuisance.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round49/group_nuisance.py",
+      "origin_sha256": "069e966b62a0f00ed9e613e957b86f07ffa2cc34479717cf5a639fee67f94652",
+      "packaged_sha256": "069e966b62a0f00ed9e613e957b86f07ffa2cc34479717cf5a639fee67f94652",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round49/verify.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round49/verify.py",
+      "origin_sha256": "c50e9bbc036c6856302e4d9b597c28bca8430de245fbe77047d9c107222b6e3a",
+      "packaged_sha256": "c50e9bbc036c6856302e4d9b597c28bca8430de245fbe77047d9c107222b6e3a",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round54/random_intercept.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round54/random_intercept.py",
+      "origin_sha256": "ba6b4d57073302400c9f0ffb849d6a488023e3bd263014e8e3eca5504e817658",
+      "packaged_sha256": "ba6b4d57073302400c9f0ffb849d6a488023e3bd263014e8e3eca5504e817658",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round54/verify.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round54/verify.py",
+      "origin_sha256": "e4d1d759e7e4353290d964d5242a15e28d8dc3aa199bad257aec596d12ef0771",
+      "packaged_sha256": "e4d1d759e7e4353290d964d5242a15e28d8dc3aa199bad257aec596d12ef0771",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round55/audit_math.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round55/audit_math.py",
+      "origin_sha256": "780de1c53dcc561b4b89eda28a1727680cdd39315be3ac0124e2fe10098ecce4",
+      "packaged_sha256": "780de1c53dcc561b4b89eda28a1727680cdd39315be3ac0124e2fe10098ecce4",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round55/head.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round55/head.py",
+      "origin_sha256": "3da90c74976288872209b61d07bd1378558a38c1621bd80583c2cc90279b3415",
+      "packaged_sha256": "3da90c74976288872209b61d07bd1378558a38c1621bd80583c2cc90279b3415",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/full/readout.py",
+      "origin": "research/pairac_transfer_20261017/readout.py",
+      "origin_sha256": "184cd844bf83ae42ac53ab66ed45522090d4e1f37abedc87f8762ae57122980c",
+      "packaged_sha256": "11ce7e19631a6844b0ae5043c13dbb04bdd3aab78a25d90956658e2f4fdad74d",
+      "changes": [
+        "path/configuration-only substitution"
+      ]
+    },
+    {
+      "path": "sirna_transfer/ablations/readout.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/readout.py",
+      "origin_sha256": "b87da4b20e15ce98f4d1716ed3862a5e878df14e978732e5180edcf5c3d03202",
+      "packaged_sha256": "9ae2c540f91150188790dcebd4cc9c8878bb91e5519b0116e19f21acfebc4232",
+      "changes": [
+        "path/configuration-only substitution",
+        "path/configuration-only substitution"
+      ]
+    },
+    {
+      "path": "sirna_transfer/full/export_cpu.py",
+      "origin": "research/pairac_transfer_20261017/export_cpu.py",
+      "origin_sha256": "52e70fe82a07e929ea57249520d8589c047cd236ff24a4b9147acd015bcabdc2",
+      "packaged_sha256": "d965a0953c02c91973988f6ead87cdf76c2f51c85264f2475db9468ae48ab7c9",
+      "changes": [
+        "path/configuration-only substitution",
+        "path/configuration-only substitution",
+        "path/configuration-only substitution"
+      ]
+    },
+    {
+      "path": "sirna_transfer/ablations/export_cpu.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/exported/export_cpu.py",
+      "origin_sha256": "622cb17c9927ec6169dd77725b6addac4ac91997b4066f97a0315f57b10c8ecb",
+      "packaged_sha256": "78f2c4f8fbd7f4bd80806b86663bf1c5865d0595d2c46913bda919cf2a7cef8e",
+      "changes": [
+        "path/configuration-only substitution",
+        "path/configuration-only substitution",
+        "path/configuration-only substitution",
+        "path/configuration-only substitution",
+        "path/configuration-only substitution"
+      ]
+    },
+    {
+      "path": "sirna_transfer/full/test_export.py",
+      "origin": "research/pairac_transfer_20261017/test_export.py",
+      "origin_sha256": "2dff384a07396e482a5f79fb215a723c8ec47c21ab3b32b0312301c210319cd2",
+      "packaged_sha256": "2dff384a07396e482a5f79fb215a723c8ec47c21ab3b32b0312301c210319cd2",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/full/test_readout.py",
+      "origin": "research/pairac_transfer_20261017/test_readout.py",
+      "origin_sha256": "9abf0147689c5778081bd5826210f9f905df839adfc2f6a83485a623fe22c908",
+      "packaged_sha256": "9abf0147689c5778081bd5826210f9f905df839adfc2f6a83485a623fe22c908",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/ablations/test_readout.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/test_readout.py",
+      "origin_sha256": "ba8f05e065a2e0f0eb359649202a358cdc127f9f8427987d7632d5b9057a7e64",
+      "packaged_sha256": "ba8f05e065a2e0f0eb359649202a358cdc127f9f8427987d7632d5b9057a7e64",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "requirements-source.txt",
+      "origin": "H100_remote/requirements.txt",
+      "origin_sha256": "a810a4e709a7ffca3829c380b9215074b7549d6c5d4cb9533d7197372887ccbf",
+      "packaged_sha256": "a810a4e709a7ffca3829c380b9215074b7549d6c5d4cb9533d7197372887ccbf",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "requirements-source-torch.txt",
+      "origin": "H100_remote/requirements-torch.txt",
+      "origin_sha256": "fb1582c4f4c574332da490a328bbf2ac07c85e0450bfa24cb549c782ccd3f1b4",
+      "packaged_sha256": "fb1582c4f4c574332da490a328bbf2ac07c85e0450bfa24cb549c782ccd3f1b4",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "origin": "DuplexFM-main/LICENSE-NOTICE.md",
+      "origin_sha256": "079e37e8ce9854a9c10370c6e62d5013a923735cd168f3b98c5c738d5eecb395",
+      "packaged_sha256": "079e37e8ce9854a9c10370c6e62d5013a923735cd168f3b98c5c738d5eecb395",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    },
+    {
+      "path": "sirna_transfer/runtime/sirna_increment_20261014/round36/verify.py",
+      "origin": "research/pairac_ablation_multiseed_transfer_20261020/package/runtime/sirna_increment_20261014/round36/verify.py",
+      "origin_sha256": "f43d6a0d4543a3637a8b6caf6666d5729aa85b49293251d18d1f9884e4adcb4f",
+      "packaged_sha256": "f43d6a0d4543a3637a8b6caf6666d5729aa85b49293251d18d1f9884e4adcb4f",
+      "changes": [
+        "UTF-8/LF normalization only"
+      ]
+    }
+  ]
+}

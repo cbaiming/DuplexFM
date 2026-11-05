@@ -1,0 +1,3862 @@
+{
+  "version": 5,
+  "release": "DuplexFM_PairAC_GitHub_AllInOne_English_20261105",
+  "scope": "Combined main-results repository and data; Chinese documentation excluded",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 148,
+      "sha256": "84ff45cb250a46b0d3973b52179c9c3ac11b50c6bd562de8174028ae7988379b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 558,
+      "sha256": "6d7177b79304181bc82dd8fddbf75ddabc1cb3d32c9814f10c8ff9d50e56a064"
+    },
+    {
+      "path": "audit/checkpoint_readback.json",
+      "bytes": 945,
+      "sha256": "296fa3a837b68d12e992c3c569d531e0e931e693f42847d7e3dec9b0ab94ccc1"
+    },
+    {
+      "path": "audit/ENGLISH_BUNDLE_CHECKS.json",
+      "bytes": 1140,
+      "sha256": "5d1f566de6fb1ed2a1ffb7dc35692eb24c79a5a6bdce953f964bea8daecbdfbf"
+    },
+    {
+      "path": "audit/original_pairac.gitattributes",
+      "bytes": 46,
+      "sha256": "fe0311a5954afb248dd868ce085e34480048f2444d50991790c88b428c6c4dfd"
+    },
+    {
+      "path": "audit/original_pairac_CODE_MANIFEST.json",
+      "bytes": 15814,
+      "sha256": "a23c85e1886fc3afb241bdb886f5c5881d6e98a0ce8cce426c9f4b703d395e8c"
+    },
+    {
+      "path": "audit/REPRODUCTION_CHECKS.json",
+      "bytes": 8832,
+      "sha256": "1b3f66518c17142ea5d802b5010cbeea0975889a26cc19b046ab70d1d0972912"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 375,
+      "sha256": "9a7ed92665c28df7a617ac97f83169e7556ebf2689a1f6e8b4f835fc03289e82"
+    },
+    {
+      "path": "data/accessibility/external/excluded_matches.csv.gz",
+      "bytes": 429890,
+      "sha256": "d21893122b71fa7fe570c218bad47a67326c7b55cb8d760a3f81e1684f57a8dc"
+    },
+    {
+      "path": "data/accessibility/external/retained_masks.npz",
+      "bytes": 8392,
+      "sha256": "7435f31cdb4fd369ba4ac05c290ef501289e1e693e3c29ef5b994ce30ae43e32"
+    },
+    {
+      "path": "data/accessibility/external/sequence_purged_50_60.npz",
+      "bytes": 4909210,
+      "sha256": "cd3c522f28977974f1a01ea8c432497500bded20a9248a5a7589acc1df25f0ab"
+    },
+    {
+      "path": "data/accessibility/external/sequence_purged_gene_unseen_50_60.npz",
+      "bytes": 1777820,
+      "sha256": "f8310a6e9fb684e1d742e2ea6d700d7b6866971923e31dd2c801475a3c124710"
+    },
+    {
+      "path": "data/accessibility/external/window_selection.csv.gz",
+      "bytes": 634257,
+      "sha256": "4e773b724c382ae4af8db387e61bfe42a088a3fc876774b7de62a3d8b30d29b8"
+    },
+    {
+      "path": "data/accessibility/mae_evidence/external_row_stats.npz",
+      "bytes": 257783,
+      "sha256": "37586284377b10a8d417cb7c64cb242921d80ddebabfeb9d632dfcbbcc3a2f64"
+    },
+    {
+      "path": "data/accessibility/mae_evidence/internal_test_row_stats.npz",
+      "bytes": 2830201,
+      "sha256": "e1e4694dd43c5fb426160998761ecd260b0b11ac041d91cbf8c742bbb817b538"
+    },
+    {
+      "path": "data/large/icshape_source/archive.part0001",
+      "bytes": 95000000,
+      "sha256": "854990a204325a0d26352848b3aed66a23672f29d06b5866a1bfe4951d59262d"
+    },
+    {
+      "path": "data/large/icshape_source/archive.part0002",
+      "bytes": 95000000,
+      "sha256": "1ac0e3a4b7fd0e869a0452ae6d6c52a392613071b74ab744efe6ed77f68053ea"
+    },
+    {
+      "path": "data/large/icshape_source/archive.part0003",
+      "bytes": 10623792,
+      "sha256": "2f8e1668f62faad350e714e417be0e67f3892aea2376a9b440286dec50450e4a"
+    },
+    {
+      "path": "data/large/icshape_source/index.json",
+      "bytes": 2881,
+      "sha256": "22f8f2b4a170ac25a25553c3fd95a5d8fe7580483bfa5cc5a4b0e1c83a58f555"
+    },
+    {
+      "path": "data/mirbench_v7/fixed_split_manifest.json",
+      "bytes": 78280,
+      "sha256": "16945472723531c1f6de1f840fbff45d15e3b3c481db419880bcbfbde384e377"
+    },
+    {
+      "path": "data/mirbench_v7/historical_inputs.json",
+      "bytes": 1553,
+      "sha256": "4ac88f8cbeb1e58387a638a242a7b02b6a4120c408113c47109b7b30fac3f885"
+    },
+    {
+      "path": "data/mirbench_v7/preparation_contract.json",
+      "bytes": 3029,
+      "sha256": "0a3a9c5d18bd24adecee40961e309df8b41e2c44eb418e2d4b56327d3bf5930a"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_CLASH_Hejret2023_test.tsv.gz",
+      "bytes": 221693,
+      "sha256": "42eb7e0644a097c7c0d3418242455780064df99d3da95fc43d6f53f972bd5b04"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_CLASH_Hejret2023_train.tsv.gz",
+      "bytes": 1793689,
+      "sha256": "9125a81913383e360c1fd73e8096175f247de7c56ea3fc76f141a8b1880f1d91"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_eCLIP_Klimentova2022_test.tsv.gz",
+      "bytes": 200803,
+      "sha256": "35ec1491fdc9b4fde2e34939d337dec98b213b02bb93cb712fa64dff9ef47383"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_eCLIP_Manakov2022_leftout.tsv.gz",
+      "bytes": 4413597,
+      "sha256": "cdfa6ca2c03bda84d791fcde822d6c7d01300c9e8abb8dcc58650183bd099774"
+    },
+    {
+      "path": "data/mirbench_v7/SOURCE.json",
+      "bytes": 3821,
+      "sha256": "81527358dc79cc7ccf3b3c0cbd60ac3083003c7f3f725f060e5d6015a9aff1af"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_CLASH_Hejret2023_test/00000000.npz",
+      "bytes": 17038,
+      "sha256": "898ab4ec09b1fc2a2474453060b8629eb00737569c6c088467a74406359896df"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Klimentova2022_test/00000000.npz",
+      "bytes": 16014,
+      "sha256": "293f9b886226ded260fb95efd24699030e755c0701ea12dd48e7dd2fcaab87dd"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_leftout/00000000.npz",
+      "bytes": 131822,
+      "sha256": "83719a4116840947015625d7916c68e175d0ba7088be7f1fe1fc3b69f6423284"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_leftout/00008192.npz",
+      "bytes": 131822,
+      "sha256": "c2957de2a763283ebbbc5d18d1b202663f33eab9468f6d585215b62b99b2c727"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_leftout/00016384.npz",
+      "bytes": 59470,
+      "sha256": "d12486d46d02c3eae1e58c7035d7fe31c4363c31eed8690966d8b042fe14c5e1"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00000000.npz",
+      "bytes": 131822,
+      "sha256": "462f7972334a1cba5c980fb863c15bcfe52fa1f01fd327353fd44d61b857cfb8"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00008192.npz",
+      "bytes": 131822,
+      "sha256": "113ccc702d782f026deeaf3033d67588b35e456c04cdfb8c837f0e66a7f38bdb"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00016384.npz",
+      "bytes": 131822,
+      "sha256": "5ff6a2517464f36aee3502aa0d1603afafb84cf4b679c670eb6ae35c754e49b0"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00024576.npz",
+      "bytes": 131822,
+      "sha256": "688c69f578f48af6fad236e191bbefc4eb8dd3d18cb56e607ccd58324508c9a0"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00032768.npz",
+      "bytes": 131822,
+      "sha256": "e570298959ff8cfd21c67671c517001c245756499421cd6c856cc3fd903851ae"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00040960.npz",
+      "bytes": 131822,
+      "sha256": "581876d5616aa874090f804399d4e5e13cff3a0fe3bfaa6c781d7af9cf15bacf"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00049152.npz",
+      "bytes": 131822,
+      "sha256": "ed1ac72c4e3febd4effb87204a7d916817ba8a1e8e2031e270014a3315bca35b"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00057344.npz",
+      "bytes": 131822,
+      "sha256": "753575e5fce780f8053093f0b9b32a025f879eb4274b64e489a95e7fec1f867f"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00065536.npz",
+      "bytes": 131822,
+      "sha256": "69c6e8e5a1de71b762da7e612cccccf835463c661f610bd197c4ca7fcdd9341c"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00073728.npz",
+      "bytes": 131822,
+      "sha256": "b4265b6c09ac35a7708fcc93417d4d35162b6eaa74f6bc5d8a10b3e0a375554b"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00081920.npz",
+      "bytes": 131822,
+      "sha256": "b3d707de5d9b9ad789cb29fcfc68abef71cc5b0aea071f3f4e5861a5a0bb7f29"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00090112.npz",
+      "bytes": 131822,
+      "sha256": "ffbf3e98212586ecb1e028be0a7202f124bd68736fa0ad0fbe920b7f45293930"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00098304.npz",
+      "bytes": 131822,
+      "sha256": "17b66fecf353adb188bea76e28b79612db5ecad31f713550ded6bb326c15ccda"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00106496.npz",
+      "bytes": 131822,
+      "sha256": "25b354a89b13728c5b3603d5f551a08ff754d19ab718faeb7bb037e7cc17867f"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00114688.npz",
+      "bytes": 131822,
+      "sha256": "0adad42aac19574155af73e719f9f6f429eb65a71a2606b04fa07cf121fba891"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00122880.npz",
+      "bytes": 131822,
+      "sha256": "5ec2a23a79deae6a392c3f90b90137465f50f283217d0eede433c3b834cf9bf5"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00131072.npz",
+      "bytes": 131822,
+      "sha256": "8c73ffd50c2f6100b9ac9be893bd6e9bef4fcc3a504fd4c84d4c2ec4e839b967"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00139264.npz",
+      "bytes": 131822,
+      "sha256": "c1357c4b6227e4f82a1978df38bd6f2ca9bc6e06d2e0d97ec5a0a7b2207034e2"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00147456.npz",
+      "bytes": 131822,
+      "sha256": "37a2daba288e77efb6a6746c531a48d37758577f449fa0f5049793b8e0185aa7"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00155648.npz",
+      "bytes": 131822,
+      "sha256": "1bbde97789560d68384a5d4cdd0623df1fad9605abb5e8234826ea638df879a6"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00163840.npz",
+      "bytes": 131822,
+      "sha256": "c9ced523f75e6dd28f627623f2f4df98e508bcccd769ead58cf8dd29a6de58b7"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00172032.npz",
+      "bytes": 131822,
+      "sha256": "8e9536bfb9a8f6d7379ebd6f00093db3c12b2b6ba277dae09e9cbe59fa3a7e72"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00180224.npz",
+      "bytes": 131822,
+      "sha256": "99f4e27efd47c15674b77383e4e388df8a4a86410f64b57accedb8bb3ada3454"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00188416.npz",
+      "bytes": 131822,
+      "sha256": "cf5c83d8dd323a7e418ab9acd3ceb30a6ac6497e20f61a33235e2a2045e68186"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00196608.npz",
+      "bytes": 131822,
+      "sha256": "3e015b592a0263f4a1a4b3f8a2cbbdd1efd91c4da6896906f513040806c53e3e"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00204800.npz",
+      "bytes": 131822,
+      "sha256": "4dc13fc89f51c65c5c9762ba8f8e60ed7f5139e54ea7cf2581148a68ec8885fe"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00212992.npz",
+      "bytes": 131822,
+      "sha256": "80c4c0a288ac33a1e71a8cb0190f3938a340a8b49c1f996c89d9964154a74800"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00221184.npz",
+      "bytes": 131822,
+      "sha256": "d74e7594c825f86beb698949d2002754607e82a2990653c76f96ef305e80873b"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00229376.npz",
+      "bytes": 131822,
+      "sha256": "64ca59f9c83dfd5979abb4e44201335f1c8823802d900b0894ad869a47e92eab"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00237568.npz",
+      "bytes": 131822,
+      "sha256": "d2b1e33248ef10bed13da043c4aac2541c042411b972e084b4a44040fdbbe78f"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00245760.npz",
+      "bytes": 131822,
+      "sha256": "abc84e084d541c51ed09f5b2d2dcbc1d8e65c9bdae5cd906912e7d90dd7b73c5"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00253952.npz",
+      "bytes": 131822,
+      "sha256": "5afac5976bcc31e46e66544d37646023484f27d6333d9d2cbd2426395361e209"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00262144.npz",
+      "bytes": 131822,
+      "sha256": "811eda29750234cac0490454f4c20f4be82e47c7487d0b96d131309f09b5ed84"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00270336.npz",
+      "bytes": 131822,
+      "sha256": "3c6fa089fef292ca182955e769e2d9903b05d01fc4a08b2adb70b9950d8867a1"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00278528.npz",
+      "bytes": 131822,
+      "sha256": "0fa71df373d6445c16bb04c0cbad269968cd3cc0cf75d155bfcdb55c64264749"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00286720.npz",
+      "bytes": 131822,
+      "sha256": "89a63420ebd82cb0587b33d515814d6c2487c223a3911c9145c87a96271da715"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00294912.npz",
+      "bytes": 131822,
+      "sha256": "089eee7f08baf190bb8820b62d460ad57fd0c931803b7d54108e8878583bed13"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00303104.npz",
+      "bytes": 131822,
+      "sha256": "3e2ea77ce5619ba397e64c451d8bc9e1999df0b9d2bc4ae719967a496939fbb3"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00311296.npz",
+      "bytes": 131822,
+      "sha256": "9c79530b9a352854eaec51e5a7a7e723e9b60a711a37d83a0922a357457ad7c1"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00319488.npz",
+      "bytes": 75678,
+      "sha256": "0513fd650a58e03d6d8458d5a607955425d54c639a42135ba5ba6e4f51795c9f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_CLASH_Hejret2023_test/00000000.npz",
+      "bytes": 17038,
+      "sha256": "121799bcfa7d59e27e533dcb060e589b53956d7d7b7b50346aae726d93db224d"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Klimentova2022_test/00000000.npz",
+      "bytes": 16014,
+      "sha256": "4efbc227643a9f56e6569f7272e1cd5c8175060a26128a77b1279e9dfce61bfb"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_leftout/00000000.npz",
+      "bytes": 131822,
+      "sha256": "498dd0d76124ade779037f876a014ff151f2d892c0a697bc8b8388553c69f485"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_leftout/00008192.npz",
+      "bytes": 131822,
+      "sha256": "6301dce7004457fece0992494ffad2ea01f79514e99590fe0f1662402a4d8038"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_leftout/00016384.npz",
+      "bytes": 59470,
+      "sha256": "517f4e8eaef2bfd3900a043d10bce7498fe30cba2f8d52bd3f2ed704ec1d4ee7"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00000000.npz",
+      "bytes": 131822,
+      "sha256": "71d43115c31b6b5baaaac7962a5499d86573cfdc6d9f1c82cfbe7e006b72be31"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00008192.npz",
+      "bytes": 131822,
+      "sha256": "e536436865413da4800b2ddcb5bdae8538f8e36f802f387d4ee5ad47755c1685"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00016384.npz",
+      "bytes": 131822,
+      "sha256": "ced15b01fd6dc544322bb0b885839d6bd89809237ae6744fa1bf168b229b62f0"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00024576.npz",
+      "bytes": 131822,
+      "sha256": "ff9ef8a7f65cacb730801914653e5fb0f3ba936b1ff2d6e8d97c5488e65bcf34"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00032768.npz",
+      "bytes": 131822,
+      "sha256": "0f6c37397dc60583f81e90081b71041be4c46101e613f6c6fc9c404f7cddab8f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00040960.npz",
+      "bytes": 131822,
+      "sha256": "5a7703a07ab64f4a6307bd98357517620fdea771e68c6a0c88f725088842314b"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00049152.npz",
+      "bytes": 131822,
+      "sha256": "bcdf9b4ac3d2c20dfb97c5ddb3f25ff3044771d6cbff0475e38698154c32e11c"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00057344.npz",
+      "bytes": 131822,
+      "sha256": "aade3b087cee5e8721e567223ecfb26b3a5eedfbe0aede326a8128ddee519de7"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00065536.npz",
+      "bytes": 131822,
+      "sha256": "8ab2e13a867c0329750144f6b23d6dc197301416f91ae995ef839bc6119d5551"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00073728.npz",
+      "bytes": 131822,
+      "sha256": "6e841f9d144135c8320c8573ce74d62c49c8d45aac5b221e9cea524171561acf"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00081920.npz",
+      "bytes": 131822,
+      "sha256": "1dcee65d52a42ef5e587eb7e2bba840bed46f976fef998916407962db28be4eb"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00090112.npz",
+      "bytes": 131822,
+      "sha256": "b6687070dd8269fb2924ce335b864f29411b155b7f0066295877e7ab41163ea1"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00098304.npz",
+      "bytes": 131822,
+      "sha256": "848375a3fa024270721668c8108183a19f008e3669f84a50f6866154160215e2"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00106496.npz",
+      "bytes": 131822,
+      "sha256": "b81f67ef221b8b03472537646d9b730e7b731c4e9642d5f79f548ff577023051"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00114688.npz",
+      "bytes": 131822,
+      "sha256": "6bc080cf4d263989120c3c9fdbae7380fc957d41d0addc938431042d3c9d4e9f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00122880.npz",
+      "bytes": 131822,
+      "sha256": "ded75b9f97aa117e1c752c9f74dd45b60d3bbb35fa8aadac50d7fc388821a57a"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00131072.npz",
+      "bytes": 131822,
+      "sha256": "f6e25e52986530e5063ab18f250eb303f461cb83cda8a3118a2f70ab036ba573"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00139264.npz",
+      "bytes": 131822,
+      "sha256": "b27ea41253520d44ee65ae022441f9aa7c6594c603a21f49ce0c3460e4cdced4"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00147456.npz",
+      "bytes": 131822,
+      "sha256": "b5d45d152e03afa814d2fbd83dd7ff5fb44473976f509fbdf7d4dc947dcd4da1"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00155648.npz",
+      "bytes": 131822,
+      "sha256": "fac468dce8e61acf8c972d427ec424824c31d18bf733d3d957ab318ab9f70f1b"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00163840.npz",
+      "bytes": 131822,
+      "sha256": "70482aee10fec2a6929216be78a20033f31c65fceba957bfdfe7083af4129851"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00172032.npz",
+      "bytes": 131822,
+      "sha256": "7374f709b2007e39ad0eb8cd44b31bef019dfa8ee3ea2c5cb950cefef671a62b"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00180224.npz",
+      "bytes": 131822,
+      "sha256": "5eee576fad6a1b7859fcbe30e9a3610ee6770ce323becd86cc688b94e8247c34"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00188416.npz",
+      "bytes": 131822,
+      "sha256": "5d94a9cfb0daeab56f119386bfdad0d4c5ed3307c33985c26f929b0235aaf147"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00196608.npz",
+      "bytes": 131822,
+      "sha256": "f19ada07f231e8d34cf033ba01426c72675e67cf073944a82ef03014093a6d77"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00204800.npz",
+      "bytes": 131822,
+      "sha256": "4c594ae2ca63a9d7f857453d15a4f40f9457a9d231bc72d513bf2fbc36582153"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00212992.npz",
+      "bytes": 131822,
+      "sha256": "0ad07ccb4cf556dcc0b0d06ce3bf1dd8a818614e3640f6da75f5123093b2e880"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00221184.npz",
+      "bytes": 131822,
+      "sha256": "043f8c8ab88ba7f00781f249ffab84bb63374c180fb660b8c6a448caad353fe1"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00229376.npz",
+      "bytes": 131822,
+      "sha256": "80ed807d3c35f5f97e4de366706f6646cc9158749b4aa6b0d3c2e0b4c3979a67"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00237568.npz",
+      "bytes": 131822,
+      "sha256": "e3c5ffdde82d1ca9da588ee6b2f994812df218999c4fe3eb11813d931e109d6c"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00245760.npz",
+      "bytes": 131822,
+      "sha256": "51108c0670cee80f243398c00ebb329941017ece79ac78f39351509812496904"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00253952.npz",
+      "bytes": 131822,
+      "sha256": "988d03d2abbf5ddb6884c91d9a64814116ea985cb9ecc74043331f6e5c1941fc"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00262144.npz",
+      "bytes": 131822,
+      "sha256": "a58635bd638b1888a36a794878c160bea9b3b263f06f6d11b1c34dac37bf8ded"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00270336.npz",
+      "bytes": 131822,
+      "sha256": "c67856b7a884a80137418b1aa184e7ab87dc0ef62c87d05cb6d4fd72e0a0179f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00278528.npz",
+      "bytes": 131822,
+      "sha256": "4c0c59945180c5c40df6c2390435cd8ede915f6f2f6800c40ead2ee3b39f2603"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00286720.npz",
+      "bytes": 131822,
+      "sha256": "35d3fe2a55ab4ba055c0a251a0cd57e4f3423177764bac477a73c3148f926aad"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00294912.npz",
+      "bytes": 131822,
+      "sha256": "d4488e54deee1baec6eac6de4e16a8edcc5e1032f6b1232f3f14131fc7f34e02"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00303104.npz",
+      "bytes": 131822,
+      "sha256": "447d970b97d3d1be38ac7fd3fca836a65774e6d30cdddbaf710b69cc9a154772"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00311296.npz",
+      "bytes": 131822,
+      "sha256": "ca8379da0bc0fb9df8391a5860c6bd13327fe08edbbfd250b5657d136d702df0"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00319488.npz",
+      "bytes": 75678,
+      "sha256": "0b07914f1b0d6471a657395f2f8765a2dd731e35a3b1de08829e5b25ca0d0935"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_CLASH_Hejret2023_test/00000000.npz",
+      "bytes": 17038,
+      "sha256": "8ba184cd28fca56b2cbd7f77225c286487ee713b6e14ebcb660ed20f4077caa6"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Klimentova2022_test/00000000.npz",
+      "bytes": 16014,
+      "sha256": "bbffb9724019ed6f574fd20710bee79c748fdffb5ea660c8755ecd5c621ce92c"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_leftout/00000000.npz",
+      "bytes": 131822,
+      "sha256": "b2934f9a23fe53dfe835ade4028811d4bcacce952e66fbd941d136e60346eb66"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_leftout/00008192.npz",
+      "bytes": 131822,
+      "sha256": "305e78a887cf375a30c02dbffe04ad52c34a0464a5e503775f0efa908ea9cfe2"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_leftout/00016384.npz",
+      "bytes": 59470,
+      "sha256": "d0806c19a3123844f2424856b27ed2b7780399db7547a817f9e494e3a6b1f2e7"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00000000.npz",
+      "bytes": 131822,
+      "sha256": "3609386f73edda3fcbc0b7d8735c31b4c7ed9864f7f64e23912c8a9db5e5e70c"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00008192.npz",
+      "bytes": 131822,
+      "sha256": "faa8376f51088548fcb8510c8ff0b5065b046bd1ebcf873d31c73a6fde73734c"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00016384.npz",
+      "bytes": 131822,
+      "sha256": "84cf76834eaa8ead40180f9bcef1311978e9ec399dae43e4da69d429d883b9fd"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00024576.npz",
+      "bytes": 131822,
+      "sha256": "63f453ce0a9e822fc66ea5f6109d74aa2d5afe429be31b139f4ac4a12c94252a"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00032768.npz",
+      "bytes": 131822,
+      "sha256": "3495656438981cf6ba451903dbdcc49c2ecf6c43aec61f3078af8d65e69479c9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00040960.npz",
+      "bytes": 131822,
+      "sha256": "667adc116a80105d548c15217302a1d487fb1ffa326cbdf399fcdfa5c65b885d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00049152.npz",
+      "bytes": 131822,
+      "sha256": "b2cfe45d35b64b942c75397f6f76e9e61dd844b4d54913ea489fbd00f079734f"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00057344.npz",
+      "bytes": 131822,
+      "sha256": "7bb8fb00fdf479c179eca9ada25f822bbf854bffb449c3d0729cf405c4f29fa9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00065536.npz",
+      "bytes": 131822,
+      "sha256": "76a4576b5200db4b743d8e1b116254672a52c43d3e2c7ae02e158911dd42cd0d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00073728.npz",
+      "bytes": 131822,
+      "sha256": "b1b0a931764811e66263870aa1374a4bec9913224080bc4425f31a482a563689"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00081920.npz",
+      "bytes": 131822,
+      "sha256": "7523ce16e14e786e3f19926f0344d949ea35d2a428acb3423f385ef49e05f48d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00090112.npz",
+      "bytes": 131822,
+      "sha256": "66ed82812a52162af9683e13b8f57c22797a22456657187075b6f33c4f41aa17"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00098304.npz",
+      "bytes": 131822,
+      "sha256": "de9522d8194185f531be4edf3d3e38a594357aa4d345160fc5a606f2aa5029f4"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00106496.npz",
+      "bytes": 131822,
+      "sha256": "90962f160023dc755d728dd0a658bfc92e3205fb7c8ab05ccaa7d1164321e168"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00114688.npz",
+      "bytes": 131822,
+      "sha256": "725d05ae54735e1051d02442963f6b1b214a0433c222b7cc6f0ffb9178217877"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00122880.npz",
+      "bytes": 131822,
+      "sha256": "1b0455f7c5ceff5f48e329ef2d315b39bae56792087045723dbc2a69e9bab0c3"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00131072.npz",
+      "bytes": 131822,
+      "sha256": "dfe72b27ecbeb7b990a7efc0bc3d5f23fe14b305f408c6acc9afa406aa1d53b3"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00139264.npz",
+      "bytes": 131822,
+      "sha256": "ec875c7039c0a77327aa0cb60eb02cf4526938fe4f35ea349ac15d7269a5eb9d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00147456.npz",
+      "bytes": 131822,
+      "sha256": "2daaaeb0420a438bb120bce49405ed44db7ed0c6a4a4ad1e5fceadc5c9589917"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00155648.npz",
+      "bytes": 131822,
+      "sha256": "dffe877fa98902dba1108598f8f906325f38369083c1f0b3d8df42cc3b094bc7"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00163840.npz",
+      "bytes": 131822,
+      "sha256": "17118d5d3fc3f8e9b0f82648e78346153a585fc4778fbf1276ea9cdcb27249fe"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00172032.npz",
+      "bytes": 131822,
+      "sha256": "d0e7a547e7e1f64bad6103d2cfebd986dda898b512f5af70f4a97036cc4a13f5"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00180224.npz",
+      "bytes": 131822,
+      "sha256": "697bae7dd6793c00cc366058aedd5f937f079d7ddfa4c83225597da58144f153"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00188416.npz",
+      "bytes": 131822,
+      "sha256": "3d4f98d94415d96c6464dd3513b39f8f743da89bb5dca3dbc1e1af71b08c0ac4"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00196608.npz",
+      "bytes": 131822,
+      "sha256": "b48b09e96a947a061f52e1c52167413e1dff224e615402613c5a9e3a1c8444d6"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00204800.npz",
+      "bytes": 131822,
+      "sha256": "d2f11ed98f15a035b72b01e5b34531056432a28b922764b71a75fbbebae99907"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00212992.npz",
+      "bytes": 131822,
+      "sha256": "c6d51b0c2323442b576e1434cee244d917fa5113bb3c268280c4850c11595675"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00221184.npz",
+      "bytes": 131822,
+      "sha256": "7384417f97cb787639e53d2ee2f38953744496f30cf5ec7aebbb9604e7665617"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00229376.npz",
+      "bytes": 131822,
+      "sha256": "6519a0ddcb520ad7d6d7236d3ea71442d59f07f40916b8da61815842c1239fb9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00237568.npz",
+      "bytes": 131822,
+      "sha256": "a8e2289741f98a0ac4b9cd0a94063174fbce8adbcbf84fb3afd5b15d53487057"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00245760.npz",
+      "bytes": 131822,
+      "sha256": "95234954dfaf1d01bfcd55892286355a570bba06e1f8c846638baafb7b8c3760"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00253952.npz",
+      "bytes": 131822,
+      "sha256": "0f019caaedc95a4f0c78859fdd8b5362770d07e57731a1eb7acdd3487748cd50"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00262144.npz",
+      "bytes": 131822,
+      "sha256": "f90f58bbe47f8f3699493f7af1229cc5447125f27b1dc8cc026d0ba2832e99c1"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00270336.npz",
+      "bytes": 131822,
+      "sha256": "0b7e5c6ce164b05699d6ab6a8928281fe4c0aa85b4f1378476fcb3746d9aa9ee"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00278528.npz",
+      "bytes": 131822,
+      "sha256": "3b42c3ed083d1acbaa7c57a83c6047735256b00e357c7b6f6564d3bba993e4f9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00286720.npz",
+      "bytes": 131822,
+      "sha256": "4a6ad486500de9ca1aec46a9d11f04f82bf7e9d9b60b0f6b611e2cfdd54d6b93"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00294912.npz",
+      "bytes": 131822,
+      "sha256": "2bf24c6348acf5739d9093f9fda6687cc5315dd64c36d84d533d5873c383320f"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00303104.npz",
+      "bytes": 131822,
+      "sha256": "b5b3356798464fef22f58f36c0d91489972a7e1b1dbf9ad61d8c8280281aa1a7"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00311296.npz",
+      "bytes": 131822,
+      "sha256": "993b98d9b3fd396b3742b353fe929383beae07f4145620c02909755d55e0f319"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00319488.npz",
+      "bytes": 75678,
+      "sha256": "6c35ba378245f1ef83771a56ad52d224af696f6fe943a6dd9cc6a2b4de361af5"
+    },
+    {
+      "path": "data/sirna_oligo_random/dsir_reference_provenance.json",
+      "bytes": 631,
+      "sha256": "94a07a1246df8b1deb331dc68ab858fd50c5046aadd09777e8c1edaf1bf7caa5"
+    },
+    {
+      "path": "data/sirna_oligo_random/feature_manifest.json",
+      "bytes": 2832,
+      "sha256": "a0ba31d79f15bb69aa61e92b63bc5e5b920b4a2588c09c9a6e98175d78710067"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/full_seed42.npy",
+      "bytes": 2832512,
+      "sha256": "652418cadaa9c7b7e5cc49f6d6f31f2a3b0a626662ae1245ce72c2fc87ce38dd"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/full_seed43.npy",
+      "bytes": 2832512,
+      "sha256": "f1186b843f66887ac5a5504187a471e99f9ca05cfe1c1d9192630000279eb8b7"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/full_seed44.npy",
+      "bytes": 2832512,
+      "sha256": "5c799e22178599e5249b1b21ef730b5e42d7aacbb94334a70875147d33f78767"
+    },
+    {
+      "path": "data/sirna_oligo_random/input_manifest.json",
+      "bytes": 15010,
+      "sha256": "a89366c36c356afb8abe231fb0f9a216b9fa87fbb8bb0b74fe6ea586c1787e73"
+    },
+    {
+      "path": "data/sirna_oligo_random/input_rows.json",
+      "bytes": 2123382,
+      "sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980"
+    },
+    {
+      "path": "data/sirna_oligo_random/native_split_plan.json",
+      "bytes": 2111546,
+      "sha256": "d4e2ca306f7074ff643d5ec60dc0f6c72fe692e6ca60ec0211e701c7c0c4de5b"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/cnn_direct.csv",
+      "bytes": 326204,
+      "sha256": "fdebe515da5a6f6829d4d44c6c4d9cd1d8c7ba520415a687962c87c912f58867"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/cpu_reference.csv",
+      "bytes": 1263139,
+      "sha256": "1f97700044941f67ebdd7fbd4f6d9caaf8c8808c2237da06d6c78af3196360d4"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/dsir_reference.csv",
+      "bytes": 168132,
+      "sha256": "70e839cc6a2bb537d1a10faaa3c329962e97b6bc555bc8bf0955e7435adabf38"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/hpo.csv",
+      "bytes": 3057411,
+      "sha256": "79490e415205b0449170373df5a404c773800fbc16d354d974ad29fca6d11904"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/pairac_modules.csv",
+      "bytes": 4133875,
+      "sha256": "c3927602d7c915c544141fa1c299e176b1c196ea1a525e7fd8e6023990a41a9b"
+    },
+    {
+      "path": "DATA_LICENSE_NOTICES.md",
+      "bytes": 7652,
+      "sha256": "80a0dd69086a32855d5dd0bccc3472816f7b5325244b437ca51f1020a56409d1"
+    },
+    {
+      "path": "DATA_MANIFEST.json",
+      "bytes": 34936,
+      "sha256": "ff83c2414a4aa1b56c57b30a6094650efc6a0625f729135503fc04cef28969cd"
+    },
+    {
+      "path": "docs/ACCESSIBILITY_COMPARISON.md",
+      "bytes": 3008,
+      "sha256": "b478b70607640feff6c857c18e6ab9c21b94b5bdfb89479ac7be11b96b44bd7d"
+    },
+    {
+      "path": "docs/DATA.md",
+      "bytes": 5239,
+      "sha256": "bef549af554018c4c557685301a7e5a3bef022fd124dec00d8c14b96eab00d12"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "bytes": 6346,
+      "sha256": "fa0acbb8e99a50f747fcba1de0946bafa5f5a23524cacf7f0a675a45ffe997f9"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 5863,
+      "sha256": "6f665b419529970fae145bbb703a47186c2176407e2eee79df9a8ea9945972e5"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 4899,
+      "sha256": "1659602aa05763d0c90af660b28de68f52616fbc8027f449736e6d7d944393b7"
+    },
+    {
+      "path": "examples/synthetic_embedding.py",
+      "bytes": 4699,
+      "sha256": "86d23a25a86b421b9d1a8843d71dc361ea2d8f499ff948e14d62af26a26ef49b"
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "bytes": 615,
+      "sha256": "079e37e8ce9854a9c10370c6e62d5013a923735cd168f3b98c5c738d5eecb395"
+    },
+    {
+      "path": "MODEL_REGISTRY.json",
+      "bytes": 2590,
+      "sha256": "eedec3f102f08551c93f7e37a2da6fe41dc19455718f34c2dd5f94cd19906b6b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3935,
+      "sha256": "3303b5aeacf872b41dba193904dd7804dbedd664bc9d7c04e2dbc941ca4627d1"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/mirna_handcrafted_features.py",
+      "bytes": 35853,
+      "sha256": "bc39dd21653aa7b8f952cc7442f9867ff79391c62cd47e8b4b60ae4d1fcec8a1"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/repeated_group_split_eval.py",
+      "bytes": 37232,
+      "sha256": "8417f8d68c813eaf552632503c24280ce44529dc51058885574726c643e7c591"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/rna_backbone.py",
+      "bytes": 10768,
+      "sha256": "322d449f5e05ce06fc5ceb34447b00064907ac14ed7b730762aa7beebe8b02c9"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/route1_finetune.py",
+      "bytes": 69895,
+      "sha256": "c932664a7d2f9a4eb9000f738e91de7c496c4be05c5208e76765f866a78419b1"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/route2_dual_lora.py",
+      "bytes": 96684,
+      "sha256": "94bdb854586a46ad0707a0b71e4a304c34a92992eeaf8534b84c68642f851fed"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/supervised_poc.py",
+      "bytes": 106922,
+      "sha256": "d013a317ff2a158c6f798b13ef4a78d4bf02c8662f5463f8aa2634c7b1d7799c"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/accessibility_v2.py",
+      "bytes": 14333,
+      "sha256": "90e928d8d82fcbef7c4173682330b3191a5acd6e04ed9009ee41a18b893e00a0"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/diagnose_gse145805_mrnabert_per_base_heads.py",
+      "bytes": 36970,
+      "sha256": "9c7fc175ba87f7bd7bf72692f7df9bb899bb2826b341da420ba6cd2dc878c7db"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/train_accessibility_full.py",
+      "bytes": 20087,
+      "sha256": "63943fddaa1751eb49e95e7708c9abd95cb753ca0e0af9b7b39db8e00ddf3937"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/train_gse145805_full_residual_transformer_per_base.py",
+      "bytes": 28712,
+      "sha256": "9d44006302d64cff25568ec9789f23e2f5be0a9dd2dabc0e5860ad8df603392a"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/train_gse145805_mrnabert_lora_direct_per_base.py",
+      "bytes": 26887,
+      "sha256": "a199aaa6f6b47bb2b898375f3f5cc92235ad0f48a6c0125a1016b0c6f5aca71e"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/train_gse145805_mrnabert_lora_film_residual_transformer_two_view_per_base.py",
+      "bytes": 32615,
+      "sha256": "c949635f5486ab5192e9a71b4f9c2cc85a045e2abb554a1a91cf4f2f5014397d"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/train_gse145805_mrnabert_lora_film_two_view_per_base.py",
+      "bytes": 35100,
+      "sha256": "0277b55c120633120d26816662b5c42bde133ffff52ddfd705dac799e6cdf6dc"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/tools/train_gse145805_mrnabert_lora_residual_transformer_per_base.py",
+      "bytes": 31407,
+      "sha256": "a006a592260f8ee6abae8ed4087df278f0fae8c98ab801117990367e9919151e"
+    },
+    {
+      "path": "reference/accessibility_rebuilt/utrbert_pll_feature.py",
+      "bytes": 17040,
+      "sha256": "2c6322a6cb9ee4d62d674d739633eb2ac083afebc1d193ba38f564b3fe3049d4"
+    },
+    {
+      "path": "reference/pairac_concat_v1/.gitattributes",
+      "bytes": 148,
+      "sha256": "84ff45cb250a46b0d3973b52179c9c3ac11b50c6bd562de8174028ae7988379b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/.gitignore",
+      "bytes": 375,
+      "sha256": "8b8abeacf44bf0ed8957373a3b373185265aeb00446f29362156635706e237ed"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_joint/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_joint/backbones.py",
+      "bytes": 11629,
+      "sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_joint/data.py",
+      "bytes": 5982,
+      "sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_joint/io_utils.py",
+      "bytes": 9700,
+      "sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_joint/model.py",
+      "bytes": 997,
+      "sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/ablation_summary.py",
+      "bytes": 2506,
+      "sha256": "e28bd6909f5d464cc58790ffc12d61b987f05c72ff2862cde552b3e2654ab199"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/common.py",
+      "bytes": 5515,
+      "sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/data_plan.py",
+      "bytes": 1715,
+      "sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/durable_io.py",
+      "bytes": 8581,
+      "sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/efficiency.py",
+      "bytes": 10049,
+      "sha256": "3a6aba47fad57081bb1356e46ad1ea6309ad82789ad002c6779df9fac4ddf77b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/engineering_three.py",
+      "bytes": 6686,
+      "sha256": "60c81be0e39ce6d49f1cafe939ef5d3360f92c8abbc5cb05a44b38e9c8489400"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/evaluation.py",
+      "bytes": 6274,
+      "sha256": "4dc430442bb243fec83780f6ee08f90a367bf0755033c46dc85c605447391ed4"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/model.py",
+      "bytes": 10375,
+      "sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/parallel.py",
+      "bytes": 27600,
+      "sha256": "74910228ae3daa00ab99397ebad672ccb57e435aa1467c53c72b3f729f146c65"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/protocol.py",
+      "bytes": 3823,
+      "sha256": "5ecccdccb81897f0246e266c56cb8f8c76821aec5723ccaca22854c180615265"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/reference_initial.py",
+      "bytes": 3170,
+      "sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/runtime.py",
+      "bytes": 5465,
+      "sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/duplexfm_mechanism/training_hourly.py",
+      "bytes": 15521,
+      "sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/evaluate_sources.py",
+      "bytes": 194,
+      "sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/foundation_reference.json",
+      "bytes": 1397,
+      "sha256": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/parallel_run.py",
+      "bytes": 2060,
+      "sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/prepare_pairac.py",
+      "bytes": 5499,
+      "sha256": "31b04f481745c11545038699fa809ef8f1ef8dda5c96f6f6460bae5876f704ee"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/reference_full.json",
+      "bytes": 1835,
+      "sha256": "5337a3693ee8fff69558b64092da50dd638bd69103068de6dbf030def3a01719"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/tests/conftest.py",
+      "bytes": 175,
+      "sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/tests/reference_fusion.py",
+      "bytes": 8944,
+      "sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/tests/test_ablation.py",
+      "bytes": 9419,
+      "sha256": "4baa57b239906ca1e49e1c3da65b5b9829c334f89ff38caaf0fc6695978f6b5b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/tests/test_controller.py",
+      "bytes": 3017,
+      "sha256": "8239f86dd31e2135ec6eb0dc6fa73f1165e78b276d78ddb538d0ca1dd54fc716"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/tests/test_durability.py",
+      "bytes": 6496,
+      "sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/code/tests/test_pairac.py",
+      "bytes": 7588,
+      "sha256": "6b583e2209532acab211904dbacdb96245faddc1dc5ef38fd784a0d2759b5558"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seed42/start_h100_two.sh",
+      "bytes": 822,
+      "sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_joint/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_joint/backbones.py",
+      "bytes": 11629,
+      "sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_joint/data.py",
+      "bytes": 5982,
+      "sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_joint/io_utils.py",
+      "bytes": 9700,
+      "sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_joint/model.py",
+      "bytes": 997,
+      "sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/ablation_summary.py",
+      "bytes": 2552,
+      "sha256": "462bc025d6378dfee31182c60f9a23ddf441c9c78b441b90039119b4737f0452"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/common.py",
+      "bytes": 5515,
+      "sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/data_plan.py",
+      "bytes": 1715,
+      "sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/durable_io.py",
+      "bytes": 8581,
+      "sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/efficiency.py",
+      "bytes": 10107,
+      "sha256": "eda30bf15aacb319f12c3cab63eaf7498f2c5c36c81df6fa9590849f90ab6984"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/engineering_three.py",
+      "bytes": 6688,
+      "sha256": "774590481e2f9a0247967c4514b5fdd6db83ff44f58e1a02a3315c50961ce72b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/evaluation.py",
+      "bytes": 6274,
+      "sha256": "a4ab4cabd3fec8ff30328bea6cb3990087fba36c7acce8b58f57b8488f942a0d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/model.py",
+      "bytes": 10375,
+      "sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/parallel.py",
+      "bytes": 27624,
+      "sha256": "6bb9baef27a3248ad7d9dc27e0b4a5dbbb4d1587ef39b6e0104c5d6f4a9ecc2d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/protocol.py",
+      "bytes": 3865,
+      "sha256": "9555f7d2979669e36e52065214e479ae8faed099cdb9352c219c57c0ff315135"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/reference_initial.py",
+      "bytes": 3170,
+      "sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/runtime.py",
+      "bytes": 5465,
+      "sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/duplexfm_mechanism/training_hourly.py",
+      "bytes": 15521,
+      "sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/evaluate_sources.py",
+      "bytes": 194,
+      "sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/foundation_reference.json",
+      "bytes": 1397,
+      "sha256": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/parallel_run.py",
+      "bytes": 2060,
+      "sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/prepare_pairac.py",
+      "bytes": 5502,
+      "sha256": "29d2c32927897d28a110a42b983228d03ebd95f00c50afae60516e0daee5a07e"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/reference_full.json",
+      "bytes": 2343,
+      "sha256": "65e20092d6194d26fa937923f8946cade0a5c2ac6ab31cc9f0ed83fb883349d3"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/tests/conftest.py",
+      "bytes": 175,
+      "sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/tests/reference_fusion.py",
+      "bytes": 8944,
+      "sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/tests/test_ablation.py",
+      "bytes": 9881,
+      "sha256": "93bc19dc56f514ce739b0031ce2a6f68cead870d73109eaf4cc7908da344166b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/tests/test_controller.py",
+      "bytes": 3017,
+      "sha256": "8239f86dd31e2135ec6eb0dc6fa73f1165e78b276d78ddb538d0ca1dd54fc716"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/tests/test_durability.py",
+      "bytes": 6496,
+      "sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/code/tests/test_pairac.py",
+      "bytes": 7588,
+      "sha256": "bf6e839e401ff42586b9d22b499b6ee082f11bb3f381617de940f08548f0e4ad"
+    },
+    {
+      "path": "reference/pairac_concat_v1/ablations/seeds43_44/start_h100_two.sh",
+      "bytes": 822,
+      "sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8"
+    },
+    {
+      "path": "reference/pairac_concat_v1/CODE_MANIFEST.json",
+      "bytes": 16164,
+      "sha256": "9743d0cf82d526e4121456bf4b8541eba05d0c2c54aaf225e8e13ad3efb6b37b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/docs/ARCHITECTURE.md",
+      "bytes": 2963,
+      "sha256": "e4750595e4f5ce590a27f2221a2d8dfb7791795d050a625628d984b74c29aa39"
+    },
+    {
+      "path": "reference/pairac_concat_v1/docs/INPUTS_AND_REPRODUCTION.md",
+      "bytes": 2705,
+      "sha256": "e7fed6253b7f1f8a58bcdeb76c195d6c51e1cf6d9b2ec0efe16e18457b539097"
+    },
+    {
+      "path": "reference/pairac_concat_v1/docs/REVIEW_GUIDE.md",
+      "bytes": 2389,
+      "sha256": "6f5d4d4e8bc992a4d9310bd83f9140aecdf70868606c1a50a37fed7f3e24b4ae"
+    },
+    {
+      "path": "reference/pairac_concat_v1/execution_reference/backup_compat.py",
+      "bytes": 8917,
+      "sha256": "3934943eba419939ebf45c06c504a88375a81ceab0f2de291429daf6cc5375dd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/execution_reference/conftest.py",
+      "bytes": 343,
+      "sha256": "dd8fa5a7264d2a57821ba002b714a07a97c4574effd764340a109bf04da673f5"
+    },
+    {
+      "path": "reference/pairac_concat_v1/execution_reference/parallel_compat_run.py",
+      "bytes": 3750,
+      "sha256": "e9923074d50871b22939d643e85be548953d418cf1f3d1a6c10cd3bc4b0a27a6"
+    },
+    {
+      "path": "reference/pairac_concat_v1/execution_reference/test_backup_compat.py",
+      "bytes": 10091,
+      "sha256": "0629369ec8ec76315ead30481bf97d64995ecb577f7ebf6d716833c087d3a220"
+    },
+    {
+      "path": "reference/pairac_concat_v1/execution_reference/test_backup_compat_v2.py",
+      "bytes": 10951,
+      "sha256": "c64cc4a4e18259d617570b291f0c1731ae5d7a08328c56aa6fb070617f31cb1e"
+    },
+    {
+      "path": "reference/pairac_concat_v1/LICENSE-NOTICE.md",
+      "bytes": 615,
+      "sha256": "079e37e8ce9854a9c10370c6e62d5013a923735cd168f3b98c5c738d5eecb395"
+    },
+    {
+      "path": "reference/pairac_concat_v1/PACKAGE_AUDIT.json",
+      "bytes": 1416,
+      "sha256": "63aad62c55322b9661216de9ce135687bea3799d193d03c8dacff906d0dd8458"
+    },
+    {
+      "path": "reference/pairac_concat_v1/PACKAGE_AUDIT.md",
+      "bytes": 676,
+      "sha256": "26f3f2fe5b898dbe519455c0822f643e8c374a6cbdc12adb6a48813992773e7b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/README.md",
+      "bytes": 4202,
+      "sha256": "e50d844ae4ca5a62adbfe041ed2b4a6006ea9cbbc0bcdcedd397f81816fc23a0"
+    },
+    {
+      "path": "reference/pairac_concat_v1/requirements-review.txt",
+      "bytes": 234,
+      "sha256": "e19a73adf7739e805feeaea870633488721e363203ea4e161ed0d68477aee746"
+    },
+    {
+      "path": "reference/pairac_concat_v1/requirements-source-torch.txt",
+      "bytes": 64,
+      "sha256": "fb1582c4f4c574332da490a328bbf2ac07c85e0450bfa24cb549c782ccd3f1b4"
+    },
+    {
+      "path": "reference/pairac_concat_v1/requirements-source.txt",
+      "bytes": 505,
+      "sha256": "a810a4e709a7ffca3829c380b9215074b7549d6c5d4cb9533d7197372887ccbf"
+    },
+    {
+      "path": "reference/pairac_concat_v1/scripts/run_review_tests.py",
+      "bytes": 2483,
+      "sha256": "e6d910ae1d2c01c786acc22659b05c3a073502ac25e05dfac115a95125de87a1"
+    },
+    {
+      "path": "reference/pairac_concat_v1/scripts/verify_package.py",
+      "bytes": 675,
+      "sha256": "dcf49648ed0ceb14f6d5e9cc67811c5078888d2df0d8f3fed7ea3b54c406dfaf"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/ablations/export_cpu.py",
+      "bytes": 15106,
+      "sha256": "78f2c4f8fbd7f4bd80806b86663bf1c5865d0595d2c46913bda919cf2a7cef8e"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/ablations/readout.py",
+      "bytes": 16801,
+      "sha256": "9ae2c540f91150188790dcebd4cc9c8878bb91e5519b0116e19f21acfebc4232"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/ablations/test_readout.py",
+      "bytes": 2406,
+      "sha256": "ba8f05e065a2e0f0eb359649202a358cdc127f9f8427987d7632d5b9057a7e64"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/full/export_cpu.py",
+      "bytes": 13915,
+      "sha256": "d965a0953c02c91973988f6ead87cdf76c2f51c85264f2475db9468ae48ab7c9"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/full/readout.py",
+      "bytes": 17345,
+      "sha256": "11ce7e19631a6844b0ae5043c13dbb04bdd3aab78a25d90956658e2f4fdad74d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/full/test_export.py",
+      "bytes": 3619,
+      "sha256": "2dff384a07396e482a5f79fb215a723c8ec47c21ab3b32b0312301c210319cd2"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/full/test_readout.py",
+      "bytes": 2409,
+      "sha256": "9abf0147689c5778081bd5826210f9f905df839adfc2f6a83485a623fe22c908"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round17/nuclear.py",
+      "bytes": 3740,
+      "sha256": "d62370f7bc4dbcc6d3355c50a3775adfb7038fdffd8176d34206bf0b69b65575"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round21/coordinate_sparse.py",
+      "bytes": 3225,
+      "sha256": "38f3e5017bd192c6b4ca6f14229b0fc16d1190a5f36db0d8285e4a9ddc222a3a"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round25/native_trace.py",
+      "bytes": 1999,
+      "sha256": "416127b3ae266f6716854d5371a29d19a5f3aa06ab6d47ecdd2fda657989672d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round26/head.py",
+      "bytes": 3158,
+      "sha256": "0600bd8fb8ed5e70e3a353ffcdd5d9d844d3cc869d4ad1c122ac649175676d5a"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round36/verify.py",
+      "bytes": 13024,
+      "sha256": "f43d6a0d4543a3637a8b6caf6666d5729aa85b49293251d18d1f9884e4adcb4f"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round4/core.py",
+      "bytes": 2199,
+      "sha256": "4c102398638948579c163efbb371782330862c596d00b7f2f0c7d79edaa56b3c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round4/verify.py",
+      "bytes": 9271,
+      "sha256": "4fc57ac62865ec5ea02e8e879e0649a57c24aae598e5958eb4125545ac8ff682"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round49/group_nuisance.py",
+      "bytes": 5195,
+      "sha256": "069e966b62a0f00ed9e613e957b86f07ffa2cc34479717cf5a639fee67f94652"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round49/verify.py",
+      "bytes": 17056,
+      "sha256": "c50e9bbc036c6856302e4d9b597c28bca8430de245fbe77047d9c107222b6e3a"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round54/random_intercept.py",
+      "bytes": 4439,
+      "sha256": "ba6b4d57073302400c9f0ffb849d6a488023e3bd263014e8e3eca5504e817658"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round54/verify.py",
+      "bytes": 17218,
+      "sha256": "e4d1d759e7e4353290d964d5242a15e28d8dc3aa199bad257aec596d12ef0771"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round55/audit_math.py",
+      "bytes": 3753,
+      "sha256": "780de1c53dcc561b4b89eda28a1727680cdd39315be3ac0124e2fe10098ecce4"
+    },
+    {
+      "path": "reference/pairac_concat_v1/sirna_transfer/runtime/sirna_increment_20261014/round55/head.py",
+      "bytes": 3635,
+      "sha256": "3da90c74976288872209b61d07bd1378558a38c1621bd80583c2cc90279b3415"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_joint/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_joint/backbones.py",
+      "bytes": 11629,
+      "sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_joint/data.py",
+      "bytes": 5982,
+      "sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_joint/io_utils.py",
+      "bytes": 9700,
+      "sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_joint/model.py",
+      "bytes": 997,
+      "sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/common.py",
+      "bytes": 5515,
+      "sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/data_plan.py",
+      "bytes": 1715,
+      "sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/durable_io.py",
+      "bytes": 8581,
+      "sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/efficiency.py",
+      "bytes": 9871,
+      "sha256": "4e4c5ae7b403fc496f67181cce07819c5dc9d491c9041e5fa64d2e0d6a449329"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/engineering_three.py",
+      "bytes": 5875,
+      "sha256": "b3e918869c74d23dbb81a48138d917715937d22474a54c81ffe4026e725548ab"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/evaluation.py",
+      "bytes": 6168,
+      "sha256": "7cdda9797652c503fd7e15aab3453d079f477f60213c1d583acc0c71bd339426"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/model.py",
+      "bytes": 8944,
+      "sha256": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/parallel.py",
+      "bytes": 27349,
+      "sha256": "5de26abfc69f59bfb6acf44ca170b4d8c091844f19e0ff5ac6177c2aa59a4774"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/protocol.py",
+      "bytes": 2275,
+      "sha256": "c12ae3d60f4208caa198dcebdf95f77e1aa10a07b0e160f976448e836a4aba8e"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/runtime.py",
+      "bytes": 5335,
+      "sha256": "929a8cb1ea88cc7634dc0ba33fddbf2f1c0ba5892b624368aaa22c2eb62cc086"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/duplexfm_mechanism/training_hourly.py",
+      "bytes": 15521,
+      "sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/evaluate_sources.py",
+      "bytes": 194,
+      "sha256": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/foundation_reference.json",
+      "bytes": 1397,
+      "sha256": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/parallel_run.py",
+      "bytes": 2060,
+      "sha256": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/prepare_pairac.py",
+      "bytes": 5373,
+      "sha256": "7c8855b242ef6f572f6e0ebfde6622367176f4ade6ed75a0bc4343cdd8472bf9"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/tests/conftest.py",
+      "bytes": 175,
+      "sha256": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/tests/test_controller.py",
+      "bytes": 3016,
+      "sha256": "bfc46149770c9478d6bf025268a9abd163ebd28fd12d1353070e5582d0b668e6"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/tests/test_durability.py",
+      "bytes": 6496,
+      "sha256": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/code/tests/test_pairac.py",
+      "bytes": 7611,
+      "sha256": "50853bdd52921070437e5a998ea20a886716eebb6e265efa08681646cc6a8e79"
+    },
+    {
+      "path": "reference/pairac_concat_v1/source_full/start_h100_two.sh",
+      "bytes": 822,
+      "sha256": "321861936facf7f2dbc5de5e6b7b7e161edf46cad2ba8627cda91e44c433e1f8"
+    },
+    {
+      "path": "reference/pairac_concat_v1/SOURCE_PROVENANCE.json",
+      "bytes": 51689,
+      "sha256": "12c51a960b779b61a59347b5e808ba2c067367f9cfb6aae94a5680704b1817c2"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_joint/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_joint/backbones.py",
+      "bytes": 11629,
+      "sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_joint/data.py",
+      "bytes": 5982,
+      "sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_joint/io_utils.py",
+      "bytes": 9700,
+      "sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_joint/model.py",
+      "bytes": 997,
+      "sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/ablation_summary.py",
+      "bytes": 2200,
+      "sha256": "5c77dce486a041213774c98bae626a50f11e118132a82e9edf720ae6c292cd52"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/common.py",
+      "bytes": 5515,
+      "sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/data_plan.py",
+      "bytes": 1715,
+      "sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/durable_io.py",
+      "bytes": 8581,
+      "sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/efficiency.py",
+      "bytes": 10049,
+      "sha256": "3a6aba47fad57081bb1356e46ad1ea6309ad82789ad002c6779df9fac4ddf77b"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/engineering_three.py",
+      "bytes": 6686,
+      "sha256": "60c81be0e39ce6d49f1cafe939ef5d3360f92c8abbc5cb05a44b38e9c8489400"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/evaluation.py",
+      "bytes": 6274,
+      "sha256": "aec07c3bf4d237d4f6c59c854722fa80b25dee985a229741c5bca54f4202bca4"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/model.py",
+      "bytes": 14571,
+      "sha256": "f0b8c7649f1df2034d6d20b1de06443da844b6e6460e2fb9dc560e2613519a42"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/parallel.py",
+      "bytes": 27600,
+      "sha256": "5937e2bdec2d08bd2a0c02832cbdcef62f01556c0020e233620fbccef4a82b21"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/protocol.py",
+      "bytes": 4708,
+      "sha256": "38371aa339ba5a506c1e79acd20646329dc2c64ae29c5be98da7982b62a2154a"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/reference_initial.py",
+      "bytes": 3170,
+      "sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/runtime.py",
+      "bytes": 5465,
+      "sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5"
+    },
+    {
+      "path": "reference/single_module_v1/code/duplexfm_mechanism/training_hourly.py",
+      "bytes": 15521,
+      "sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd"
+    },
+    {
+      "path": "reference/single_module_v1/code/fastpath_originals/model.py",
+      "bytes": 10826,
+      "sha256": "b033311299a516f7c64f438a5c8a350ba98cb5c53413b4a7b156d611415c750a"
+    },
+    {
+      "path": "reference/single_module_v1/code/foundation_reference.json",
+      "bytes": 1421,
+      "sha256": "c86af3bcb0d7a44a83c37c0f56549ad4a5f357abe043e60c1ed277baec95d1f9"
+    },
+    {
+      "path": "reference/single_module_v1/code/single_module_originals/model.py",
+      "bytes": 10375,
+      "sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6"
+    },
+    {
+      "path": "reference/single_module_v1/code/single_module_originals/protocol.py",
+      "bytes": 3828,
+      "sha256": "95b83d7c0d2af446f5f9892a918f9361d0d06e4e792d9495cbab1de6180f3e87"
+    },
+    {
+      "path": "reference/single_module_v1/CODE_MANIFEST.json",
+      "bytes": 5026,
+      "sha256": "2562e9cd3ddbecb340593d9b153d4a2f4305f146f920a6ae3b9718ad6bdb7670"
+    },
+    {
+      "path": "reference/single_module_v1/fastpath_patch.py",
+      "bytes": 6871,
+      "sha256": "b68b11448678e143e0b88499c0af500a2679180a4d0ea56892a440729a35878e"
+    },
+    {
+      "path": "reference/single_module_v1/README.md",
+      "bytes": 1034,
+      "sha256": "e932e8f51cdcb9f2c478a931bd301da2418f83ba0c40fcd946d04c232eea369a"
+    },
+    {
+      "path": "reference/single_module_v1/test_fastpath.py",
+      "bytes": 12720,
+      "sha256": "9f4ae8a71d3399bb5397fe67b4be259eed72d0b2640b4528e8bb63bf467794c8"
+    },
+    {
+      "path": "reference/SNAPSHOT_PROVENANCE.json",
+      "bytes": 41527,
+      "sha256": "e3c6b275ad5d114156a774afd9ca6d2ffefadd1d4e27576c2ced641a5f31e3c1"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 80,
+      "sha256": "71d151f354d7f60746cbd8cf9249a7b12c8b6a107e5013ca3d5629df75195257"
+    },
+    {
+      "path": "results/accessibility/MAE_comparison.csv",
+      "bytes": 937,
+      "sha256": "21a3532c514530bef235b30a7559248970f6d904be77db73f0e1af0438227dbe"
+    },
+    {
+      "path": "results/accessibility/MAE_table.tex",
+      "bytes": 892,
+      "sha256": "42949865a1268b58a80b0e60706146da8e592b17a9e0137153a5042ec056112a"
+    },
+    {
+      "path": "results/accessibility/supplementary_metrics/all_metrics.csv",
+      "bytes": 1445,
+      "sha256": "3eedeeed0fece533eaf3fedd32bfe0aea484d65228060fdd7486c7145fbd6aab"
+    },
+    {
+      "path": "results/accessibility/supplementary_metrics/strict_external/paired_intervals.json",
+      "bytes": 1926,
+      "sha256": "fbdf4d989d6eb457c67542ac0a32c91be1733514bf7e787179473371e57c047e"
+    },
+    {
+      "path": "results/accessibility/supplementary_metrics/strict_external/per_length.csv",
+      "bytes": 21184,
+      "sha256": "8087a32361200fcdd44af47459bcfa0eea4d4e29ae81d190701bf6e94e0b6f11"
+    },
+    {
+      "path": "results/accessibility/supplementary_metrics/strict_external/summary.csv",
+      "bytes": 3284,
+      "sha256": "d8018fde7c321d711f71eb69867d50a4dd444a9ac4731865a16b47537f474835"
+    },
+    {
+      "path": "results/accessibility/verification.json",
+      "bytes": 1723,
+      "sha256": "918a0bb198a65dc77d117cc6de38d446e85a1da14f1ca3fb569a13851f79af2d"
+    },
+    {
+      "path": "results/miRNA/mirna_mean.csv",
+      "bytes": 80,
+      "sha256": "3ef3b4e9f9c4cac6c960ce8c908aa571f511e579099d144703abf28a2dcd93ac"
+    },
+    {
+      "path": "results/miRNA/mirna_per_seed_macro.csv",
+      "bytes": 109,
+      "sha256": "2ffb35afe7469cde5400d41ad3628dd89da47280f5c5faf6c1d93881c7db6f04"
+    },
+    {
+      "path": "results/miRNA/mirna_per_test.csv",
+      "bytes": 777,
+      "sha256": "0579fba15f8d67fa7d109a09540c6d9a002cbcbface1e6bc817acce50166a17e"
+    },
+    {
+      "path": "results/provenance.json",
+      "bytes": 7532,
+      "sha256": "1f4b8fd65542123e8c6d9a6e91c0e828179d90a88b109cae32fb5ef9a42a15ca"
+    },
+    {
+      "path": "results/siRNA_oligo_random/benchmark/PCC_comparison.csv",
+      "bytes": 1908,
+      "sha256": "5aabe9018c1e8e1b3a6ef9800fe46f40664755dd95c08024038c1869943e88d2"
+    },
+    {
+      "path": "results/siRNA_oligo_random/benchmark/per_fold.csv",
+      "bytes": 59651,
+      "sha256": "2a3cf42560cc52513ef9dcd2ba474cf19ea1a47e6594ab8ba4cda2a81470fb04"
+    },
+    {
+      "path": "results/siRNA_oligo_random/benchmark/per_seed.csv",
+      "bytes": 48417,
+      "sha256": "3f2f77c15acef0407ac3136aa3d03deca95777f2a3586494e5e4b160251a4bfc"
+    },
+    {
+      "path": "results/siRNA_oligo_random/benchmark/selected_candidates.csv",
+      "bytes": 4676,
+      "sha256": "580dfe43e73d0b7e9128156b2363a63a4814daea2049b2c6bac4fc929d141436"
+    },
+    {
+      "path": "results/siRNA_oligo_random/benchmark/summary.csv",
+      "bytes": 34588,
+      "sha256": "7a94a1184ff46a28999c6d1f6d6cdcdbaeaa6a19b082c4b13a6d91ffa456d10a"
+    },
+    {
+      "path": "results/siRNA_oligo_random/modules/PCC_per_seed.csv",
+      "bytes": 5555,
+      "sha256": "7e77716c39f93498cd98375a81daac50c5cba1a743002ff42729307ddde23ef1"
+    },
+    {
+      "path": "results/siRNA_oligo_random/modules/PCC_tables.csv",
+      "bytes": 840,
+      "sha256": "bf4e67d97e6c527657f04a20a45c5454d55716d3950ce5dc4a308e1a24436de5"
+    },
+    {
+      "path": "results/siRNA_oligo_random/modules/per_seed.csv",
+      "bytes": 10762,
+      "sha256": "6263ecb55a015e92512f97c6b1f8ec59592a5b399b1fbebc2a189d85c87f4046"
+    },
+    {
+      "path": "results/siRNA_oligo_random/modules/summary.csv",
+      "bytes": 7499,
+      "sha256": "fed77c7ca7d1907ddf6c87a07808c7c40f8f2a46988342986874522e38f9630a"
+    },
+    {
+      "path": "scripts/fetch_mirbench.py",
+      "bytes": 4049,
+      "sha256": "7dc114ca692986935c705343989b213d2426b3ec8eb59012ebb999fd1bd6923e"
+    },
+    {
+      "path": "scripts/prepare_mirbench.py",
+      "bytes": 12420,
+      "sha256": "0a100ce7d71f853918ed020a4b54512d6c2fecd1b7a7ff78e8cf5f364f605155"
+    },
+    {
+      "path": "scripts/recompute_mirna_ap.py",
+      "bytes": 3299,
+      "sha256": "ff1b1d99f87ac3ddb128cb2d0581e9317d127c802cf45b94ecfcf23e8cbc6167"
+    },
+    {
+      "path": "scripts/refit_oligo.py",
+      "bytes": 18284,
+      "sha256": "be0a4d2942fa57b04d6cf7a0a4415886934a573a3e480e7f13ad6afd7e54e7d9"
+    },
+    {
+      "path": "scripts/reproduce_accessibility_mae.py",
+      "bytes": 4897,
+      "sha256": "634e29e39e69bcbaea8573dc6029c1ff8b7bc49a20d52c7919e07b6d05e4be06"
+    },
+    {
+      "path": "scripts/reproduce_mirna.py",
+      "bytes": 18079,
+      "sha256": "4ba54d78ca8126dbf7e35a0d310da1468518a33a92241aa351855f4913500aad"
+    },
+    {
+      "path": "scripts/reproduce_oligo_results.py",
+      "bytes": 16678,
+      "sha256": "a5782ae2217106f8426f49787d65357e3c9aece1e7e50203901729e8e50274dd"
+    },
+    {
+      "path": "scripts/reproduce_tables.py",
+      "bytes": 3155,
+      "sha256": "9ed7c3de63c4264a0d80f7d1944649615f6f8ba766956de648270effa186b682"
+    },
+    {
+      "path": "scripts/restore_data.py",
+      "bytes": 4226,
+      "sha256": "e0249a618904fc9fba48498411830d4700eb021c6ae7c99394cf87be78ef7af0"
+    },
+    {
+      "path": "scripts/run_cpu_checks.py",
+      "bytes": 5244,
+      "sha256": "0feb0fb5ae39be3824ed76aa1ca50838a60109d5d8233c2ee1ab709d6d2b93d4"
+    },
+    {
+      "path": "scripts/stage_accessibility.py",
+      "bytes": 2444,
+      "sha256": "579a4d03ad04e216ef7c5af2b2c77f6bec0fc104c1b8f2f216699db15a341853"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 5296,
+      "sha256": "dc57dcf92b41a158cf13efede94f86069d32fd4fd69dddf27720b06c9259ac71"
+    },
+    {
+      "path": "tests/test_accessibility_mae.py",
+      "bytes": 1294,
+      "sha256": "89e0c9e6806c2e8841a9eed7b255c8456da4d92ed7b23e3929ee77551ea96666"
+    },
+    {
+      "path": "tests/test_cpu_runner.py",
+      "bytes": 1791,
+      "sha256": "ee185337def50bfaa990f2c54f067ced391cf6b57240faf29dcae73b30341215"
+    },
+    {
+      "path": "tests/test_fetch_mirbench.py",
+      "bytes": 1861,
+      "sha256": "2e14b0b9510b2ddb3b091d92bcd1855cc93a64d9a488e84b4d51075d26cdc5e1"
+    },
+    {
+      "path": "tests/test_mirbench_pipeline.py",
+      "bytes": 12248,
+      "sha256": "b7475a4580481c00bfd5ea517978cb78c259b99833fd9f36fdb5217df1a9b0cc"
+    },
+    {
+      "path": "tests/test_oligo_results.py",
+      "bytes": 5068,
+      "sha256": "8a9d7a8e6fb83239fd4f55cf55f3b5e24f7c945057ed17f115af9e769cd713ca"
+    },
+    {
+      "path": "tests/test_public_interface.py",
+      "bytes": 2389,
+      "sha256": "3ace867039ff184765ae7aa155d3618d65e2ab4bf4c6e439aa53bff28b12acbf"
+    },
+    {
+      "path": "tests/test_refit_oligo.py",
+      "bytes": 3430,
+      "sha256": "9a629e42e10d0d2a2bde1bd8684e2f7f9bd262391e9fbb8a97c8be076181f188"
+    },
+    {
+      "path": "tests/test_restore_data.py",
+      "bytes": 2539,
+      "sha256": "e56a524bfce4f62b7997b4d4db2acabaf5a085ca5da18aacfd4c91c77f592ebf"
+    },
+    {
+      "path": "third_party/cdhit/cdhit-common.c++",
+      "bytes": 145667,
+      "sha256": "37f8112db3c573c8c67d62dc23e44e56fbb731f1e0e7872170efab43dbd2e346"
+    },
+    {
+      "path": "third_party/cdhit/IDENTITY.json",
+      "bytes": 366,
+      "sha256": "a78936b458d695eb39fbea1a3a3e1491b247901963759103a2bb06edc979ffeb"
+    },
+    {
+      "path": "third_party/cdhit/license.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "third_party/cdhit/README.md",
+      "bytes": 1471,
+      "sha256": "2da053475c4ec17f2b4925ee4f8e2c865fee49fb1f02d88d6e6e0587f8a89536"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4803,
+      "sha256": "d8db4923a84bccbcd14bf1620c53dc240adbe9a69233fd526e7b750f3b682139"
+    },
+    {
+      "path": "workflows/accessibility/balanced/balanced_statistics.py",
+      "bytes": 1064,
+      "sha256": "cb80d4450db8da3c5692e36137035e04ebc555885ff51d5704c4cf56fccc52d9"
+    },
+    {
+      "path": "workflows/accessibility/balanced/build_balanced.py",
+      "bytes": 7168,
+      "sha256": "36e9dc3a6176f8b3a596d15751af80b03d5c73a53fdab42bc8ede810c5da9b3c"
+    },
+    {
+      "path": "workflows/accessibility/balanced/eval_settings.py",
+      "bytes": 267,
+      "sha256": "3e917899f657a0314231864a3d046f5d65a3b2a969c97fde8ad0ecb623647162"
+    },
+    {
+      "path": "workflows/accessibility/balanced/sequence_purge/analyze_purged_strict.py",
+      "bytes": 5121,
+      "sha256": "7aee56498671c34137ae4bc2ca5427b8f763d2cb944dc70279755a1124e1d3b3"
+    },
+    {
+      "path": "workflows/accessibility/balanced/sequence_purge/audit_inputs_strict.py",
+      "bytes": 4561,
+      "sha256": "8760df7b98c09f2613ab4ad25c41ae98878455dff3ef98e2f02804112efbfae8"
+    },
+    {
+      "path": "workflows/accessibility/balanced/sequence_purge/BOUNDARY_COMPAT.md",
+      "bytes": 1245,
+      "sha256": "253e6f1378d3926a05ef5f83eb9fe1a0da2ee6467fc7271109083fb4c969dc1e"
+    },
+    {
+      "path": "workflows/accessibility/balanced/sequence_purge/purge_sequences_strict.py",
+      "bytes": 6519,
+      "sha256": "dcb1937c3456e4c34577b34028efc08a0a9811d6bf3fc679c7a6d7f5886c0e29"
+    },
+    {
+      "path": "workflows/accessibility/balanced/sequence_purge/STRICT_COVERAGE_REPAIR.md",
+      "bytes": 1325,
+      "sha256": "ceb4c29a233a1c142ac297ad65460052e71f79a2936f520f8aa688817b41a0e5"
+    },
+    {
+      "path": "workflows/accessibility/balanced/test_balancing.py",
+      "bytes": 1022,
+      "sha256": "e2e7270e3acf9587f59f38d2c76117a8f8eb909001c10baeafeb1ded10fbeabc"
+    },
+    {
+      "path": "workflows/accessibility/balanced/test_eval_statistics.py",
+      "bytes": 1529,
+      "sha256": "c05a19123870927a11805975fb437d7802b1c26a94805a75a3a1644b51e616c7"
+    },
+    {
+      "path": "workflows/accessibility/cnn/accessibility_metrics.py",
+      "bytes": 14333,
+      "sha256": "90e928d8d82fcbef7c4173682330b3191a5acd6e04ed9009ee41a18b893e00a0"
+    },
+    {
+      "path": "workflows/accessibility/cnn/common.py",
+      "bytes": 989,
+      "sha256": "e7c0c67b47381281c53517e2b81cbfdf1f6ef5ee63f53ae570e267d30ac8cbb8"
+    },
+    {
+      "path": "workflows/accessibility/cnn/linearfold_backend.py",
+      "bytes": 1575,
+      "sha256": "1814a8d856ff7c23ddd77cce5094dada0267bfcbdf2ad7ad4fefe86941d8f380"
+    },
+    {
+      "path": "workflows/accessibility/cnn/models.py",
+      "bytes": 928,
+      "sha256": "c4586ad743888e52edebc6f6a907d02d289afedc538209eb5167c323f086eb0b"
+    },
+    {
+      "path": "workflows/accessibility/cnn/precompute.py",
+      "bytes": 2566,
+      "sha256": "1c88e7741747289a92b3cfb5ea71a60bf038453789f30d200034e8de0edefe80"
+    },
+    {
+      "path": "workflows/accessibility/cnn/test_linear.py",
+      "bytes": 625,
+      "sha256": "f4d63cebbdd2429b9fb129955a02bb364c1583579a094597ed9900f6fb6739e3"
+    },
+    {
+      "path": "workflows/accessibility/cnn/test_models.py",
+      "bytes": 1123,
+      "sha256": "29cbce8f14de2b30d767ecbecfdc28d09b34e760a312aa2e505e25f0e3127fa4"
+    },
+    {
+      "path": "workflows/accessibility/cnn/test_training.py",
+      "bytes": 1532,
+      "sha256": "9ff40e707244dc9d865f727ac874b9a56057ea7920950773662625505dce9a78"
+    },
+    {
+      "path": "workflows/accessibility/cnn/train.py",
+      "bytes": 6840,
+      "sha256": "0425a0bdb61e5a6835774809f8350e95fc27af68efbdc19570e480432d0707d9"
+    },
+    {
+      "path": "workflows/accessibility/external/build_mrna60.py",
+      "bytes": 9789,
+      "sha256": "6722f9d7c170340c22d0b1ea002f85cfafe208b05dffeba58e9789945c82a2e2"
+    },
+    {
+      "path": "workflows/accessibility/external/fetch_ensembl74.py",
+      "bytes": 3309,
+      "sha256": "99fa7fcddc73fa18be6394d63bfec8c3d70a2b0226d07c8c35d60d4e2b2bce3f"
+    },
+    {
+      "path": "workflows/accessibility/external/fetch_gse74353.py",
+      "bytes": 4769,
+      "sha256": "1b5cd2c613c34fa473506e46a1810f3cec9f372d54f2d7ed18efc1a8210ad7ca"
+    },
+    {
+      "path": "workflows/mirbench/cleaning.py",
+      "bytes": 9721,
+      "sha256": "3a73ab1fcc8f12349830fef900ec362acb86fcfac97c7887aaf40603bfd54b36"
+    },
+    {
+      "path": "workflows/mirbench/cleaning_support.py",
+      "bytes": 1313,
+      "sha256": "b08d80af1fd93d5c4c84a96edbe1a9e18ca53085239ef99a6649ba6aa77d7e9a"
+    },
+    {
+      "path": "workflows/mirbench/provenance.json",
+      "bytes": 1362,
+      "sha256": "c0e1c324a88a958bf2fa939bb5487a35d1314621ca13ed68a29521c94c7e6da2"
+    },
+    {
+      "path": "workflows/mirbench/reactivity_registry.json",
+      "bytes": 1185,
+      "sha256": "59b2ae11daa9fc1eea19453dde83915439007ab6c42d88693eaf4c77bd130dea"
+    },
+    {
+      "path": "workflows/mirbench/README.md",
+      "bytes": 7926,
+      "sha256": "8f383426ec6b75610f325f029849d8131e7965e2706e386e429c5380bc9f693b"
+    },
+    {
+      "path": "workflows/mirbench/requirements-preparation.txt",
+      "bytes": 90,
+      "sha256": "fc31677b6d049aca9b518f62657f88362e6ad2341ef3f47c04bcb2c1fdc52cc4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/baselines/analyze_hpo_results.py",
+      "bytes": 25374,
+      "sha256": "7639a4a80f5761d248274a4cef4467a1a8d448ccfdf38393cde16baa455e26df"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/baselines/hpo_backend.py",
+      "bytes": 53505,
+      "sha256": "567747c65735e547fb4dd10208d5d8f6634c9b303faaca366273080a2cb8e63e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/baselines/hpo_specification.json",
+      "bytes": 19953,
+      "sha256": "5dc08c745c635d380022d264d480d6c3c73dbe7a106f17cfe4a083862054005d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/baselines/hpo_worker.py",
+      "bytes": 38482,
+      "sha256": "dd6263fbc5d6699ed122f2431899eb1f680705c198ea2045043561e9d763fd3d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/baselines/persistence.py",
+      "bytes": 32178,
+      "sha256": "d683ea5123018910111ba985555611fdcde81b9289ff6570da6f22861e14ab01"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/baselines/vendor/baseline_gpu_models.py",
+      "bytes": 35841,
+      "sha256": "05927ac83872372f77fed5efb25df2493f269ec820e230f8199eed69f8c45b28"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/common_reader/evaluate.py",
+      "bytes": 12526,
+      "sha256": "f33250055a7ca7a77a569f5d03c932f2a3e8ee45e4c3d964fa0e9ba54acc596b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/common_reader/utils.py",
+      "bytes": 2794,
+      "sha256": "fef40b8819aa61bd3c1b67c8e18e53a48e1ea238bebebbe2f8750c3c9ad4ec4a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/expert_first_20261014/preflight/run_experiment_import_failed.py",
+      "bytes": 15265,
+      "sha256": "10e59928b8f3796ab4635bc3f563a84edc2b314a49b98c9606db036b72dd8ad5"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/expert_first_20261014/run_experiment.py",
+      "bytes": 15322,
+      "sha256": "df67b6fcf3d0244515347e3ac96af26e241ae5eaa5b1f09716f2567e091691ee"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/expert_first_20261014/test_two_stage.py",
+      "bytes": 3416,
+      "sha256": "d4f920f5048dde6e3218a8726322d00a474e7d77a4cbd4ade1e835673ca533b6"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/expert_first_20261014/two_stage.py",
+      "bytes": 6512,
+      "sha256": "5c0702c68b74c4c17fb4f53ae4745d094675985a6645dc58858e6644d24fa371"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/expert_first_20261014/verify_results.py",
+      "bytes": 12399,
+      "sha256": "1b16ffe6116712115cc3c93fb74487d3f9ef70d08c612fcf7b41c564585810cd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/expert_first_20261014/write_report.py",
+      "bytes": 9000,
+      "sha256": "868011ac98cc2f2c0ccf7810b6b47601781ebf311d56ebe66c3b255cc68cba39"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/audit_source43_config_bytes.py",
+      "bytes": 5696,
+      "sha256": "5fe9cc8055ef593e1623fa6f3cc1723e524231fe3b81c90e71e12810c9cd6ccc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round11.py",
+      "bytes": 8371,
+      "sha256": "f495dac0064d14f15be0783dcc18349acb69bb2614f1cf069be96d7c90c70c3e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round2.py",
+      "bytes": 2956,
+      "sha256": "a0d38ff2a6b4fc8a3d93607fbcd259258e21191b33a3a58517cef32300b0a449"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round4.py",
+      "bytes": 9857,
+      "sha256": "99fc7aee2d0575a65b8167908faa2036f1c86350a73ec5e9833f5f5226cb1901"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round5.py",
+      "bytes": 8268,
+      "sha256": "da28bd8a2f3919df2aa6c19284d4476af6a30789b07c495642081c0bfdb3156e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round6.py",
+      "bytes": 6045,
+      "sha256": "8a3eaccc411015a3ad87f9bad64857643d22468730ab9326242910787965106c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round7.py",
+      "bytes": 6579,
+      "sha256": "67318351120048a1212ebaad76162db4629c4674679088291248d79e80d29bbc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/close_round8.py",
+      "bytes": 8630,
+      "sha256": "3e6df9246f169facb79e2b4334466e28ce549ebe45ad6ac2b8a3e909ace1163b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/prepare_source43_scope.py",
+      "bytes": 4450,
+      "sha256": "82d9f191844409562a4f4c075fc98d88079f033600775c8da7556db855fe8d29"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/r4_training_diagnostic.py",
+      "bytes": 3747,
+      "sha256": "94c7ba1f9bf19090ebc9d4c2e9bd9aba3b93343455a392d9600430c0d0c52dc2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/r4_training_diagnostic_v1_failed.py",
+      "bytes": 3691,
+      "sha256": "a2d3512e2bf043d3d6c4c206a61dadbfb32458d5d28d00386061d192e6415d4a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round1/core.py",
+      "bytes": 2237,
+      "sha256": "d5dd23f0da9632345d2db573df595448587e0dcb8a781fca9412d045410ae07c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round1/run.py",
+      "bytes": 9652,
+      "sha256": "a63a1fe5d7b0f09c714487bc450502edb5fceaaa25a3504a9327ac8ca0da9766"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round1/test_core.py",
+      "bytes": 2076,
+      "sha256": "9fbbc517a37c15dde3c4ec4f8bf52a2bfa675fbce61af5605430a805edfe4f7a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round1/verify.py",
+      "bytes": 9202,
+      "sha256": "8f37764465994553b1f7861a1c6605ced8454e148a4e11ac55b5efe49c309542"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round10/diagnose.py",
+      "bytes": 4492,
+      "sha256": "3e0079d4df75dbc31a6c69b364e1288d78d84c92a480d81127905a5dc4815166"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round10/verify_diagnostic.py",
+      "bytes": 3377,
+      "sha256": "ec2170053ed726393f075fd463da7d1d8e022be7979d1cc47ef54b7997f2a46c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round11/run.py",
+      "bytes": 10392,
+      "sha256": "f5b4f1640ce67e4856bca90e895b82a65bd3cea505b5062ba21014d47e2d3402"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round11/sparse.py",
+      "bytes": 2673,
+      "sha256": "805ac17aa7d28a400e79c059376dce9cc64abd0db568447800a3b5364124ffd4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round11/test_sparse.py",
+      "bytes": 2442,
+      "sha256": "008c0c3121fb05168a58d5ff615d572a4be542c8ebf367f6dc4b19d3f5cac7fe"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round11/test_sparse_v1.py",
+      "bytes": 2434,
+      "sha256": "3589c526bf589bdd69e79c07d98fc1cb199287f5d7160485df67709a74188db1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round11/verify.py",
+      "bytes": 13247,
+      "sha256": "ff65f1e2c4b6a57f5cbb01a4cbf10822761804dea6aa53e11397bf7ed4aa3f3f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/audit_spectral.py",
+      "bytes": 3933,
+      "sha256": "b0f8bf6cac259a5742b8b3ab72fb6cea6ddc7fcda5929f20d4700926b20aa5ec"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/build_io.py",
+      "bytes": 3761,
+      "sha256": "d6acae49c8adaa2740719cd769294af708e5c8d6caf1f9f5b540620d2178b8cf"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/close_round12.py",
+      "bytes": 8968,
+      "sha256": "f418d5dc275bd9581b73e181efa98e49b21b0fa76f75fb14dfbe336feb515177"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/diagnose.py",
+      "bytes": 3997,
+      "sha256": "33c59996119c8d5903c1bc58f4ef8801d75b3b9b8df5066223c69c68d36cd8fa"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/run.py",
+      "bytes": 10351,
+      "sha256": "02e6e7e8ca05f5ac08f88b01d6ce6a42f6068c03ed49a5f2507088050f5f6add"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/spectral.py",
+      "bytes": 1757,
+      "sha256": "43018cd77e91e91b938626f5f2f1315564f18d7d5e296112081e6851700ba040"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/test_spectral.py",
+      "bytes": 2047,
+      "sha256": "7a9089c7fd9a49df552fc1cf71fa2ac5834758b9ca9c0aa3ce0659cb753a9210"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round12/verify.py",
+      "bytes": 11355,
+      "sha256": "656567f58464c276cf4fdec674e4b771418253d4227da8972559f1bfbb70e736"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round13/additive.py",
+      "bytes": 2856,
+      "sha256": "1a41a0dab632d719f78a26b4a2031f3aa30d2a86e04c8205a351d5a0ebc50c5d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round13/close_round13.py",
+      "bytes": 4574,
+      "sha256": "5f33a46304e4d9d12812e79eaee912a02f9da73731609d093df63437b4393dd3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round13/diagnose.py",
+      "bytes": 6848,
+      "sha256": "b908953a30fcf65fa120c43a3b9245c5450757bb026ca755b11163847a3a8ff1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round13/test_additive.py",
+      "bytes": 2873,
+      "sha256": "343603fea972d1778995b06383a06cce4e855448dfe43957a01fe960553f5b4e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round13/verify_diagnostic.py",
+      "bytes": 8198,
+      "sha256": "24818ff883efe825b71b6483923babec40acaf545d217df58c61d685f7ca19a4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/assets.py",
+      "bytes": 5234,
+      "sha256": "7295b8fedadd4fb72ec79db75bf5e3bf70b2bbb398ed9a4b6067f6153773c2d7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/build_io.py",
+      "bytes": 7732,
+      "sha256": "7284d1e2a41cc98d2c8fa6381d0711853ce928a466897c3dd16a7c3498b5ccd7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/build_io_v1_failed.py",
+      "bytes": 7676,
+      "sha256": "5afe157297b18e99485eebf711c6a9c3aaf983bd7a51a26cc00bb3909ae72f8e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/close_round14.py",
+      "bytes": 8891,
+      "sha256": "b73bbc0d1f53c505af0364135849c035dcf77b31dedd6a06c42a19d93096f8e4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/run.py",
+      "bytes": 9282,
+      "sha256": "795af716ee15b3dbb63b997acdd49c9ce00fa563b3e803cf0d2fefa6bb3f8cf9"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/test_assets.py",
+      "bytes": 886,
+      "sha256": "05653aff1f1949b55b9d046cfb8a66cb66dced1f1b5f3a83274b2e48a3911f2d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round14/verify.py",
+      "bytes": 10622,
+      "sha256": "65934effaf754ef363bcaea74f90cad2c95b5aec4c04be216ff4cb1209a6e6ae"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round15/close_round15.py",
+      "bytes": 6750,
+      "sha256": "72202f6a3fe6c889a718948bc273cede6cd3eb6a1bf0ae2d8db68426a2c05e59"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round15/diagnose.py",
+      "bytes": 4373,
+      "sha256": "8035af4a3eedfbc94512a61dfb0581908f766495d986cf6cb27cea4ac796d716"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round15/geometry.py",
+      "bytes": 2136,
+      "sha256": "a891c5e3de41c453b73c890bae799a050c6f7d2fb3643fa03c6df649d2e32333"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round15/test_geometry.py",
+      "bytes": 2005,
+      "sha256": "8ab47b59e8965adfe6d9e22316de24c86604051bd669e170cfe841cef7096dee"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round15/verify_geometry.py",
+      "bytes": 4758,
+      "sha256": "23ac09d18f4bbf2a740551ec5fd10264b28bea9d6535851405f53b333138f5ef"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round16/close_round16.py",
+      "bytes": 10615,
+      "sha256": "d3604af252b5f7c61be6190a9c7be0bdcb0b762f346c8652bd4e8464f8462ba1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round16/mlp.py",
+      "bytes": 3252,
+      "sha256": "1082f499bf26a37fe0703a2f9714754b4c3029be4716c6addc8862c44f9a49d2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round16/run.py",
+      "bytes": 8186,
+      "sha256": "fef936ece475dfee9f5f0e03c979e17ce2d7d2150675b42b0d6da367b823d9c3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round16/test_audit.py",
+      "bytes": 824,
+      "sha256": "a24d68c5f8b458ecdc4049e3282aef4199dfef00bd61f1f55ec94436b156863b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round16/test_mlp.py",
+      "bytes": 2171,
+      "sha256": "0e9704e60b28f4cf7a8cbefedff21685db6d28d011edfa188aa00d14c3e2936d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round16/verify.py",
+      "bytes": 10425,
+      "sha256": "935ce72e28ef09871e069b11effe80b4bb57d41c7d41c17f9236659a0db03ee0"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round17/close_round17.py",
+      "bytes": 7927,
+      "sha256": "e206606f5763e4640a3addf45ecc820e4101298ad3fa9eccb7957ea7ea3567ad"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round17/nuclear.py",
+      "bytes": 3740,
+      "sha256": "d62370f7bc4dbcc6d3355c50a3775adfb7038fdffd8176d34206bf0b69b65575"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round17/run.py",
+      "bytes": 8307,
+      "sha256": "6ceeb84ccca03a05d226e96b69e2877623c7a77b34674ce8018adae250728d23"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round17/test_nuclear.py",
+      "bytes": 2376,
+      "sha256": "9065ffca0e55fbb43f7f26fbeffec58d1c1a7b400182e22d634164aeb43212e3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round17/verify.py",
+      "bytes": 11040,
+      "sha256": "8dcbe48c4bf978f334945efbbfe1a844ff33b8bd217dc239733d9beff455e832"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round18/close_round18.py",
+      "bytes": 7043,
+      "sha256": "b2247be2879bb9c5a483e7bc4bf1c74fc26f9197a1a7e6b717a50a4bca70b30d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round18/evidence.py",
+      "bytes": 4396,
+      "sha256": "9860f5685ead7f51e763eed275e4c6fe9d96b4d64ef0897bdc6a8d730a92608f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round18/run.py",
+      "bytes": 7684,
+      "sha256": "e437decb2f43b7023e525b4ee42d3a36e4b627a2783d7382235a216e9976eef9"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round18/test_evidence.py",
+      "bytes": 3310,
+      "sha256": "e9d10de5f197f8762c1e1354467c3ef10803497197aa873936b54d475912195f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round18/verify.py",
+      "bytes": 10353,
+      "sha256": "53fb62c7f8269e6d55c4de6b46f6e527797da59d6bb92aa28788992018e9dbcd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round19/close_round19.py",
+      "bytes": 7317,
+      "sha256": "a648133a141fb726641b9519d49bd763bb3631987860319835da0f160599d09a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round19/run.py",
+      "bytes": 8067,
+      "sha256": "305abe6272d46c4d7f2a52467b9c87824f886c2768555e2c41df46c7e57e5e8e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round19/supervised_pca.py",
+      "bytes": 3467,
+      "sha256": "af8e5640465b7bfa5bf91e39be27313c1d42b0c4e5475c34febcd566cf7913f7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round19/test_supervised_pca.py",
+      "bytes": 3359,
+      "sha256": "9af2b49dc5309b3369b10c6d4af22bd05899f8eaa1fb5bbe60932132a87dfa2c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round19/verify.py",
+      "bytes": 10817,
+      "sha256": "d06b0882786523cc31996ba448293101c4a63d945baa4f8382c72fd69dcca8c9"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round2/router_core.py",
+      "bytes": 1795,
+      "sha256": "dbb372c2460418d501fd00e59cbf5e05d815a7fa58dffe4d8ecae91e5bd6e3ca"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round2/run_router.py",
+      "bytes": 8159,
+      "sha256": "a5603bb107ea2b49947c1b998b3f7a20b13a67182d2b8f7655df83c803804f0b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round2/run_router_numeric_compat.py",
+      "bytes": 5491,
+      "sha256": "c7b6ed7a202e27981215bb350a5aa5c35c7eb93cb7f8f3abc2931d6091231a3e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round2/test_numeric_compat.py",
+      "bytes": 1076,
+      "sha256": "5a8161e47b40b0ae4652c1603cf8fad1246ea5aeee41fbb2fe1033a9abf8434d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round2/test_router.py",
+      "bytes": 1584,
+      "sha256": "2838cb50e21901533294ff27cf0d6b59ff214b690a1e9b1488593339b90766fc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round2/verify_router.py",
+      "bytes": 8833,
+      "sha256": "ed32b4c9e4b65409de495dfd7cb14b5cfc5c77019812ae1d1d555d95359a741b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round20/close_round20.py",
+      "bytes": 7190,
+      "sha256": "c0c934df11fbe4f2f7e0cc9aaa2439c20b7c2e752cc7c5d5cf357e2562840b28"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round20/random_subspace.py",
+      "bytes": 2245,
+      "sha256": "f1d52a14e50d550d44ba0da682766b7d4f84d53ae1cb6b0727cc9b0085151360"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round20/run.py",
+      "bytes": 7947,
+      "sha256": "e94804fef35a3eb33342436abbd493191ee3db9bf50378656d0566e2c81c575d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round20/test_random_subspace.py",
+      "bytes": 2923,
+      "sha256": "f3f055e94ff5ea7320adb782779483f113f1d7a3cfbac45dafbc76a9aaa05794"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round20/verify.py",
+      "bytes": 9421,
+      "sha256": "a5c7d3710656178dbcde09303b423d446b1e70e5bb445469158338addad8a4ff"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round21/close_round21.py",
+      "bytes": 5679,
+      "sha256": "a2467ec1ee600a432863166ce6c329d0da74b6fce6f5d30e8e0b844b177ac2c8"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round21/coordinate_sparse.py",
+      "bytes": 3225,
+      "sha256": "38f3e5017bd192c6b4ca6f14229b0fc16d1190a5f36db0d8285e4a9ddc222a3a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round21/run.py",
+      "bytes": 8086,
+      "sha256": "8fceefed3a3eb9c84af7427a710285a3a338e40be1047eee7c13fea136386e22"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round21/test_coordinate_sparse.py",
+      "bytes": 2891,
+      "sha256": "1b0fe06af555b8a4ded9401b67424d685155deb627e14c12117482e2ff4537f1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round21/verify.py",
+      "bytes": 10270,
+      "sha256": "254297c7300a9673c6fed32fbcd5d90b572297a380e60843110a28557fc8f9ac"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/close_round22.py",
+      "bytes": 9424,
+      "sha256": "3b8183fef510d2785fec95b23141089c7008cb19eab5f01df2cf14a8bf7d3802"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/core.py",
+      "bytes": 2852,
+      "sha256": "f3eafbca31b396b8151f5a81f9edc7837f550e46a9829b1ad73c4596caab2b2c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/execution_compat.py",
+      "bytes": 3994,
+      "sha256": "7241b3e3c52559a30e92912a1239c07aee54b8b4925efeeba299463449fe08db"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/run.py",
+      "bytes": 9446,
+      "sha256": "6f400ebaad90e3c35df898fe816d4bb2337035d6607a5925cae8011f442b2927"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/test_core22.py",
+      "bytes": 2007,
+      "sha256": "3c090539e36b7a0b2c74e95405d29717b36aaa9cefd2a8e3e202b17f3c3022e5"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/test_execution_compat.py",
+      "bytes": 1224,
+      "sha256": "a935f4424158697b2d57c11afa14eb8942a92ad917c6b04ad41701da5fcd108a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/test_verify_metadata_compat.py",
+      "bytes": 661,
+      "sha256": "9381512b70e5510ea3b607a0f55d479901c1aa96e4fecbfde2301bfe1e1439eb"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/verify.py",
+      "bytes": 10575,
+      "sha256": "e0f3b9c9249e893f582761fd50ac6847d0402a3ddd32ddf75a90fc79cdda935d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round22/verify_metadata_compat.py",
+      "bytes": 2586,
+      "sha256": "da582ac7a5caf5b5d4179ea9cd4fa667048f7137ac17f830331b7d2a81c8e057"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round23/close_round23.py",
+      "bytes": 6908,
+      "sha256": "eb5b3a11f4905bd5fb7884fb581e3923d915687c4a14927ac1b5c5fbfd078fe1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round23/diagnose.py",
+      "bytes": 7845,
+      "sha256": "0dd06276dc05e12d983f9b837c412ef148a8f3dcde8e16c6b73fd0925553e606"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round23/route.py",
+      "bytes": 3007,
+      "sha256": "281147244e18bcb87fe196b3c100be3d1f1704eb337886b26f9530e048205edd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round23/test_route.py",
+      "bytes": 2330,
+      "sha256": "de70db0a7b12e603b67a8a403c6493f5f4a2d526dffc1078de316c44b0483ab2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round23/verify.py",
+      "bytes": 9812,
+      "sha256": "f2bb76286d3d832ee6805878169f819c735b208ecf240d2bc3ba9144d3f64e57"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round24/close_round24.py",
+      "bytes": 8119,
+      "sha256": "cee12e185bcec322cc7c3a25311be77f7e23bd2bb54b13d86e2a624dc4a78163"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round24/robust_head.py",
+      "bytes": 4409,
+      "sha256": "fb0dc9c92d8f745d43e390c88a8a61d096e1f89c44202e1a528cea7aa156802c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round24/run.py",
+      "bytes": 7944,
+      "sha256": "8125aa2ba498ef8e635dbc43ebcf5bd04c83a6ec37a59989ba828e012242bd02"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round24/test_robust_head.py",
+      "bytes": 4355,
+      "sha256": "6866343f221b1421ff1b9d84b24c4df382722a2469fb530d4dae945ad27fc3e5"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round24/verify.py",
+      "bytes": 11454,
+      "sha256": "9fc886990c7fb3e10e5d64b3906caba723e5ec0daa28fd9613fa0798ed9f2abe"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round25/close_round25.py",
+      "bytes": 6930,
+      "sha256": "5dc740ea2423bacf441c941024f78c187d088ac4042a3e71052f90337065e7f1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round25/native_trace.py",
+      "bytes": 1999,
+      "sha256": "416127b3ae266f6716854d5371a29d19a5f3aa06ab6d47ecdd2fda657989672d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round25/run.py",
+      "bytes": 8345,
+      "sha256": "430c7174dc2788c3bf941af8b4e35b3cc46b549062654678fc6caf9e9c304f3d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round25/test_native_trace.py",
+      "bytes": 3244,
+      "sha256": "87d99c1539e3f829ff42437d70635bdf5b190c9a18502e019b8560e759a0b6cf"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round25/verify.py",
+      "bytes": 11070,
+      "sha256": "064bd002d4255af12ec2846ea1999f47da5cd67470ad6aa0e12bc9520d42fb6f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round26/close_round26.py",
+      "bytes": 9313,
+      "sha256": "f6ab0707a49fd2384a4393161513ac27b371950b993b6fbc7b40242714a956ce"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round26/head.py",
+      "bytes": 3158,
+      "sha256": "0600bd8fb8ed5e70e3a353ffcdd5d9d844d3cc869d4ad1c122ac649175676d5a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round26/run.py",
+      "bytes": 11583,
+      "sha256": "cb7b0eb9580d664ee9ac518159c072c7e534974541bc7fe8bfda64d7f58b3b24"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round26/test_head.py",
+      "bytes": 2784,
+      "sha256": "a1e7742e5f3a23112552ee0251694a440185c7aa87363b2db4ab87b24f3f81cd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round26/verify.py",
+      "bytes": 14082,
+      "sha256": "d20f1f4037d82c6463b9cd1d530e1a3e27900fc5984b0b6ece513cdf45464e2d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round27/close_round27.py",
+      "bytes": 8984,
+      "sha256": "89ae270d68344d231c42549bfdbdbfdc0b60f045272bc5f9c0a661ef0191ce1b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round27/run.py",
+      "bytes": 8528,
+      "sha256": "f6d78ddc6014445d2c05fd4731f553e30effcb1c3f0eb62cd3beeb65a4420cba"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round27/stump.py",
+      "bytes": 5999,
+      "sha256": "6141b958faa2e4e31025b4eaaafcc9e4e9146ea4763b5344453f261939ff06e1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round27/test_stump.py",
+      "bytes": 3089,
+      "sha256": "77938859ae3889e366a5cce13d2e93ddfc4da84952f4db3367c61892d626d84e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round27/verify.py",
+      "bytes": 12310,
+      "sha256": "a555a9b1aaad091aabd4c9eee6281a456d29987fbd2c4d943ffbfdf3db5df6c4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round28/close_round28.py",
+      "bytes": 8248,
+      "sha256": "8f6a9df69e9de36cb28e18c78f438eab16cd1fdb99bb8f855660cd73d015d956"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round28/quadratic.py",
+      "bytes": 3578,
+      "sha256": "33fdbf44a1d1d0545d17be2624bb917828f92616df31a0b40051b1066d148f24"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round28/run.py",
+      "bytes": 8878,
+      "sha256": "310b574f44da9593fdd67ed72a04b74d2f5402168e33ffc8de5376796d84e66a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round28/test_quadratic.py",
+      "bytes": 2529,
+      "sha256": "ea336b20f79b0bad8a9105e461efd4db8b291444e556e6b8d9b6d0fce98854a1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round28/verify.py",
+      "bytes": 11134,
+      "sha256": "a7d2cc68958e3e519d83b351c2e89be2dc0602092f627dadfe666f6b7a3cd367"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round29/anchored.py",
+      "bytes": 3405,
+      "sha256": "0f4f9a8662166b9bcc0bb2535d46edf386668146347602e307fc70147c4d81b1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round29/close_round29.py",
+      "bytes": 7434,
+      "sha256": "eeae635f434f2d0b140b3ed7adf9a1bb8885612581f62f9d3a36892c741fc6bd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round29/run.py",
+      "bytes": 8502,
+      "sha256": "a5a72f2e06ae4aade5964ceb7bd16220e5b61692ccc4f8eea5da5eae647024a5"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round29/test_anchored.py",
+      "bytes": 2783,
+      "sha256": "b18f051b732596b06de2d71bb195a450c5f47fe813bb405ca97b7c13465e794d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round29/verify.py",
+      "bytes": 14687,
+      "sha256": "3414e49551f64a3d16b39c3cd5bccb60200737c352cdbb167b7d20f7b0c835d8"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round3/native.py",
+      "bytes": 2900,
+      "sha256": "980702ad421b7225cf79f7840d926b388eb0ed17bdbbea4e9ffa8f059d921ec3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round3/run.py",
+      "bytes": 9446,
+      "sha256": "3e600f9626852b8dd95710893b83a4716bf7f97c6db0ab64f418cbeae2b0ea9a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round3/summarize.py",
+      "bytes": 1655,
+      "sha256": "fc9b96650472554ce3c28e26ce4f4a34c0b0cdb7c1b35d2224014dccb715d089"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round3/test_native.py",
+      "bytes": 2214,
+      "sha256": "b7fbc7d69aa6b5430f57e6639f32b440cec9a0b5df5cbcbfa29034cf1f213052"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round3/train.py",
+      "bytes": 3279,
+      "sha256": "10c2ada19e82dc3e59024ead70633dfb8c96a31f65e8200a0ea8b87cfdd9621d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round3/verify.py",
+      "bytes": 9613,
+      "sha256": "5fec60c6d7752cf2b513224d7d98243baa463f6c039f14fa0cc8132151550d97"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round30/channel_sparse.py",
+      "bytes": 4617,
+      "sha256": "b9761c33be8463e623762e6fb67bd7ad1355c9cc46ba8dfd73d573ac370bfd68"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round30/close_round30.py",
+      "bytes": 8223,
+      "sha256": "defb638953c3dcad85bbe65904ff3d4dc21e91626ef1a871ebe74e2a9b74606c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round30/prepare_r30.py",
+      "bytes": 5202,
+      "sha256": "285e6bdd141750468d9513338fe5ad3ba221301d87a6647855a963446fa9b7ed"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round30/run.py",
+      "bytes": 8629,
+      "sha256": "1d53a7004734bc5296653ad813878f4a68950811fb1161edaa7268936c78ece3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round30/test_channel_sparse.py",
+      "bytes": 3393,
+      "sha256": "7da6b511e32930d461a3ec54203d3a53660a8cb272b296eda47937a6190341cc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round30/verify.py",
+      "bytes": 14861,
+      "sha256": "c011249f4ce791a795d1ef780612c6d82d3ca1902360295b9887ac14ff8f859b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round31/close_round31.py",
+      "bytes": 9213,
+      "sha256": "a50b3530c8d67962ffdc98d11fb1e139759db770b0b1d10dd5fdadc330c771cb"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round31/run.py",
+      "bytes": 8600,
+      "sha256": "d600ffae2c436315de0e1b10a887423887179ebb528030d04d1752c440fc2889"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round31/soft_route.py",
+      "bytes": 5332,
+      "sha256": "09c6f88a6b0b9074bdc2f54cb9258332587fb566558eef63e950c99e351d8804"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round31/test_soft_route.py",
+      "bytes": 3404,
+      "sha256": "57769a62ac41c52a1b4a590bc9e969ca556e4483fa112a7c540a7141798293f0"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round31/verify.py",
+      "bytes": 13072,
+      "sha256": "87c45659df490fb5c3cc606cd06490882305a10e21220e1da160b482cf47bd5a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round32/close_round32.py",
+      "bytes": 8715,
+      "sha256": "83f11180fa3b29106892c7c484ac698d8a130fe51ab04ac18c4582ce7e8a376d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round32/run.py",
+      "bytes": 4671,
+      "sha256": "dc47c0c082536061600daeedabdd4bbf5e0a658d9906a36e98b366a3d9ee18aa"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round32/tails.py",
+      "bytes": 2012,
+      "sha256": "476f465f07205e25d1c0dc1d5d16bfdf8a698619da48f68be93aa586e91a31ed"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round32/test_tails.py",
+      "bytes": 2126,
+      "sha256": "94714a894c2d95cea43d71ce89dcdab44996259ebf16e6b24b0673f17869dae9"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round32/verify.py",
+      "bytes": 6792,
+      "sha256": "3765c85e382d41b459ef868e83228b0ff1af858ff63d173eabf11ee524f103cf"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round33/close_round33.py",
+      "bytes": 8780,
+      "sha256": "d1cf4bd5eb02bbe7dec155979f25175ad6ed7151f770b307a6c6c54c9c221f47"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round33/relu_kernel.py",
+      "bytes": 4397,
+      "sha256": "8fe4d970785c5933b0213f78c49d901cb8fe72bf0d074dd7813e373b98a09b59"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round33/run.py",
+      "bytes": 7538,
+      "sha256": "d2562048bfb1f5e16e98efef65ffa19e06420e50f45e2522240a10e100e5eeb0"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round33/test_relu_kernel.py",
+      "bytes": 3389,
+      "sha256": "1f5b714576e52c5154de8bb5ec7f9b0784227951470f1f575ec3dca454877927"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round33/verify.py",
+      "bytes": 11169,
+      "sha256": "5833bce0adc5faf2d849d8eddf6b9d09cf9edbc174b6a773ce54fa009fe376a3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round34/close_round34.py",
+      "bytes": 8840,
+      "sha256": "de3bc473bbd86c957606dc8133ca3ba3d211b30ebd62c7aee6f52e7b791e5765"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round34/contrast.py",
+      "bytes": 6020,
+      "sha256": "d849b1045e8bcca57660d26166f7be937e0c69f94180a46a939c6f7213dc733c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round34/run.py",
+      "bytes": 9610,
+      "sha256": "9435b9c8e6f2b2e78df80b5e48367bd261e14d6f4e8adc2bfa53b5ffc351fbae"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round34/test_contrast.py",
+      "bytes": 4061,
+      "sha256": "396ca2c5ccd25f52fcb3d6a8b753296fab798959574d78c591b61c7c8e70c0ed"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round34/verify.py",
+      "bytes": 14568,
+      "sha256": "2474b5b97e7e07b9b70202e0f67f9c52d0232af9d918babefb13f32ba99eaa96"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round35/close_round35.py",
+      "bytes": 10778,
+      "sha256": "8b918909e6654ab0dbd3e602d3133db6b5500856ae984edd23de69f8694fcd0c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round35/curve.py",
+      "bytes": 2992,
+      "sha256": "cffe996e29b861a125e89c7c67ab6b860bc89fe154ccadc2cb500ded320034bc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round35/plot_curve.py",
+      "bytes": 2232,
+      "sha256": "66ca48a5993544191bc9919e78c2962b8458ac1b7a1432e9cb7c45cfc59d1618"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round35/run.py",
+      "bytes": 11277,
+      "sha256": "b0ba0008a743fbc0d52b69bf6cadaf57ddced997a0f788f4f5a953ae3cda9c50"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round35/test_curve.py",
+      "bytes": 2689,
+      "sha256": "e09500786182752d995a5c40e48f44230992704697ee008b6de53e2776561919"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round35/verify.py",
+      "bytes": 15750,
+      "sha256": "ca2285e941189dda7eb3796ab2dfcd89b02133b483019dcc86706f9aab803128"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round36/close_round36.py",
+      "bytes": 8499,
+      "sha256": "0fb38214020f746a13777af517514d995596f5361647befbd5955649cc3fa352"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round36/pool_dropout.py",
+      "bytes": 2568,
+      "sha256": "55a3824a8b1fffb672ab5c5eaacc414493fcdc315eeeed5a7b9d23b9683ae408"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round36/run.py",
+      "bytes": 8105,
+      "sha256": "789460e66f43987e4e92a7e5b218170e09c2cd89584093a49e2cf28d84ef8d73"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round36/test_pool_dropout.py",
+      "bytes": 3206,
+      "sha256": "55b4e6befa030ebe56a14409b27c03afffb28568e74ccc773771fa7a41db4214"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round36/verify.py",
+      "bytes": 13024,
+      "sha256": "f43d6a0d4543a3637a8b6caf6666d5729aa85b49293251d18d1f9884e4adcb4f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round37/close_round37.py",
+      "bytes": 9599,
+      "sha256": "14656d594be2a68be9eff34469c054d493ee339421968658a8bf847dc070f6f1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round37/energy.py",
+      "bytes": 4621,
+      "sha256": "e20bb3b7ccc7333da1a903abd2b7f8e7561e24e3c2fed947694ffb87fcb687a2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round37/run.py",
+      "bytes": 10796,
+      "sha256": "0d74111928b6e576449172b8548d82781db8971450a803de1fbc9689b9593d0c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round37/test_energy.py",
+      "bytes": 3535,
+      "sha256": "74eea37b3d5afa12190422e4a514768a12261a47fe37220e0adb6e47b4d41326"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round37/verify.py",
+      "bytes": 17073,
+      "sha256": "f350dda0c7f79dd9cb3c533995536adf4188ce69efb5b27837c9c79c5227ca75"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round38/background.py",
+      "bytes": 2780,
+      "sha256": "78749d50f279c22a3f98088eba8bc4e958326432f999ad9416a1b517dcf497dc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round38/close_round38.py",
+      "bytes": 9371,
+      "sha256": "d3fa22af950f7c6cb2297479aec331a2ce8fbe67c3ba9064f0b76e0a3661ff19"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round38/run.py",
+      "bytes": 7224,
+      "sha256": "3cf623b437c92a985a1be97fbda9067acf53bf91c33ddd5f9af6ef8d73e519da"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round38/test_background.py",
+      "bytes": 2846,
+      "sha256": "f2ba63a323fee969e7bc691de99033a0565ee0a3061a861094dc0025ecb024e3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round38/verify.py",
+      "bytes": 10032,
+      "sha256": "66c3827c36020eacbb746410581c5cf287e5119d15f05908cce78f9c27b64a35"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/close_round39.py",
+      "bytes": 8961,
+      "sha256": "b6b3ed5ccd4da4b5d12ebe05be2a718ce6828a4c6f4fab7b6a11f3340b05d88a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/epsilon_kernel.py",
+      "bytes": 5200,
+      "sha256": "17e52dfc55d19725cf0c9ece565621f3b2edb468be984479c31f64b5011f04f7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/prelock_test_v1/epsilon_kernel.py",
+      "bytes": 5070,
+      "sha256": "2aa366660b3538fac9115eeac058744689eb7c40f85a981466badd74aeb17726"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/prelock_test_v1/test_epsilon_kernel.py",
+      "bytes": 4141,
+      "sha256": "3dc7f818b50422c86c37cabb7ec17de36777a3a389930570a7b2ca0faa0b743f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/run.py",
+      "bytes": 9002,
+      "sha256": "b98235b7a60c24b769004c39eb2d7ba8e9335c1b8dc67cea7bc69504e07baada"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/test_epsilon_kernel.py",
+      "bytes": 4141,
+      "sha256": "3dc7f818b50422c86c37cabb7ec17de36777a3a389930570a7b2ca0faa0b743f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round39/verify.py",
+      "bytes": 12841,
+      "sha256": "6deab00c3a28dc54bc2b9f0fb1f6fddd28937318ba1221b121614e70584a8c61"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round4/core.py",
+      "bytes": 2199,
+      "sha256": "4c102398638948579c163efbb371782330862c596d00b7f2f0c7d79edaa56b3c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round4/run.py",
+      "bytes": 11037,
+      "sha256": "77ac92557e39f9d5014c5d26e779192c21be8b199eff732c2d40e6180f2df667"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round4/test_core.py",
+      "bytes": 2179,
+      "sha256": "49b5e2f63530b11e11ae61a314c5433e8270f81b19a81e6e0248a9fc0e3d0a98"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round4/verify.py",
+      "bytes": 9271,
+      "sha256": "4fc57ac62865ec5ea02e8e879e0649a57c24aae598e5958eb4125545ac8ff682"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round40/close_round40.py",
+      "bytes": 9398,
+      "sha256": "21f85fbcade259c79732ca3bc62d6398fc835f2c81097fd0b74782b0eb4e2ade"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round40/native_kernel.py",
+      "bytes": 4206,
+      "sha256": "dfdd31f9ff812505fbae05d9249ca2ecfe4d567294230e5ce24ef5ba8f5dbbf0"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round40/run.py",
+      "bytes": 9953,
+      "sha256": "c09745c60ac8fcd2eadce18304b88d424ea0dc9fff708b897c57c29f8a5b032e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round40/test_native_kernel.py",
+      "bytes": 4308,
+      "sha256": "206169f51fce90b1d6f2aabcdf3492d0742a08d8764855f9aa2c8587d8f30e5a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round40/verify.py",
+      "bytes": 14477,
+      "sha256": "253242b67fa2d9eb15a63eec19feca21b02cdefd5ef0a97a51262d3be92c5ad3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round41/close_round41.py",
+      "bytes": 11730,
+      "sha256": "dd4fa20d4c055a285bbbbc12a30a90befe58aa2b460ecbc48e65aaaf3d3872ef"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round41/joint_kernel.py",
+      "bytes": 6299,
+      "sha256": "d89b21a3be32c45591b11bd7cfb03a42a4fecd140808ecfd03ab5b6f7ebf63fb"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round41/run.py",
+      "bytes": 9328,
+      "sha256": "b8898c1e57e8a330a414d8a6e69e17089ea2c50cceeee0437646c16ce5e926fa"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round41/test_joint_kernel.py",
+      "bytes": 4653,
+      "sha256": "79853fbfafc34d49282085fc5ac4fd09eff344d6a9a2f87cfbe001f4d7fa460a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round41/verify.py",
+      "bytes": 16061,
+      "sha256": "8b86aaf2d6e1747233cabce87926fc68548431b657d742ba7b940801f3868e0b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/close_round42.py",
+      "bytes": 9538,
+      "sha256": "39e0e22826df241f61954ec0b1c123fb44714cd005c799c708bbc4f6cd9309e4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/coherence.py",
+      "bytes": 2646,
+      "sha256": "70c8a446fca3350558bf5283cfbf6c05a2396df6dc9f6a449a9cc49b8416f354"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/prelock_v1/coherence.py",
+      "bytes": 2646,
+      "sha256": "70c8a446fca3350558bf5283cfbf6c05a2396df6dc9f6a449a9cc49b8416f354"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/prelock_v1/test_coherence.py",
+      "bytes": 3351,
+      "sha256": "cb96be5b62db975612a92c4485b545081c5217eb36e7254d56f253f5daab8bc1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/prelock_v2/run.py",
+      "bytes": 7491,
+      "sha256": "abe4f30747b3e9a0ec966e500e57a1bafdd952b2f377406097e7a848501aa38b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/run.py",
+      "bytes": 7618,
+      "sha256": "36a752fe5ee90527c767a28505b4783fa6cf247420b54154ae989578190d91c7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/test_coherence.py",
+      "bytes": 3413,
+      "sha256": "7fcc718467fe520d70e37e0e13247555b240b7b746c9c7ab5fabfe29efc9242f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round42/verify.py",
+      "bytes": 7410,
+      "sha256": "27727e8484ae5e68103e9c5a509a1b25058d4f6a3cb2ec0b494d9ae46af27eef"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round43/close_round43.py",
+      "bytes": 9615,
+      "sha256": "27f33321ac32d56201b3b5d985ee41a61db78342472d05205cad93c6b8a0456a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round43/run.py",
+      "bytes": 11105,
+      "sha256": "3ca948296abd0f80621b0d7f469d0c32a3b8e2dd1f44cbec45f57716cd656851"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round43/shared_readout.py",
+      "bytes": 3066,
+      "sha256": "b2cf81321dd7008574e14844f9c9b575dc08ac9d6ff307e6d00355d9eac591cd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round43/test_shared_readout.py",
+      "bytes": 3381,
+      "sha256": "87f02ecaa0b1dcdb1bb52285789d84d927398a9fa38be686327869d1342fdc95"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round43/verify.py",
+      "bytes": 12362,
+      "sha256": "00e955efc63b77bf7f5ffe42bc2a5aaa9efd1333f514960360824457ddf6910a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round44/channel_whitening.py",
+      "bytes": 3972,
+      "sha256": "2f56bb9aee555b0ae421e455af4188816f0e8bf4188c0bed3451a2608c8c3fe1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round44/close_round44.py",
+      "bytes": 9388,
+      "sha256": "ece9b5fc6776983ece862a2172cf4110857a8e62b1095f7cc8039396d99ccb34"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round44/run.py",
+      "bytes": 8668,
+      "sha256": "49cd881c6728d77c985b0d444ca4e983a36c420e791b9c36be7920453c2b0194"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round44/test_channel_whitening.py",
+      "bytes": 5393,
+      "sha256": "47d89d54a348c35316424ec0fb6254b3301b65d1da0601316e7d2dba135cee7b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round44/verify.py",
+      "bytes": 13092,
+      "sha256": "74480db6a10746801ab98c71d98e1edbddc6a84ce5f5f7a4f3b91cea9a995822"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round45/close_round45.py",
+      "bytes": 10700,
+      "sha256": "49f811698c511479c9578545ceacdcd671f4deda6cdefee64ab03f5bee7541b5"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round45/monotone_bound.py",
+      "bytes": 4735,
+      "sha256": "b5eac6f66a17ee5f4cc5c94bad4687e80d9bc3f704573e1eb851f71c8cb5bdd4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round45/run.py",
+      "bytes": 8675,
+      "sha256": "d0f00321e90c7bbe85390057fcd268a3bb5e7cf5a37a3c7aa19cb921f04a1412"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round45/test_monotone_bound.py",
+      "bytes": 3714,
+      "sha256": "bb77192be6a5d77f19d38b8fb5946b8a157cc95ba5115b05d31a0c9115958bc8"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round45/verify.py",
+      "bytes": 13265,
+      "sha256": "d73794118d8793e6be0918ce80c70aaaf6f46b4676609c974d3de1b94f0ea412"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/close_round46.py",
+      "bytes": 10876,
+      "sha256": "b95046d1fa2cb8eef2b8f43b2a5700e6f5999607a611f39ab909515ccb2bf81a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/run.py",
+      "bytes": 9718,
+      "sha256": "a7fc85fe2a2c33651819502989374e8bcc39e10b629e2e601e5cf84b02ee8e8b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/sample_graph.py",
+      "bytes": 4060,
+      "sha256": "29b8b23f5269e9b163c53258e2407b8e32c413b60a2dd067bdc77d69b3dd6d96"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/test_sample_graph.py",
+      "bytes": 4481,
+      "sha256": "0b2b7919a387b01ceeda3ac7b34657cdc79fabdf070c7f776e9da63e32ebad33"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/test_verify_compat.py",
+      "bytes": 930,
+      "sha256": "eafd888b2eb8bfbaf85c1c8484a2ce83b2f287c9514587e6ebb4c2cb7698b7ea"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/verify.py",
+      "bytes": 13075,
+      "sha256": "ba2b69cceac49085bf449c362f64628148c785a4c91e7657e4422a71211b591a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round46/verify_compat.py",
+      "bytes": 3037,
+      "sha256": "8c10c3970e91e03a38f01e17976f6e9f803d57aa632c785a74a0a6270b52b07d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round47/close_round47.py",
+      "bytes": 9765,
+      "sha256": "bdd58cc6cf12280af0e6874b04080be899f1e6353b14e1a327688307b7d4b2a2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round47/run.py",
+      "bytes": 8845,
+      "sha256": "4c264c8c8f79292c51353927a38b264862f8ce3d277a1ac6d053dbb884006306"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round47/spectral_refit.py",
+      "bytes": 5020,
+      "sha256": "add96f95f51ebfe209e39bd6624a2b2882e2130ec19e6484c8ae54d5e8f57bb2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round47/test_spectral_refit.py",
+      "bytes": 3507,
+      "sha256": "7684b7d2933031a13dd6b87a44fde5fe11645a3b95dd30c22fbd588a2546204c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round47/verify.py",
+      "bytes": 14173,
+      "sha256": "952bcfc7c705d189d9d7f6cd3e5d784dd91fdf9047dca4528ab9dedf3bfe9a3c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round48/close_round48.py",
+      "bytes": 11207,
+      "sha256": "368f3c7b22f59f884ec9ace121c2394cdf6bc8eff40e8bd0fdc0d86f0354acd8"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round48/leverage_gate.py",
+      "bytes": 4605,
+      "sha256": "d8f3971132bb822c1ec04f3e79327afed0448eed6acb42f6ff9a1db49282bd8b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round48/run.py",
+      "bytes": 9666,
+      "sha256": "402db6b5c8719e00308645c8188f366766c7e351230d9ee2cfde166bd9cb2b3f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round48/test_leverage_gate.py",
+      "bytes": 4952,
+      "sha256": "4ed11cecbe811d83e4ed4a5e1e73126faa320bea3da1b1a353debebcff3e0383"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round48/verify.py",
+      "bytes": 15614,
+      "sha256": "6198aebeab2f3964a290f3e187abeeb9589bd904849dd68873a9d9e2515b9d22"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round49/close_round49.py",
+      "bytes": 10206,
+      "sha256": "f855fbb74b1584d2c94a57e7da1c99c32e54c9f531d3863c2494beafb8db575b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round49/group_nuisance.py",
+      "bytes": 5195,
+      "sha256": "069e966b62a0f00ed9e613e957b86f07ffa2cc34479717cf5a639fee67f94652"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round49/run.py",
+      "bytes": 11155,
+      "sha256": "11ac6fe73deb7fd5fce6383b2e3fae7260459acd106626d27f87583ae4826559"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round49/test_group_nuisance.py",
+      "bytes": 4339,
+      "sha256": "59d9c9aa6fe09377d185dd30c5a0ad2f193d8e870c3cb487f1c163cdb5ddcf2c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round49/verify.py",
+      "bytes": 17056,
+      "sha256": "c50e9bbc036c6856302e4d9b597c28bca8430de245fbe77047d9c107222b6e3a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/artifact_metric_compat.py",
+      "bytes": 4120,
+      "sha256": "3962b4978fa9cd3942ac173d2bc4ac9fbff332faa5dc2a366b8f606491a1d89d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/conditional.py",
+      "bytes": 2411,
+      "sha256": "044b599b02360f909d159639770c386ec8d321fcd3b68ffeff076b3c1868a0ee"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/inspect_rank_replay.py",
+      "bytes": 2816,
+      "sha256": "dabea5d53daef6c8a03bbf31c5f12966da406918a17344b06e112153a6fbdead"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/run.py",
+      "bytes": 9559,
+      "sha256": "38371082de64c5397cf410e3900c9ed61c27da02480e96cf3426458fdf7990c5"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/test_artifact_metrics.py",
+      "bytes": 616,
+      "sha256": "04fd0892abc1e25457eb19c5bb2b08995768a403964a59062ba35b10fb02c800"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/test_conditional.py",
+      "bytes": 2660,
+      "sha256": "2e7254bb506ae0204f686bba4ddb0a2943a69116d5a38a6e3fe37aa1f827df5b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/verify.py",
+      "bytes": 9968,
+      "sha256": "97c8b8a5c4eaf39a1a02b20df8735f12999eed9db633fb88e8afe81f09069b30"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round5/verify_artifact_metrics.py",
+      "bytes": 10336,
+      "sha256": "9e54bd8e52135c12f4cd2c1948c52d5cbaba15bdd913df40bd5d0f3e0ca48a88"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round50/close_round50.py",
+      "bytes": 12531,
+      "sha256": "2add54f03298030fec69091b9002b7be6a6e5bac235dfe6292217f0eabafdea2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round50/head.py",
+      "bytes": 2106,
+      "sha256": "6b6671de054ed7edf5f6faeae6040deba93ee723e0b60ec29b5e7cce1775ff26"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round50/run.py",
+      "bytes": 15839,
+      "sha256": "1b828b8118c6e4e5483791e64b94cb04d71e66e5d49d82ca2b92bc0cfaa9397d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round50/test_head.py",
+      "bytes": 2390,
+      "sha256": "398717513949b44daf720655e49a75263d6f4bbcbab096ca90bf3cf607d6c27a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round50/verify.py",
+      "bytes": 17271,
+      "sha256": "cbb4769dd7e5ce10b904817ed4db7d60672567ed8c7bea60bc87d8551b3c00da"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round51/close.py",
+      "bytes": 8487,
+      "sha256": "7b12b1d004d0064b119779f9a5702e2f57df13fc1a32a8596af0e0e44a36f7c1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round51/run.py",
+      "bytes": 11459,
+      "sha256": "0b7f76e17d66d1a40314cbfce682ec0c7eb5f61c9e226763f788bc30126af43c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round51/stability.py",
+      "bytes": 3584,
+      "sha256": "e074ec66b3c410d469dc2948badb0f84409a5c26e34b6557858c60eb196861e7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round51/test_stability.py",
+      "bytes": 2311,
+      "sha256": "5208e37513f96db5464126a58beecff0428c657a3e1bc0bdbf90a7fd4e3fb22e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round51/verify.py",
+      "bytes": 10613,
+      "sha256": "0a6a77e494ee7abfc58c8a6a1cd2f156ad66deab4d9b326a7401c77c5793894e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round52/close.py",
+      "bytes": 7101,
+      "sha256": "4ea7d38b883c7593ffa746b0083624cfda8d6d7cc8b8d18fff64c1ba11865c8a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round52/run.py",
+      "bytes": 7780,
+      "sha256": "13f2703b34df7c515872b86f584ba12147347dd5a52448bea3ed6fdf59d57f55"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round52/test_variance.py",
+      "bytes": 2324,
+      "sha256": "2e2d89166be676633d80933403422e6606bd66efc392194a9bc162e0f22f65ae"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round52/variance.py",
+      "bytes": 3624,
+      "sha256": "61c24e9050cdc0b471f66a2e772f1b7d76181d02872e22aa4722c61c19076074"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round52/verify.py",
+      "bytes": 9128,
+      "sha256": "394e674acbd9aea42bfb6ba8bb8329b5e08618ff08c581348c3b794c72887bf7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round53/close.py",
+      "bytes": 9053,
+      "sha256": "dfc3ce135eab610fbfe7138d5da3fb4084b43ac04a1e52247687c3131b2c8ef2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round53/metric_scale.py",
+      "bytes": 3143,
+      "sha256": "e39f0520fe2bab36038f655a2447ce0e6b1c604c64c5ba0a181ea0bee2abf8ec"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round53/run.py",
+      "bytes": 11076,
+      "sha256": "e3e3cb6c0ee0b9440903280e2b6b0fd2e8743dfe01196aac4de79a5a5e45f58e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round53/test_metric_scale.py",
+      "bytes": 4893,
+      "sha256": "df8b50ac5ffc22a66c2a1fe20b43fa4a4132bc03367949ceee21304bfca7ff85"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round53/verify.py",
+      "bytes": 15994,
+      "sha256": "303cd122ee5936b27dde321ddbb053faba5d25ebc332cd0a6174b67bbdbaf6d7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round54/close.py",
+      "bytes": 8782,
+      "sha256": "6b7240daa8d77c3a6c7c4890c2cc52bbbd00520ec841f4768efe57779b570389"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round54/random_intercept.py",
+      "bytes": 4439,
+      "sha256": "ba6b4d57073302400c9f0ffb849d6a488023e3bd263014e8e3eca5504e817658"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round54/run.py",
+      "bytes": 10291,
+      "sha256": "a8c01e8b6d163f00f0b70607a8b86bb1411d5af307b6a64a415eaec7bd01747f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round54/test_random_intercept.py",
+      "bytes": 4129,
+      "sha256": "ebc7913cba90fab1d9568df15c87e9907eaf0ecb0332ec9f8494da4ff52eab5e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round54/verify.py",
+      "bytes": 17218,
+      "sha256": "e4d1d759e7e4353290d964d5242a15e28d8dc3aa199bad257aec596d12ef0771"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/audit_math.py",
+      "bytes": 3753,
+      "sha256": "780de1c53dcc561b4b89eda28a1727680cdd39315be3ac0124e2fe10098ecce4"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/build_controller.py",
+      "bytes": 6206,
+      "sha256": "3ec4b94079e69ccb2bcf6647fc9da11a01306adba436429d0dc6fd1eccf340ca"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/build_verifier.py",
+      "bytes": 6441,
+      "sha256": "55d796b9220d870c10db2d3ec065d0147ef8f5b45e347bd54c034698013c58a2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/close.py",
+      "bytes": 7752,
+      "sha256": "270835c29a67c9c83531006afc7ba899d3a884256db3a5029822b5bf117d6cc7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/head.py",
+      "bytes": 3635,
+      "sha256": "3da90c74976288872209b61d07bd1378558a38c1621bd80583c2cc90279b3415"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/run.py",
+      "bytes": 15218,
+      "sha256": "742a22429dd53baec041151b40408a2926a4e4a03687190751b4ec378275c526"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/test_head.py",
+      "bytes": 3339,
+      "sha256": "5797108f6d857508a72a6aff1333e741a854fc25eef8e6a4fdab86b9c8eaae27"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round55/verify.py",
+      "bytes": 16508,
+      "sha256": "0a0e0e4660925751a0472efae381131ebea064fa8f0a2f05fd5f9c8bf647c0fc"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/audit_completion.py",
+      "bytes": 11774,
+      "sha256": "c17b29b928d581b6e5d9eb47c25a07a046424dba9fd5b7497ed4350d3ecfc83d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/build.py",
+      "bytes": 6718,
+      "sha256": "efc71ed61aa77f693e989a170ab977357473ced2a177138e27aa8168e5dfd82a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/close.py",
+      "bytes": 8725,
+      "sha256": "ced2044c4a262ffd1d7c61553b183fc675385c202ad6c8768a891f41ef6039f7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/reuse.py",
+      "bytes": 2094,
+      "sha256": "da2e9c3848a595e513ad53e5bfa4108799958737fb4d0a84615d21e59e302b0a"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/run.py",
+      "bytes": 12866,
+      "sha256": "8667d38d24f7316fb86729764a33c4d75a522c3ced52c9d54cc4d853115edcbd"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/stability.py",
+      "bytes": 525,
+      "sha256": "171f7faec81adaa74610310c88efdd01957dc386fcd3b1e417f29d3c5182ac4b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/test_reuse.py",
+      "bytes": 2270,
+      "sha256": "83b979fb46e72677d3e941899dc8151a9bd190cd056fdb5257697447d7858116"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round56/verify.py",
+      "bytes": 11039,
+      "sha256": "5940c81e804cb7990dd3971a089a6d7a628995fa8142e7cd15f4f67e66032928"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round6/diagnose.py",
+      "bytes": 3399,
+      "sha256": "45bdad1d537beaedc8e0fd3b7c1186dc6c8a6764a3c9c5b3e3133aadc626f8ad"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round6/run.py",
+      "bytes": 12255,
+      "sha256": "cb7b08e907176cb0c274ec72fb5fcb5f959f88cc67af74eb4ef04bff34ce492f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round6/stability.py",
+      "bytes": 1692,
+      "sha256": "e1eacebf7626c43911125631ce2daefd06c56da6aed52f66173f81c407ade0a9"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round6/test_stability.py",
+      "bytes": 1921,
+      "sha256": "5b8495f7dd8c5e92c9d29d2d767d248561818935ec62d07b958d35fc0db135b3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round6/verify.py",
+      "bytes": 11006,
+      "sha256": "436b27c03b16652240417c2662f4bfd6ffd2c3b885fcbd4988e4cbf98aac4ead"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/audit_kernel.py",
+      "bytes": 2518,
+      "sha256": "81ac89b001b6e72cc5359cedebccda05edf73e78ced2f9508db99d80e20d3149"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/build_io.py",
+      "bytes": 4428,
+      "sha256": "97d5d616ef67f7f228a5aaca9c22a9a7ba8f97336f95260153f4dc4b433c0ce3"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/calibrate_cpu.py",
+      "bytes": 1193,
+      "sha256": "ec1543ea33f1e5af414c4bd29b1a898f990a482f1887e3e3e3961e07b6f1d734"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/kernel.py",
+      "bytes": 3279,
+      "sha256": "13dc4b4bc16414849d1d27f2a372c8546c25bd4b3b32420f084f78534f92f64c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/run.py",
+      "bytes": 10101,
+      "sha256": "c5f3d966c9a7192f42a5fb8e5ec106ca87acc5a5febdcf0a3ff72d483f70a4fa"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/test_execution.py",
+      "bytes": 1241,
+      "sha256": "2e4fbd6e749817f6371aedb57ce6b947bb4ea626efb562cb9a3c89cd76a0e29b"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/test_kernel.py",
+      "bytes": 2794,
+      "sha256": "d683323c3738716041bf9766fa295f7b3c309800c9371b626ea7b141ef7fbe91"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round7/verify.py",
+      "bytes": 9869,
+      "sha256": "e3dd979b4443e7fee0ea43e39da44085f1819f018bf7c0adb360f0546eebc72c"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/audit_projection.py",
+      "bytes": 998,
+      "sha256": "ddc5ec06f98aa8fe7bf7292bb26a18657e76d9c84fa8ee57d174e17a3e33daea"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/build_io.py",
+      "bytes": 9514,
+      "sha256": "1f667bf310995a4e6d37b042017d9dd1f989bc710784dba195e3e4cd1b59ace0"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/diagnose.py",
+      "bytes": 4350,
+      "sha256": "59b4a6071fb3c8fa56a2dcfc88122df29af3656fb4cb1deddb6808a664fcbd1d"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/orthogonal.py",
+      "bytes": 1492,
+      "sha256": "db33da2395fedd341606fdc43b8517584a60767f86f786b96d31393aa9abd53f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/run.py",
+      "bytes": 9999,
+      "sha256": "b518196ace031520bfd458bc8cea6e6252192919cb5533658e446fcb7863d5c2"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/test_orthogonal.py",
+      "bytes": 2328,
+      "sha256": "bd5b88c551da36e2cba750c5d482cd90d5bd0509a02935dfce1da585232e8168"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round8/verify.py",
+      "bytes": 12507,
+      "sha256": "7743e81dbe4f04cc27ceba2a8c70212c066e06140d5a4dcd1945629bd84a6a3e"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round9/diagnose.py",
+      "bytes": 4464,
+      "sha256": "bafb4b7204a38e5fd5aa0f4aaebd64389a0c35fde5bdb08f4ae2edffc4aa33ab"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round9/verify_diagnostic.py",
+      "bytes": 5756,
+      "sha256": "ad58226fa5d87a39f32b84cd2de687ec49d8790121921c35159efdd10aea12d1"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/round9/verify_diagnostic_v1_failed.py",
+      "bytes": 5756,
+      "sha256": "7188cab1ff5e217617a3d65514d9c78008b8523cbb5ae6a6252922473328d9e7"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/math/sirna_increment_20261014/source43_readonly_identity_followup.py",
+      "bytes": 4971,
+      "sha256": "712a0b45d4d8d5ffc67cdfa936a8fbb98aa96925834c203b1f64c82d12d58d6f"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/readout_worker.py",
+      "bytes": 7702,
+      "sha256": "e0ec1ebbd1d4ef8d44873e8435e5ac3f81bc8e7c3b008febfab7678c129f5890"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/frozen_readout/transfer_common.py",
+      "bytes": 4444,
+      "sha256": "479d1ed8c70d76cde539fd9c2ca03117f4389583be7fbf6a9fe6979d01596ef0"
+    },
+    {
+      "path": "workflows/sirna_oligo_random/README.md",
+      "bytes": 1249,
+      "sha256": "30fdd90cf48af3595abf3356c32b66d28532f87a043f5f345a40f9a0b68db649"
+    }
+  ]
+}

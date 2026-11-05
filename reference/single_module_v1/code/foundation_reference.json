@@ -1,0 +1,24 @@
+{
+  "target": {
+    "sha256": {
+      "bert_layers.py": "b67badfb0479166881a88d49ea851faef77766a5f814997d4f7c48657a31b82c",
+      "bert_padding.py": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421",
+      "config.json": "9e6a3c2aafa5b6025dc18b376f90e7fbf9937e186481d7805d1cfaa06994d7c5",
+      "configuration_bert.py": "5f64c7fb5938b0868b51fb35a1eed8671e19c51a38dfbf820ff10252870b5450",
+      "flash_attn_triton.py": "568d1ac3beca0b5e1df528a1f136aa19b6489a616fcf3784f33336a50bb1de81",
+      "pytorch_model.bin": "cb2eb64831a494d4cac14acb5df908f734e088c4d62256ac3e42cada60c3bf75",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "tokenizer.json": "a65092236d66f7b7e845d8f29ced9f97ec3d8eda47fd45f5afcbf6d47023e6ea",
+      "tokenizer_config.json": "cf2c3632a26a278941cbff142872170e190158d6fadeb3de50a0756f16d21d2f",
+      "vocab.txt": "a8c91751128fed67d58be62d19950e256dce31873f52f111a77ef4a45854c0e1"
+    }
+  },
+  "guide": {
+    "sha256": {
+      "config.json": "8c7d0a1b055d8c40e055ccb4b36f9ede14f1f4a9dadb3fcc5f222d8ae913be35",
+      "model.safetensors": "190ca603af367b65475b62c65c5f11d348f16a4b4c6ea4d710da2703b3bd133a",
+      "tokenizer_config.json": "f6150d2eadedf2e5cf9324f8e03cce3557af38076e070d24a3cf286786d256b9",
+      "vocab.txt": "686c991af8379cbb812ada930086ad17f820327a99097eb7857ae38ef2da2572"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Python 3.10; install PyTorch separately using requirements-torch.txt first.
+# Direct runtime versions verified on A6000, not guessed H100 measurements.
+numpy==2.2.6
+scipy==1.14.1
+scikit-learn==1.5.2
+transformers==5.16.1
+multimolecule==0.2.0
+einops==0.8.1
+safetensors==0.8.0
+huggingface-hub==1.29.0
+tokenizers==0.23.1
+danling==0.4.4
+chanfig==0.0.117
+# Required by the tested MultiMolecule dependency stack.
+accelerate==1.14.0
+# datasets (a MultiMolecule dependency) requires <=2026.6.0.
+fsspec==2026.6.0

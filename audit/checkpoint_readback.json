@@ -1,0 +1,32 @@
+[
+  {
+    "asset_name": "runs/seed42/initial.pt",
+    "bytes": 4855270,
+    "sha256": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870"
+  },
+  {
+    "asset_name": "runs/seed42/terminal.pt",
+    "bytes": 14553486,
+    "sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf"
+  },
+  {
+    "asset_name": "runs/seed43/initial.pt",
+    "bytes": 4855142,
+    "sha256": "e1f9be5c75e51957cf730eba852adcd90d656f0517498ac4a7ef54eea690141f"
+  },
+  {
+    "asset_name": "runs/seed43/terminal.pt",
+    "bytes": 14553358,
+    "sha256": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8"
+  },
+  {
+    "asset_name": "runs/seed44/initial.pt",
+    "bytes": 4855206,
+    "sha256": "e5722d6efe1d0f720e291771f66c8984af42b2b97ec383f15dcb2aef21de9ee3"
+  },
+  {
+    "asset_name": "runs/seed44/terminal.pt",
+    "bytes": 14553422,
+    "sha256": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a"
+  }
+]

@@ -1,0 +1,774 @@
+{
+  "source_sha256": "c1732923ed05f30b0c9c616cd4d18bd5ddf6d9d68dd407f23efedd0884b117e5",
+  "transformation": "Only machine staging paths replaced; scientific fields unchanged",
+  "configuration": {
+    "schema": 1,
+    "task": "oligo_random_six_hpo4_v1",
+    "input_rows": {
+      "path": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/inputs/input_rows.json",
+      "sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980"
+    },
+    "split_plan": {
+      "path": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/inputs/native_split_plan.json",
+      "sha256": "d4e2ca306f7074ff643d5ec60dc0f6c72fe692e6ca60ec0211e701c7c0c4de5b"
+    },
+    "input_manifest": {
+      "path": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/inputs/input_manifest.json",
+      "sha256": "a89366c36c356afb8abe231fb0f9a216b9fa87fbb8bb0b74fe6ea586c1787e73"
+    },
+    "oligo_features": {
+      "path": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/assets/oligo_features.npy",
+      "sha256": "507e8f9f63fe245f1b319390d68e7df6e0092d735614830dde64fde8999c3f40"
+    },
+    "assets": {
+      "corrected_model_path": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/vendor/model_corrected.py",
+      "bert_source_path": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/vendor/bert_source.py",
+      "spline_source_dir": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/vendor/RNAiSpline",
+      "dnabert_dir": "/workspace/duplexfm_oligo_random_six_2x5090_20261103/assets/dnabert6",
+      "device": "cuda:0"
+    },
+    "backend": {
+      "path": "/workspace/duplexfm_oligo_random_six_hpo4_20261103/hpo_backend.py",
+      "sha256": "567747c65735e547fb4dd10208d5d8f6634c9b303faaca366273080a2cb8e63e",
+      "bytes": 53505
+    },
+    "persistence": {
+      "path": "/workspace/duplexfm_oligo_random_six_hpo4_20261103/persistence.py",
+      "sha256": "d683ea5123018910111ba985555611fdcde81b9289ff6570da6f22861e14ab01",
+      "bytes": 32178
+    },
+    "worker": {
+      "path": "/workspace/duplexfm_oligo_random_six_hpo4_20261103/hpo_worker.py",
+      "sha256": "dd6263fbc5d6699ed122f2431899eb1f680705c198ea2045043561e9d763fd3d",
+      "bytes": 38482
+    },
+    "baseline_backend": {
+      "path": "/workspace/duplexfm_oligo_random_six_hpo4_20261103/vendor/baseline_gpu_models.py",
+      "sha256": "05927ac83872372f77fed5efb25df2493f269ec820e230f8199eed69f8c45b28",
+      "bytes": 35841
+    },
+    "execution_lock": {
+      "path": "/workspace/duplexfm_oligo_random_six_hpo4_20261103/hpo_execution_lock.json",
+      "sha256": "48731637315ce7dea794bd3777e41620f88344202fc8600884d0e7bed9fbb239",
+      "bytes": 4555
+    },
+    "execution_lock_source": {
+      "path": "<external-runtime-path>/hpo_execution_lock.json",
+      "sha256": "48731637315ce7dea794bd3777e41620f88344202fc8600884d0e7bed9fbb239"
+    },
+    "groups": [
+      {
+        "id": "corrected_Huesken_fold0",
+        "model": "OligoFormer-corrected",
+        "setting": "Huesken",
+        "fold": 0
+      },
+      {
+        "id": "corrected_Huesken_fold1",
+        "model": "OligoFormer-corrected",
+        "setting": "Huesken",
+        "fold": 1
+      },
+      {
+        "id": "corrected_Huesken_fold2",
+        "model": "OligoFormer-corrected",
+        "setting": "Huesken",
+        "fold": 2
+      },
+      {
+        "id": "corrected_Huesken_fold3",
+        "model": "OligoFormer-corrected",
+        "setting": "Huesken",
+        "fold": 3
+      },
+      {
+        "id": "corrected_Huesken_fold4",
+        "model": "OligoFormer-corrected",
+        "setting": "Huesken",
+        "fold": 4
+      },
+      {
+        "id": "corrected_Mixset_fold0",
+        "model": "OligoFormer-corrected",
+        "setting": "Mixset",
+        "fold": 0
+      },
+      {
+        "id": "corrected_Mixset_fold1",
+        "model": "OligoFormer-corrected",
+        "setting": "Mixset",
+        "fold": 1
+      },
+      {
+        "id": "corrected_Mixset_fold2",
+        "model": "OligoFormer-corrected",
+        "setting": "Mixset",
+        "fold": 2
+      },
+      {
+        "id": "corrected_Mixset_fold3",
+        "model": "OligoFormer-corrected",
+        "setting": "Mixset",
+        "fold": 3
+      },
+      {
+        "id": "corrected_Mixset_fold4",
+        "model": "OligoFormer-corrected",
+        "setting": "Mixset",
+        "fold": 4
+      },
+      {
+        "id": "corrected_Takayuki_fold0",
+        "model": "OligoFormer-corrected",
+        "setting": "Takayuki",
+        "fold": 0
+      },
+      {
+        "id": "corrected_Takayuki_fold1",
+        "model": "OligoFormer-corrected",
+        "setting": "Takayuki",
+        "fold": 1
+      },
+      {
+        "id": "corrected_Takayuki_fold2",
+        "model": "OligoFormer-corrected",
+        "setting": "Takayuki",
+        "fold": 2
+      },
+      {
+        "id": "corrected_Takayuki_fold3",
+        "model": "OligoFormer-corrected",
+        "setting": "Takayuki",
+        "fold": 3
+      },
+      {
+        "id": "corrected_Takayuki_fold4",
+        "model": "OligoFormer-corrected",
+        "setting": "Takayuki",
+        "fold": 4
+      },
+      {
+        "id": "corrected_Inter_Hu_to_Mix_fold0",
+        "model": "OligoFormer-corrected",
+        "setting": "Inter_Hu_to_Mix",
+        "fold": 0
+      },
+      {
+        "id": "corrected_wang2009_fold0",
+        "model": "OligoFormer-corrected",
+        "setting": "wang2009",
+        "fold": 0
+      },
+      {
+        "id": "corrected_wang2009_fold1",
+        "model": "OligoFormer-corrected",
+        "setting": "wang2009",
+        "fold": 1
+      },
+      {
+        "id": "corrected_wang2009_fold2",
+        "model": "OligoFormer-corrected",
+        "setting": "wang2009",
+        "fold": 2
+      },
+      {
+        "id": "corrected_wang2009_fold3",
+        "model": "OligoFormer-corrected",
+        "setting": "wang2009",
+        "fold": 3
+      },
+      {
+        "id": "corrected_wang2009_fold4",
+        "model": "OligoFormer-corrected",
+        "setting": "wang2009",
+        "fold": 4
+      },
+      {
+        "id": "corrected_alas1_patent_fold0",
+        "model": "OligoFormer-corrected",
+        "setting": "alas1_patent",
+        "fold": 0
+      },
+      {
+        "id": "corrected_alas1_patent_fold1",
+        "model": "OligoFormer-corrected",
+        "setting": "alas1_patent",
+        "fold": 1
+      },
+      {
+        "id": "corrected_alas1_patent_fold2",
+        "model": "OligoFormer-corrected",
+        "setting": "alas1_patent",
+        "fold": 2
+      },
+      {
+        "id": "corrected_alas1_patent_fold3",
+        "model": "OligoFormer-corrected",
+        "setting": "alas1_patent",
+        "fold": 3
+      },
+      {
+        "id": "corrected_alas1_patent_fold4",
+        "model": "OligoFormer-corrected",
+        "setting": "alas1_patent",
+        "fold": 4
+      },
+      {
+        "id": "bert_Huesken_fold0",
+        "model": "BERT-siRNA",
+        "setting": "Huesken",
+        "fold": 0
+      },
+      {
+        "id": "bert_Huesken_fold1",
+        "model": "BERT-siRNA",
+        "setting": "Huesken",
+        "fold": 1
+      },
+      {
+        "id": "bert_Huesken_fold2",
+        "model": "BERT-siRNA",
+        "setting": "Huesken",
+        "fold": 2
+      },
+      {
+        "id": "bert_Huesken_fold3",
+        "model": "BERT-siRNA",
+        "setting": "Huesken",
+        "fold": 3
+      },
+      {
+        "id": "bert_Huesken_fold4",
+        "model": "BERT-siRNA",
+        "setting": "Huesken",
+        "fold": 4
+      },
+      {
+        "id": "bert_Mixset_fold0",
+        "model": "BERT-siRNA",
+        "setting": "Mixset",
+        "fold": 0
+      },
+      {
+        "id": "bert_Mixset_fold1",
+        "model": "BERT-siRNA",
+        "setting": "Mixset",
+        "fold": 1
+      },
+      {
+        "id": "bert_Mixset_fold2",
+        "model": "BERT-siRNA",
+        "setting": "Mixset",
+        "fold": 2
+      },
+      {
+        "id": "bert_Mixset_fold3",
+        "model": "BERT-siRNA",
+        "setting": "Mixset",
+        "fold": 3
+      },
+      {
+        "id": "bert_Mixset_fold4",
+        "model": "BERT-siRNA",
+        "setting": "Mixset",
+        "fold": 4
+      },
+      {
+        "id": "bert_Takayuki_fold0",
+        "model": "BERT-siRNA",
+        "setting": "Takayuki",
+        "fold": 0
+      },
+      {
+        "id": "bert_Takayuki_fold1",
+        "model": "BERT-siRNA",
+        "setting": "Takayuki",
+        "fold": 1
+      },
+      {
+        "id": "bert_Takayuki_fold2",
+        "model": "BERT-siRNA",
+        "setting": "Takayuki",
+        "fold": 2
+      },
+      {
+        "id": "bert_Takayuki_fold3",
+        "model": "BERT-siRNA",
+        "setting": "Takayuki",
+        "fold": 3
+      },
+      {
+        "id": "bert_Takayuki_fold4",
+        "model": "BERT-siRNA",
+        "setting": "Takayuki",
+        "fold": 4
+      },
+      {
+        "id": "bert_Inter_Hu_to_Mix_fold0",
+        "model": "BERT-siRNA",
+        "setting": "Inter_Hu_to_Mix",
+        "fold": 0
+      },
+      {
+        "id": "bert_wang2009_fold0",
+        "model": "BERT-siRNA",
+        "setting": "wang2009",
+        "fold": 0
+      },
+      {
+        "id": "bert_wang2009_fold1",
+        "model": "BERT-siRNA",
+        "setting": "wang2009",
+        "fold": 1
+      },
+      {
+        "id": "bert_wang2009_fold2",
+        "model": "BERT-siRNA",
+        "setting": "wang2009",
+        "fold": 2
+      },
+      {
+        "id": "bert_wang2009_fold3",
+        "model": "BERT-siRNA",
+        "setting": "wang2009",
+        "fold": 3
+      },
+      {
+        "id": "bert_wang2009_fold4",
+        "model": "BERT-siRNA",
+        "setting": "wang2009",
+        "fold": 4
+      },
+      {
+        "id": "bert_alas1_patent_fold0",
+        "model": "BERT-siRNA",
+        "setting": "alas1_patent",
+        "fold": 0
+      },
+      {
+        "id": "bert_alas1_patent_fold1",
+        "model": "BERT-siRNA",
+        "setting": "alas1_patent",
+        "fold": 1
+      },
+      {
+        "id": "bert_alas1_patent_fold2",
+        "model": "BERT-siRNA",
+        "setting": "alas1_patent",
+        "fold": 2
+      },
+      {
+        "id": "bert_alas1_patent_fold3",
+        "model": "BERT-siRNA",
+        "setting": "alas1_patent",
+        "fold": 3
+      },
+      {
+        "id": "bert_alas1_patent_fold4",
+        "model": "BERT-siRNA",
+        "setting": "alas1_patent",
+        "fold": 4
+      },
+      {
+        "id": "spline_Huesken_fold0",
+        "model": "RNAiSpline",
+        "setting": "Huesken",
+        "fold": 0
+      },
+      {
+        "id": "spline_Huesken_fold1",
+        "model": "RNAiSpline",
+        "setting": "Huesken",
+        "fold": 1
+      },
+      {
+        "id": "spline_Huesken_fold2",
+        "model": "RNAiSpline",
+        "setting": "Huesken",
+        "fold": 2
+      },
+      {
+        "id": "spline_Huesken_fold3",
+        "model": "RNAiSpline",
+        "setting": "Huesken",
+        "fold": 3
+      },
+      {
+        "id": "spline_Huesken_fold4",
+        "model": "RNAiSpline",
+        "setting": "Huesken",
+        "fold": 4
+      },
+      {
+        "id": "spline_Mixset_fold0",
+        "model": "RNAiSpline",
+        "setting": "Mixset",
+        "fold": 0
+      },
+      {
+        "id": "spline_Mixset_fold1",
+        "model": "RNAiSpline",
+        "setting": "Mixset",
+        "fold": 1
+      },
+      {
+        "id": "spline_Mixset_fold2",
+        "model": "RNAiSpline",
+        "setting": "Mixset",
+        "fold": 2
+      },
+      {
+        "id": "spline_Mixset_fold3",
+        "model": "RNAiSpline",
+        "setting": "Mixset",
+        "fold": 3
+      },
+      {
+        "id": "spline_Mixset_fold4",
+        "model": "RNAiSpline",
+        "setting": "Mixset",
+        "fold": 4
+      },
+      {
+        "id": "spline_Takayuki_fold0",
+        "model": "RNAiSpline",
+        "setting": "Takayuki",
+        "fold": 0
+      },
+      {
+        "id": "spline_Takayuki_fold1",
+        "model": "RNAiSpline",
+        "setting": "Takayuki",
+        "fold": 1
+      },
+      {
+        "id": "spline_Takayuki_fold2",
+        "model": "RNAiSpline",
+        "setting": "Takayuki",
+        "fold": 2
+      },
+      {
+        "id": "spline_Takayuki_fold3",
+        "model": "RNAiSpline",
+        "setting": "Takayuki",
+        "fold": 3
+      },
+      {
+        "id": "spline_Takayuki_fold4",
+        "model": "RNAiSpline",
+        "setting": "Takayuki",
+        "fold": 4
+      },
+      {
+        "id": "spline_Inter_Hu_to_Mix_fold0",
+        "model": "RNAiSpline",
+        "setting": "Inter_Hu_to_Mix",
+        "fold": 0
+      },
+      {
+        "id": "spline_wang2009_fold0",
+        "model": "RNAiSpline",
+        "setting": "wang2009",
+        "fold": 0
+      },
+      {
+        "id": "spline_wang2009_fold1",
+        "model": "RNAiSpline",
+        "setting": "wang2009",
+        "fold": 1
+      },
+      {
+        "id": "spline_wang2009_fold2",
+        "model": "RNAiSpline",
+        "setting": "wang2009",
+        "fold": 2
+      },
+      {
+        "id": "spline_wang2009_fold3",
+        "model": "RNAiSpline",
+        "setting": "wang2009",
+        "fold": 3
+      },
+      {
+        "id": "spline_wang2009_fold4",
+        "model": "RNAiSpline",
+        "setting": "wang2009",
+        "fold": 4
+      },
+      {
+        "id": "spline_alas1_patent_fold0",
+        "model": "RNAiSpline",
+        "setting": "alas1_patent",
+        "fold": 0
+      },
+      {
+        "id": "spline_alas1_patent_fold1",
+        "model": "RNAiSpline",
+        "setting": "alas1_patent",
+        "fold": 1
+      },
+      {
+        "id": "spline_alas1_patent_fold2",
+        "model": "RNAiSpline",
+        "setting": "alas1_patent",
+        "fold": 2
+      },
+      {
+        "id": "spline_alas1_patent_fold3",
+        "model": "RNAiSpline",
+        "setting": "alas1_patent",
+        "fold": 3
+      },
+      {
+        "id": "spline_alas1_patent_fold4",
+        "model": "RNAiSpline",
+        "setting": "alas1_patent",
+        "fold": 4
+      }
+    ],
+    "candidates": {
+      "OligoFormer-corrected": [
+        {
+          "id": "base",
+          "hyperparameters": {
+            "lr": 0.0003,
+            "wd": 0.0001,
+            "batch": 128
+          }
+        },
+        {
+          "id": "lr_half",
+          "hyperparameters": {
+            "lr": 0.00015,
+            "wd": 0.0001,
+            "batch": 128
+          }
+        },
+        {
+          "id": "lr_double",
+          "hyperparameters": {
+            "lr": 0.0006,
+            "wd": 0.0001,
+            "batch": 128
+          }
+        },
+        {
+          "id": "wd_zero",
+          "hyperparameters": {
+            "lr": 0.0003,
+            "wd": 0,
+            "batch": 128
+          }
+        },
+        {
+          "id": "wd_ten",
+          "hyperparameters": {
+            "lr": 0.0003,
+            "wd": 0.001,
+            "batch": 128
+          }
+        },
+        {
+          "id": "batch_half",
+          "hyperparameters": {
+            "lr": 0.0003,
+            "wd": 0.0001,
+            "batch": 64
+          }
+        },
+        {
+          "id": "batch_double",
+          "hyperparameters": {
+            "lr": 0.0003,
+            "wd": 0.0001,
+            "batch": 256
+          }
+        },
+        {
+          "id": "lr_double_batch_double",
+          "hyperparameters": {
+            "lr": 0.0006,
+            "wd": 0.0001,
+            "batch": 256
+          }
+        }
+      ],
+      "BERT-siRNA": [
+        {
+          "id": "base",
+          "hyperparameters": {
+            "lr": 5e-05,
+            "wd": 0.01,
+            "batch": 100
+          }
+        },
+        {
+          "id": "lr_half",
+          "hyperparameters": {
+            "lr": 2.5e-05,
+            "wd": 0.01,
+            "batch": 100
+          }
+        },
+        {
+          "id": "lr_double",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 0.01,
+            "batch": 100
+          }
+        },
+        {
+          "id": "wd_zero",
+          "hyperparameters": {
+            "lr": 5e-05,
+            "wd": 0,
+            "batch": 100
+          }
+        },
+        {
+          "id": "wd_ten",
+          "hyperparameters": {
+            "lr": 5e-05,
+            "wd": 0.1,
+            "batch": 100
+          }
+        },
+        {
+          "id": "batch_half",
+          "hyperparameters": {
+            "lr": 5e-05,
+            "wd": 0.01,
+            "batch": 50
+          }
+        },
+        {
+          "id": "batch_double",
+          "hyperparameters": {
+            "lr": 5e-05,
+            "wd": 0.01,
+            "batch": 200
+          }
+        },
+        {
+          "id": "lr_double_batch_double",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 0.01,
+            "batch": 200
+          }
+        }
+      ],
+      "RNAiSpline": [
+        {
+          "id": "base",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 1e-05,
+            "batch": 16
+          }
+        },
+        {
+          "id": "lr_half",
+          "hyperparameters": {
+            "lr": 5e-05,
+            "wd": 1e-05,
+            "batch": 16
+          }
+        },
+        {
+          "id": "lr_double",
+          "hyperparameters": {
+            "lr": 0.0002,
+            "wd": 1e-05,
+            "batch": 16
+          }
+        },
+        {
+          "id": "wd_zero",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 0,
+            "batch": 16
+          }
+        },
+        {
+          "id": "wd_ten",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 0.0001,
+            "batch": 16
+          }
+        },
+        {
+          "id": "batch_half",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 1e-05,
+            "batch": 8
+          }
+        },
+        {
+          "id": "batch_double",
+          "hyperparameters": {
+            "lr": 0.0001,
+            "wd": 1e-05,
+            "batch": 32
+          }
+        },
+        {
+          "id": "lr_double_batch_double",
+          "hyperparameters": {
+            "lr": 0.0002,
+            "wd": 1e-05,
+            "batch": 32
+          }
+        }
+      ]
+    },
+    "source_seeds": [
+      42,
+      43,
+      44
+    ],
+    "backup_interval_seconds": 3600,
+    "rung1_supervised_epochs": {
+      "OligoFormer-corrected": 30,
+      "BERT-siRNA": 8,
+      "RNAiSpline": 13
+    },
+    "budget_GPU_hours": 128,
+    "gpu_count": 4,
+    "bootstrap_command": [
+      "{python}",
+      "<external-runtime-path>/stage_assets.py",
+      "--catalog",
+      "<external-runtime-path>/handoff.json",
+      "--catalog-sha",
+      "66bf0b155b8c28cd17b105e2111ec1afa75d7fadd890e71b092f4b48f29a5e43",
+      "--package",
+      "<external-runtime-path>/package",
+      "--root",
+      "{root}",
+      "--config",
+      "{config}",
+      "--config-sha",
+      "{config_sha}",
+      "--receipt",
+      "{root}/run/bootstrap/{attempt}/receipt.json"
+    ],
+    "qualification_command": [
+      "{python}",
+      "{root}/hpo_cuda_qualification.py",
+      "--config",
+      "{config}",
+      "--expected-config-sha",
+      "{config_sha}",
+      "--root",
+      "{root}",
+      "--output",
+      "{root}/run/qualification/{attempt}/qualification.json"
+    ],
+    "qualification_receipt": "{root}/run/qualification/{attempt}/qualification.json"
+  }
+}

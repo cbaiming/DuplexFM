@@ -1,0 +1,8 @@
+# CPU synthetic review; versions used for this package check.
+# Install the appropriate torch 2.7.1 CPU/device wheel separately if needed.
+torch==2.7.1
+numpy==2.2.6
+scipy==1.14.1
+scikit-learn==1.5.2
+pytest==9.1.1
+threadpoolctl==3.7.0

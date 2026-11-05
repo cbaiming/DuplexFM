@@ -1,0 +1,7 @@
+# Preserve file SHA256 across GitHub Desktop checkout on all platforms.
+* -text
+*.py diff=python
+*.md diff
+*.json diff
+*.csv diff
+*.tsv diff

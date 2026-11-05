@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "scope": "Documentation and packaging only",
+  "removed_documents": [
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 2372,
+      "sha256": "58f6f5d114365540f35217e463cfe87fc7cd2024bb52282a313edafe8a331180"
+    },
+    {
+      "path": "docs/ACCESSIBILITY_COMPARISON.zh-CN.md",
+      "bytes": 2127,
+      "sha256": "ba029d0d7f841a90fe1da79d68d2b138695f519573867d9bd5826828f75617b9"
+    },
+    {
+      "path": "docs/LOSS_ALIGNMENT.zh-CN.md",
+      "bytes": 1518,
+      "sha256": "7e45c67457ff357a2dcdffa643d11d2131508370efa67768717e0683cf96f1be"
+    }
+  ],
+  "all_Python_source_files_unchanged": 526,
+  "all_data_files_unchanged": 167,
+  "relative_links_checked": 25,
+  "broken_links": [],
+  "source_training": false,
+  "new_model_evaluation": false,
+  "prior_numerical_validation": "REPRODUCTION_CHECKS.json",
+  "original_release_manifest_sha256": "bf4d2a02c24a02f2abb45ecebbb44a6e702c3bd502934cdbd330b2699f85e92c",
+  "original_combined_data_manifest_sha256": "45a564de0fa7ab2b4ebf1527ff1af23542740ff30a582ad937e4f8f7dee7e96b",
+  "source_specific_data_terms_unchanged": true
+}

@@ -1,0 +1,7 @@
+{
+  "upstream_tag": "V4.8.1",
+  "upstream_url": "https://github.com/weizhongli/cdhit",
+  "original_patch_sha256": "e92c9efbed0bc5ef9b555ca9faec77b69c0dd185ac426df4286aee37f583142d",
+  "packaged_source_sha256": "37f8112db3c573c8c67d62dc23e44e56fbb731f1e0e7872170efab43dbd2e346",
+  "license_sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+}

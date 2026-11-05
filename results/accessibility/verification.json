@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "internal_row_sums_verified": 207979,
+  "internal_sampled_rows_per_model": 257,
+  "external_row_sums_verified_per_model": 7347,
+  "verified_groups": [
+    {
+      "cohort": "internal_test",
+      "model": "sequence",
+      "mae": 0.17666185313639227,
+      "sample_rows": 257
+    },
+    {
+      "cohort": "internal_test",
+      "model": "structure",
+      "mae": 0.17441067578134778,
+      "sample_rows": 257
+    },
+    {
+      "cohort": "external_sequence_and_gene_unseen",
+      "model": "PairAC_original",
+      "mae": 0.192328445046593
+    },
+    {
+      "cohort": "external_sequence_and_gene_unseen",
+      "model": "rebuilt_mRNABERT",
+      "mae": 0.19197745701676414
+    },
+    {
+      "cohort": "external_sequence_and_gene_unseen",
+      "model": "sequence",
+      "mae": 0.20412246619285487
+    },
+    {
+      "cohort": "external_sequence_and_gene_unseen",
+      "model": "structure",
+      "mae": 0.20173758014178833
+    },
+    {
+      "cohort": "external_sequence_and_gene_unseen",
+      "model": "LinearFold_V_raw",
+      "mae": 0.4806103331568505
+    }
+  ],
+  "relative_mae_reductions": {
+    "internal": {
+      "sequence": {
+        "absolute": 0.014553553006374093,
+        "relative_percent": 8.238084650418546
+      },
+      "structure": {
+        "absolute": 0.012302375651329606,
+        "relative_percent": 7.0536826924245375
+      }
+    },
+    "external": {
+      "sequence": {
+        "absolute": 0.012145009176090737,
+        "relative_percent": 5.949864021638919
+      },
+      "structure": {
+        "absolute": 0.009760123125024195,
+        "relative_percent": 4.838029244806265
+      }
+    }
+  },
+  "historical_test_reinferred": false,
+  "source_models_retrained": false
+}

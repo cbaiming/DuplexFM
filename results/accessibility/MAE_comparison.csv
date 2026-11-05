@@ -1,0 +1,5 @@
+﻿model,method,validation_mae,internal_test_mae,external_mae,internal_test_rows,external_rows,external_qualification,metric
+sequence,纯序列 CNN,0.17767274686321363,0.17666185313639232,0.20412246619285487,207979,7347,supervised_train_validation_sequence_and_gene_purged,pooled observed-nucleotide MAE; lower is better
+structure,序列＋LinearFold-V CNN,0.17547212043429852,0.17441067578134783,0.20173758014178833,207979,7347,supervised_train_validation_sequence_and_gene_purged,pooled observed-nucleotide MAE; lower is better
+rebuilt_mRNABERT,重建 mRNABERT（历史 LoRA 微调）,0.1633494442671101,0.16210830013001823,0.19197745701676414,207979,7347,supervised_train_validation_sequence_and_gene_purged,pooled observed-nucleotide MAE; lower is better
+PairAC_original,PairAC 当前使用的旧开放性预测器†,,,0.192328445046593,,7347,membership_unknown_descriptive_only,pooled observed-nucleotide MAE; lower is better

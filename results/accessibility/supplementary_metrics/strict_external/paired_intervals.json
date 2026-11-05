@@ -1,0 +1,82 @@
+[
+  {
+    "subset": "sequence_purged",
+    "reference": "PairAC_original",
+    "baseline": "sequence",
+    "macro_pcc_delta_ci95": [
+      -0.013779903061389206,
+      -0.005188069535015384
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged",
+    "reference": "PairAC_original",
+    "baseline": "structure",
+    "macro_pcc_delta_ci95": [
+      -0.02584123157875893,
+      -0.017335455386564502
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged",
+    "reference": "rebuilt_mRNABERT",
+    "baseline": "sequence",
+    "macro_pcc_delta_ci95": [
+      -0.005251265372712895,
+      0.002425459085899797
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged",
+    "reference": "rebuilt_mRNABERT",
+    "baseline": "structure",
+    "macro_pcc_delta_ci95": [
+      -0.017269670355942845,
+      -0.009805011259931705
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged_gene_unseen",
+    "reference": "PairAC_original",
+    "baseline": "sequence",
+    "macro_pcc_delta_ci95": [
+      -0.008374557000539198,
+      0.004710786837383544
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged_gene_unseen",
+    "reference": "PairAC_original",
+    "baseline": "structure",
+    "macro_pcc_delta_ci95": [
+      -0.021336787123361057,
+      -0.008095257939140297
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged_gene_unseen",
+    "reference": "rebuilt_mRNABERT",
+    "baseline": "sequence",
+    "macro_pcc_delta_ci95": [
+      -0.002341038769764138,
+      0.009422073779875558
+    ],
+    "exploratory_fixed_fit": true
+  },
+  {
+    "subset": "sequence_purged_gene_unseen",
+    "reference": "rebuilt_mRNABERT",
+    "baseline": "structure",
+    "macro_pcc_delta_ci95": [
+      -0.014786257468778987,
+      -0.003749624659818553
+    ],
+    "exploratory_fixed_fit": true
+  }
+]

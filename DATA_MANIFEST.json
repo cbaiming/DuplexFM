@@ -1,0 +1,843 @@
+{
+  "schema": "main_results_data_v1",
+  "files": [
+    {
+      "path": "data/accessibility/external/excluded_matches.csv.gz",
+      "bytes": 429890,
+      "sha256": "d21893122b71fa7fe570c218bad47a67326c7b55cb8d760a3f81e1684f57a8dc"
+    },
+    {
+      "path": "data/accessibility/external/retained_masks.npz",
+      "bytes": 8392,
+      "sha256": "7435f31cdb4fd369ba4ac05c290ef501289e1e693e3c29ef5b994ce30ae43e32"
+    },
+    {
+      "path": "data/accessibility/external/sequence_purged_50_60.npz",
+      "bytes": 4909210,
+      "sha256": "cd3c522f28977974f1a01ea8c432497500bded20a9248a5a7589acc1df25f0ab"
+    },
+    {
+      "path": "data/accessibility/external/sequence_purged_gene_unseen_50_60.npz",
+      "bytes": 1777820,
+      "sha256": "f8310a6e9fb684e1d742e2ea6d700d7b6866971923e31dd2c801475a3c124710"
+    },
+    {
+      "path": "data/accessibility/external/window_selection.csv.gz",
+      "bytes": 634257,
+      "sha256": "4e773b724c382ae4af8db387e61bfe42a088a3fc876774b7de62a3d8b30d29b8"
+    },
+    {
+      "path": "data/accessibility/mae_evidence/external_row_stats.npz",
+      "bytes": 257783,
+      "sha256": "37586284377b10a8d417cb7c64cb242921d80ddebabfeb9d632dfcbbcc3a2f64"
+    },
+    {
+      "path": "data/accessibility/mae_evidence/internal_test_row_stats.npz",
+      "bytes": 2830201,
+      "sha256": "e1e4694dd43c5fb426160998761ecd260b0b11ac041d91cbf8c742bbb817b538"
+    },
+    {
+      "path": "data/large/icshape_source/archive.part0001",
+      "bytes": 95000000,
+      "sha256": "854990a204325a0d26352848b3aed66a23672f29d06b5866a1bfe4951d59262d"
+    },
+    {
+      "path": "data/large/icshape_source/archive.part0002",
+      "bytes": 95000000,
+      "sha256": "1ac0e3a4b7fd0e869a0452ae6d6c52a392613071b74ab744efe6ed77f68053ea"
+    },
+    {
+      "path": "data/large/icshape_source/archive.part0003",
+      "bytes": 10623792,
+      "sha256": "2f8e1668f62faad350e714e417be0e67f3892aea2376a9b440286dec50450e4a"
+    },
+    {
+      "path": "data/large/icshape_source/index.json",
+      "bytes": 2881,
+      "sha256": "22f8f2b4a170ac25a25553c3fd95a5d8fe7580483bfa5cc5a4b0e1c83a58f555"
+    },
+    {
+      "path": "data/mirbench_v7/fixed_split_manifest.json",
+      "bytes": 78280,
+      "sha256": "16945472723531c1f6de1f840fbff45d15e3b3c481db419880bcbfbde384e377"
+    },
+    {
+      "path": "data/mirbench_v7/historical_inputs.json",
+      "bytes": 1553,
+      "sha256": "4ac88f8cbeb1e58387a638a242a7b02b6a4120c408113c47109b7b30fac3f885"
+    },
+    {
+      "path": "data/mirbench_v7/preparation_contract.json",
+      "bytes": 3029,
+      "sha256": "0a3a9c5d18bd24adecee40961e309df8b41e2c44eb418e2d4b56327d3bf5930a"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_CLASH_Hejret2023_test.tsv.gz",
+      "bytes": 221693,
+      "sha256": "42eb7e0644a097c7c0d3418242455780064df99d3da95fc43d6f53f972bd5b04"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_CLASH_Hejret2023_train.tsv.gz",
+      "bytes": 1793689,
+      "sha256": "9125a81913383e360c1fd73e8096175f247de7c56ea3fc76f141a8b1880f1d91"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_eCLIP_Klimentova2022_test.tsv.gz",
+      "bytes": 200803,
+      "sha256": "35ec1491fdc9b4fde2e34939d337dec98b213b02bb93cb712fa64dff9ef47383"
+    },
+    {
+      "path": "data/mirbench_v7/raw/AGO2_eCLIP_Manakov2022_leftout.tsv.gz",
+      "bytes": 4413597,
+      "sha256": "cdfa6ca2c03bda84d791fcde822d6c7d01300c9e8abb8dcc58650183bd099774"
+    },
+    {
+      "path": "data/mirbench_v7/SOURCE.json",
+      "bytes": 3821,
+      "sha256": "81527358dc79cc7ccf3b3c0cbd60ac3083003c7f3f725f060e5d6015a9aff1af"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_CLASH_Hejret2023_test/00000000.npz",
+      "bytes": 17038,
+      "sha256": "898ab4ec09b1fc2a2474453060b8629eb00737569c6c088467a74406359896df"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Klimentova2022_test/00000000.npz",
+      "bytes": 16014,
+      "sha256": "293f9b886226ded260fb95efd24699030e755c0701ea12dd48e7dd2fcaab87dd"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_leftout/00000000.npz",
+      "bytes": 131822,
+      "sha256": "83719a4116840947015625d7916c68e175d0ba7088be7f1fe1fc3b69f6423284"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_leftout/00008192.npz",
+      "bytes": 131822,
+      "sha256": "c2957de2a763283ebbbc5d18d1b202663f33eab9468f6d585215b62b99b2c727"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_leftout/00016384.npz",
+      "bytes": 59470,
+      "sha256": "d12486d46d02c3eae1e58c7035d7fe31c4363c31eed8690966d8b042fe14c5e1"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00000000.npz",
+      "bytes": 131822,
+      "sha256": "462f7972334a1cba5c980fb863c15bcfe52fa1f01fd327353fd44d61b857cfb8"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00008192.npz",
+      "bytes": 131822,
+      "sha256": "113ccc702d782f026deeaf3033d67588b35e456c04cdfb8c837f0e66a7f38bdb"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00016384.npz",
+      "bytes": 131822,
+      "sha256": "5ff6a2517464f36aee3502aa0d1603afafb84cf4b679c670eb6ae35c754e49b0"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00024576.npz",
+      "bytes": 131822,
+      "sha256": "688c69f578f48af6fad236e191bbefc4eb8dd3d18cb56e607ccd58324508c9a0"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00032768.npz",
+      "bytes": 131822,
+      "sha256": "e570298959ff8cfd21c67671c517001c245756499421cd6c856cc3fd903851ae"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00040960.npz",
+      "bytes": 131822,
+      "sha256": "581876d5616aa874090f804399d4e5e13cff3a0fe3bfaa6c781d7af9cf15bacf"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00049152.npz",
+      "bytes": 131822,
+      "sha256": "ed1ac72c4e3febd4effb87204a7d916817ba8a1e8e2031e270014a3315bca35b"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00057344.npz",
+      "bytes": 131822,
+      "sha256": "753575e5fce780f8053093f0b9b32a025f879eb4274b64e489a95e7fec1f867f"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00065536.npz",
+      "bytes": 131822,
+      "sha256": "69c6e8e5a1de71b762da7e612cccccf835463c661f610bd197c4ca7fcdd9341c"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00073728.npz",
+      "bytes": 131822,
+      "sha256": "b4265b6c09ac35a7708fcc93417d4d35162b6eaa74f6bc5d8a10b3e0a375554b"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00081920.npz",
+      "bytes": 131822,
+      "sha256": "b3d707de5d9b9ad789cb29fcfc68abef71cc5b0aea071f3f4e5861a5a0bb7f29"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00090112.npz",
+      "bytes": 131822,
+      "sha256": "ffbf3e98212586ecb1e028be0a7202f124bd68736fa0ad0fbe920b7f45293930"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00098304.npz",
+      "bytes": 131822,
+      "sha256": "17b66fecf353adb188bea76e28b79612db5ecad31f713550ded6bb326c15ccda"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00106496.npz",
+      "bytes": 131822,
+      "sha256": "25b354a89b13728c5b3603d5f551a08ff754d19ab718faeb7bb037e7cc17867f"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00114688.npz",
+      "bytes": 131822,
+      "sha256": "0adad42aac19574155af73e719f9f6f429eb65a71a2606b04fa07cf121fba891"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00122880.npz",
+      "bytes": 131822,
+      "sha256": "5ec2a23a79deae6a392c3f90b90137465f50f283217d0eede433c3b834cf9bf5"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00131072.npz",
+      "bytes": 131822,
+      "sha256": "8c73ffd50c2f6100b9ac9be893bd6e9bef4fcc3a504fd4c84d4c2ec4e839b967"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00139264.npz",
+      "bytes": 131822,
+      "sha256": "c1357c4b6227e4f82a1978df38bd6f2ca9bc6e06d2e0d97ec5a0a7b2207034e2"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00147456.npz",
+      "bytes": 131822,
+      "sha256": "37a2daba288e77efb6a6746c531a48d37758577f449fa0f5049793b8e0185aa7"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00155648.npz",
+      "bytes": 131822,
+      "sha256": "1bbde97789560d68384a5d4cdd0623df1fad9605abb5e8234826ea638df879a6"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00163840.npz",
+      "bytes": 131822,
+      "sha256": "c9ced523f75e6dd28f627623f2f4df98e508bcccd769ead58cf8dd29a6de58b7"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00172032.npz",
+      "bytes": 131822,
+      "sha256": "8e9536bfb9a8f6d7379ebd6f00093db3c12b2b6ba277dae09e9cbe59fa3a7e72"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00180224.npz",
+      "bytes": 131822,
+      "sha256": "99f4e27efd47c15674b77383e4e388df8a4a86410f64b57accedb8bb3ada3454"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00188416.npz",
+      "bytes": 131822,
+      "sha256": "cf5c83d8dd323a7e418ab9acd3ceb30a6ac6497e20f61a33235e2a2045e68186"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00196608.npz",
+      "bytes": 131822,
+      "sha256": "3e015b592a0263f4a1a4b3f8a2cbbdd1efd91c4da6896906f513040806c53e3e"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00204800.npz",
+      "bytes": 131822,
+      "sha256": "4dc13fc89f51c65c5c9762ba8f8e60ed7f5139e54ea7cf2581148a68ec8885fe"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00212992.npz",
+      "bytes": 131822,
+      "sha256": "80c4c0a288ac33a1e71a8cb0190f3938a340a8b49c1f996c89d9964154a74800"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00221184.npz",
+      "bytes": 131822,
+      "sha256": "d74e7594c825f86beb698949d2002754607e82a2990653c76f96ef305e80873b"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00229376.npz",
+      "bytes": 131822,
+      "sha256": "64ca59f9c83dfd5979abb4e44201335f1c8823802d900b0894ad869a47e92eab"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00237568.npz",
+      "bytes": 131822,
+      "sha256": "d2b1e33248ef10bed13da043c4aac2541c042411b972e084b4a44040fdbbe78f"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00245760.npz",
+      "bytes": 131822,
+      "sha256": "abc84e084d541c51ed09f5b2d2dcbc1d8e65c9bdae5cd906912e7d90dd7b73c5"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00253952.npz",
+      "bytes": 131822,
+      "sha256": "5afac5976bcc31e46e66544d37646023484f27d6333d9d2cbd2426395361e209"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00262144.npz",
+      "bytes": 131822,
+      "sha256": "811eda29750234cac0490454f4c20f4be82e47c7487d0b96d131309f09b5ed84"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00270336.npz",
+      "bytes": 131822,
+      "sha256": "3c6fa089fef292ca182955e769e2d9903b05d01fc4a08b2adb70b9950d8867a1"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00278528.npz",
+      "bytes": 131822,
+      "sha256": "0fa71df373d6445c16bb04c0cbad269968cd3cc0cf75d155bfcdb55c64264749"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00286720.npz",
+      "bytes": 131822,
+      "sha256": "89a63420ebd82cb0587b33d515814d6c2487c223a3911c9145c87a96271da715"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00294912.npz",
+      "bytes": 131822,
+      "sha256": "089eee7f08baf190bb8820b62d460ad57fd0c931803b7d54108e8878583bed13"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00303104.npz",
+      "bytes": 131822,
+      "sha256": "3e2ea77ce5619ba397e64c451d8bc9e1999df0b9d2bc4ae719967a496939fbb3"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00311296.npz",
+      "bytes": 131822,
+      "sha256": "9c79530b9a352854eaec51e5a7a7e723e9b60a711a37d83a0922a357457ad7c1"
+    },
+    {
+      "path": "data/mirna_predictions/seed42/AGO2_eCLIP_Manakov2022_test/00319488.npz",
+      "bytes": 75678,
+      "sha256": "0513fd650a58e03d6d8458d5a607955425d54c639a42135ba5ba6e4f51795c9f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_CLASH_Hejret2023_test/00000000.npz",
+      "bytes": 17038,
+      "sha256": "121799bcfa7d59e27e533dcb060e589b53956d7d7b7b50346aae726d93db224d"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Klimentova2022_test/00000000.npz",
+      "bytes": 16014,
+      "sha256": "4efbc227643a9f56e6569f7272e1cd5c8175060a26128a77b1279e9dfce61bfb"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_leftout/00000000.npz",
+      "bytes": 131822,
+      "sha256": "498dd0d76124ade779037f876a014ff151f2d892c0a697bc8b8388553c69f485"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_leftout/00008192.npz",
+      "bytes": 131822,
+      "sha256": "6301dce7004457fece0992494ffad2ea01f79514e99590fe0f1662402a4d8038"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_leftout/00016384.npz",
+      "bytes": 59470,
+      "sha256": "517f4e8eaef2bfd3900a043d10bce7498fe30cba2f8d52bd3f2ed704ec1d4ee7"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00000000.npz",
+      "bytes": 131822,
+      "sha256": "71d43115c31b6b5baaaac7962a5499d86573cfdc6d9f1c82cfbe7e006b72be31"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00008192.npz",
+      "bytes": 131822,
+      "sha256": "e536436865413da4800b2ddcb5bdae8538f8e36f802f387d4ee5ad47755c1685"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00016384.npz",
+      "bytes": 131822,
+      "sha256": "ced15b01fd6dc544322bb0b885839d6bd89809237ae6744fa1bf168b229b62f0"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00024576.npz",
+      "bytes": 131822,
+      "sha256": "ff9ef8a7f65cacb730801914653e5fb0f3ba936b1ff2d6e8d97c5488e65bcf34"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00032768.npz",
+      "bytes": 131822,
+      "sha256": "0f6c37397dc60583f81e90081b71041be4c46101e613f6c6fc9c404f7cddab8f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00040960.npz",
+      "bytes": 131822,
+      "sha256": "5a7703a07ab64f4a6307bd98357517620fdea771e68c6a0c88f725088842314b"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00049152.npz",
+      "bytes": 131822,
+      "sha256": "bcdf9b4ac3d2c20dfb97c5ddb3f25ff3044771d6cbff0475e38698154c32e11c"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00057344.npz",
+      "bytes": 131822,
+      "sha256": "aade3b087cee5e8721e567223ecfb26b3a5eedfbe0aede326a8128ddee519de7"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00065536.npz",
+      "bytes": 131822,
+      "sha256": "8ab2e13a867c0329750144f6b23d6dc197301416f91ae995ef839bc6119d5551"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00073728.npz",
+      "bytes": 131822,
+      "sha256": "6e841f9d144135c8320c8573ce74d62c49c8d45aac5b221e9cea524171561acf"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00081920.npz",
+      "bytes": 131822,
+      "sha256": "1dcee65d52a42ef5e587eb7e2bba840bed46f976fef998916407962db28be4eb"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00090112.npz",
+      "bytes": 131822,
+      "sha256": "b6687070dd8269fb2924ce335b864f29411b155b7f0066295877e7ab41163ea1"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00098304.npz",
+      "bytes": 131822,
+      "sha256": "848375a3fa024270721668c8108183a19f008e3669f84a50f6866154160215e2"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00106496.npz",
+      "bytes": 131822,
+      "sha256": "b81f67ef221b8b03472537646d9b730e7b731c4e9642d5f79f548ff577023051"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00114688.npz",
+      "bytes": 131822,
+      "sha256": "6bc080cf4d263989120c3c9fdbae7380fc957d41d0addc938431042d3c9d4e9f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00122880.npz",
+      "bytes": 131822,
+      "sha256": "ded75b9f97aa117e1c752c9f74dd45b60d3bbb35fa8aadac50d7fc388821a57a"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00131072.npz",
+      "bytes": 131822,
+      "sha256": "f6e25e52986530e5063ab18f250eb303f461cb83cda8a3118a2f70ab036ba573"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00139264.npz",
+      "bytes": 131822,
+      "sha256": "b27ea41253520d44ee65ae022441f9aa7c6594c603a21f49ce0c3460e4cdced4"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00147456.npz",
+      "bytes": 131822,
+      "sha256": "b5d45d152e03afa814d2fbd83dd7ff5fb44473976f509fbdf7d4dc947dcd4da1"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00155648.npz",
+      "bytes": 131822,
+      "sha256": "fac468dce8e61acf8c972d427ec424824c31d18bf733d3d957ab318ab9f70f1b"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00163840.npz",
+      "bytes": 131822,
+      "sha256": "70482aee10fec2a6929216be78a20033f31c65fceba957bfdfe7083af4129851"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00172032.npz",
+      "bytes": 131822,
+      "sha256": "7374f709b2007e39ad0eb8cd44b31bef019dfa8ee3ea2c5cb950cefef671a62b"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00180224.npz",
+      "bytes": 131822,
+      "sha256": "5eee576fad6a1b7859fcbe30e9a3610ee6770ce323becd86cc688b94e8247c34"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00188416.npz",
+      "bytes": 131822,
+      "sha256": "5d94a9cfb0daeab56f119386bfdad0d4c5ed3307c33985c26f929b0235aaf147"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00196608.npz",
+      "bytes": 131822,
+      "sha256": "f19ada07f231e8d34cf033ba01426c72675e67cf073944a82ef03014093a6d77"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00204800.npz",
+      "bytes": 131822,
+      "sha256": "4c594ae2ca63a9d7f857453d15a4f40f9457a9d231bc72d513bf2fbc36582153"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00212992.npz",
+      "bytes": 131822,
+      "sha256": "0ad07ccb4cf556dcc0b0d06ce3bf1dd8a818614e3640f6da75f5123093b2e880"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00221184.npz",
+      "bytes": 131822,
+      "sha256": "043f8c8ab88ba7f00781f249ffab84bb63374c180fb660b8c6a448caad353fe1"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00229376.npz",
+      "bytes": 131822,
+      "sha256": "80ed807d3c35f5f97e4de366706f6646cc9158749b4aa6b0d3c2e0b4c3979a67"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00237568.npz",
+      "bytes": 131822,
+      "sha256": "e3c5ffdde82d1ca9da588ee6b2f994812df218999c4fe3eb11813d931e109d6c"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00245760.npz",
+      "bytes": 131822,
+      "sha256": "51108c0670cee80f243398c00ebb329941017ece79ac78f39351509812496904"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00253952.npz",
+      "bytes": 131822,
+      "sha256": "988d03d2abbf5ddb6884c91d9a64814116ea985cb9ecc74043331f6e5c1941fc"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00262144.npz",
+      "bytes": 131822,
+      "sha256": "a58635bd638b1888a36a794878c160bea9b3b263f06f6d11b1c34dac37bf8ded"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00270336.npz",
+      "bytes": 131822,
+      "sha256": "c67856b7a884a80137418b1aa184e7ab87dc0ef62c87d05cb6d4fd72e0a0179f"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00278528.npz",
+      "bytes": 131822,
+      "sha256": "4c0c59945180c5c40df6c2390435cd8ede915f6f2f6800c40ead2ee3b39f2603"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00286720.npz",
+      "bytes": 131822,
+      "sha256": "35d3fe2a55ab4ba055c0a251a0cd57e4f3423177764bac477a73c3148f926aad"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00294912.npz",
+      "bytes": 131822,
+      "sha256": "d4488e54deee1baec6eac6de4e16a8edcc5e1032f6b1232f3f14131fc7f34e02"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00303104.npz",
+      "bytes": 131822,
+      "sha256": "447d970b97d3d1be38ac7fd3fca836a65774e6d30cdddbaf710b69cc9a154772"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00311296.npz",
+      "bytes": 131822,
+      "sha256": "ca8379da0bc0fb9df8391a5860c6bd13327fe08edbbfd250b5657d136d702df0"
+    },
+    {
+      "path": "data/mirna_predictions/seed43/AGO2_eCLIP_Manakov2022_test/00319488.npz",
+      "bytes": 75678,
+      "sha256": "0b07914f1b0d6471a657395f2f8765a2dd731e35a3b1de08829e5b25ca0d0935"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_CLASH_Hejret2023_test/00000000.npz",
+      "bytes": 17038,
+      "sha256": "8ba184cd28fca56b2cbd7f77225c286487ee713b6e14ebcb660ed20f4077caa6"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Klimentova2022_test/00000000.npz",
+      "bytes": 16014,
+      "sha256": "bbffb9724019ed6f574fd20710bee79c748fdffb5ea660c8755ecd5c621ce92c"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_leftout/00000000.npz",
+      "bytes": 131822,
+      "sha256": "b2934f9a23fe53dfe835ade4028811d4bcacce952e66fbd941d136e60346eb66"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_leftout/00008192.npz",
+      "bytes": 131822,
+      "sha256": "305e78a887cf375a30c02dbffe04ad52c34a0464a5e503775f0efa908ea9cfe2"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_leftout/00016384.npz",
+      "bytes": 59470,
+      "sha256": "d0806c19a3123844f2424856b27ed2b7780399db7547a817f9e494e3a6b1f2e7"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00000000.npz",
+      "bytes": 131822,
+      "sha256": "3609386f73edda3fcbc0b7d8735c31b4c7ed9864f7f64e23912c8a9db5e5e70c"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00008192.npz",
+      "bytes": 131822,
+      "sha256": "faa8376f51088548fcb8510c8ff0b5065b046bd1ebcf873d31c73a6fde73734c"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00016384.npz",
+      "bytes": 131822,
+      "sha256": "84cf76834eaa8ead40180f9bcef1311978e9ec399dae43e4da69d429d883b9fd"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00024576.npz",
+      "bytes": 131822,
+      "sha256": "63f453ce0a9e822fc66ea5f6109d74aa2d5afe429be31b139f4ac4a12c94252a"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00032768.npz",
+      "bytes": 131822,
+      "sha256": "3495656438981cf6ba451903dbdcc49c2ecf6c43aec61f3078af8d65e69479c9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00040960.npz",
+      "bytes": 131822,
+      "sha256": "667adc116a80105d548c15217302a1d487fb1ffa326cbdf399fcdfa5c65b885d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00049152.npz",
+      "bytes": 131822,
+      "sha256": "b2cfe45d35b64b942c75397f6f76e9e61dd844b4d54913ea489fbd00f079734f"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00057344.npz",
+      "bytes": 131822,
+      "sha256": "7bb8fb00fdf479c179eca9ada25f822bbf854bffb449c3d0729cf405c4f29fa9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00065536.npz",
+      "bytes": 131822,
+      "sha256": "76a4576b5200db4b743d8e1b116254672a52c43d3e2c7ae02e158911dd42cd0d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00073728.npz",
+      "bytes": 131822,
+      "sha256": "b1b0a931764811e66263870aa1374a4bec9913224080bc4425f31a482a563689"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00081920.npz",
+      "bytes": 131822,
+      "sha256": "7523ce16e14e786e3f19926f0344d949ea35d2a428acb3423f385ef49e05f48d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00090112.npz",
+      "bytes": 131822,
+      "sha256": "66ed82812a52162af9683e13b8f57c22797a22456657187075b6f33c4f41aa17"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00098304.npz",
+      "bytes": 131822,
+      "sha256": "de9522d8194185f531be4edf3d3e38a594357aa4d345160fc5a606f2aa5029f4"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00106496.npz",
+      "bytes": 131822,
+      "sha256": "90962f160023dc755d728dd0a658bfc92e3205fb7c8ab05ccaa7d1164321e168"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00114688.npz",
+      "bytes": 131822,
+      "sha256": "725d05ae54735e1051d02442963f6b1b214a0433c222b7cc6f0ffb9178217877"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00122880.npz",
+      "bytes": 131822,
+      "sha256": "1b0455f7c5ceff5f48e329ef2d315b39bae56792087045723dbc2a69e9bab0c3"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00131072.npz",
+      "bytes": 131822,
+      "sha256": "dfe72b27ecbeb7b990a7efc0bc3d5f23fe14b305f408c6acc9afa406aa1d53b3"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00139264.npz",
+      "bytes": 131822,
+      "sha256": "ec875c7039c0a77327aa0cb60eb02cf4526938fe4f35ea349ac15d7269a5eb9d"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00147456.npz",
+      "bytes": 131822,
+      "sha256": "2daaaeb0420a438bb120bce49405ed44db7ed0c6a4a4ad1e5fceadc5c9589917"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00155648.npz",
+      "bytes": 131822,
+      "sha256": "dffe877fa98902dba1108598f8f906325f38369083c1f0b3d8df42cc3b094bc7"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00163840.npz",
+      "bytes": 131822,
+      "sha256": "17118d5d3fc3f8e9b0f82648e78346153a585fc4778fbf1276ea9cdcb27249fe"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00172032.npz",
+      "bytes": 131822,
+      "sha256": "d0e7a547e7e1f64bad6103d2cfebd986dda898b512f5af70f4a97036cc4a13f5"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00180224.npz",
+      "bytes": 131822,
+      "sha256": "697bae7dd6793c00cc366058aedd5f937f079d7ddfa4c83225597da58144f153"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00188416.npz",
+      "bytes": 131822,
+      "sha256": "3d4f98d94415d96c6464dd3513b39f8f743da89bb5dca3dbc1e1af71b08c0ac4"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00196608.npz",
+      "bytes": 131822,
+      "sha256": "b48b09e96a947a061f52e1c52167413e1dff224e615402613c5a9e3a1c8444d6"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00204800.npz",
+      "bytes": 131822,
+      "sha256": "d2f11ed98f15a035b72b01e5b34531056432a28b922764b71a75fbbebae99907"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00212992.npz",
+      "bytes": 131822,
+      "sha256": "c6d51b0c2323442b576e1434cee244d917fa5113bb3c268280c4850c11595675"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00221184.npz",
+      "bytes": 131822,
+      "sha256": "7384417f97cb787639e53d2ee2f38953744496f30cf5ec7aebbb9604e7665617"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00229376.npz",
+      "bytes": 131822,
+      "sha256": "6519a0ddcb520ad7d6d7236d3ea71442d59f07f40916b8da61815842c1239fb9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00237568.npz",
+      "bytes": 131822,
+      "sha256": "a8e2289741f98a0ac4b9cd0a94063174fbce8adbcbf84fb3afd5b15d53487057"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00245760.npz",
+      "bytes": 131822,
+      "sha256": "95234954dfaf1d01bfcd55892286355a570bba06e1f8c846638baafb7b8c3760"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00253952.npz",
+      "bytes": 131822,
+      "sha256": "0f019caaedc95a4f0c78859fdd8b5362770d07e57731a1eb7acdd3487748cd50"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00262144.npz",
+      "bytes": 131822,
+      "sha256": "f90f58bbe47f8f3699493f7af1229cc5447125f27b1dc8cc026d0ba2832e99c1"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00270336.npz",
+      "bytes": 131822,
+      "sha256": "0b7e5c6ce164b05699d6ab6a8928281fe4c0aa85b4f1378476fcb3746d9aa9ee"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00278528.npz",
+      "bytes": 131822,
+      "sha256": "3b42c3ed083d1acbaa7c57a83c6047735256b00e357c7b6f6564d3bba993e4f9"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00286720.npz",
+      "bytes": 131822,
+      "sha256": "4a6ad486500de9ca1aec46a9d11f04f82bf7e9d9b60b0f6b611e2cfdd54d6b93"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00294912.npz",
+      "bytes": 131822,
+      "sha256": "2bf24c6348acf5739d9093f9fda6687cc5315dd64c36d84d533d5873c383320f"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00303104.npz",
+      "bytes": 131822,
+      "sha256": "b5b3356798464fef22f58f36c0d91489972a7e1b1dbf9ad61d8c8280281aa1a7"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00311296.npz",
+      "bytes": 131822,
+      "sha256": "993b98d9b3fd396b3742b353fe929383beae07f4145620c02909755d55e0f319"
+    },
+    {
+      "path": "data/mirna_predictions/seed44/AGO2_eCLIP_Manakov2022_test/00319488.npz",
+      "bytes": 75678,
+      "sha256": "6c35ba378245f1ef83771a56ad52d224af696f6fe943a6dd9cc6a2b4de361af5"
+    },
+    {
+      "path": "data/sirna_oligo_random/dsir_reference_provenance.json",
+      "bytes": 631,
+      "sha256": "94a07a1246df8b1deb331dc68ab858fd50c5046aadd09777e8c1edaf1bf7caa5"
+    },
+    {
+      "path": "data/sirna_oligo_random/feature_manifest.json",
+      "bytes": 2832,
+      "sha256": "a0ba31d79f15bb69aa61e92b63bc5e5b920b4a2588c09c9a6e98175d78710067"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/full_seed42.npy",
+      "bytes": 2832512,
+      "sha256": "652418cadaa9c7b7e5cc49f6d6f31f2a3b0a626662ae1245ce72c2fc87ce38dd"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/full_seed43.npy",
+      "bytes": 2832512,
+      "sha256": "f1186b843f66887ac5a5504187a471e99f9ca05cfe1c1d9192630000279eb8b7"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/full_seed44.npy",
+      "bytes": 2832512,
+      "sha256": "5c799e22178599e5249b1b21ef730b5e42d7aacbb94334a70875147d33f78767"
+    },
+    {
+      "path": "data/sirna_oligo_random/input_manifest.json",
+      "bytes": 15010,
+      "sha256": "a89366c36c356afb8abe231fb0f9a216b9fa87fbb8bb0b74fe6ea586c1787e73"
+    },
+    {
+      "path": "data/sirna_oligo_random/input_rows.json",
+      "bytes": 2123382,
+      "sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980"
+    },
+    {
+      "path": "data/sirna_oligo_random/native_split_plan.json",
+      "bytes": 2111546,
+      "sha256": "d4e2ca306f7074ff643d5ec60dc0f6c72fe692e6ca60ec0211e701c7c0c4de5b"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/cnn_direct.csv",
+      "bytes": 326204,
+      "sha256": "fdebe515da5a6f6829d4d44c6c4d9cd1d8c7ba520415a687962c87c912f58867"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/cpu_reference.csv",
+      "bytes": 1263139,
+      "sha256": "1f97700044941f67ebdd7fbd4f6d9caaf8c8808c2237da06d6c78af3196360d4"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/dsir_reference.csv",
+      "bytes": 168132,
+      "sha256": "70e839cc6a2bb537d1a10faaa3c329962e97b6bc555bc8bf0955e7435adabf38"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/hpo.csv",
+      "bytes": 3057411,
+      "sha256": "79490e415205b0449170373df5a404c773800fbc16d354d974ad29fca6d11904"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/pairac_modules.csv",
+      "bytes": 4133875,
+      "sha256": "c3927602d7c915c544141fa1c299e176b1c196ea1a525e7fd8e6023990a41a9b"
+    }
+  ],
+  "weights_included": false,
+  "bundled_data": true,
+  "terms": "Original source-specific terms and review remain in DATA_LICENSE_NOTICES.md"
+}

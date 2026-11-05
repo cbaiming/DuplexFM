@@ -1,0 +1,26 @@
+{
+  "root": "${PAIRAC_FULL_REFERENCE_ROOT}",
+  "source_seeds": [
+    42
+  ],
+  "status": "completed_original_Full_PairAC",
+  "files_sha256": {
+    "release_manifest.json": "ef53ee82fb72f8d2987fb33eb440df2e4e2ade3cfaa0a56ba96c88aa9b5e679b",
+    "registration.json": "82554506727a8cd824aa25886f4d972fc2fc3dd1cf7d476f2e7a4cc925dd9e1f",
+    "parallel_registration.json": "d6c071249ef16b2d4579a1d5d31fbf03706b00c43f576270b971e8cd1de44a78",
+    "parallel_execution.json": "478afa44c8240f4b8a6252c133b1ff6b3d38525ca59676c0534cc4ae27163291",
+    "efficiency_plan.json": "5528e138f06a1c67a202cae93bad28ef53111db46271eeff5353fa3868786f59",
+    "source_training_complete.json": "83a3e1913bf39dde2d6467b2e93bedb99f4b13a16bf852b443b78abeb246f088",
+    "parallel_ledger.json": "15451e0f6b70d0620e13aeb4034ec65746b91f812d24765899f4a13d154b728b",
+    "preparation/train.npy": "e2ce40c9935db88c9d905b489d508e475c1f020b0328af54dce98424e7920d25",
+    "preparation/validation.npy": "930ba4b6bd3adaca6522749d1e230cc66aa5b69a00b062d579416a48fd0fdcde",
+    "preparation/complete.json": "148fc23e56366596148cf497d4329fd426f59beb79ed69a7220c3b12eebf13dd",
+    "evaluation/summary.json": "18d95ee17095396f0dd62e2ef5a2df8be230203f2171259d63da4799566430e1",
+    "evaluation/complete.json": "8328d8df34393ee6b9244abc8a12bc29162c814551d452f6ca00706bb8cd2659",
+    "runs/seed42/initial.pt": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870",
+    "runs/seed42/signature.json": "faa0d0354024344ad2c97d55d8c52ef14ef9f83781a98c27dc3fbe956e776834",
+    "runs/seed42/terminal.pt": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+    "runs/seed42/complete.json": "a7e39684e469f876b387b2adedbd0c0e48304cac8473bbfd70e586399b179eb7",
+    "runs/seed42/history.json": "6fe3040a9c9dc66c78b3c39102796e9d4368f83ca9c70406c1c430a0170c3de7"
+  }
+}

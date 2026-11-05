@@ -1,0 +1,20 @@
+{
+  "files_sha256": {
+    "accessibility.npy": "75a3fb8ad423e02cb9d3a239468e430566b04635498b513c6ec40988a27113a8",
+    "data/guide_ids.npy": "b1fa3c7523c60c47767c2daef444af53af3536f7e75901cc2f044bc2623250b8",
+    "data/guide_lengths.npy": "31ccfad349e2ed2b6488dec10412d1578ecb3f5f08ba03b3170fd668396e28f0",
+    "data/guide_tokens.npy": "98d5affe7879d523bdcb12a19e9925ecb3bb0e2cda464db829fcda4e883ff575",
+    "data/indices_AGO2_CLASH_Hejret2023_test.npy": "664055b55f8856214e6a3feb068de0068c5089ae715876b0019622467fd0ac11",
+    "data/indices_AGO2_eCLIP_Klimentova2022_test.npy": "58a63773bcfd9b965360c19ada545476369c1161cd6d61ee039eaafeb7252c6a",
+    "data/indices_AGO2_eCLIP_Manakov2022_leftout.npy": "6f32d21834d45ec79444c13d4538d8d4bfae407da18dada2d18f00569fd0d7cc",
+    "data/indices_AGO2_eCLIP_Manakov2022_test.npy": "0b6918b043ad0eea4442fc7840fff05746745926bf28e928319ae0afac291f2b",
+    "data/indices_train.npy": "e2ce40c9935db88c9d905b489d508e475c1f020b0328af54dce98424e7920d25",
+    "data/indices_val.npy": "930ba4b6bd3adaca6522749d1e230cc66aa5b69a00b062d579416a48fd0fdcde",
+    "data/labels.npy": "c8c54e296e907eddcb1bbe3e104f03d3da3e4b9c30ffa6ba5b80ce23dfd3f288",
+    "data/target_ids.npy": "b8b9697d75d7014ff7250fc3de97c85b0c26ecac5c796aaf47a8e8ddaa52bc8f",
+    "data/target_tokens.npy": "522ae2aba1747953fd9ffbc49734d04cd71e11ecd0645a88d6be9d6d9f748a3b"
+  },
+  "manifest_sha256": "2195b4f7723ac5b05ca0dc34a12bbab731de492ae1f4dd0c3e0a12ad22a0d693",
+  "unused_legacy_physics_arrays_opened": false,
+  "verified_files": 13
+}

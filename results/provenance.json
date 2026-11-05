@@ -1,0 +1,304 @@
+{
+  "schema": "main_results_reproduction_v1",
+  "primary_siRNA_protocol": "oligo_double_shuffle42_random_fivefold_plus_two_extensions_v1",
+  "source_seeds": [
+    42,
+    43,
+    44
+  ],
+  "miRNA_scope": "Full only, four official v7 test sets",
+  "siRNA_scope": "Full and method comparisons; no branch-removal or single-branch results",
+  "accessibility_scope": "MAE primary; unchanged historical validation and complete multi-metric supplement",
+  "tables": [
+    {
+      "path": "accessibility/MAE_comparison.csv",
+      "sha256": "21a3532c514530bef235b30a7559248970f6d904be77db73f0e1af0438227dbe",
+      "bytes": 937,
+      "rows": 4,
+      "columns": [
+        "model",
+        "method",
+        "validation_mae",
+        "internal_test_mae",
+        "external_mae",
+        "internal_test_rows",
+        "external_rows",
+        "external_qualification",
+        "metric"
+      ]
+    },
+    {
+      "path": "accessibility/supplementary_metrics/all_metrics.csv",
+      "sha256": "3eedeeed0fece533eaf3fedd32bfe0aea484d65228060fdd7486c7145fbd6aab",
+      "bytes": 1445,
+      "rows": 11,
+      "columns": [
+        "model",
+        "cohort",
+        "rows",
+        "observations",
+        "mae",
+        "pcc",
+        "sequence_mae",
+        "length_macro_mae"
+      ]
+    },
+    {
+      "path": "accessibility/supplementary_metrics/strict_external/per_length.csv",
+      "sha256": "8087a32361200fcdd44af47459bcfa0eea4d4e29ae81d190701bf6e94e0b6f11",
+      "bytes": 21184,
+      "rows": 110,
+      "columns": [
+        "subset",
+        "model",
+        "length",
+        "windows",
+        "positions",
+        "pcc",
+        "spearman",
+        "mae",
+        "mse",
+        "within_pcc",
+        "within_defined",
+        "pcc_low",
+        "pcc_high"
+      ]
+    },
+    {
+      "path": "accessibility/supplementary_metrics/strict_external/summary.csv",
+      "sha256": "d8018fde7c321d711f71eb69867d50a4dd444a9ac4731865a16b47537f474835",
+      "bytes": 3284,
+      "rows": 10,
+      "columns": [
+        "subset",
+        "model",
+        "windows",
+        "positions",
+        "groups",
+        "macro_pcc",
+        "macro_pcc_low",
+        "macro_pcc_high",
+        "macro_spearman",
+        "macro_mae",
+        "macro_mse",
+        "macro_within_pcc",
+        "pooled_pcc",
+        "pooled_pcc_low",
+        "pooled_pcc_high",
+        "pooled_spearman",
+        "pooled_mae",
+        "pooled_mse"
+      ]
+    },
+    {
+      "path": "miRNA/mirna_mean.csv",
+      "sha256": "3ef3b4e9f9c4cac6c960ce8c908aa571f511e579099d144703abf28a2dcd93ac",
+      "bytes": 80,
+      "rows": 1,
+      "columns": [
+        "condition",
+        "mean_macro_AP",
+        "sample_SD"
+      ]
+    },
+    {
+      "path": "miRNA/mirna_per_seed_macro.csv",
+      "sha256": "2ffb35afe7469cde5400d41ad3628dd89da47280f5c5faf6c1d93881c7db6f04",
+      "bytes": 109,
+      "rows": 3,
+      "columns": [
+        "condition",
+        "seed",
+        "macro_AP"
+      ]
+    },
+    {
+      "path": "miRNA/mirna_per_test.csv",
+      "sha256": "0579fba15f8d67fa7d109a09540c6d9a002cbcbface1e6bc817acce50166a17e",
+      "bytes": 777,
+      "rows": 12,
+      "columns": [
+        "condition",
+        "seed",
+        "test",
+        "AP",
+        "n"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/benchmark/PCC_comparison.csv",
+      "sha256": "5aabe9018c1e8e1b3a6ef9800fe46f40664755dd95c08024038c1869943e88d2",
+      "bytes": 1908,
+      "rows": 6,
+      "columns": [
+        "model",
+        "Huesken_mean",
+        "Huesken_SD",
+        "Mixset_mean",
+        "Mixset_SD",
+        "Takayuki_mean",
+        "Takayuki_SD",
+        "Inter_Hu_to_Mix_mean",
+        "Inter_Hu_to_Mix_SD",
+        "Macro4_mean",
+        "Macro4_SD",
+        "wang2009_mean",
+        "wang2009_SD",
+        "alas1_patent_mean",
+        "alas1_patent_SD",
+        "Macro2_extra_mean",
+        "Macro2_extra_SD"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/benchmark/per_fold.csv",
+      "sha256": "2a3cf42560cc52513ef9dcd2ba474cf19ea1a47e6594ab8ba4cda2a81470fb04",
+      "bytes": 59651,
+      "rows": 359,
+      "columns": [
+        "model",
+        "seed",
+        "setting",
+        "fold",
+        "n",
+        "PCC",
+        "Spearman",
+        "MSE",
+        "MAE",
+        "AP",
+        "AUROC",
+        "F1"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/benchmark/per_seed.csv",
+      "sha256": "3f2f77c15acef0407ac3136aa3d03deca95777f2a3586494e5e4b160251a4bfc",
+      "bytes": 48417,
+      "rows": 274,
+      "columns": [
+        "model",
+        "seed",
+        "setting",
+        "aggregation",
+        "n",
+        "PCC",
+        "Spearman",
+        "MSE",
+        "MAE",
+        "AP",
+        "AUROC",
+        "F1"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/benchmark/selected_candidates.csv",
+      "sha256": "580dfe43e73d0b7e9128156b2363a63a4814daea2049b2c6bac4fc929d141436",
+      "bytes": 4676,
+      "rows": 78,
+      "columns": [
+        "group_id",
+        "model",
+        "setting",
+        "fold",
+        "candidate_id"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/benchmark/summary.csv",
+      "sha256": "7a94a1184ff46a28999c6d1f6d6cdcdbaeaa6a19b082c4b13a6d91ffa456d10a",
+      "bytes": 34588,
+      "rows": 114,
+      "columns": [
+        "model",
+        "setting",
+        "aggregation",
+        "n",
+        "seeds",
+        "randomness",
+        "PCC_mean",
+        "PCC_SD",
+        "Spearman_mean",
+        "Spearman_SD",
+        "MSE_mean",
+        "MSE_SD",
+        "MAE_mean",
+        "MAE_SD",
+        "AP_mean",
+        "AP_SD",
+        "AUROC_mean",
+        "AUROC_SD",
+        "F1_mean",
+        "F1_SD"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/modules/PCC_per_seed.csv",
+      "sha256": "7e77716c39f93498cd98375a81daac50c5cba1a743002ff42729307ddde23ef1",
+      "bytes": 5555,
+      "rows": 104,
+      "columns": [
+        "source",
+        "mode",
+        "setting",
+        "n",
+        "PCC"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/modules/PCC_tables.csv",
+      "sha256": "bf4e67d97e6c527657f04a20a45c5454d55716d3950ce5dc4a308e1a24436de5",
+      "bytes": 840,
+      "rows": 7,
+      "columns": [
+        "model",
+        "mode",
+        "Huesken",
+        "Mixset",
+        "Takayuki",
+        "Inter_Hu_to_Mix",
+        "Macro4",
+        "wang2009",
+        "alas1_patent",
+        "Macro2_extra"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/modules/per_seed.csv",
+      "sha256": "6263ecb55a015e92512f97c6b1f8ec59592a5b399b1fbebc2a189d85c87f4046",
+      "bytes": 10762,
+      "rows": 96,
+      "columns": [
+        "source",
+        "mode",
+        "setting",
+        "n",
+        "PCC",
+        "Spearman",
+        "MSE",
+        "MAE"
+      ]
+    },
+    {
+      "path": "siRNA_oligo_random/modules/summary.csv",
+      "sha256": "fed77c7ca7d1907ddf6c87a07808c7c40f8f2a46988342986874522e38f9630a",
+      "bytes": 7499,
+      "rows": 48,
+      "columns": [
+        "model",
+        "mode",
+        "setting",
+        "seeds",
+        "n",
+        "PCC_mean",
+        "PCC_SD",
+        "Spearman_mean",
+        "Spearman_SD",
+        "MSE_mean",
+        "MSE_SD",
+        "MAE_mean",
+        "MAE_SD"
+      ]
+    }
+  ],
+  "weights_included": false
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "role": "Original deployed separately frozen five-cell Two-View structural-reactivity predictor",
+  "cache_sha256": "75a3fb8ad423e02cb9d3a239468e430566b04635498b513c6ec40988a27113a8",
+  "cache_shape": [1266774, 50],
+  "cache_dtype": "float32",
+  "historical_forward": "CUDA BF16 output cast to float32; exact hardware/software equivalence has not been rerun",
+  "components": {
+    "best_film_residual_head.pt": {"bytes":8791637,"sha256":"61904966a61fd209c6ef00f37474e92fde10f7bfe5667568b7a6ca4c91550aa8"},
+    "best_mrnabert_lora/adapter_model.safetensors": {"bytes":2362568,"sha256":"bde9e864d7d3d3418557feb7efed4bc47f6af6d38ce958e5a56983878d016b8f"},
+    "best_mrnabert_lora/adapter_config.json": {"bytes":1040,"sha256":"4f9260f1a61802400330217425a997974fd9a9f6734d204850bc5aca8c553170"},
+    "metrics.json": {"bytes":11558,"sha256":"4588f90cfe38ec8223d7f3b60018df22c7db47a689d0a3db1f6c1d02a078d1dd"}
+  },
+  "project_weights_bundled": false,
+  "project_weights_automatically_downloaded": false,
+  "reconstructed_HepG2_model_is_same_checkpoint": false,
+  "original_supervision_membership_recovered": false,
+  "cache_generator_in_this_portable_workflow": false
+}

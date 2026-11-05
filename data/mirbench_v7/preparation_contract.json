@@ -1,0 +1,84 @@
+{
+  "rows": 2841732,
+  "unique_targets": 1266774,
+  "unique_guides": 1562,
+  "target_width": 50,
+  "guide_width": 28,
+  "partitions": {
+    "train": {
+      "n": 2094107,
+      "positive": 1042521,
+      "index_sha256": "e2ce40c9935db88c9d905b489d508e475c1f020b0328af54dce98424e7920d25"
+    },
+    "val": {
+      "n": 401428,
+      "positive": 200433,
+      "index_sha256": "930ba4b6bd3adaca6522749d1e230cc66aa5b69a00b062d579416a48fd0fdcde"
+    },
+    "AGO2_eCLIP_Klimentova2022_test": {
+      "n": 954,
+      "positive": 477,
+      "index_sha256": "58a63773bcfd9b965360c19ada545476369c1161cd6d61ee039eaafeb7252c6a"
+    },
+    "AGO2_CLASH_Hejret2023_test": {
+      "n": 1018,
+      "positive": 495,
+      "index_sha256": "664055b55f8856214e6a3feb068de0068c5089ae715876b0019622467fd0ac11"
+    },
+    "AGO2_eCLIP_Manakov2022_test": {
+      "n": 324171,
+      "positive": 166899,
+      "index_sha256": "0b6918b043ad0eea4442fc7840fff05746745926bf28e928319ae0afac291f2b"
+    },
+    "AGO2_eCLIP_Manakov2022_leftout": {
+      "n": 20054,
+      "positive": 10027,
+      "index_sha256": "6f32d21834d45ec79444c13d4538d8d4bfae407da18dada2d18f00569fd0d7cc"
+    }
+  },
+  "fixed_split_sha256": "16945472723531c1f6de1f840fbff45d15e3b3c481db419880bcbfbde384e377",
+  "canonical_cleaner_sha256": "c932664a7d2f9a4eb9000f738e91de7c496c4be05c5208e76765f866a78419b1",
+  "version": 1,
+  "official_file_order": [
+    "AGO2_eCLIP_Manakov2022_train",
+    "AGO2_eCLIP_Klimentova2022_test",
+    "AGO2_CLASH_Hejret2023_test",
+    "AGO2_eCLIP_Manakov2022_test",
+    "AGO2_eCLIP_Manakov2022_leftout"
+  ],
+  "feature_filter": "all",
+  "source_keep_overlap": true,
+  "source_terminal_updates": 32728,
+  "source_terminal_sha256": {
+    "42": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+    "43": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8",
+    "44": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a"
+  },
+  "files": {
+    "AGO2_eCLIP_Manakov2022_train": {
+      "rows": 2495535,
+      "md5": "42a7e091f66cf12539d6ae47bc2e0c85",
+      "sha256": "839b41122b8f7e9a5bef417c14fa8dda644c9af0767b63d4578acfdfbbd730ee"
+    },
+    "AGO2_eCLIP_Klimentova2022_test": {
+      "rows": 954,
+      "md5": "49b3ffb7752401a52b70f18a15fec4b6",
+      "sha256": "35ec1491fdc9b4fde2e34939d337dec98b213b02bb93cb712fa64dff9ef47383"
+    },
+    "AGO2_CLASH_Hejret2023_test": {
+      "rows": 1018,
+      "md5": "224fe08e101b6997ebae54090664c9f7",
+      "sha256": "42eb7e0644a097c7c0d3418242455780064df99d3da95fc43d6f53f972bd5b04"
+    },
+    "AGO2_eCLIP_Manakov2022_test": {
+      "rows": 324171,
+      "md5": "bb6140b14f025899b38469d3c78d93f7",
+      "sha256": "266edb3b5f93063c25f8aa541b020d2f3f5242d48e12fb586e3f6875a52a36e7"
+    },
+    "AGO2_eCLIP_Manakov2022_leftout": {
+      "rows": 20054,
+      "md5": "0bd263447cd83f5dbdf669a1d421bd56",
+      "sha256": "cdfa6ca2c03bda84d791fcde822d6c7d01300c9e8abb8dcc58650183bd099774"
+    }
+  }
+}

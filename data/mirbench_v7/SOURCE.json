@@ -1,0 +1,89 @@
+{
+  "record_id": 20540907,
+  "doi": "10.5281/zenodo.20540907",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "title": "miRBench datasets",
+  "creators": [
+    {
+      "name": "Sammut, Stephanie",
+      "affiliation": "Centre for Molecular Medicine and Biobanking, University of Malta, Msida, Malta",
+      "orcid": "0009-0006-1946-2661"
+    },
+    {
+      "name": "Gresova, Katarina",
+      "affiliation": "Centre for Molecular Medicine and Biobanking, University of Malta, Msida, Malta",
+      "orcid": "0000-0002-1136-0832"
+    },
+    {
+      "name": "Tzimotoudis, Dimosthenis",
+      "affiliation": "Centre for Molecular Medicine and Biobanking, University of Malta, Msida, Malta"
+    },
+    {
+      "name": "Klimentova, Eva",
+      "affiliation": "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, 61137 Brno, Czech Republic"
+    },
+    {
+      "name": "Cechak, David",
+      "affiliation": "Central European Institute of Technology – Masaryk University"
+    },
+    {
+      "name": "Alexiou, Panagiotis",
+      "affiliation": "Centre for Molecular Medicine and Biobanking, University of Malta, Msida, Malta",
+      "orcid": "0000-0003-3437-7482"
+    }
+  ],
+  "files": [
+    {
+      "filename": "AGO2_CLASH_Hejret2023_train.tsv.gz",
+      "bytes": 1793689,
+      "publisher_checksum": "md5:55f1fbc97234cb3747ca7480b2ef70c6",
+      "url": "https://zenodo.org/api/records/20540907/files/AGO2_CLASH_Hejret2023_train.tsv.gz/content",
+      "included": true,
+      "sha256": "9125a81913383e360c1fd73e8096175f247de7c56ea3fc76f141a8b1880f1d91"
+    },
+    {
+      "filename": "AGO2_CLASH_Hejret2023_test.tsv.gz",
+      "bytes": 221693,
+      "publisher_checksum": "md5:224fe08e101b6997ebae54090664c9f7",
+      "url": "https://zenodo.org/api/records/20540907/files/AGO2_CLASH_Hejret2023_test.tsv.gz/content",
+      "included": true,
+      "sha256": "42eb7e0644a097c7c0d3418242455780064df99d3da95fc43d6f53f972bd5b04"
+    },
+    {
+      "filename": "AGO2_eCLIP_Klimentova2022_test.tsv.gz",
+      "bytes": 200803,
+      "publisher_checksum": "md5:49b3ffb7752401a52b70f18a15fec4b6",
+      "url": "https://zenodo.org/api/records/20540907/files/AGO2_eCLIP_Klimentova2022_test.tsv.gz/content",
+      "included": true,
+      "sha256": "35ec1491fdc9b4fde2e34939d337dec98b213b02bb93cb712fa64dff9ef47383"
+    },
+    {
+      "filename": "AGO2_eCLIP_Manakov2022_leftout.tsv.gz",
+      "bytes": 4413597,
+      "publisher_checksum": "md5:0bd263447cd83f5dbdf669a1d421bd56",
+      "url": "https://zenodo.org/api/records/20540907/files/AGO2_eCLIP_Manakov2022_leftout.tsv.gz/content",
+      "included": true,
+      "sha256": "cdfa6ca2c03bda84d791fcde822d6c7d01300c9e8abb8dcc58650183bd099774"
+    },
+    {
+      "filename": "AGO2_eCLIP_Manakov2022_test.tsv.gz",
+      "bytes": 71574492,
+      "publisher_checksum": "md5:bb6140b14f025899b38469d3c78d93f7",
+      "url": "https://zenodo.org/api/records/20540907/files/AGO2_eCLIP_Manakov2022_test.tsv.gz/content",
+      "included": false,
+      "reason": "complete file not present locally; partial files deliberately excluded"
+    },
+    {
+      "filename": "AGO2_eCLIP_Manakov2022_train.tsv.gz",
+      "bytes": 554240046,
+      "publisher_checksum": "md5:42a7e091f66cf12539d6ae47bc2e0c85",
+      "url": "https://zenodo.org/api/records/20540907/files/AGO2_eCLIP_Manakov2022_train.tsv.gz/content",
+      "included": false,
+      "reason": "complete file not present locally; partial files deliberately excluded"
+    }
+  ],
+  "official_repository": "https://github.com/katarinagresova/miRBench/tree/v1.0.3",
+  "official_data_access": "The official GitHub package references Zenodo record20540907 (v7); use pinned publisher size/MD5 rather than an unversioned third-party copy."
+}

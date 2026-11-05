@@ -1,0 +1,1533 @@
+{
+    "group_key":  "noncodingRNA_fam",
+    "ratios":  {
+                   "train":  0.85,
+                   "val":  0.15
+               },
+    "split_seed":  42008,
+    "global_summary":  {
+                           "row_count":  2495478,
+                           "positive_count":  1242897,
+                           "negative_count":  1252581,
+                           "positive_rate":  0.4980596903679375,
+                           "group_count":  187
+                       },
+    "split_summary":  {
+                          "train":  {
+                                        "row_count":  2094060,
+                                        "target_row_ratio":  0.85,
+                                        "actual_row_ratio":  0.8391418397597574,
+                                        "positive_count":  1042474,
+                                        "negative_count":  1051586,
+                                        "positive_rate":  0.49782432213021593,
+                                        "group_count":  184
+                                    },
+                          "val":  {
+                                      "row_count":  401418,
+                                      "target_row_ratio":  0.15,
+                                      "actual_row_ratio":  0.16085816024024255,
+                                      "positive_count":  200423,
+                                      "negative_count":  200995,
+                                      "positive_rate":  0.4992875257213179,
+                                      "group_count":  3
+                                  }
+                      },
+    "group_assignments":  [
+                              {
+                                  "noncodingRNA_fam":  "mir-484",
+                                  "split":  "train",
+                                  "sample_count":  16792,
+                                  "pos_count":  8317,
+                                  "neg_count":  8475,
+                                  "pos_rate":  0.4952953787517866
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-17",
+                                  "split":  "train",
+                                  "sample_count":  687734,
+                                  "pos_count":  342192,
+                                  "neg_count":  345542,
+                                  "pos_rate":  0.4975644653310728
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-19",
+                                  "split":  "train",
+                                  "sample_count":  272349,
+                                  "pos_count":  135641,
+                                  "neg_count":  136708,
+                                  "pos_rate":  0.49804111636172704
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-30",
+                                  "split":  "train",
+                                  "sample_count":  83296,
+                                  "pos_count":  41592,
+                                  "neg_count":  41704,
+                                  "pos_rate":  0.49932769880906647
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-221",
+                                  "split":  "train",
+                                  "sample_count":  89676,
+                                  "pos_count":  44492,
+                                  "neg_count":  45184,
+                                  "pos_rate":  0.4961416655515411
+                              },
+                              {
+                                  "noncodingRNA_fam":  "let-7",
+                                  "split":  "train",
+                                  "sample_count":  61586,
+                                  "pos_count":  30691,
+                                  "neg_count":  30895,
+                                  "pos_rate":  0.49834377943039004
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-103",
+                                  "split":  "train",
+                                  "sample_count":  39846,
+                                  "pos_count":  19763,
+                                  "neg_count":  20083,
+                                  "pos_rate":  0.4959845404808513
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-26",
+                                  "split":  "train",
+                                  "sample_count":  53832,
+                                  "pos_count":  26794,
+                                  "neg_count":  27038,
+                                  "pos_rate":  0.4977336899985139
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-196",
+                                  "split":  "train",
+                                  "sample_count":  46525,
+                                  "pos_count":  23170,
+                                  "neg_count":  23355,
+                                  "pos_rate":  0.49801182160128965
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-423",
+                                  "split":  "train",
+                                  "sample_count":  35141,
+                                  "pos_count":  17502,
+                                  "neg_count":  17639,
+                                  "pos_rate":  0.49805070999686973
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-320",
+                                  "split":  "train",
+                                  "sample_count":  37679,
+                                  "pos_count":  18824,
+                                  "neg_count":  18855,
+                                  "pos_rate":  0.499588630271504
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-181",
+                                  "split":  "train",
+                                  "sample_count":  28945,
+                                  "pos_count":  14506,
+                                  "neg_count":  14439,
+                                  "pos_rate":  0.5011573674209708
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-218",
+                                  "split":  "train",
+                                  "sample_count":  28783,
+                                  "pos_count":  14371,
+                                  "neg_count":  14412,
+                                  "pos_rate":  0.49928777403328356
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-10",
+                                  "split":  "train",
+                                  "sample_count":  25045,
+                                  "pos_count":  12489,
+                                  "neg_count":  12556,
+                                  "pos_rate":  0.49866240766620085
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-34",
+                                  "split":  "train",
+                                  "sample_count":  22234,
+                                  "pos_count":  11035,
+                                  "neg_count":  11199,
+                                  "pos_rate":  0.49631195466402805
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-378",
+                                  "split":  "train",
+                                  "sample_count":  22263,
+                                  "pos_count":  11139,
+                                  "neg_count":  11124,
+                                  "pos_rate":  0.5003368818218569
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-374",
+                                  "split":  "train",
+                                  "sample_count":  25130,
+                                  "pos_count":  12485,
+                                  "neg_count":  12645,
+                                  "pos_rate":  0.496816553919618
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-322",
+                                  "split":  "train",
+                                  "sample_count":  23170,
+                                  "pos_count":  11585,
+                                  "neg_count":  11585,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-148",
+                                  "split":  "train",
+                                  "sample_count":  21404,
+                                  "pos_count":  10626,
+                                  "neg_count":  10778,
+                                  "pos_rate":  0.49644926182022053
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-23",
+                                  "split":  "train",
+                                  "sample_count":  16176,
+                                  "pos_count":  8047,
+                                  "neg_count":  8129,
+                                  "pos_rate":  0.49746538081107816
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-27",
+                                  "split":  "train",
+                                  "sample_count":  19569,
+                                  "pos_count":  9726,
+                                  "neg_count":  9843,
+                                  "pos_rate":  0.4970105779549287
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-130",
+                                  "split":  "train",
+                                  "sample_count":  20787,
+                                  "pos_count":  10356,
+                                  "neg_count":  10431,
+                                  "pos_rate":  0.49819598787703856
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-29",
+                                  "split":  "train",
+                                  "sample_count":  20574,
+                                  "pos_count":  10197,
+                                  "neg_count":  10377,
+                                  "pos_rate":  0.49562554680664916
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-31",
+                                  "split":  "train",
+                                  "sample_count":  16315,
+                                  "pos_count":  8084,
+                                  "neg_count":  8231,
+                                  "pos_rate":  0.49549494330370825
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-191",
+                                  "split":  "train",
+                                  "sample_count":  13391,
+                                  "pos_count":  6702,
+                                  "neg_count":  6689,
+                                  "pos_rate":  0.5004854006422224
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-28",
+                                  "split":  "train",
+                                  "sample_count":  15011,
+                                  "pos_count":  7496,
+                                  "neg_count":  7515,
+                                  "pos_rate":  0.4993671307707681
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-193",
+                                  "split":  "train",
+                                  "sample_count":  16924,
+                                  "pos_count":  8395,
+                                  "neg_count":  8529,
+                                  "pos_rate":  0.49604112502954384
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-32",
+                                  "split":  "train",
+                                  "sample_count":  14597,
+                                  "pos_count":  7257,
+                                  "neg_count":  7340,
+                                  "pos_rate":  0.49715695005823113
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-339",
+                                  "split":  "train",
+                                  "sample_count":  13963,
+                                  "pos_count":  6957,
+                                  "neg_count":  7006,
+                                  "pos_rate":  0.4982453627443959
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-324",
+                                  "split":  "train",
+                                  "sample_count":  15410,
+                                  "pos_count":  7693,
+                                  "neg_count":  7717,
+                                  "pos_rate":  0.4992212848799481
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-101",
+                                  "split":  "train",
+                                  "sample_count":  13087,
+                                  "pos_count":  6511,
+                                  "neg_count":  6576,
+                                  "pos_rate":  0.4975166195461145
+                              },
+                              {
+                                  "noncodingRNA_fam":  "unknown",
+                                  "split":  "train",
+                                  "sample_count":  13828,
+                                  "pos_count":  6945,
+                                  "neg_count":  6883,
+                                  "pos_rate":  0.502241828174718
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-24",
+                                  "split":  "train",
+                                  "sample_count":  11188,
+                                  "pos_count":  5561,
+                                  "neg_count":  5627,
+                                  "pos_rate":  0.49705041115480875
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-33",
+                                  "split":  "train",
+                                  "sample_count":  10656,
+                                  "pos_count":  5322,
+                                  "neg_count":  5334,
+                                  "pos_rate":  0.4994369369369369
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-503",
+                                  "split":  "train",
+                                  "sample_count":  9544,
+                                  "pos_count":  4736,
+                                  "neg_count":  4808,
+                                  "pos_rate":  0.49622799664710815
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-744",
+                                  "split":  "train",
+                                  "sample_count":  9420,
+                                  "pos_count":  4732,
+                                  "neg_count":  4688,
+                                  "pos_rate":  0.5023354564755839
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-425",
+                                  "split":  "train",
+                                  "sample_count":  9079,
+                                  "pos_count":  4507,
+                                  "neg_count":  4572,
+                                  "pos_rate":  0.496420310606895
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-186",
+                                  "split":  "train",
+                                  "sample_count":  7811,
+                                  "pos_count":  3863,
+                                  "neg_count":  3948,
+                                  "pos_rate":  0.49455895531942135
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-128",
+                                  "split":  "train",
+                                  "sample_count":  9298,
+                                  "pos_count":  4596,
+                                  "neg_count":  4702,
+                                  "pos_rate":  0.49429984942998495
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-185",
+                                  "split":  "train",
+                                  "sample_count":  8323,
+                                  "pos_count":  4171,
+                                  "neg_count":  4152,
+                                  "pos_rate":  0.5011414153550402
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-455",
+                                  "split":  "train",
+                                  "sample_count":  6939,
+                                  "pos_count":  3418,
+                                  "neg_count":  3521,
+                                  "pos_rate":  0.4925781812941346
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-9",
+                                  "split":  "train",
+                                  "sample_count":  6985,
+                                  "pos_count":  3452,
+                                  "neg_count":  3533,
+                                  "pos_rate":  0.494201861130995
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1307",
+                                  "split":  "train",
+                                  "sample_count":  9739,
+                                  "pos_count":  4867,
+                                  "neg_count":  4872,
+                                  "pos_rate":  0.49974330013348395
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-454",
+                                  "split":  "train",
+                                  "sample_count":  7864,
+                                  "pos_count":  3891,
+                                  "neg_count":  3973,
+                                  "pos_rate":  0.49478636826042727
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-210",
+                                  "split":  "train",
+                                  "sample_count":  6010,
+                                  "pos_count":  3039,
+                                  "neg_count":  2971,
+                                  "pos_rate":  0.5056572379367721
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1296",
+                                  "split":  "train",
+                                  "sample_count":  6076,
+                                  "pos_count":  3030,
+                                  "neg_count":  3046,
+                                  "pos_rate":  0.4986833443054641
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-140",
+                                  "split":  "train",
+                                  "sample_count":  5579,
+                                  "pos_count":  2770,
+                                  "neg_count":  2809,
+                                  "pos_rate":  0.4965047499551891
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-340",
+                                  "split":  "train",
+                                  "sample_count":  5740,
+                                  "pos_count":  2839,
+                                  "neg_count":  2901,
+                                  "pos_rate":  0.4945993031358885
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-361",
+                                  "split":  "train",
+                                  "sample_count":  4741,
+                                  "pos_count":  2365,
+                                  "neg_count":  2376,
+                                  "pos_rate":  0.4988399071925754
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-500",
+                                  "split":  "train",
+                                  "sample_count":  5274,
+                                  "pos_count":  2578,
+                                  "neg_count":  2696,
+                                  "pos_rate":  0.4888130451270383
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-331",
+                                  "split":  "train",
+                                  "sample_count":  4605,
+                                  "pos_count":  2294,
+                                  "neg_count":  2311,
+                                  "pos_rate":  0.4981541802388708
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-365",
+                                  "split":  "train",
+                                  "sample_count":  5698,
+                                  "pos_count":  2821,
+                                  "neg_count":  2877,
+                                  "pos_rate":  0.4950859950859951
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-188",
+                                  "split":  "train",
+                                  "sample_count":  4834,
+                                  "pos_count":  2395,
+                                  "neg_count":  2439,
+                                  "pos_rate":  0.4954489035995035
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1271",
+                                  "split":  "train",
+                                  "sample_count":  5068,
+                                  "pos_count":  2552,
+                                  "neg_count":  2516,
+                                  "pos_rate":  0.5035516969218626
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-21",
+                                  "split":  "train",
+                                  "sample_count":  4277,
+                                  "pos_count":  2104,
+                                  "neg_count":  2173,
+                                  "pos_rate":  0.491933598316577
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-182",
+                                  "split":  "train",
+                                  "sample_count":  4638,
+                                  "pos_count":  2323,
+                                  "neg_count":  2315,
+                                  "pos_rate":  0.5008624407072014
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-652",
+                                  "split":  "train",
+                                  "sample_count":  4367,
+                                  "pos_count":  2185,
+                                  "neg_count":  2182,
+                                  "pos_rate":  0.500343485230135
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-96",
+                                  "split":  "train",
+                                  "sample_count":  4394,
+                                  "pos_count":  2187,
+                                  "neg_count":  2207,
+                                  "pos_rate":  0.49772416932180247
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-7",
+                                  "split":  "train",
+                                  "sample_count":  4117,
+                                  "pos_count":  2089,
+                                  "neg_count":  2028,
+                                  "pos_rate":  0.5074083070196745
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-183",
+                                  "split":  "train",
+                                  "sample_count":  3148,
+                                  "pos_count":  1563,
+                                  "neg_count":  1585,
+                                  "pos_rate":  0.49650571791613723
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-671",
+                                  "split":  "train",
+                                  "sample_count":  3029,
+                                  "pos_count":  1538,
+                                  "neg_count":  1491,
+                                  "pos_rate":  0.5077583360845164
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-708",
+                                  "split":  "train",
+                                  "sample_count":  3430,
+                                  "pos_count":  1706,
+                                  "neg_count":  1724,
+                                  "pos_rate":  0.49737609329446064
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-296",
+                                  "split":  "train",
+                                  "sample_count":  2988,
+                                  "pos_count":  1480,
+                                  "neg_count":  1508,
+                                  "pos_rate":  0.49531459170013387
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-615",
+                                  "split":  "train",
+                                  "sample_count":  3578,
+                                  "pos_count":  1771,
+                                  "neg_count":  1807,
+                                  "pos_rate":  0.494969256567915
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-95",
+                                  "split":  "train",
+                                  "sample_count":  3227,
+                                  "pos_count":  1608,
+                                  "neg_count":  1619,
+                                  "pos_rate":  0.4982956306166718
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1180",
+                                  "split":  "train",
+                                  "sample_count":  3625,
+                                  "pos_count":  1821,
+                                  "neg_count":  1804,
+                                  "pos_rate":  0.5023448275862069
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-362",
+                                  "split":  "train",
+                                  "sample_count":  2972,
+                                  "pos_count":  1481,
+                                  "neg_count":  1491,
+                                  "pos_rate":  0.49831763122476447
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1301",
+                                  "split":  "train",
+                                  "sample_count":  2717,
+                                  "pos_count":  1356,
+                                  "neg_count":  1361,
+                                  "pos_rate":  0.49907986750092015
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-590",
+                                  "split":  "train",
+                                  "sample_count":  2614,
+                                  "pos_count":  1299,
+                                  "neg_count":  1315,
+                                  "pos_rate":  0.49693955623565417
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-345",
+                                  "split":  "train",
+                                  "sample_count":  2266,
+                                  "pos_count":  1137,
+                                  "neg_count":  1129,
+                                  "pos_rate":  0.5017652250661959
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-450",
+                                  "split":  "train",
+                                  "sample_count":  2031,
+                                  "pos_count":  1006,
+                                  "neg_count":  1025,
+                                  "pos_rate":  0.49532250123092075
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-769",
+                                  "split":  "train",
+                                  "sample_count":  2115,
+                                  "pos_count":  1053,
+                                  "neg_count":  1062,
+                                  "pos_rate":  0.4978723404255319
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-126",
+                                  "split":  "train",
+                                  "sample_count":  2775,
+                                  "pos_count":  1412,
+                                  "neg_count":  1363,
+                                  "pos_rate":  0.5088288288288288
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-505",
+                                  "split":  "train",
+                                  "sample_count":  2222,
+                                  "pos_count":  1124,
+                                  "neg_count":  1098,
+                                  "pos_rate":  0.5058505850585059
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-149",
+                                  "split":  "train",
+                                  "sample_count":  2085,
+                                  "pos_count":  1042,
+                                  "neg_count":  1043,
+                                  "pos_rate":  0.49976019184652276
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-194",
+                                  "split":  "train",
+                                  "sample_count":  2361,
+                                  "pos_count":  1174,
+                                  "neg_count":  1187,
+                                  "pos_rate":  0.49724692926725966
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-342",
+                                  "split":  "train",
+                                  "sample_count":  2175,
+                                  "pos_count":  1068,
+                                  "neg_count":  1107,
+                                  "pos_rate":  0.4910344827586207
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1277",
+                                  "split":  "train",
+                                  "sample_count":  2158,
+                                  "pos_count":  1053,
+                                  "neg_count":  1105,
+                                  "pos_rate":  0.4879518072289157
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-629",
+                                  "split":  "train",
+                                  "sample_count":  1650,
+                                  "pos_count":  822,
+                                  "neg_count":  828,
+                                  "pos_rate":  0.49818181818181817
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-132",
+                                  "split":  "train",
+                                  "sample_count":  1867,
+                                  "pos_count":  924,
+                                  "neg_count":  943,
+                                  "pos_rate":  0.49491162292447777
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-548",
+                                  "split":  "train",
+                                  "sample_count":  1922,
+                                  "pos_count":  960,
+                                  "neg_count":  962,
+                                  "pos_rate":  0.4994797086368366
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-582",
+                                  "split":  "train",
+                                  "sample_count":  1236,
+                                  "pos_count":  630,
+                                  "neg_count":  606,
+                                  "pos_rate":  0.5097087378640777
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-935",
+                                  "split":  "train",
+                                  "sample_count":  1262,
+                                  "pos_count":  631,
+                                  "neg_count":  631,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-491",
+                                  "split":  "train",
+                                  "sample_count":  1133,
+                                  "pos_count":  553,
+                                  "neg_count":  580,
+                                  "pos_rate":  0.4880847308031774
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-625",
+                                  "split":  "train",
+                                  "sample_count":  1536,
+                                  "pos_count":  762,
+                                  "neg_count":  774,
+                                  "pos_rate":  0.49609375
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-874",
+                                  "split":  "train",
+                                  "sample_count":  1111,
+                                  "pos_count":  552,
+                                  "neg_count":  559,
+                                  "pos_rate":  0.49684968496849685
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-330",
+                                  "split":  "train",
+                                  "sample_count":  892,
+                                  "pos_count":  439,
+                                  "neg_count":  453,
+                                  "pos_rate":  0.492152466367713
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-551",
+                                  "split":  "train",
+                                  "sample_count":  939,
+                                  "pos_count":  466,
+                                  "neg_count":  473,
+                                  "pos_rate":  0.49627263045793396
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-124",
+                                  "split":  "train",
+                                  "sample_count":  912,
+                                  "pos_count":  449,
+                                  "neg_count":  463,
+                                  "pos_rate":  0.4923245614035088
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1246",
+                                  "split":  "train",
+                                  "sample_count":  776,
+                                  "pos_count":  389,
+                                  "neg_count":  387,
+                                  "pos_rate":  0.5012886597938144
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-486",
+                                  "split":  "train",
+                                  "sample_count":  851,
+                                  "pos_count":  418,
+                                  "neg_count":  433,
+                                  "pos_rate":  0.491186839012926
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-940",
+                                  "split":  "train",
+                                  "sample_count":  744,
+                                  "pos_count":  375,
+                                  "neg_count":  369,
+                                  "pos_rate":  0.5040322580645161
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3615",
+                                  "split":  "train",
+                                  "sample_count":  630,
+                                  "pos_count":  316,
+                                  "neg_count":  314,
+                                  "pos_rate":  0.5015873015873016
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-219",
+                                  "split":  "train",
+                                  "sample_count":  614,
+                                  "pos_count":  297,
+                                  "neg_count":  317,
+                                  "pos_rate":  0.4837133550488599
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-2110",
+                                  "split":  "train",
+                                  "sample_count":  765,
+                                  "pos_count":  382,
+                                  "neg_count":  383,
+                                  "pos_rate":  0.4993464052287582
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-346",
+                                  "split":  "train",
+                                  "sample_count":  566,
+                                  "pos_count":  275,
+                                  "neg_count":  291,
+                                  "pos_rate":  0.48586572438162545
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1226",
+                                  "split":  "train",
+                                  "sample_count":  529,
+                                  "pos_count":  256,
+                                  "neg_count":  273,
+                                  "pos_rate":  0.4839319470699433
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-190",
+                                  "split":  "train",
+                                  "sample_count":  642,
+                                  "pos_count":  315,
+                                  "neg_count":  327,
+                                  "pos_rate":  0.49065420560747663
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-760",
+                                  "split":  "train",
+                                  "sample_count":  463,
+                                  "pos_count":  233,
+                                  "neg_count":  230,
+                                  "pos_rate":  0.5032397408207343
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-138",
+                                  "split":  "train",
+                                  "sample_count":  541,
+                                  "pos_count":  265,
+                                  "neg_count":  276,
+                                  "pos_rate":  0.4898336414048059
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1303",
+                                  "split":  "train",
+                                  "sample_count":  561,
+                                  "pos_count":  277,
+                                  "neg_count":  284,
+                                  "pos_rate":  0.49376114081996436
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-375",
+                                  "split":  "train",
+                                  "sample_count":  403,
+                                  "pos_count":  207,
+                                  "neg_count":  196,
+                                  "pos_rate":  0.5136476426799007
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1285",
+                                  "split":  "train",
+                                  "sample_count":  468,
+                                  "pos_count":  231,
+                                  "neg_count":  237,
+                                  "pos_rate":  0.4935897435897436
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-574",
+                                  "split":  "train",
+                                  "sample_count":  391,
+                                  "pos_count":  199,
+                                  "neg_count":  192,
+                                  "pos_rate":  0.5089514066496164
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-449",
+                                  "split":  "train",
+                                  "sample_count":  518,
+                                  "pos_count":  256,
+                                  "neg_count":  262,
+                                  "pos_rate":  0.4942084942084942
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-328",
+                                  "split":  "train",
+                                  "sample_count":  486,
+                                  "pos_count":  242,
+                                  "neg_count":  244,
+                                  "pos_rate":  0.49794238683127573
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-628",
+                                  "split":  "train",
+                                  "sample_count":  399,
+                                  "pos_count":  205,
+                                  "neg_count":  194,
+                                  "pos_rate":  0.5137844611528822
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-941",
+                                  "split":  "train",
+                                  "sample_count":  408,
+                                  "pos_count":  201,
+                                  "neg_count":  207,
+                                  "pos_rate":  0.49264705882352944
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-576",
+                                  "split":  "train",
+                                  "sample_count":  303,
+                                  "pos_count":  154,
+                                  "neg_count":  149,
+                                  "pos_rate":  0.5082508250825083
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-942",
+                                  "split":  "train",
+                                  "sample_count":  259,
+                                  "pos_count":  124,
+                                  "neg_count":  135,
+                                  "pos_rate":  0.47876447876447875
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-326",
+                                  "split":  "train",
+                                  "sample_count":  245,
+                                  "pos_count":  121,
+                                  "neg_count":  124,
+                                  "pos_rate":  0.49387755102040815
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-589",
+                                  "split":  "train",
+                                  "sample_count":  211,
+                                  "pos_count":  104,
+                                  "neg_count":  107,
+                                  "pos_rate":  0.4928909952606635
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1306",
+                                  "split":  "train",
+                                  "sample_count":  203,
+                                  "pos_count":  103,
+                                  "neg_count":  100,
+                                  "pos_rate":  0.5073891625615764
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1292",
+                                  "split":  "train",
+                                  "sample_count":  171,
+                                  "pos_count":  84,
+                                  "neg_count":  87,
+                                  "pos_rate":  0.49122807017543857
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-877",
+                                  "split":  "train",
+                                  "sample_count":  171,
+                                  "pos_count":  83,
+                                  "neg_count":  88,
+                                  "pos_rate":  0.4853801169590643
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1343",
+                                  "split":  "train",
+                                  "sample_count":  158,
+                                  "pos_count":  76,
+                                  "neg_count":  82,
+                                  "pos_rate":  0.4810126582278481
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-199",
+                                  "split":  "train",
+                                  "sample_count":  139,
+                                  "pos_count":  69,
+                                  "neg_count":  70,
+                                  "pos_rate":  0.49640287769784175
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-338",
+                                  "split":  "train",
+                                  "sample_count":  108,
+                                  "pos_count":  50,
+                                  "neg_count":  58,
+                                  "pos_rate":  0.46296296296296297
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1910",
+                                  "split":  "train",
+                                  "sample_count":  103,
+                                  "pos_count":  50,
+                                  "neg_count":  53,
+                                  "pos_rate":  0.4854368932038835
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-139",
+                                  "split":  "train",
+                                  "sample_count":  105,
+                                  "pos_count":  55,
+                                  "neg_count":  50,
+                                  "pos_rate":  0.5238095238095238
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4677",
+                                  "split":  "train",
+                                  "sample_count":  104,
+                                  "pos_count":  51,
+                                  "neg_count":  53,
+                                  "pos_rate":  0.49038461538461536
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-577",
+                                  "split":  "train",
+                                  "sample_count":  116,
+                                  "pos_count":  57,
+                                  "neg_count":  59,
+                                  "pos_rate":  0.49137931034482757
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-605",
+                                  "split":  "train",
+                                  "sample_count":  97,
+                                  "pos_count":  47,
+                                  "neg_count":  50,
+                                  "pos_rate":  0.4845360824742268
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4429",
+                                  "split":  "train",
+                                  "sample_count":  76,
+                                  "pos_count":  38,
+                                  "neg_count":  38,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-636",
+                                  "split":  "train",
+                                  "sample_count":  74,
+                                  "pos_count":  39,
+                                  "neg_count":  35,
+                                  "pos_rate":  0.527027027027027
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1915",
+                                  "split":  "train",
+                                  "sample_count":  65,
+                                  "pos_count":  31,
+                                  "neg_count":  34,
+                                  "pos_rate":  0.47692307692307695
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-506",
+                                  "split":  "train",
+                                  "sample_count":  80,
+                                  "pos_count":  41,
+                                  "neg_count":  39,
+                                  "pos_rate":  0.5125
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3173",
+                                  "split":  "train",
+                                  "sample_count":  71,
+                                  "pos_count":  36,
+                                  "neg_count":  35,
+                                  "pos_rate":  0.5070422535211268
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-619",
+                                  "split":  "train",
+                                  "sample_count":  69,
+                                  "pos_count":  34,
+                                  "neg_count":  35,
+                                  "pos_rate":  0.4927536231884058
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3064",
+                                  "split":  "train",
+                                  "sample_count":  68,
+                                  "pos_count":  35,
+                                  "neg_count":  33,
+                                  "pos_rate":  0.5147058823529411
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4421",
+                                  "split":  "train",
+                                  "sample_count":  52,
+                                  "pos_count":  25,
+                                  "neg_count":  27,
+                                  "pos_rate":  0.4807692307692308
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1909",
+                                  "split":  "train",
+                                  "sample_count":  61,
+                                  "pos_count":  32,
+                                  "neg_count":  29,
+                                  "pos_rate":  0.5245901639344263
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1262",
+                                  "split":  "train",
+                                  "sample_count":  48,
+                                  "pos_count":  25,
+                                  "neg_count":  23,
+                                  "pos_rate":  0.5208333333333334
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-766",
+                                  "split":  "train",
+                                  "sample_count":  57,
+                                  "pos_count":  30,
+                                  "neg_count":  27,
+                                  "pos_rate":  0.5263157894736842
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-515",
+                                  "split":  "train",
+                                  "sample_count":  44,
+                                  "pos_count":  22,
+                                  "neg_count":  22,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-6511",
+                                  "split":  "train",
+                                  "sample_count":  52,
+                                  "pos_count":  25,
+                                  "neg_count":  27,
+                                  "pos_rate":  0.4807692307692308
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1914",
+                                  "split":  "train",
+                                  "sample_count":  47,
+                                  "pos_count":  22,
+                                  "neg_count":  25,
+                                  "pos_rate":  0.46808510638297873
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3136",
+                                  "split":  "train",
+                                  "sample_count":  36,
+                                  "pos_count":  17,
+                                  "neg_count":  19,
+                                  "pos_rate":  0.4722222222222222
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1227",
+                                  "split":  "train",
+                                  "sample_count":  32,
+                                  "pos_count":  14,
+                                  "neg_count":  18,
+                                  "pos_rate":  0.4375
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1247",
+                                  "split":  "train",
+                                  "sample_count":  37,
+                                  "pos_count":  18,
+                                  "neg_count":  19,
+                                  "pos_rate":  0.4864864864864865
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-204",
+                                  "split":  "train",
+                                  "sample_count":  38,
+                                  "pos_count":  20,
+                                  "neg_count":  18,
+                                  "pos_rate":  0.5263157894736842
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4680",
+                                  "split":  "train",
+                                  "sample_count":  32,
+                                  "pos_count":  16,
+                                  "neg_count":  16,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1972",
+                                  "split":  "train",
+                                  "sample_count":  37,
+                                  "pos_count":  18,
+                                  "neg_count":  19,
+                                  "pos_rate":  0.4864864864864865
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1284",
+                                  "split":  "train",
+                                  "sample_count":  24,
+                                  "pos_count":  12,
+                                  "neg_count":  12,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4657",
+                                  "split":  "train",
+                                  "sample_count":  25,
+                                  "pos_count":  13,
+                                  "neg_count":  12,
+                                  "pos_rate":  0.52
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-198",
+                                  "split":  "train",
+                                  "sample_count":  27,
+                                  "pos_count":  14,
+                                  "neg_count":  13,
+                                  "pos_rate":  0.5185185185185185
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-297",
+                                  "split":  "train",
+                                  "sample_count":  31,
+                                  "pos_count":  15,
+                                  "neg_count":  16,
+                                  "pos_rate":  0.4838709677419355
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3179",
+                                  "split":  "train",
+                                  "sample_count":  25,
+                                  "pos_count":  12,
+                                  "neg_count":  13,
+                                  "pos_rate":  0.48
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-154",
+                                  "split":  "train",
+                                  "sample_count":  21,
+                                  "pos_count":  12,
+                                  "neg_count":  9,
+                                  "pos_rate":  0.5714285714285714
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1244",
+                                  "split":  "train",
+                                  "sample_count":  20,
+                                  "pos_count":  10,
+                                  "neg_count":  10,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-483",
+                                  "split":  "train",
+                                  "sample_count":  19,
+                                  "pos_count":  8,
+                                  "neg_count":  11,
+                                  "pos_rate":  0.42105263157894735
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3180",
+                                  "split":  "train",
+                                  "sample_count":  21,
+                                  "pos_count":  11,
+                                  "neg_count":  10,
+                                  "pos_rate":  0.5238095238095238
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-665",
+                                  "split":  "train",
+                                  "sample_count":  21,
+                                  "pos_count":  11,
+                                  "neg_count":  10,
+                                  "pos_rate":  0.5238095238095238
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4449",
+                                  "split":  "train",
+                                  "sample_count":  14,
+                                  "pos_count":  7,
+                                  "neg_count":  7,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-639",
+                                  "split":  "train",
+                                  "sample_count":  14,
+                                  "pos_count":  7,
+                                  "neg_count":  7,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-580",
+                                  "split":  "train",
+                                  "sample_count":  12,
+                                  "pos_count":  7,
+                                  "neg_count":  5,
+                                  "pos_rate":  0.5833333333333334
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-887",
+                                  "split":  "train",
+                                  "sample_count":  15,
+                                  "pos_count":  8,
+                                  "neg_count":  7,
+                                  "pos_rate":  0.5333333333333333
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1252",
+                                  "split":  "train",
+                                  "sample_count":  12,
+                                  "pos_count":  6,
+                                  "neg_count":  6,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1236",
+                                  "split":  "train",
+                                  "sample_count":  11,
+                                  "pos_count":  5,
+                                  "neg_count":  6,
+                                  "pos_rate":  0.45454545454545453
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3188",
+                                  "split":  "train",
+                                  "sample_count":  12,
+                                  "pos_count":  7,
+                                  "neg_count":  5,
+                                  "pos_rate":  0.5833333333333334
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3648",
+                                  "split":  "train",
+                                  "sample_count":  10,
+                                  "pos_count":  7,
+                                  "neg_count":  3,
+                                  "pos_rate":  0.7
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-631",
+                                  "split":  "train",
+                                  "sample_count":  10,
+                                  "pos_count":  5,
+                                  "neg_count":  5,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-6505",
+                                  "split":  "train",
+                                  "sample_count":  12,
+                                  "pos_count":  6,
+                                  "neg_count":  6,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-302",
+                                  "split":  "train",
+                                  "sample_count":  8,
+                                  "pos_count":  4,
+                                  "neg_count":  4,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3116",
+                                  "split":  "train",
+                                  "sample_count":  7,
+                                  "pos_count":  4,
+                                  "neg_count":  3,
+                                  "pos_rate":  0.5714285714285714
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4660",
+                                  "split":  "train",
+                                  "sample_count":  5,
+                                  "pos_count":  2,
+                                  "neg_count":  3,
+                                  "pos_rate":  0.4
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-203",
+                                  "split":  "train",
+                                  "sample_count":  8,
+                                  "pos_count":  4,
+                                  "neg_count":  4,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1266",
+                                  "split":  "train",
+                                  "sample_count":  5,
+                                  "pos_count":  2,
+                                  "neg_count":  3,
+                                  "pos_rate":  0.4
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1225",
+                                  "split":  "train",
+                                  "sample_count":  5,
+                                  "pos_count":  3,
+                                  "neg_count":  2,
+                                  "pos_rate":  0.6
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-610",
+                                  "split":  "train",
+                                  "sample_count":  6,
+                                  "pos_count":  3,
+                                  "neg_count":  3,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1289",
+                                  "split":  "train",
+                                  "sample_count":  4,
+                                  "pos_count":  2,
+                                  "neg_count":  2,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-621",
+                                  "split":  "train",
+                                  "sample_count":  4,
+                                  "pos_count":  2,
+                                  "neg_count":  2,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-612",
+                                  "split":  "train",
+                                  "sample_count":  4,
+                                  "pos_count":  2,
+                                  "neg_count":  2,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-223",
+                                  "split":  "train",
+                                  "sample_count":  4,
+                                  "pos_count":  2,
+                                  "neg_count":  2,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-504",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  0,
+                                  "neg_count":  2,
+                                  "pos_rate":  0.0
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-146",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  2,
+                                  "neg_count":  0,
+                                  "pos_rate":  1.0
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1203",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  1,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1290",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  1,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4798",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  1,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-363",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  1,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3670",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  1,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-137",
+                                  "split":  "train",
+                                  "sample_count":  1,
+                                  "pos_count":  1,
+                                  "neg_count":  0,
+                                  "pos_rate":  1.0
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-3617",
+                                  "split":  "train",
+                                  "sample_count":  2,
+                                  "pos_count":  1,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-4654",
+                                  "split":  "train",
+                                  "sample_count":  1,
+                                  "pos_count":  0,
+                                  "neg_count":  1,
+                                  "pos_rate":  0.0
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-1238",
+                                  "split":  "val",
+                                  "sample_count":  6,
+                                  "pos_count":  3,
+                                  "neg_count":  3,
+                                  "pos_rate":  0.5
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-15",
+                                  "split":  "val",
+                                  "sample_count":  199520,
+                                  "pos_count":  99634,
+                                  "neg_count":  99886,
+                                  "pos_rate":  0.49936848436246994
+                              },
+                              {
+                                  "noncodingRNA_fam":  "mir-25",
+                                  "split":  "val",
+                                  "sample_count":  201892,
+                                  "pos_count":  100786,
+                                  "neg_count":  101106,
+                                  "pos_rate":  0.4992074970776455
+                              }
+                          ]
+}

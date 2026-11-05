@@ -1,0 +1,85 @@
+{
+  "schema": "duplexfm_multipart_tar_gzip_v1",
+  "dataset": "icshape_source",
+  "archive_sha256": "54d31587b33697fa9c9bcfa416ce284b658b646cc3773842bd97b80237e02813",
+  "archive_bytes": 200623792,
+  "uncompressed_bytes": 857860306,
+  "parts": [
+    {
+      "path": "archive.part0001",
+      "bytes": 95000000,
+      "sha256": "854990a204325a0d26352848b3aed66a23672f29d06b5866a1bfe4951d59262d"
+    },
+    {
+      "path": "archive.part0002",
+      "bytes": 95000000,
+      "sha256": "1ac0e3a4b7fd0e869a0452ae6d6c52a392613071b74ab744efe6ed77f68053ea"
+    },
+    {
+      "path": "archive.part0003",
+      "bytes": 10623792,
+      "sha256": "2f8e1668f62faad350e714e417be0e67f3892aea2376a9b440286dec50450e4a"
+    }
+  ],
+  "members": [
+    {
+      "path": "data/manifest.json",
+      "bytes": 14588,
+      "sha256": "6f36f1b5e5cb43cfb0272d5323f4b85b36182675e1b50cb82fffe74fa7ea2bcc"
+    },
+    {
+      "path": "data/sequences.npy",
+      "bytes": 139967768,
+      "sha256": "ca7cdcafb22ac6eb2b31017646ff37a8e642f5806021d105b835de5608c55bc7"
+    },
+    {
+      "path": "data/lengths.npy",
+      "bytes": 2332922,
+      "sha256": "309de0f791cc7eb67893a610e43fc8c6a4daedf86dd5f9212d550c413399e9bf"
+    },
+    {
+      "path": "data/median_accessibility_profiles.npy",
+      "bytes": 559870688,
+      "sha256": "0b1be28d42c9b2518bec1f96b11a817a2f11aacae69832784a5b5cd5947c7324"
+    },
+    {
+      "path": "data/observed_mask.npy",
+      "bytes": 139967768,
+      "sha256": "45cb3e33fa5fb5714e573400a2063dd12c6e05f44730dcddc29d2db72d889958"
+    },
+    {
+      "path": "data/splits.npy",
+      "bytes": 2332922,
+      "sha256": "7ec0d282d8b247926fdaa4f8d109e6c9f5dfc279ca89a9420263550cb87508ff"
+    },
+    {
+      "path": "data/transcript_components.npy",
+      "bytes": 9331304,
+      "sha256": "0c26180c95cdf5aacb8c9b3136ebf2581cd6bbc3e5c4a39c0995bf727676df07"
+    },
+    {
+      "path": "data/view_ids.npy",
+      "bytes": 2332922,
+      "sha256": "1f6d298e605cf8eeb19befb1548fe8b722e66c4b50fea2fd3d56a7c2b0eb49a1"
+    },
+    {
+      "path": "provenance/component_gene_map.json",
+      "bytes": 561163,
+      "sha256": "4283d9fcd35c6d6880726fd080b9e883f099a3ae8ef478823b62e5f68979d8b9"
+    },
+    {
+      "path": "provenance/component_split_map.json",
+      "bytes": 1148261,
+      "sha256": "434d37e30ba67c7629651c87ab6eb5def729216d047a3058927a5b69648821ae"
+    }
+  ],
+  "restoration": "python scripts/restore_data.py --dataset icshape_source --output external_data/icshape_source",
+  "training_weights_included": false,
+  "source_archive_sha256": "582acd6e7a80fb79e4ff1fb35961ea50c64946832268381a98b5143c59ae7f33",
+  "license_status": "dataset_specific_review_pending",
+  "packaging": {
+    "channel": "GitHub Desktop",
+    "part_limit_bytes": 95000000,
+    "original_archive_bytes_unchanged": true
+  }
+}

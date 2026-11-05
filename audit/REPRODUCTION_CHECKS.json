@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-05",
+  "passed": true,
+  "cpu_test_suite": {
+    "scope": "offline_cpu_synthetic_checks",
+    "passed": true,
+    "requested_suites": [
+      "full",
+      "ablation42",
+      "ablation43_44",
+      "transfer_full",
+      "transfer_ablation",
+      "backup_fix",
+      "accessibility_cnn",
+      "single_module",
+      "public_interface"
+    ],
+    "completed_suites": [
+      {
+        "suite": "full",
+        "returncode": 0,
+        "tests": 34,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "ablation42",
+        "returncode": 0,
+        "tests": 65,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "ablation43_44",
+        "returncode": 0,
+        "tests": 66,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "transfer_full",
+        "returncode": 0,
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "transfer_ablation",
+        "returncode": 0,
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "backup_fix",
+        "returncode": 0,
+        "tests": 30,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "accessibility_cnn",
+        "returncode": 0,
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "single_module",
+        "returncode": 0,
+        "tests": 31,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "public_interface",
+        "returncode": 0,
+        "tests": 37,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "real_split_dependent_tests": "explicitly deselected in selected transfer suites",
+    "real_data_evaluation_or_training": false
+  },
+  "cpu_tests_passed": 281,
+  "miRNA_saved_prediction_AP": {
+    "passed": true,
+    "banks": 3,
+    "test_metrics": 12,
+    "records": [
+      {
+        "condition": "Full",
+        "seed": 42,
+        "test": "AGO2_CLASH_Hejret2023_test",
+        "rows": 1018,
+        "AP": 0.8806969083281164
+      },
+      {
+        "condition": "Full",
+        "seed": 42,
+        "test": "AGO2_eCLIP_Klimentova2022_test",
+        "rows": 954,
+        "AP": 0.8868180428323621
+      },
+      {
+        "condition": "Full",
+        "seed": 42,
+        "test": "AGO2_eCLIP_Manakov2022_test",
+        "rows": 324171,
+        "AP": 0.8756890771341176
+      },
+      {
+        "condition": "Full",
+        "seed": 42,
+        "test": "AGO2_eCLIP_Manakov2022_leftout",
+        "rows": 20054,
+        "AP": 0.8762563640437795
+      },
+      {
+        "condition": "Full",
+        "seed": 43,
+        "test": "AGO2_CLASH_Hejret2023_test",
+        "rows": 1018,
+        "AP": 0.8763935888305109
+      },
+      {
+        "condition": "Full",
+        "seed": 43,
+        "test": "AGO2_eCLIP_Klimentova2022_test",
+        "rows": 954,
+        "AP": 0.8818774854353488
+      },
+      {
+        "condition": "Full",
+        "seed": 43,
+        "test": "AGO2_eCLIP_Manakov2022_test",
+        "rows": 324171,
+        "AP": 0.8747334752973408
+      },
+      {
+        "condition": "Full",
+        "seed": 43,
+        "test": "AGO2_eCLIP_Manakov2022_leftout",
+        "rows": 20054,
+        "AP": 0.8752874335476367
+      },
+      {
+        "condition": "Full",
+        "seed": 44,
+        "test": "AGO2_CLASH_Hejret2023_test",
+        "rows": 1018,
+        "AP": 0.874984977841595
+      },
+      {
+        "condition": "Full",
+        "seed": 44,
+        "test": "AGO2_eCLIP_Klimentova2022_test",
+        "rows": 954,
+        "AP": 0.8883376625235041
+      },
+      {
+        "condition": "Full",
+        "seed": 44,
+        "test": "AGO2_eCLIP_Manakov2022_test",
+        "rows": 324171,
+        "AP": 0.8748571056472731
+      },
+      {
+        "condition": "Full",
+        "seed": 44,
+        "test": "AGO2_eCLIP_Manakov2022_leftout",
+        "rows": 20054,
+        "AP": 0.877414977793979
+      }
+    ],
+    "result_scope": "Full model only; ablation and single-branch implementations are retained separately",
+    "limitation": "Saved-prediction scoring; use reproduce_mirna.py with explicit weights for new model inference."
+  },
+  "siRNA_saved_prediction_verification": {
+    "passed": true,
+    "prediction_rows": {
+      "HPO": 37413,
+      "CPU_reference": 16628,
+      "PairAC_modules": 49884,
+      "CNN_direct": 4157,
+      "DSIR_fixed": 1961
+    },
+    "pooled_groups_independently_recomputed": 161,
+    "aggregate_only": [],
+    "DSIR_note": "Official fixed Huesken-trained scores; no Huesken estimate; Hu-to-Mix aliases the same Mixset scores",
+    "new_model_fits": 0,
+    "GPU_used": false
+  },
+  "siRNA_cached_real_fold_refit": {
+    "passed": true,
+    "mode": "source",
+    "fold_results": [
+      {
+        "passed": true,
+        "model": "PairAC42",
+        "mode": "source",
+        "seed": 42,
+        "setting": "Huesken",
+        "fold": 0,
+        "fits": 26,
+        "inner_fits": 25,
+        "final_fits": 1,
+        "alpha": 100.0,
+        "candidate": 3,
+        "inner_PCC": [
+          0.5998677449139975,
+          0.6005723346780955,
+          0.6044294776295214,
+          0.6115459127258199,
+          0.6061546269960714
+        ],
+        "inner_MSE": [
+          0.014822486050965497,
+          0.014796909291426023,
+          0.014661910661173675,
+          0.01445481854124756,
+          0.014966434194862127
+        ],
+        "test_rows": 431,
+        "max_archived_prediction_error": 2.220446049250313e-16,
+        "archived_prediction_atol": 1e-07,
+        "max_independent_normal_error": 1.8474111129762605e-13,
+        "inner_selection_uses_only_outer_fit": true,
+        "outer_test_used_for_model_selection": false,
+        "source_model_training": false,
+        "GPU_used": false
+      }
+    ],
+    "fits": 26,
+    "elapsed_CPU_wall_seconds": 2.437000000034459,
+    "max_archived_prediction_error": 2.220446049250313e-16,
+    "source_model_training": false,
+    "GPU_used": false
+  },
+  "reactivity_MAE": {
+    "passed": true,
+    "metric": "pooled observed-nucleotide MAE",
+    "verified": [
+      {
+        "model": "sequence",
+        "evaluation": "internal_test_mae",
+        "MAE": 0.17666185313639227,
+        "windows": 207979,
+        "observed_nucleotides": 10759454
+      },
+      {
+        "model": "structure",
+        "evaluation": "internal_test_mae",
+        "MAE": 0.17441067578134778,
+        "windows": 207979,
+        "observed_nucleotides": 10759454
+      },
+      {
+        "model": "sequence",
+        "evaluation": "external_mae",
+        "MAE": 0.20412246619285487,
+        "windows": 7347,
+        "observed_nucleotides": 404194
+      },
+      {
+        "model": "structure",
+        "evaluation": "external_mae",
+        "MAE": 0.20173758014178833,
+        "windows": 7347,
+        "observed_nucleotides": 404194
+      },
+      {
+        "model": "rebuilt_mRNABERT",
+        "evaluation": "external_mae",
+        "MAE": 0.19197745701676414,
+        "windows": 7347,
+        "observed_nucleotides": 404194
+      },
+      {
+        "model": "PairAC_original",
+        "evaluation": "external_mae",
+        "MAE": 0.192328445046593,
+        "windows": 7347,
+        "observed_nucleotides": 404194
+      }
+    ],
+    "aggregate_only_cells": [
+      "Validation MAE for all methods",
+      "Reconstructed mRNABERT internal-test MAE: retained aggregate; raw per-window predictions not included"
+    ],
+    "original_pairac_membership": "unknown; external result descriptive only",
+    "checkpoint_selection": "Original PCC composite with regional-MAE tie-break, unchanged",
+    "reporting": "MAE-focused post-hoc presentation; does not establish superiority in correlation",
+    "model_retrained": false,
+    "new_inference": false
+  },
+  "scientific_reference_files_verified": 128,
+  "additional_single_branch_code_snapshot_verified": true,
+  "syntax_files": 526,
+  "text_files_scanned": 615,
+  "relative_links": 35,
+  "weights_included": false,
+  "source_training_executed": false,
+  "full_source_data_rebuild_executed": false,
+  "full_encoder_inference_executed": false,
+  "note": "Original source cleaner/family assignments/input hashes are included; exact historical reactivity cache and separately released weights are still required for sequence-to-prediction reproduction."
+}

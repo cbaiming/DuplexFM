@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Observed-nucleotide mean absolute error (MAE; lower is better) for structural-reactivity prediction. The internal test contains 207,979 windows; the GSE74353 subset contains 7,347 windows after supervised training/validation sequence-similarity and gene exclusion. Checkpoints remain fixed under the original validation-selection criterion.}
+\label{tab:reactivity_mae}
+\begin{tabular}{lcc}
+\hline
+Method & Internal test & GSE74353 filtered \\
+\hline
+Sequence CNN & 0.1767 & 0.2041 \\
+Sequence + LinearFold-V CNN & 0.1744 & 0.2017 \\
+Rebuilt mRNABERT (LoRA) & 0.1621 & 0.1920 \\
+\hline
+\end{tabular}
+\end{table}
+% The original deployed PairAC predictor is not the rebuilt model.
+% Its descriptive same-subset MAE is 0.1923, but training membership is unavailable.
+% Do not certify that subset as unseen to the original deployed predictor.

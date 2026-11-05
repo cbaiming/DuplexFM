@@ -1,0 +1,21 @@
+{
+  "schema": "PairAC_verbatim_cleaner_functions_v1",
+  "source_module": "DuplexFM/runtime/route1_finetune.py",
+  "source_module_sha256": "c932664a7d2f9a4eb9000f738e91de7c496c4be05c5208e76765f866a78419b1",
+  "functions_utf8_lf_sha256": {
+    "choose_group_value": "0d75f78914a02160f8f27483e5fc7b3fb2b59706ce80e0dd1041be346a9dec06",
+    "combine_source_values": "6e79edef91e3863a70a6c0c39e3a400408cea7eae063dacab68cf27a53917369",
+    "dedupe_pair_dataframe": "368200af715891cdba37277f359512b541cdd05aec1fbf818b02b07f7daf0280",
+    "load_clean_pair_dataframe": "409a1de06bc2cccafd5c05ed946c6f362d598008f3417ff40db9a058c8700727",
+    "merge_training_dataframes": "95273280ac93401535f8c1337cf551377737b7aa5e83c5e704ab074da3b6dc9e"
+  },
+  "support_module": "DuplexFM/runtime/supervised_poc.py",
+  "support_module_sha256": "d013a317ff2a158c6f798b13ef4a78d4bf02c8662f5463f8aa2634c7b1d7799c",
+  "support_definitions_utf8_lf_sha256": {
+    "normalize_rna": "1c71eda398171f3669e66ddc0752449b3bf316316d871f73a1afa68000538368",
+    "_NoOpProgress": "0d29f9acea9a8cdf6cf2ef92a741932910779df4ebdc072ff26d1388ccf34188",
+    "make_progress": "289a9a629b56467efdc104c9ff6fb0c86fdcb9682b556d1ed074a4c2de058a92"
+  },
+  "packaging_change": "Extract exact function/class source; omit unrelated training imports.",
+  "license_notice": "../../LICENSE-NOTICE.md"
+}

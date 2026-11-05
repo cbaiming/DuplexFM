@@ -1,0 +1,140 @@
+{
+  "scope": "Single-branch source implementation and synthetic fastpath checks; no experimental results",
+  "files": [
+    {
+      "path": "code/duplexfm_joint/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "code/duplexfm_joint/backbones.py",
+      "bytes": 11629,
+      "sha256": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce"
+    },
+    {
+      "path": "code/duplexfm_joint/data.py",
+      "bytes": 5982,
+      "sha256": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c"
+    },
+    {
+      "path": "code/duplexfm_joint/io_utils.py",
+      "bytes": 9700,
+      "sha256": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca"
+    },
+    {
+      "path": "code/duplexfm_joint/model.py",
+      "bytes": 997,
+      "sha256": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726"
+    },
+    {
+      "path": "code/duplexfm_mechanism/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "code/duplexfm_mechanism/ablation_summary.py",
+      "bytes": 2200,
+      "sha256": "5c77dce486a041213774c98bae626a50f11e118132a82e9edf720ae6c292cd52"
+    },
+    {
+      "path": "code/duplexfm_mechanism/common.py",
+      "bytes": 5515,
+      "sha256": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2"
+    },
+    {
+      "path": "code/duplexfm_mechanism/data_plan.py",
+      "bytes": 1715,
+      "sha256": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9"
+    },
+    {
+      "path": "code/duplexfm_mechanism/durable_io.py",
+      "bytes": 8581,
+      "sha256": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c"
+    },
+    {
+      "path": "code/duplexfm_mechanism/efficiency.py",
+      "bytes": 10049,
+      "sha256": "3a6aba47fad57081bb1356e46ad1ea6309ad82789ad002c6779df9fac4ddf77b"
+    },
+    {
+      "path": "code/duplexfm_mechanism/engineering_three.py",
+      "bytes": 6686,
+      "sha256": "60c81be0e39ce6d49f1cafe939ef5d3360f92c8abbc5cb05a44b38e9c8489400"
+    },
+    {
+      "path": "code/duplexfm_mechanism/evaluation.py",
+      "bytes": 6274,
+      "sha256": "aec07c3bf4d237d4f6c59c854722fa80b25dee985a229741c5bca54f4202bca4"
+    },
+    {
+      "path": "code/duplexfm_mechanism/model.py",
+      "bytes": 14571,
+      "sha256": "f0b8c7649f1df2034d6d20b1de06443da844b6e6460e2fb9dc560e2613519a42"
+    },
+    {
+      "path": "code/duplexfm_mechanism/parallel.py",
+      "bytes": 27600,
+      "sha256": "5937e2bdec2d08bd2a0c02832cbdcef62f01556c0020e233620fbccef4a82b21"
+    },
+    {
+      "path": "code/duplexfm_mechanism/protocol.py",
+      "bytes": 4708,
+      "sha256": "38371aa339ba5a506c1e79acd20646329dc2c64ae29c5be98da7982b62a2154a"
+    },
+    {
+      "path": "code/duplexfm_mechanism/reference_initial.py",
+      "bytes": 3170,
+      "sha256": "ba2e9bbe4ad90c876531800bd35fc7c747fe6d4b5810cfe29929d90a4b73e0e7"
+    },
+    {
+      "path": "code/duplexfm_mechanism/runtime.py",
+      "bytes": 5465,
+      "sha256": "c853c4850bbd2b4b832a3970becb36d066e0044e55a9ce454a6116708bc832b5"
+    },
+    {
+      "path": "code/duplexfm_mechanism/training_hourly.py",
+      "bytes": 15521,
+      "sha256": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd"
+    },
+    {
+      "path": "code/fastpath_originals/model.py",
+      "bytes": 10826,
+      "sha256": "b033311299a516f7c64f438a5c8a350ba98cb5c53413b4a7b156d611415c750a"
+    },
+    {
+      "path": "code/foundation_reference.json",
+      "bytes": 1421,
+      "sha256": "c86af3bcb0d7a44a83c37c0f56549ad4a5f357abe043e60c1ed277baec95d1f9"
+    },
+    {
+      "path": "code/single_module_originals/model.py",
+      "bytes": 10375,
+      "sha256": "b4f7cd9864ace06dd845ca0694825a3454b653785c49ab2ea45d30902a6afda6"
+    },
+    {
+      "path": "code/single_module_originals/protocol.py",
+      "bytes": 3828,
+      "sha256": "95b83d7c0d2af446f5f9892a918f9361d0d06e4e792d9495cbab1de6180f3e87"
+    },
+    {
+      "path": "fastpath_patch.py",
+      "bytes": 6871,
+      "sha256": "b68b11448678e143e0b88499c0af500a2679180a4d0ea56892a440729a35878e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1034,
+      "sha256": "e932e8f51cdcb9f2c478a931bd301da2418f83ba0c40fcd946d04c232eea369a"
+    },
+    {
+      "path": "test_fastpath.py",
+      "bytes": 12720,
+      "sha256": "9f4ae8a71d3399bb5397fe67b4be259eed72d0b2640b4528e8bb63bf467794c8"
+    }
+  ],
+  "foundation_metadata": {
+    "original_sha256": "3f145e587f25ace40f1361482f11787a26548ecb1e87a0f39e6006d15efb7348",
+    "transformation": "Remove historical machine directories only; per-file model hashes unchanged"
+  },
+  "test_portability_change": "One assertion accepts historical-path rejection or base-SHA rejection after relocation; original test remains in private preparation records"
+}

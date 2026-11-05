@@ -1,0 +1,72 @@
+{
+  "features": [
+    {
+      "path": "features/full_seed42.npy",
+      "sha256": "652418cadaa9c7b7e5cc49f6d6f31f2a3b0a626662ae1245ce72c2fc87ce38dd",
+      "shape": [
+        3688,
+        192
+      ],
+      "dtype": "float32",
+      "seed": 42,
+      "checkpoint_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+      "transformation": "Concatenate original verified 3329 primary plus 359 supplementary rows; no inference or refitting",
+      "input_parts": [
+        {
+          "path": "research/pairac_transfer_20261017/exported/features/trained42/source.npy",
+          "sha256": "78db7f7449a875a70b0fc14900db89cf02221ea51c9d042fd7162c85272df962"
+        },
+        {
+          "path": "research/pairac_ablation_transfer_20261018/exported/features/full_seed42/source.npy",
+          "sha256": "bb9d3db2d1c3a76fe635d293cc51cf14f98e193d4ea661ed08e486f902f90146"
+        }
+      ]
+    },
+    {
+      "path": "features/full_seed43.npy",
+      "sha256": "f1186b843f66887ac5a5504187a471e99f9ca05cfe1c1d9192630000279eb8b7",
+      "shape": [
+        3688,
+        192
+      ],
+      "dtype": "float32",
+      "seed": 43,
+      "checkpoint_sha256": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8",
+      "transformation": "Concatenate original verified 3329 primary plus 359 supplementary rows; no inference or refitting",
+      "input_parts": [
+        {
+          "path": "research/pairac_transfer_20261017/exported/features/trained43/source.npy",
+          "sha256": "b4c42335c1a0d5984ce415523f696a49bfddb045d9b9a968e05ac928f09556e7"
+        },
+        {
+          "path": "research/pairac_extra_multiseed_20261103/verified/exports/seed43/source.npy",
+          "sha256": "933ab6b4a7f309dc1dc9846e4261ed08220b4f0e057ac52e6d0fd23bfb07a613"
+        }
+      ]
+    },
+    {
+      "path": "features/full_seed44.npy",
+      "sha256": "5c799e22178599e5249b1b21ef730b5e42d7aacbb94334a70875147d33f78767",
+      "shape": [
+        3688,
+        192
+      ],
+      "dtype": "float32",
+      "seed": 44,
+      "checkpoint_sha256": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a",
+      "transformation": "Concatenate original verified 3329 primary plus 359 supplementary rows; no inference or refitting",
+      "input_parts": [
+        {
+          "path": "research/pairac_transfer_20261017/exported/features/trained44/source.npy",
+          "sha256": "bf415a5ced4269aa1853fcb15ea7c13f5b456f8897cb0602d6f79c72162be0e2"
+        },
+        {
+          "path": "research/pairac_extra_multiseed_20261103/verified/exports/seed44/source.npy",
+          "sha256": "4ae8a27b3b604956a1f578c1793c47782576f8a51cf7f219493da582348e7e19"
+        }
+      ]
+    }
+  ],
+  "row_identity": "input_rows.json",
+  "rows": 3688
+}

@@ -1,0 +1,32 @@
+{
+  "root": "${PAIRAC_FULL_REFERENCE_ROOT}",
+  "source_seeds": [
+    43,
+    44
+  ],
+  "status": "completed_original_Full_PairAC",
+  "files_sha256": {
+    "release_manifest.json": "ef53ee82fb72f8d2987fb33eb440df2e4e2ade3cfaa0a56ba96c88aa9b5e679b",
+    "registration.json": "82554506727a8cd824aa25886f4d972fc2fc3dd1cf7d476f2e7a4cc925dd9e1f",
+    "parallel_registration.json": "d6c071249ef16b2d4579a1d5d31fbf03706b00c43f576270b971e8cd1de44a78",
+    "parallel_execution.json": "478afa44c8240f4b8a6252c133b1ff6b3d38525ca59676c0534cc4ae27163291",
+    "efficiency_plan.json": "5528e138f06a1c67a202cae93bad28ef53111db46271eeff5353fa3868786f59",
+    "source_training_complete.json": "83a3e1913bf39dde2d6467b2e93bedb99f4b13a16bf852b443b78abeb246f088",
+    "parallel_ledger.json": "15451e0f6b70d0620e13aeb4034ec65746b91f812d24765899f4a13d154b728b",
+    "preparation/train.npy": "e2ce40c9935db88c9d905b489d508e475c1f020b0328af54dce98424e7920d25",
+    "preparation/validation.npy": "930ba4b6bd3adaca6522749d1e230cc66aa5b69a00b062d579416a48fd0fdcde",
+    "preparation/complete.json": "148fc23e56366596148cf497d4329fd426f59beb79ed69a7220c3b12eebf13dd",
+    "evaluation/summary.json": "18d95ee17095396f0dd62e2ef5a2df8be230203f2171259d63da4799566430e1",
+    "evaluation/complete.json": "8328d8df34393ee6b9244abc8a12bc29162c814551d452f6ca00706bb8cd2659",
+    "runs/seed43/initial.pt": "e1f9be5c75e51957cf730eba852adcd90d656f0517498ac4a7ef54eea690141f",
+    "runs/seed43/signature.json": "4aaf012bcb74308c52fd0c7d671f2cd537ea9ad6b1c041dd296921fbf0b1d10c",
+    "runs/seed43/terminal.pt": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8",
+    "runs/seed43/complete.json": "ba0f919f95b94e577a7647099bc38ccbf2d7458170cd8ad53f5eb2d8f88b6979",
+    "runs/seed43/history.json": "b0000e7b5a0d23c1ec9b9395598ca20baee5aa0ab20a4e83290918cd4dd862e3",
+    "runs/seed44/initial.pt": "e5722d6efe1d0f720e291771f66c8984af42b2b97ec383f15dcb2aef21de9ee3",
+    "runs/seed44/signature.json": "0c9675960528b255abb320d258f5a93d3dac92eef03f21336d18d3420e0c1725",
+    "runs/seed44/terminal.pt": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a",
+    "runs/seed44/complete.json": "53eed54a063b596f38f668a1ba166b4ca5443e4d42728e755d25bd443cf501e8",
+    "runs/seed44/history.json": "492695d3061587f7c29bc72f46cc1716dcd5b81623f74630446d2b6c347a2e06"
+  }
+}

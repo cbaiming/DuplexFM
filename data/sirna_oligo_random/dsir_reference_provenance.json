@@ -1,0 +1,13 @@
+{
+  "raw_predictions_sha256": "32150ba8e69843b027eb9e4d047898b6fae10f72c22017bbe9d23e0309ea0c8f",
+  "complete_sha256": "50a34eeeb858fb078f76c99d058ae8dd215daf23ca06ef429cb2f1e11053ff76",
+  "accepted_verification_sha256": "be7c8a462e5298b1a09b9689eda40643d68dac72bda36bebaac26d47fbd53375",
+  "original_rows": 1492,
+  "alias_rows": 469,
+  "reassigned_random_fold_from_fixed_scores": true,
+  "no_Huesken_performance": true,
+  "training": "official fixed19 pretrained; no benchmark refit",
+  "deterministic_seed_count": 1,
+  "label_comparison_absolute_tolerance": 1e-12,
+  "evaluation_labels": "current input_rows.json"
+}

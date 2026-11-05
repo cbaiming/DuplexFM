@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22",
+  "type": "code_only_packaging_audit",
+  "cpu_synthetic_suites": [
+    {
+      "suite": "full",
+      "passed": 34,
+      "seconds": 9.24
+    },
+    {
+      "suite": "ablation42",
+      "passed": 65,
+      "seconds": 9.706
+    },
+    {
+      "suite": "ablation43_44",
+      "passed": 66,
+      "seconds": 9.073
+    },
+    {
+      "suite": "transfer_full",
+      "passed": 7,
+      "seconds": 2.063
+    },
+    {
+      "suite": "transfer_ablation",
+      "passed": 3,
+      "seconds": 0.708
+    },
+    {
+      "suite": "backup_fix",
+      "passed": 30,
+      "seconds": 2.082
+    }
+  ],
+  "passed": 205,
+  "real_split_dependent_tests_deselected": 2,
+  "unchanged_python_files_after_encoding_normalization": 100,
+  "identical_original_top_level_functions_and_classes": 599,
+  "original_source_release_hash_checks": 80,
+  "no_model_training_or_real_data_evaluation_performed": true,
+  "weights_data_credentials_and_run_state_excluded": true,
+  "packaging_fixes": [
+    "Added indirect round36/verify.py audit dependency",
+    "Explicit import setup for embedded Python in backup tests"
+  ],
+  "limits": [
+    "Synthetic CPU checks do not revalidate full encoders/H100/performance",
+    "Original execution locks and all real input assets excluded",
+    "Published release remains a code review snapshot, not a production resume bundle"
+  ]
+}
