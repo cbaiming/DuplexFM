@@ -2,6 +2,22 @@
 
 The siRNA tables follow OligoFormer random outer folds and their Wang/ALAS1 extensions. Results are not mixed with earlier purged-sequence experiments. Source seeds 42, 43 and 44 are evaluated separately; reported uncertainties are sample SDs, not prediction ensembles.
 
+## Contribution of miRNA task supervision
+
+The exact initial-versus-terminal control retains the same public backbones,
+structural inputs, frozen architecture and R55 siRNA evaluation. Main-macro PCC
+changes from 0.4772 ± 0.0217 to 0.5179 ± 0.0090 for representation-only transfer
+(paired difference 0.0407 ± 0.0240), and from 0.6157 ± 0.0015 to 0.6330 ± 0.0054
+with TD24 (paired difference 0.0172 ± 0.0062). The three-seed mean improves in
+five of the six settings; Huesken→Mixset decreases in both modes.
+
+These are descriptive differences across matched source seeds, with no
+independent-fold significance claim. This control estimates the contribution of
+miRNA task updates; it retains other pretraining/supervision. The complete
+[control report](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md)
+includes all settings, both modes, MSE/MAE, saved predictions and a response draft.
+The [new-file guide](MIRNA_CONTROL_FILES.md) lists all added scripts and evidence.
+
 ## miRBench v7
 
 Full DuplexFM achieves four-test macro AP **0.878612 ± 0.001418**. Each source seed's AP is averaged equally over the four tests before summarizing across seeds. Per-test and per-seed values are in results/miRNA/.

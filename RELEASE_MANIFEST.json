@@ -1,7 +1,7 @@
 {
-  "version": 5,
-  "release": "DuplexFM_PairAC_GitHub_AllInOne_English_20261105",
-  "scope": "Combined main-results repository and data; Chinese documentation excluded",
+  "version": 6,
+  "release": "DuplexFM_PairAC_with_miRNA_supervision_control_20261106",
+  "scope": "Main results and matched exact-initial control; initial feature banks, predictions, code, paired results and provenance",
   "files": [
     {
       "path": ".gitattributes",
@@ -22,6 +22,11 @@
       "path": "audit/ENGLISH_BUNDLE_CHECKS.json",
       "bytes": 1140,
       "sha256": "5d1f566de6fb1ed2a1ffb7dc35692eb24c79a5a6bdce953f964bea8daecbdfbf"
+    },
+    {
+      "path": "audit/mirna_supervision_control.json",
+      "bytes": 65528,
+      "sha256": "2fe67865d941dd8ab2d0ee511bc81e72d40453324767367f6fc5e898027d8501"
     },
     {
       "path": "audit/original_pairac.gitattributes",
@@ -839,6 +844,21 @@
       "sha256": "5c799e22178599e5249b1b21ef730b5e42d7aacbb94334a70875147d33f78767"
     },
     {
+      "path": "data/sirna_oligo_random/features/initial_seed42.npy",
+      "bytes": 2832512,
+      "sha256": "cc9a43d6332f04342eaea433ae16814fef3ddd32225155316d44f73434d9b8e0"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/initial_seed43.npy",
+      "bytes": 2832512,
+      "sha256": "b7f581568fcd5a4c76de9efb38e25c77dc10d62bdf7f0ca93bef888212193fc0"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/initial_seed44.npy",
+      "bytes": 2832512,
+      "sha256": "7b69ac15cf6a483e6716217e8a535d656946e38c5e8b4e2a3c2fa1d4de20d5e9"
+    },
+    {
       "path": "data/sirna_oligo_random/input_manifest.json",
       "bytes": 15010,
       "sha256": "a89366c36c356afb8abe231fb0f9a216b9fa87fbb8bb0b74fe6ea586c1787e73"
@@ -847,6 +867,11 @@
       "path": "data/sirna_oligo_random/input_rows.json",
       "bytes": 2123382,
       "sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980"
+    },
+    {
+      "path": "data/sirna_oligo_random/mirna_supervision_features.json",
+      "bytes": 4223,
+      "sha256": "3d243169b7de71974d4790b304d81ee6fd474043f6859447dc0a36cc22954735"
     },
     {
       "path": "data/sirna_oligo_random/native_split_plan.json",
@@ -874,6 +899,11 @@
       "sha256": "79490e415205b0449170373df5a404c773800fbc16d354d974ad29fca6d11904"
     },
     {
+      "path": "data/sirna_oligo_random/predictions/mirna_supervision_control.csv",
+      "bytes": 4886378,
+      "sha256": "8f134a278bcfe7fa4a11902cf51b0d8bc2f6da7a48b6105445e0acec2431dfd6"
+    },
+    {
       "path": "data/sirna_oligo_random/predictions/pairac_modules.csv",
       "bytes": 4133875,
       "sha256": "c3927602d7c915c544141fa1c299e176b1c196ea1a525e7fd8e6023990a41a9b"
@@ -885,8 +915,8 @@
     },
     {
       "path": "DATA_MANIFEST.json",
-      "bytes": 34936,
-      "sha256": "ff83c2414a4aa1b56c57b30a6094650efc6a0625f729135503fc04cef28969cd"
+      "bytes": 35921,
+      "sha256": "9d32b496d59575219e8e4202ae14af2c00dae4e98909dd4a61f046355cff51b0"
     },
     {
       "path": "docs/ACCESSIBILITY_COMPARISON.md",
@@ -895,23 +925,33 @@
     },
     {
       "path": "docs/DATA.md",
-      "bytes": 5239,
-      "sha256": "bef549af554018c4c557685301a7e5a3bef022fd124dec00d8c14b96eab00d12"
+      "bytes": 5623,
+      "sha256": "ccc9bc19c59866f53cae0970182722b2c53169500570012b07da6c39e9ea217c"
     },
     {
       "path": "docs/METHODS.md",
-      "bytes": 6346,
-      "sha256": "fa0acbb8e99a50f747fcba1de0946bafa5f5a23524cacf7f0a675a45ffe997f9"
+      "bytes": 6945,
+      "sha256": "4a0427f482c58051487b9570d6651fd784732c5a3befba945e70b97ad2d40eb1"
+    },
+    {
+      "path": "docs/MIRNA_CONTROL_FILES.md",
+      "bytes": 4639,
+      "sha256": "19e48926af32a95cc7183b3557221518a9313f03dabf4861b4cd33c8b18a4755"
+    },
+    {
+      "path": "docs/MIRNA_SUPERVISION_CONTROL.md",
+      "bytes": 6637,
+      "sha256": "a30acb5955bf4001d45a50bc7cdfb6c9a54eb054aabb371f057f70a32db1f279"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 5863,
-      "sha256": "6f665b419529970fae145bbb703a47186c2176407e2eee79df9a8ea9945972e5"
+      "bytes": 6435,
+      "sha256": "e0c46d7948073b1847dfa3ad6aae7cb9cd3e99911335c84c6e03cfe67bf865dc"
     },
     {
       "path": "docs/RESULTS.md",
-      "bytes": 4899,
-      "sha256": "1659602aa05763d0c90af660b28de68f52616fbc8027f449736e6d7d944393b7"
+      "bytes": 5893,
+      "sha256": "529ae7cae8f314a3e07b8d0d3959f8699ef8f13d912616938e8b70ce0a9b8e35"
     },
     {
       "path": "examples/synthetic_embedding.py",
@@ -925,13 +965,13 @@
     },
     {
       "path": "MODEL_REGISTRY.json",
-      "bytes": 2590,
-      "sha256": "eedec3f102f08551c93f7e37a2da6fe41dc19455718f34c2dd5f94cd19906b6b"
+      "bytes": 3620,
+      "sha256": "daeb460a51f77308aa871f41566d8dfe119052917fd0f9c5b554cd159157d9e5"
     },
     {
       "path": "README.md",
-      "bytes": 3935,
-      "sha256": "3303b5aeacf872b41dba193904dd7804dbedd664bc9d7c04e2dbc941ca4627d1"
+      "bytes": 5395,
+      "sha256": "573dff570bd1c4d8af0750eb20825293551b7b235ebec82551ecf0d1605ba503"
     },
     {
       "path": "reference/accessibility_rebuilt/__init__.py",
@@ -1889,6 +1929,36 @@
       "sha256": "7a94a1184ff46a28999c6d1f6d6cdcdbaeaa6a19b082c4b13a6d91ffa456d10a"
     },
     {
+      "path": "results/siRNA_oligo_random/mirna_supervision_control/complete.json",
+      "bytes": 812,
+      "sha256": "1776a6babb2391941c2e3703cc5a08a403ecd73b85ebcca0bc8c1246ed1036de"
+    },
+    {
+      "path": "results/siRNA_oligo_random/mirna_supervision_control/paired_deltas_per_seed.csv",
+      "bytes": 6125,
+      "sha256": "609e41435d8bf4ae252e18e1f307f4bf807a7edaca869f53a0df2b1ae6523a2c"
+    },
+    {
+      "path": "results/siRNA_oligo_random/mirna_supervision_control/paired_deltas_summary.csv",
+      "bytes": 3480,
+      "sha256": "e5a6375637f608e5b00ec550ce0a551e7d7cc09a6fd30446727a1449c57d4c2f"
+    },
+    {
+      "path": "results/siRNA_oligo_random/mirna_supervision_control/per_seed.csv",
+      "bytes": 13182,
+      "sha256": "b28774a84361d41703092bf7d15ce05adffd13428ccc3c3c9591a99ae2b2ee10"
+    },
+    {
+      "path": "results/siRNA_oligo_random/mirna_supervision_control/REPORT.md",
+      "bytes": 6740,
+      "sha256": "ab167010ee36c403b8b4db55ecc5508ac78e0f1033fdb0856a7b12a689a19d8b"
+    },
+    {
+      "path": "results/siRNA_oligo_random/mirna_supervision_control/summary.csv",
+      "bytes": 7880,
+      "sha256": "e202a3a165339a91132ce4326c3ce7c434dfb1a32aec9861a9f32fcfb501a896"
+    },
+    {
       "path": "results/siRNA_oligo_random/modules/PCC_per_seed.csv",
       "bytes": 5555,
       "sha256": "7e77716c39f93498cd98375a81daac50c5cba1a743002ff42729307ddde23ef1"
@@ -1907,6 +1977,11 @@
       "path": "results/siRNA_oligo_random/modules/summary.csv",
       "bytes": 7499,
       "sha256": "fed77c7ca7d1907ddf6c87a07808c7c40f8f2a46988342986874522e38f9630a"
+    },
+    {
+      "path": "scripts/export_mirna_supervision_control.py",
+      "bytes": 21282,
+      "sha256": "f4a114f26d331bb7ca5d985b904e81513b18e2e8934cc402f5383d979565fd3f"
     },
     {
       "path": "scripts/fetch_mirbench.py",
@@ -1939,6 +2014,11 @@
       "sha256": "4ba54d78ca8126dbf7e35a0d310da1468518a33a92241aa351855f4913500aad"
     },
     {
+      "path": "scripts/reproduce_mirna_supervision_control.py",
+      "bytes": 8597,
+      "sha256": "908f354d5b6cf2f920de96d6cd2b904e5dc7c64243f88ac7f63d984eb4361767"
+    },
+    {
       "path": "scripts/reproduce_oligo_results.py",
       "bytes": 16678,
       "sha256": "a5782ae2217106f8426f49787d65357e3c9aece1e7e50203901729e8e50274dd"
@@ -1957,6 +2037,11 @@
       "path": "scripts/run_cpu_checks.py",
       "bytes": 5244,
       "sha256": "0feb0fb5ae39be3824ed76aa1ca50838a60109d5d8233c2ee1ab709d6d2b93d4"
+    },
+    {
+      "path": "scripts/run_mirna_supervision_control.py",
+      "bytes": 22194,
+      "sha256": "5e4cd91612433f32f64fd8b896e1fcfc19c3a24ea1e9ccb36ce52da467d6c725"
     },
     {
       "path": "scripts/stage_accessibility.py",
@@ -1979,6 +2064,11 @@
       "sha256": "ee185337def50bfaa990f2c54f067ced391cf6b57240faf29dcae73b30341215"
     },
     {
+      "path": "tests/test_export_mirna_supervision_control.py",
+      "bytes": 8998,
+      "sha256": "b5529a79a018109c22ad8c29d6566cccf990378b856a2b8a52896a8cf1dd1ccf"
+    },
+    {
       "path": "tests/test_fetch_mirbench.py",
       "bytes": 1861,
       "sha256": "2e14b0b9510b2ddb3b091d92bcd1855cc93a64d9a488e84b4d51075d26cdc5e1"
@@ -1987,6 +2077,11 @@
       "path": "tests/test_mirbench_pipeline.py",
       "bytes": 12248,
       "sha256": "b7475a4580481c00bfd5ea517978cb78c259b99833fd9f36fdb5217df1a9b0cc"
+    },
+    {
+      "path": "tests/test_mirna_supervision_control.py",
+      "bytes": 10262,
+      "sha256": "d4fdefbe4539e11d3d65450e2e200760a30188eac2fe58a7e5ec0af73dd293c3"
     },
     {
       "path": "tests/test_oligo_results.py",
@@ -2002,6 +2097,11 @@
       "path": "tests/test_refit_oligo.py",
       "bytes": 3430,
       "sha256": "9a629e42e10d0d2a2bde1bd8684e2f7f9bd262391e9fbb8a97c8be076181f188"
+    },
+    {
+      "path": "tests/test_reproduce_mirna_supervision_control.py",
+      "bytes": 6895,
+      "sha256": "33e878c5c4a9a2c90a6b0e40a19666dfd4ca0f67fd962eec0c33a6d33a86a7e9"
     },
     {
       "path": "tests/test_restore_data.py",

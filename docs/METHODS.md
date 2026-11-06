@@ -30,6 +30,16 @@ Alpha is selected from 0.1, 1, 10, 100 and 1000 by inner out-of-fold PCC, with M
 
 The supplementary common-reader comparison uses one official CNN-M checkpoint and Full target50 representations. Both use train-only PCA16 and ordinary Ridge with inner-MSE selection. This differs from the principal target57/R55 protocol. The unprojected CNN-M160 readout is separately identified.
 
+### Matched miRNA-supervision control
+
+The exact pre-update task state of each Full source seed is frozen and compared
+with its matched terminal state, retaining public foundation weights and the
+same independently supervised structural-reactivity input. Both source192-only
+and source192-plus-TD24 use the identical fixed Oligo/R55 protocol. The initial
+state removes miRNA task updates while retaining other pretraining/supervision.
+The [control protocol](MIRNA_SUPERVISION_CONTROL.md) documents checkpoint binding,
+A6000 FP32 parity, train-only transformations and descriptive paired reporting.
+
 ### Other siRNA methods
 
 OligoFormer-corrected, BERT-siRNA and RNAiSpline use the same eligible inputs and outer/inner membership. Registered seed42 inner search selects learning rate, weight decay and batch, then fixes them for final seeds42/43/44. Corrected implementations are not unchanged author code. Their siRNA-training SD and DuplexFM's source-training SD quantify different variability.

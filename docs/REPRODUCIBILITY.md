@@ -45,6 +45,16 @@ Install data/sirna_oligo_random/ and its matching frozen Full features. Refittin
 
 Saved-prediction verification and readout refitting answer different reproducibility questions. Neither generates source representations for new sequences. Three source seeds are scored separately; averaging predictions would be a different experiment.
 
+## Matched miRNA-supervision control
+
+The [control protocol](MIRNA_SUPERVISION_CONTROL.md) provides a portable entry
+point for exact initial-versus-trained frozen encoders. It retains R55 and
+verifies trained predictions against both the TD24-plus-source and source-only
+archives before reporting the new control.
+
+    python scripts/reproduce_mirna_supervision_control.py
+    python scripts/run_mirna_supervision_control.py --features-manifest data/sirna_oligo_random/mirna_supervision_features.json --seed 42 43 44 --all --output ../supervision_control_refit
+
 ## Accessibility comparison
 
     python scripts/restore_data.py --dataset icshape_source --output external_data/icshape_source

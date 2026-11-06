@@ -797,6 +797,21 @@
       "sha256": "5c799e22178599e5249b1b21ef730b5e42d7aacbb94334a70875147d33f78767"
     },
     {
+      "path": "data/sirna_oligo_random/features/initial_seed42.npy",
+      "bytes": 2832512,
+      "sha256": "cc9a43d6332f04342eaea433ae16814fef3ddd32225155316d44f73434d9b8e0"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/initial_seed43.npy",
+      "bytes": 2832512,
+      "sha256": "b7f581568fcd5a4c76de9efb38e25c77dc10d62bdf7f0ca93bef888212193fc0"
+    },
+    {
+      "path": "data/sirna_oligo_random/features/initial_seed44.npy",
+      "bytes": 2832512,
+      "sha256": "7b69ac15cf6a483e6716217e8a535d656946e38c5e8b4e2a3c2fa1d4de20d5e9"
+    },
+    {
       "path": "data/sirna_oligo_random/input_manifest.json",
       "bytes": 15010,
       "sha256": "a89366c36c356afb8abe231fb0f9a216b9fa87fbb8bb0b74fe6ea586c1787e73"
@@ -805,6 +820,11 @@
       "path": "data/sirna_oligo_random/input_rows.json",
       "bytes": 2123382,
       "sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980"
+    },
+    {
+      "path": "data/sirna_oligo_random/mirna_supervision_features.json",
+      "bytes": 4223,
+      "sha256": "3d243169b7de71974d4790b304d81ee6fd474043f6859447dc0a36cc22954735"
     },
     {
       "path": "data/sirna_oligo_random/native_split_plan.json",
@@ -830,6 +850,11 @@
       "path": "data/sirna_oligo_random/predictions/hpo.csv",
       "bytes": 3057411,
       "sha256": "79490e415205b0449170373df5a404c773800fbc16d354d974ad29fca6d11904"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/mirna_supervision_control.csv",
+      "bytes": 4886378,
+      "sha256": "8f134a278bcfe7fa4a11902cf51b0d8bc2f6da7a48b6105445e0acec2431dfd6"
     },
     {
       "path": "data/sirna_oligo_random/predictions/pairac_modules.csv",

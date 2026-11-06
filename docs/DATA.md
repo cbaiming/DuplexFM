@@ -21,6 +21,9 @@ The current prepared data are under data/sirna_oligo_random/.
 | input_manifest.json | Cohort identities, original split universe, eligibility and checksums |
 | predictions/ | Main benchmark and retained representation-readout predictions |
 | features/ | Available frozen Full source representations for seeds42/43/44 |
+| mirna_supervision_features.json | Exact-initial and trained feature SHA, checkpoint and ordered-row bindings |
+| features/initial_seed42.npy, initial_seed43.npy, initial_seed44.npy | Frozen step-zero representations; retain public/structural pretraining |
+| predictions/mirna_supervision_control.csv | Full matched control, both modes, three source seeds and one TD24 baseline |
 
 There are 3,688 unique rows: Huesken 2,196; Mixset 469; Takayuki 664; Wang 131; ALAS1 228. Across 26 outer groups, each complete model/seed produces 4,157 predictions because Huesken→Mixset evaluates Mixset again.
 

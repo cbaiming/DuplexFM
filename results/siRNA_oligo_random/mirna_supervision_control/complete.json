@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "complete_26_outer_folds": true,
+  "source_seeds": [
+    42,
+    43,
+    44
+  ],
+  "modes": [
+    "source_plus_td",
+    "source_only"
+  ],
+  "fits": 8788,
+  "prediction_rows": 54041,
+  "deterministic_TD24_repetitions": 1,
+  "source_model_training": false,
+  "GPU_used": false,
+  "archived_prediction_atol": 1e-07,
+  "max_archived_prediction_error": 5.10702591327572e-15,
+  "macro_main_settings": [
+    "Huesken",
+    "Mixset",
+    "Takayuki",
+    "Inter_Hu_to_Mix"
+  ],
+  "macro_extension_settings": [
+    "wang2009",
+    "alas1_patent"
+  ],
+  "deltas": "trained minus exact initial; positive PCC/Spearman and negative MSE/MAE favor supervision",
+  "uncertainty": "sample SD across matched source seeds; no independent-fold significance",
+  "elapsed_CPU_wall_seconds": 361.17748071439564
+}

@@ -44,6 +44,34 @@
   "siRNA_split_plan_sha256": "d4e2ca306f7074ff643d5ec60dc0f6c72fe692e6ca60ec0211e701c7c0c4de5b",
   "siRNA_input_rows": 3688,
   "siRNA_outer_groups": 26,
-  "repository_result_scope": "Full PairAC main results and external method comparisons; no ablation/single-branch result banks",
-  "implementation_scope": "Source training, branch removals, single-branch sources, readout and main-result reproduction"
+  "repository_result_scope": "Full PairAC main results, external method comparisons and matched exact-initial miRNA-supervision control",
+  "implementation_scope": "Source training, branch removals, single-branch sources, readout and main-result reproduction",
+  "miRNA_supervision_control": {
+    "date": "2026-11-06",
+    "states": [
+      "exact_initial_step0",
+      "trained_terminal_step32728"
+    ],
+    "source_seeds": [
+      42,
+      43,
+      44
+    ],
+    "source_encoder_frozen": true,
+    "public_foundations_retained": true,
+    "structural_supervision_retained": true,
+    "modes": [
+      "source_only",
+      "source_plus_td"
+    ],
+    "readout": "unchanged R55; five inner folds; same alpha grid",
+    "outer_groups": 26,
+    "unique_input_rows": 3688,
+    "predictions_per_state_seed_mode": 4157,
+    "feature_manifest": "data/sirna_oligo_random/mirna_supervision_features.json",
+    "saved_predictions": "data/sirna_oligo_random/predictions/mirna_supervision_control.csv",
+    "results": "results/siRNA_oligo_random/mirna_supervision_control",
+    "execution_receipt": "audit/mirna_supervision_control.json",
+    "interpretation": "Contribution of miRNA task updates; does not isolate real-label semantics from update budget"
+  }
 }
