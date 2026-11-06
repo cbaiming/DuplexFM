@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "protocol": "purged_sequence_v1",
+  "new_training": false,
+  "master_samples": 3329,
+  "split_manifests": 16,
+  "direct_neighbor_edges_within_master": 33680,
+  "cross_fit_validation_test_direct_neighbor_edges": 0,
+  "prediction_rows": 49374,
+  "prediction_runs": 208,
+  "selection_receipts_checked": 64,
+  "baseline_training_receipts_checked": 96,
+  "public_files_sha256_checked": 195,
+  "numeric_tables_checked": 5,
+  "elapsed_seconds": 0.636,
+  "scope": "Saved inputs, partitions, truth, prediction identity, selection receipts, SHA256 and metrics; training is not rerun."
+}

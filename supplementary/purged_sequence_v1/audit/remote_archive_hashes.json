@@ -1,0 +1,47 @@
+{
+  "server": "user-designated-5090",
+  "read_only": true,
+  "files": [
+    {
+      "path": "CROSSED_PROTOCOL.md",
+      "bytes": 5164,
+      "sha256": "51808ef4e9ffbcc88c6f72a04abe0d78c54a10cdb3903a64a469c6a808349183"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 3544,
+      "sha256": "965375801f8bbbd67e440c55aea9180ba715d104893dee2f86b9bc0159559a05"
+    },
+    {
+      "path": "model_corrected.py",
+      "bytes": 5028,
+      "sha256": "13fac6ac99d2d5145b5e5fc87f8b7804f91fd5d6f2c8eef421e112c5189b6177"
+    },
+    {
+      "path": "model_provenance.json",
+      "bytes": 1229,
+      "sha256": "1093348024a29fce511d3a9a6a1e26bfa575c72ac0b9427e4287ef59874686c3"
+    },
+    {
+      "path": "oligo_on_duplex/predictions.csv",
+      "bytes": 944091,
+      "sha256": "4cfcbb7dd9153ea1817cbc1508bc4a124f8110ae5728322dbb679c42a991c63f"
+    },
+    {
+      "path": "oligo_on_duplex/summary.csv",
+      "bytes": 1884,
+      "sha256": "7b3e6bbeb2474b2f0b2df62f69519426b48ce935db3684f17db16a2d8947f6bd"
+    },
+    {
+      "path": "oligo_on_duplex/complete.json",
+      "bytes": 5955,
+      "sha256": "f80e084c5d26bb62f982580f3f63e09d330ecd5564f8e0bd45d53cf2cffcd774"
+    },
+    {
+      "path": "pipeline_complete.json",
+      "bytes": 414,
+      "sha256": "56bb4baadf859057806412040f7383ac4c86dbae7c5b5ea945b995f0acdb0693"
+    }
+  ],
+  "checked_on": "2026-11-06"
+}

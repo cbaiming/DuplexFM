@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6869,
-      "sha256": "78e94d3b3d7a2d6145684977ae9cfd6ec6e9867593c9fb848bb1a4f532cb495e"
+      "bytes": 9014,
+      "sha256": "4e2f347bba2566241fc576aed311ac5ef71618839f83bac16217d697d5b2bd74"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -4097,6 +4097,991 @@
       "path": "workflows/sirna_oligo_random/frozen_readout/transfer_common.py",
       "bytes": 4444,
       "sha256": "479d1ed8c70d76cde539fd9c2ca03117f4389583be7fbf6a9fe6979d01596ef0"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/MODEL_NOTES.md",
+      "bytes": 3997,
+      "sha256": "f104dc17a87bc6e99c7a2ae93dce8b56f19c456bebdb2890ac451a3bab605cde"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/PROTOCOL.md",
+      "bytes": 4896,
+      "sha256": "3734588ead667ef633bb856576c7b8b340f473f98367bec18f0c48a03f04d397"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/README.md",
+      "bytes": 4845,
+      "sha256": "50dd176ba3a473a91a77068b3da41c4f26645f3dd3d9b29d7d33ee09c6a64561"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold0/42.json",
+      "bytes": 48954,
+      "sha256": "8528503e1c6f83e6552c33bf80da876693ad228f8b318355e82e7f9511aa8276"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold0/43.json",
+      "bytes": 48954,
+      "sha256": "2bf6c9322b73b900c72d50a2150c36fabc18d776778648361bb79bcee578b0d8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold0/44.json",
+      "bytes": 48954,
+      "sha256": "b2f72061a132f30f4f690175453c1dd731d4f915df37b54db251a3995b43f9ba"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold1/42.json",
+      "bytes": 48932,
+      "sha256": "b642ea86614c76947504e0d16e7985a4a2bbf29f12512add025e673db5617ff4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold1/43.json",
+      "bytes": 48932,
+      "sha256": "2261931eae9003a79fb03772400908fbc6cb6b5fb4206dea1f9608d2a62798e8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold1/44.json",
+      "bytes": 48932,
+      "sha256": "cc14584805e8cdf6e642d07b12457127232c549b5304b35c23df93101a3692f4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold2/42.json",
+      "bytes": 48976,
+      "sha256": "76d75b46fbd0aff79ec711ca11b2bf97ea2da83602a923bf1888074d38a3bafd"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold2/43.json",
+      "bytes": 48976,
+      "sha256": "239239f08380dfc37d298215cc5ef02c0a79b485ee441b630eab5d775a7c87d7"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold2/44.json",
+      "bytes": 48976,
+      "sha256": "052b60a577dfc180ec04d8d36f4e65bd214ec6fba642f17911a1a3c609ad11d0"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold3/42.json",
+      "bytes": 49042,
+      "sha256": "139a86b9cba6798f0a2b658a532710becf8b1da9069c93e93fabd2fb0d3f8c45"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold3/43.json",
+      "bytes": 49042,
+      "sha256": "a473e55240ee34742b35583ebaaec0b3445aeb1ffa1055ead3f64e091ac3e3df"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold3/44.json",
+      "bytes": 49042,
+      "sha256": "963aba89855a4b0021d9f9a233bbb4b01e4c3ab3608a2c4fdb50122256d407d3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold4/42.json",
+      "bytes": 49218,
+      "sha256": "dc8ea6a6c4340f703c1f93f5d89ed559b3f2c0b500e7fc8ec24fbe7301576f7f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold4/43.json",
+      "bytes": 49218,
+      "sha256": "683cb3a6e56dc96d237108fcbe55b6c52529c285ebec2522c971caf6f9ce5d1f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Huesken/fold4/44.json",
+      "bytes": 49218,
+      "sha256": "9d0ea59871c30c37024025a4d9629b8d39906c53f8ea1fea935b4de9b31cf21b"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Inter_Hu_to_Mix/fold0/42.json",
+      "bytes": 59075,
+      "sha256": "ca4792e0e6cf91e71958ff7b10acca45482083fbe2b2a69058d1094b1a2b96b5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Inter_Hu_to_Mix/fold0/43.json",
+      "bytes": 59075,
+      "sha256": "cc7ed9e53b9c8026735209a30860996d09311ffad3c604cd046e960093317338"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Inter_Hu_to_Mix/fold0/44.json",
+      "bytes": 59075,
+      "sha256": "20904d4a40e5c451d41f971d630911de9baa7bb364749049efa2eacad2fa701a"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold0/42.json",
+      "bytes": 10505,
+      "sha256": "58a871a4547a55acca7499cb05da13294bbd3d9dd8f905ec7a479ee60d2651df"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold0/43.json",
+      "bytes": 10505,
+      "sha256": "2797b2e8ac8c524de7b9094a3ab13bfcbc8255fed3bfbeb5f8db349d45f6789b"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold0/44.json",
+      "bytes": 10505,
+      "sha256": "17df4e7eafb58cca1a538d828f9d70a44be6cf59b8062bf2eab908adef3b6c6a"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold1/42.json",
+      "bytes": 9790,
+      "sha256": "02b3f087f041aa82561d4abc2cdbdaacae2058c49e7cae3787b4b1ca47aa852b"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold1/43.json",
+      "bytes": 9790,
+      "sha256": "53a59a8eb9f1badc2e62003e56b9a61b84aa84ca0030171387d1cabaca8f938d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold1/44.json",
+      "bytes": 9790,
+      "sha256": "d5eed2b489dd1a3bca8a0f7c03b2c2f5f24fcbe4ca212ebdd8b7b9cb5e2f4e3a"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold2/42.json",
+      "bytes": 10442,
+      "sha256": "2f3f7c7b9e76f0c69825819b97c9ee5de1984046be08e8a7b9eef3c8d7da4f19"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold2/43.json",
+      "bytes": 10442,
+      "sha256": "1c38c0e1dd07dfeb45cad4de4dce4074fb0f1eb2e2e10158bb7262560195e3f6"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold2/44.json",
+      "bytes": 10442,
+      "sha256": "70e6177c40570b2c075c17f0303982db1fcd54ecb3d31c720341d1a162e3f2dc"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold3/42.json",
+      "bytes": 10505,
+      "sha256": "4a9e2864e260aee2afcdcd6256ed5b649187ad5c7a72c62293c40af01dc2aa9e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold3/43.json",
+      "bytes": 10505,
+      "sha256": "460d91213d60ea17cf63289f3351dc1f914a64734c1f39411bcbd235016bf4be"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold3/44.json",
+      "bytes": 10505,
+      "sha256": "e1116c2f6ef47b15deaba9d59920e708831ea581caf76d9b25e797a6903e3669"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold4/42.json",
+      "bytes": 10547,
+      "sha256": "ae269af25c0761fdd210453f7b2f3c4361ec8ce5f049fddfc9b53f10aa3a69a4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold4/43.json",
+      "bytes": 10547,
+      "sha256": "ce133a79609272a438983d22c90438912d3e4720520fe19ff9e90d1a2e4651cc"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Mixset/fold4/44.json",
+      "bytes": 10547,
+      "sha256": "967eb8aa8aaaf2ffabf951269ac98dbd1289c265a5b1e4d67301f068c0833b6b"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold0/42.json",
+      "bytes": 14814,
+      "sha256": "de99c884a55c6056594ec5e9c456fb95c441e82e178607328e84f33349c29e26"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold0/43.json",
+      "bytes": 14814,
+      "sha256": "46ea14cad5a08af6e49c976abe4c7cc25e201ea1529fcf703235e9c016c60606"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold0/44.json",
+      "bytes": 14814,
+      "sha256": "b3af72d32cad94429c708496b0ed2bfc389daebbdd6368d916c45dfffa8da03c"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold1/42.json",
+      "bytes": 13066,
+      "sha256": "b7d05433ad14754f4a97aa68c8c60f7177e615110be6912858895e110f99435f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold1/43.json",
+      "bytes": 13066,
+      "sha256": "34654a058b24e40d7013b24300c3a45e5c9a49781efdeb0285e47385371fb69f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold1/44.json",
+      "bytes": 13065,
+      "sha256": "a2c9983cb63932d49e606070e1a4f6298411645a2b40c2d1d6a0890ed15759b2"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold2/42.json",
+      "bytes": 14009,
+      "sha256": "294afd3e066eae119ebefa0c5171dc0b7a5222d6c69e6a44510c2101aa48c82e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold2/43.json",
+      "bytes": 14009,
+      "sha256": "be965a8eb0282984a3a69a1c06df8aeac5b8aacff79a3e6333643f8368c4f251"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold2/44.json",
+      "bytes": 14009,
+      "sha256": "70ecc1ea74ddfb3063fd4ae1c9a639203583608cd28ba55ce7d559eed2d03d13"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold3/42.json",
+      "bytes": 14101,
+      "sha256": "853e6bd841ae96ea91b160c20ca6fcc5547f546b6227d1f727ee40eb99cbe0f7"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold3/43.json",
+      "bytes": 14101,
+      "sha256": "f4f3f5aba5d09dd4360f1c588ccfab00d6d2508bc1428d4631194ea0afed3dfd"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold3/44.json",
+      "bytes": 14101,
+      "sha256": "bd1767e6084326f31330fd09280803501b29224593578135cfe618e682138020"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold4/42.json",
+      "bytes": 14837,
+      "sha256": "4e63634dcf070ce65a129141893466b4413387cb9a78337500a0b23ee3fccc00"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold4/43.json",
+      "bytes": 14837,
+      "sha256": "4885b1768e033682f96070cb95f0cb25d633eb906ffc893b61ff38da949fa8a3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/BERT-siRNA/Takayuki/fold4/44.json",
+      "bytes": 14837,
+      "sha256": "4f71b9682ee2ed7750e9b6c266428eeecde95c1c83c9ed6b53f136b33d9e78e8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold0/42.json",
+      "bytes": 83704,
+      "sha256": "01f9d49ab9705dc7a2a874d3cbda61f452a4c7da3ab706ddd37cd2590addccc6"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold0/43.json",
+      "bytes": 83703,
+      "sha256": "91a3752e836cc6e35e02d18495028451e0da1ec2db83041a460bd05ed962d925"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold0/44.json",
+      "bytes": 83702,
+      "sha256": "11c409f2b143ab735b9bad4cf4d0e6c2d7069c39ad9e712206b703d100cdbb06"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold1/42.json",
+      "bytes": 83660,
+      "sha256": "c232da92bfa9f6f450165409c1549af396eacf160984ca89af9251a28d429e26"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold1/43.json",
+      "bytes": 83660,
+      "sha256": "7a4f202ee2d01709a05099f5969e2b123cf7e3d0669ebccfecdd5a5076cad624"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold1/44.json",
+      "bytes": 83660,
+      "sha256": "186b5c9a0e9e8cd2d86a2bd12f955b94940452c2157f08cec8ed4cd2e6dc64eb"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold2/42.json",
+      "bytes": 83726,
+      "sha256": "72abc88a224afd7bba1ed68df85685043a561f8428793c1fa80f5a9eaf4d6fc9"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold2/43.json",
+      "bytes": 83726,
+      "sha256": "d093ba2e2715b837b05f81b7b85ee6a3ae98f7f8475bd0177b48881f85ead05f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold2/44.json",
+      "bytes": 83726,
+      "sha256": "28ed2f275cbd84af96ede0f74c0814057862c00d7daa91c7d6c65b271677d3ea"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold3/42.json",
+      "bytes": 83880,
+      "sha256": "b6ba75f95f21fb81a14ffdd5368add87e2cef49aa053f084979e09f8883a15b4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold3/43.json",
+      "bytes": 83880,
+      "sha256": "95be92b1a4b63ec0fa76472a2df81dc9da37d8c3c9f5f042ecf231d99939cb3d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold3/44.json",
+      "bytes": 83878,
+      "sha256": "5fec5d3fe6e05fce051dea52cd2640f3bc6d3f396074e3e8ad43702ce21fe84a"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold4/42.json",
+      "bytes": 84210,
+      "sha256": "2c4423f3d0dbd96724e365cca5208b04bcac3776723f304a872f850c0b2089f5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold4/43.json",
+      "bytes": 84210,
+      "sha256": "8a2702bc0ecee4cc3ef4f774b8ba61122c0666d6d802af948267d7255b6a2d69"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Huesken/fold4/44.json",
+      "bytes": 84208,
+      "sha256": "2f02730b054a3f3338f2f97cba0cdbbf354a91bb713ae8a800694dd4e2adf0f0"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Inter_Hu_to_Mix/fold0/42.json",
+      "bytes": 102840,
+      "sha256": "8bf3aa508ea208d20abe78d1f2a794e8aa3e6dd1cef6e000e6198cc70f41da6e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Inter_Hu_to_Mix/fold0/43.json",
+      "bytes": 102839,
+      "sha256": "8ac40193f391352e5b2c5846bfc85138ffc772a0142a0be6467186d563be781e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Inter_Hu_to_Mix/fold0/44.json",
+      "bytes": 102838,
+      "sha256": "acfa680c2c46f807ae735137d2eef3f43a55245b5693ed55323385a9c3ff5242"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold0/42.json",
+      "bytes": 17548,
+      "sha256": "b0b614704eea64ea058109ddb8c87e942b06066ac5d14e1477fa202cd8da84f2"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold0/43.json",
+      "bytes": 17548,
+      "sha256": "83a7541524440f164bb25628c592ee005228848bf95202d7f64c8a69a186d6b7"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold0/44.json",
+      "bytes": 17547,
+      "sha256": "8c52af11a85e9619df12712dba1e5c0428574bae1ba55a3619dbaa19fde50d57"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold1/42.json",
+      "bytes": 16201,
+      "sha256": "902452498a51a8eb39647b2ac3c5e8583503ad54c49ad8d5eec514850c1696d8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold1/43.json",
+      "bytes": 16203,
+      "sha256": "4e5e592bf528bf1b86b7db2262dca2b667f3ccca5819d8b83215de0dc13fe7a3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold1/44.json",
+      "bytes": 16204,
+      "sha256": "00ed302a26fcf9821d45f7b0ae4d576f4461601a2fba1b4d6b2c6a444683427c"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold2/42.json",
+      "bytes": 17442,
+      "sha256": "63613a928bacfd392c55fae9bfcb0ce55fb117a8a2ceb98dc7cbf888bd3b3144"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold2/43.json",
+      "bytes": 17441,
+      "sha256": "7d95cf9874d8e6ba356dd63429905b0e452254424a40fd8aa57c3c781e4013bb"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold2/44.json",
+      "bytes": 17440,
+      "sha256": "f3fae4f0f6cc9c95048e3afffebb420d9d25c8144d78074a41e140b80bea16fd"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold3/42.json",
+      "bytes": 17545,
+      "sha256": "1948d29900f3ad8967edb93498e5e7e355a72822487e441198da299831157e04"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold3/43.json",
+      "bytes": 17545,
+      "sha256": "ef53706934a4c6bfb3028789f29082670e76fdcce46911974cdd8912a4ce8779"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold3/44.json",
+      "bytes": 17547,
+      "sha256": "06a1dda68dc7b93a0ecb023ab34b12e8188377a1cd8686a1f2d6c6e170a61b2f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold4/42.json",
+      "bytes": 17631,
+      "sha256": "5d2c081a1720e8591da44daa41a41783a142bbd56379d4303aa1d56c8c6d5ec6"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold4/43.json",
+      "bytes": 17628,
+      "sha256": "15164a56801d4f7e2fc52e34b5411975447ab6169a4ed59a5457d55f5b6142ca"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Mixset/fold4/44.json",
+      "bytes": 17631,
+      "sha256": "1fdbf18a3f7f0e4252c89e18047fc21f4a9c98b543627a2e964775d88ef94cd3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold0/42.json",
+      "bytes": 24727,
+      "sha256": "306830fedb9581f619bdae605ca1ce53ee4f041108b5560b3315580c1dcc128d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold0/43.json",
+      "bytes": 24727,
+      "sha256": "6855ec75040664fa4c7481363d44f6aa138232ec0fe761694758613f5e48b5cc"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold0/44.json",
+      "bytes": 24727,
+      "sha256": "7d71c92ff64cf96c1e02875b5059b0f1716a2c903d7f16e57432c3e9fdbfe46b"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold1/42.json",
+      "bytes": 21392,
+      "sha256": "2911e682c36a887ce6edb3e5638fc96b57c090b76efc3965725c1021a1b7f10e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold1/43.json",
+      "bytes": 21392,
+      "sha256": "1dd2646c121e432c838cce00ab6efbb0b7cbc0694945a50ae9f432eee8820b55"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold1/44.json",
+      "bytes": 21392,
+      "sha256": "0391d6af4e1d1ab4344ed877c9f7bc9db2b906a1c6fd89c8b32ba7a21076df7f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold2/42.json",
+      "bytes": 23209,
+      "sha256": "a0ef00cfd95d65c42a76ecfafd588193bac5d0da90920e03254f9f207ed4fbb1"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold2/43.json",
+      "bytes": 23208,
+      "sha256": "c0790cd9139a4b5427f58a2c08f6325e5cf7662f5ceb51ac15532b4e69d9f9f9"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold2/44.json",
+      "bytes": 23209,
+      "sha256": "efe2d22ad89cad8ed9762954a40f6069cbf3cc84ef90cf646a3b0f141729ed26"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold3/42.json",
+      "bytes": 23369,
+      "sha256": "34da93fcdbb2f884779fde7a79d70cea30f182c19c8b1feaed320fafe471cca2"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold3/43.json",
+      "bytes": 23370,
+      "sha256": "fd906f1661d154f06a6e7be0737df046dab1bbd72170234c5cb05613951e37e5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold3/44.json",
+      "bytes": 23369,
+      "sha256": "3511d1b4024e971e353c886b57bf52c8a2a07d9854941da269ebcdfb4df6eeb3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold4/42.json",
+      "bytes": 24772,
+      "sha256": "7daf227b2fe03f89d0a1a5ab5ada78904c6d872d7f05506e116caf3f1b9cd429"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold4/43.json",
+      "bytes": 24773,
+      "sha256": "83085820fb13633d88e13329aca6091c77bc42a7d0f6d8769062c11df2691c8c"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/baseline_fits/RNAiSpline/Takayuki/fold4/44.json",
+      "bytes": 24773,
+      "sha256": "30c5ccd204a88c4b4c5dae4604e49e7183512e808c6265af727f66a441cf3490"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/files_sha256.json",
+      "bytes": 24027,
+      "sha256": "8408a66cb81e8134e0c21a516e5a8cab8e32de15918afbea5ed32ed936afc088"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/models.json",
+      "bytes": 4408,
+      "sha256": "3b7344128f7e2007367a89ffec17833618c5008d256f84b89605a9894eecf45d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/prior_comparison_audit.json",
+      "bytes": 690,
+      "sha256": "2fbaaaec16aec26daa549cec40fef9a39e400d6a2761c78f032fd2d3ed43d75d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/remote_archive_hashes.json",
+      "bytes": 1413,
+      "sha256": "47140555b4f957379f586d41ea2b1a198dad5136a94ce824d30eddb497c0798f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold0/42.json",
+      "bytes": 44489,
+      "sha256": "e746676b7c2a875912a93f43681e5c37b95093ddf19e6609d019c6ed5d6bf8e1"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold0/43.json",
+      "bytes": 44491,
+      "sha256": "c42075162b088d0d9c09dd6cbc98d26e4afd8a293e52486126fdc07a32164006"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold0/44.json",
+      "bytes": 44492,
+      "sha256": "532d93cab7fd963ca75101717cec12eb0b235b090e0db7fc9881eb6d8bed0640"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold1/42.json",
+      "bytes": 44470,
+      "sha256": "e97540e3212b4308e205b6832a29ffa03e12c5f71d518e6680b6de9e409508c3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold1/43.json",
+      "bytes": 44471,
+      "sha256": "8d9a9154b4f5c695a176a78aa48a5b1addf90a7d230639d08a3902591069098a"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold1/44.json",
+      "bytes": 44470,
+      "sha256": "90760e138d561f58723485611f531935c7bcaabb0e9f372b2a8d38b2f4ee1793"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold2/42.json",
+      "bytes": 44511,
+      "sha256": "8cc968adeb1c0bafa14a45d083f7f8559330edfc56e70a0c960e2826b09821b8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold2/43.json",
+      "bytes": 44513,
+      "sha256": "35df3717929defe89e063a1da41b8c49e651bb7e18ad80a393a1fa05ae0c2bc8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold2/44.json",
+      "bytes": 44511,
+      "sha256": "9d842cc225ff6892d58845950c9de2b04fac035e111a71a7ad45aff21060606e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold3/42.json",
+      "bytes": 44582,
+      "sha256": "9251827cfc78d6626e2fb988b0628f39872bfbaf459e0ec3ea91a6e4fcf6d3f5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold3/43.json",
+      "bytes": 44580,
+      "sha256": "94a550c72c8b3dfc5405c24eacc9d247b697e54380eea6cef1df0e2a1e143c6e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold3/44.json",
+      "bytes": 44579,
+      "sha256": "7093be0201844227cc711fdade1496964ffb516e982af3df542c41b9c99dbf49"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold4/42.json",
+      "bytes": 44734,
+      "sha256": "00f4207775dd44907e64893e7aaad69c8e13c0905eae038b558038d52739c78f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold4/43.json",
+      "bytes": 44735,
+      "sha256": "8c2806b1e584d1c31cd18d227c977018d69c095167a7d82d6483cc2d3c061c88"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Huesken/fold4/44.json",
+      "bytes": 44734,
+      "sha256": "bdfcd11e91415831dbadacab918d79830dec2d984ff2c8ad15d9e28fae9aa85d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Inter_Hu_to_Mix/fold0/42.json",
+      "bytes": 53614,
+      "sha256": "5c049e290353f8b69a2e286083cb86dbdefa80dbbee10a292bb8dc9a9c8c0c3c"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Inter_Hu_to_Mix/fold0/43.json",
+      "bytes": 53614,
+      "sha256": "1cf6591b6a58c92735aa3220489cfeb677513df5ded007c11267ba07ff6ac87f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Inter_Hu_to_Mix/fold0/44.json",
+      "bytes": 53614,
+      "sha256": "f8819f9e4d4b3d7b0ffb66cfe29f1efa8f9b073c27accb463ce1ea1dc93924fa"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold0/42.json",
+      "bytes": 9094,
+      "sha256": "89b23ce8314d069f86024a22ac80bb1abd95a120edae33eb0e144faead3f2428"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold0/43.json",
+      "bytes": 9096,
+      "sha256": "ea12d4f96c77aab16dfc889b5257c6264173eaf91e6c2258ae66d2af310d805b"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold0/44.json",
+      "bytes": 9098,
+      "sha256": "1147dcdf78a4ba6b3866681f15523244ebd5ce3f83027dd04a366e4f85d827dc"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold1/42.json",
+      "bytes": 8468,
+      "sha256": "44b1f7ce358181d56b015a1270eeee98af26e74159c14a651fca10c5959f752d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold1/43.json",
+      "bytes": 8468,
+      "sha256": "7890763d52908d0de57107046f5053cf6b7e9261c5b61e83615d7cea6030c418"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold1/44.json",
+      "bytes": 8467,
+      "sha256": "3c243c9c071be490920f399de821bbf6893914193de1b3bb89ec36c4c1a7fecd"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold2/42.json",
+      "bytes": 9034,
+      "sha256": "8841a5b441991b2a2b37d98c66774582b549326b9591461198babf6d6c48e6fa"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold2/43.json",
+      "bytes": 9033,
+      "sha256": "470ac4b63a39216cef2bddc92505ddb923ef038d299c722963119cb80f587ef2"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold2/44.json",
+      "bytes": 9035,
+      "sha256": "079b0ad0c4698011a6eba010e7745d7009701497b66760097632582aa561a3d2"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold3/42.json",
+      "bytes": 9095,
+      "sha256": "706390c9019320958b0bee8ce7675487d4c56dfea63bade33f2e1f594a94aefc"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold3/43.json",
+      "bytes": 9096,
+      "sha256": "03edd54272807d97cbf491f9d9be5a8c300078338acd78ba1acdde123f0f187e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold3/44.json",
+      "bytes": 9095,
+      "sha256": "6dc44742f30663b92250c3fad59775d7881c8267360b927707c91e68fedcc8e7"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold4/42.json",
+      "bytes": 9136,
+      "sha256": "b3fe7436b6b46b95562af0a7e35f8fdd3256915a0293ca81bdf93f6442cf3006"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold4/43.json",
+      "bytes": 9138,
+      "sha256": "3b2b071a2494c79242283329a9ed52c5684d866737c95713a0465b1ecd337a81"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Mixset/fold4/44.json",
+      "bytes": 9138,
+      "sha256": "2e266f10fefc2eb51d32e15ea24e361d1b21c74273129edcb30bfa474060e22e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold0/42.json",
+      "bytes": 13054,
+      "sha256": "37784eb264427e03ccef7ab3285f2389e480bb5202aebf73ed8f0ca321a4cf28"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold0/43.json",
+      "bytes": 13053,
+      "sha256": "6a78965af9cf938db365fedc5d7dff2025aa2fcee49483ec45aee427320399a5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold0/44.json",
+      "bytes": 13050,
+      "sha256": "2823db01d80b9de705c78a0ffafaeac2cfde9cfb485f2e08a4f76394fd121ae8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold1/42.json",
+      "bytes": 11464,
+      "sha256": "10431700378b34bd9f060457f2b5b134a15388fe39374da00c099e56622e6147"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold1/43.json",
+      "bytes": 11464,
+      "sha256": "d86e4892bef59d46d901d94edf915df1946c8909ad7c8c93a403b2d882414554"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold1/44.json",
+      "bytes": 11470,
+      "sha256": "ffaab4cab779cab2b97edc47fad53994802230d7ef2a68f480ab38cd60e006f5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold2/42.json",
+      "bytes": 12317,
+      "sha256": "8f256ca014d2ad63b2b3b76328661f6dfa944fae4a3d26df0423a5181b125ead"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold2/43.json",
+      "bytes": 12316,
+      "sha256": "d8fb2fb407b2e169788cb1a0a44b83a5b7004a82e2a308bdb48aed41f8dc3ca3"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold2/44.json",
+      "bytes": 12314,
+      "sha256": "4289d2a4246212ef79180ff73d9a76437f9a27c1931f6d949d6f6d31b420f6da"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold3/42.json",
+      "bytes": 12410,
+      "sha256": "be690f0abd9068c0630796be7fd8b8b8b6dd0ca07c7187379c64dfbcfb9f41bf"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold3/43.json",
+      "bytes": 12412,
+      "sha256": "b016bfa2809b4796b5145a88ec00482730e2d21164f398690ef5103e0a717da8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold3/44.json",
+      "bytes": 12406,
+      "sha256": "d431f5942a495e6a5cc0e52bbe028164188190c02299372e9a7fb6a6849cdfc2"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold4/42.json",
+      "bytes": 13072,
+      "sha256": "fcb873160355573b339a8780b7aa5063b5fec6cf2e58df28fdc5f41909a6b0b9"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold4/43.json",
+      "bytes": 13071,
+      "sha256": "7f3e52c3e3f87fe371f06f72b474f427bd1a0a50d12292d440d4f462c5a448cb"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/PairAC_TD24_R55/Takayuki/fold4/44.json",
+      "bytes": 13070,
+      "sha256": "7217db0be12239451e6bcce1c99e696fe0453c2984ed51e03f94daa6264b6da4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Huesken/fold0/deterministic.json",
+      "bytes": 42473,
+      "sha256": "de43760124f440a23952894a195789422f4d23eb3d4f84a1a7d375b304adf18c"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Huesken/fold1/deterministic.json",
+      "bytes": 42455,
+      "sha256": "97ceb6d8fff7b359c89182b7a588e9523455a31e0abe9752b65e8213a6284ec6"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Huesken/fold2/deterministic.json",
+      "bytes": 42495,
+      "sha256": "c6937b4f6e7276445888212b293ba547fef1b6a07990a977553efa318644d061"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Huesken/fold3/deterministic.json",
+      "bytes": 42559,
+      "sha256": "68a55d44c9139521f826e0e155a352a711d51769747567cb2608509840b19c80"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Huesken/fold4/deterministic.json",
+      "bytes": 42706,
+      "sha256": "12ef4ec6e1aef4ba226745dafde99c09d8bb3690d81fef5ed7a7a82baf39380c"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Inter_Hu_to_Mix/fold0/deterministic.json",
+      "bytes": 51162,
+      "sha256": "411091bfc9aa268e16252e401924651322ed53eb1d830353c6e5ec14d712f6f4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Mixset/fold0/deterministic.json",
+      "bytes": 8670,
+      "sha256": "13db252206be1c610fee1f0ead9718ec0c6dfc737939606d1cf2561eb4b3e94e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Mixset/fold1/deterministic.json",
+      "bytes": 8069,
+      "sha256": "f79dd25fc982b40a4447dda493bedcbd39482681c7c996cbe49ee95f224a4625"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Mixset/fold2/deterministic.json",
+      "bytes": 8613,
+      "sha256": "a6c5a5e0cd62272a51c04a4d795c47071269de00e7349772d5f4476d953591f6"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Mixset/fold3/deterministic.json",
+      "bytes": 8670,
+      "sha256": "0d76eb58e5ea6a1a953eb5ebbe69190a5fc75c150e42dc8b6a585c97373e9b2e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Mixset/fold4/deterministic.json",
+      "bytes": 8706,
+      "sha256": "507e80f3d91dfba4d61fef211b77cfcf4fe778026687e7555b65c1c1e62f2503"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Takayuki/fold0/deterministic.json",
+      "bytes": 12493,
+      "sha256": "f286047e482463d512fca04dc98ee73c5b2ac6bfb84d688f71fa5b3fd30d7968"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Takayuki/fold1/deterministic.json",
+      "bytes": 10971,
+      "sha256": "eca36a1b9aa48162afc712c2d8f541d8fcc6e959e55c62ce9e22bc37770a8902"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Takayuki/fold2/deterministic.json",
+      "bytes": 11784,
+      "sha256": "d135c37178a35a8d22acfbe6b5778df149dbfdb39abcf0adfd4e3469e12a318d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Takayuki/fold3/deterministic.json",
+      "bytes": 11872,
+      "sha256": "6814fe7d3eaa84f435f289391c8167b0df056be1a1ae3e066734220bccd2f190"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/selection/TD24_R55/Takayuki/fold4/deterministic.json",
+      "bytes": 12510,
+      "sha256": "cdd1dc65b4e310f7b8569be3231285ce53faad9f7a8937edbb91e9f54bc73163"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/source_inventory.csv",
+      "bytes": 55084,
+      "sha256": "5609fde1db28b425eaf482c58b1c9d2d091b5e80ce84a1989e8d585ecd903b4a"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/audit/verification.json",
+      "bytes": 620,
+      "sha256": "59d1a265ef6fe2937587991db1cee53f9d2b4b8c59eaa0ecca14209fa4745714"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/data/Huesken.csv",
+      "bytes": 871606,
+      "sha256": "3de4bfef5872de1e6ec9813d478543fcf0d034bc283889b97c43b381fcc70b58"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/data/Mixset.csv",
+      "bytes": 185005,
+      "sha256": "1b3c5fb003e30528b4688bfb5e2fd151baeaeff9d2daf965c4efae6516f747bd"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/data/Takayuki.csv",
+      "bytes": 261967,
+      "sha256": "1c5393ec9517a0e6af719db253da4228afc6a29f9517742a800a19c5b34ee781"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/predictions/all_models.csv",
+      "bytes": 5040348,
+      "sha256": "1a94e86f99f0fcce96fae6df3ffb800119753f298b1e25910d8ea71b0aa92b8e"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/reference/oligoformer_reproduction.py",
+      "bytes": 5028,
+      "sha256": "13fac6ac99d2d5145b5e5fc87f8b7804f91fd5d6f2c8eef421e112c5189b6177"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/results/fold_metrics.csv",
+      "bytes": 39042,
+      "sha256": "5031c0ab269a2f2486e219877dff4d8cdff143d87d8c819af2e09f9a4662f036"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/results/seed_metrics_fold_mean.csv",
+      "bytes": 12199,
+      "sha256": "786e296191ab093693868e0acef5255e9ce55dc6b738ad2a7e75a9ea4aed2cf5"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/results/seed_metrics_pooled_oof.csv",
+      "bytes": 12206,
+      "sha256": "8544d753f6ce212679d6bfd2c78158178bc32497781a2e2767828c99fdeab250"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/results/setting_summary_fold_mean.csv",
+      "bytes": 8198,
+      "sha256": "f92ab337fb19ca83e73437e672f63954a1a1a298e85b4754090bea7cfb48ac6f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/results/setting_summary_pooled_oof.csv",
+      "bytes": 8189,
+      "sha256": "adb51b6f1ae5ceedb1b31aa5870b60cf8be7f6d83254097183cb2a5c58fe94cc"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/results/split_audit.csv",
+      "bytes": 617,
+      "sha256": "4b7c54304c97ed630a88b985f94bc473ef9d91c586ab648175cb91148dcb5367"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/scripts/verify.py",
+      "bytes": 12516,
+      "sha256": "d112c651ae6fa3af95ee4b48fb063f70f7f60c67474ac612b78cf3085f2ac658"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Huesken/fold0.json",
+      "bytes": 47614,
+      "sha256": "48ec412ea7c88cb981d8d0d0095655bb54fae853d93898c8b4162e9fb5c66d1d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Huesken/fold1.json",
+      "bytes": 47637,
+      "sha256": "681cf217ed5ea9ecd9286bad593c55bf35f212bfaec69e490a11fdac9adc7e61"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Huesken/fold2.json",
+      "bytes": 47591,
+      "sha256": "9666a64f5ba80b6f52c577722402991cb7d9fc79509091c47560b859fa847684"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Huesken/fold3.json",
+      "bytes": 47522,
+      "sha256": "24bf6f0e8574aed476185e256bebadd651b472533dd08e833f7c3bfe0eb8db37"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Huesken/fold4.json",
+      "bytes": 47337,
+      "sha256": "2a41afa66e10d9babbff1fc0892051cdbbbff59e77a75a7206565d6434087344"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Inter_Hu_to_Mix/fold0.json",
+      "bytes": 56802,
+      "sha256": "80747cac5447bce94e5a39785a624923c7ae2662386de507b08c89d695885c9f"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Mixset/fold0.json",
+      "bytes": 10850,
+      "sha256": "d78fec577a708eca664e1322366f8c7d2cca6385c28cb55b578c5eb2366a5f32"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Mixset/fold1.json",
+      "bytes": 11598,
+      "sha256": "a0ea74a5d4b134fce09ddcaf56bf103d3a9ae1b5354fc908051aa9b7068ddce4"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Mixset/fold2.json",
+      "bytes": 10916,
+      "sha256": "1df5b3921723a02c7128018a58d7f94e45f9def6d95986ac5814e8b1d7e4c4f8"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Mixset/fold3.json",
+      "bytes": 10850,
+      "sha256": "073701b356ecb8b93bfdaee6eeb5e7c24fa9d804dac3c551318796381f6e3564"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Mixset/fold4.json",
+      "bytes": 10802,
+      "sha256": "46cd61299a04e6647cffc417d14dbef0c3fe5aa8be62c3682fea1909716ff832"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Takayuki/fold0.json",
+      "bytes": 17252,
+      "sha256": "6b7e3394ef42f5f534b5c61a055c22834ea64b5aa8f24d702d69eea09d3a258d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Takayuki/fold1.json",
+      "bytes": 19077,
+      "sha256": "aeccfe36190928bb827600deaf0cb5d8ea746dfa5458b985fb99a1de47527c20"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Takayuki/fold2.json",
+      "bytes": 18093,
+      "sha256": "db1638e89959afa139d2374e4dee6f09560e86031cd0a15c8caac8c4d31af181"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Takayuki/fold3.json",
+      "bytes": 17996,
+      "sha256": "aeeafb7693b0557fdcc3adb07e9e6f8d3268d0c5d138b84ab9c308dc1b7dba0d"
+    },
+    {
+      "path": "supplementary/purged_sequence_v1/splits/Takayuki/fold4.json",
+      "bytes": 17228,
+      "sha256": "4247c022811fca20ad4e41a9871c166f37f5e18e434fbd6e3182f9fdc9a1de4a"
     }
   ]
 }

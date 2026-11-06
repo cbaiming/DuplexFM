@@ -55,6 +55,24 @@ Results summarize source seeds 42, 43 and 44; predictions are not ensembled. The
 
 This repository focuses on the main miRNA and siRNA experiments and the supervised structural-reactivity comparison. Ablation implementations are retained as research code; their result tables are outside this repository's reporting scope.
 
+## Supplementary sequence-purged evaluation
+
+We additionally report an earlier evaluation on common eligible inputs under fixed `purged_sequence_v1` partitions. Direct sequence neighbors are excluded across fit, validation and test: guide Hamming distance at most two, or a shared canonical target 25-mer.
+
+| Method | Huesken | Mixset | Takayuki | Huesken→Mixset | Macro4 |
+|---|---:|---:|---:|---:|---:|
+| DuplexFM + TD24 (R55) | 0.6000 ± 0.0037 | 0.5658 ± 0.0097 | 0.5848 ± 0.0090 | 0.5734 ± 0.0130 | 0.5810 ± 0.0071 |
+| RNAiSpline | 0.6067 ± 0.0101 | 0.5337 ± 0.0201 | 0.6198 ± 0.0338 | 0.5600 ± 0.0041 | 0.5801 ± 0.0114 |
+| TD24, matched R55 | 0.5856 | 0.5405 | 0.5229 | 0.5732 | 0.5555 |
+| OligoFormer reproduction | 0.5890 ± 0.0068 | 0.4624 ± 0.0337 | 0.5501 ± 0.0135 | 0.5281 ± 0.0162 | 0.5324 ± 0.0040 |
+| BERT-siRNA | 0.4511 ± 0.0624 | 0.1925 ± 0.0635 | 0.0917 ± 0.0655 | 0.4379 ± 0.0034 | 0.2933 ± 0.0429 |
+
+Within-domain PCC pools the five outer test folds for each seed; values are mean ± sample SD across seeds 42, 43 and 44. TD24 is deterministic. DuplexFM and RNAiSpline have similar Macro4 point estimates; these results do not establish a statistically significant difference. Macro4 reuses the same 469-sample Mixset cohort in two settings.
+
+This split controls direct sequence neighbors but does not hold out target genes, transcripts or entire transitive sequence components. These historical fixed-configuration runs and the main random-split HPO runs have different optimization budgets; score changes cannot be attributed solely to the partitions or training randomness.
+
+[Full results, input data and predictions](supplementary/purged_sequence_v1/README.md) · [Partition protocol](supplementary/purged_sequence_v1/PROTOCOL.md) · [Model identities and training settings](supplementary/purged_sequence_v1/MODEL_NOTES.md)
+
 ## Organization
 
 | Path | Contents |
@@ -65,6 +83,7 @@ This repository focuses on the main miRNA and siRNA experiments and the supervis
 | results/miRNA/ | Main three-seed miRBench results |
 | results/siRNA_oligo_random/ | Current siRNA benchmark and representation readouts |
 | results/accessibility/ | Reactivity MAE analyses and supplementary metrics |
+| supplementary/purged_sequence_v1/ | Sequence-purged siRNA inputs, partitions, predictions and verified results |
 | scripts/ | Data preparation and analysis reproduction |
 
 ## Reproduction
@@ -79,6 +98,12 @@ Use Python 3.11 and the scientific dependencies in reference/pairac_concat_v1/re
     python scripts/reproduce_shuffled_supervision_control.py
 
 The last two commands verify the initial-versus-trained and equal-budget shuffled-label controls without loading model weights. The [revision file guide](docs/REVIEWER_REVISION_FILES.md) links their code, data, tests and evidence.
+
+The sequence-purged supplement can be verified separately using Python's standard library:
+
+```sh
+python supplementary/purged_sequence_v1/scripts/verify.py
+```
 
 The prediction checks require the corresponding data. Official miRBench data preparation, source-model evaluation and frozen siRNA refitting are described in [reproduction instructions](docs/REPRODUCIBILITY.md). See [methods](docs/METHODS.md), [results](docs/RESULTS.md) and [data](docs/DATA.md) for the experimental contracts.
 

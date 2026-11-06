@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-03",
+  "audit_passed": true,
+  "all_protocols_aligned": false,
+  "new_fits": 0,
+  "new_inference": false,
+  "strict_test_key_sets_equal": true,
+  "strict_prediction_rows_per_model": 11394,
+  "benchmark_files_checked": 19,
+  "strict_fit_selection_receipts_checked": 48,
+  "qualification_note": "Raw CSV equality relies on the SHA-bound original qualification receipt; no new original CSV download.",
+  "strict_macro": {
+    "setting": "Macro4",
+    "Oligo_corrected_PCC": 0.5323943568661127,
+    "Oligo_SD": 0.003983472036802379,
+    "PairAC_TD24_PCC": 0.5809756041664963,
+    "PairAC_SD": 0.007085153749277554,
+    "delta": 0.0485812473003836
+  }
+}

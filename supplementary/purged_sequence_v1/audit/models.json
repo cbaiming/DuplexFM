@@ -1,0 +1,107 @@
+{
+  "PairAC_TD24_R55": {
+    "description": "Frozen PairAC miRNA representations (source192) plus TD24, fixed R55 readout",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_meaning": "miRNA source training initialization; fixed siRNA splits",
+    "source_checkpoints_sha256": {
+      "trained42": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+      "trained43": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8",
+      "trained44": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a"
+    },
+    "source_registration_sha256": "82554506727a8cd824aa25886f4d972fc2fc3dd1cf7d476f2e7a4cc925dd9e1f",
+    "source_updates": 32728,
+    "source_epochs": 8,
+    "selection": "Five inner folds within outer fit; maximum inner OOF PCC, then MSE, then stronger alpha; outer validation unused",
+    "alpha_grid": [
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "feature_dimensions": 216,
+    "training": "fit-only feature scaling; source block nuclear penalty 0.1; group intercept penalty n/K; group offsets omitted at deployment",
+    "saved_readout_lock_sha256": "a83ff43d303fb8ee94abd49a6d244cbc55280e3370d27ece512e633c7593b95c"
+  },
+  "TD24_R55": {
+    "description": "TD24 control with the same R55 group-intercept and inner-selection treatment",
+    "seed_meaning": "deterministic readout, saved once",
+    "alpha_grid": [
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "selection": "Five inner folds within outer fit; maximum inner OOF PCC, then MSE, then stronger alpha; outer validation unused",
+    "feature_dimensions": 24
+  },
+  "OligoFormer_corrected": {
+    "description": "Previously registered OligoFormer corrected reproduction",
+    "upstream": "https://github.com/lulab/OligoFormer",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_meaning": "siRNA model training initialization; fixed siRNA splits",
+    "model_snapshot": "reference/oligoformer_reproduction.py",
+    "model_snapshot_sha256": "13fac6ac99d2d5145b5e5fc87f8b7804f91fd5d6f2c8eef421e112c5189b6177",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "batch_size": 128,
+    "dropout": 0.02,
+    "max_epochs": 120,
+    "patience": 15,
+    "min_delta": 1e-05,
+    "gradient_clip": 1,
+    "precision": "BF16 forward; deterministic ATen recurrent backend",
+    "selection": "outer-validation MSE checkpoint selection; test predicted only after selection",
+    "implementation": "batch-first packed LSTM; complete Transformer residual/feed-forward path; one sigmoid efficacy output; fit-only feature normalization",
+    "comparison_boundary": "A specified reproduction, with optimization and model semantics documented in MODEL_NOTES.md; not an estimate of the upstream published model ceiling"
+  },
+  "BERT-siRNA": {
+    "description": "DNABERT-6 efficacy baseline; public pretrained encoder, complete supervised fine-tuning",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_meaning": "siRNA model training initialization; fixed siRNA splits",
+    "guide_encoding": "guide19 to fourteen overlapping 6-mers plus CLS/SEP",
+    "head": "768 to 128 to 128 to 64 to one sigmoid output",
+    "optimizer": "Adam",
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "batch_size": 100,
+    "dropout": 0.1,
+    "max_epochs": 30,
+    "precision": "FP32",
+    "selection": "outer-validation MSE checkpoint selection; test predicted only after selection",
+    "hpo": false
+  },
+  "RNAiSpline": {
+    "description": "Native SSL plus supervised efficacy training on the shared partitions",
+    "upstream": "https://github.com/drugparadigm/RNAiSpline",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_meaning": "siRNA model training initialization; fixed siRNA splits",
+    "batch_size": 16,
+    "ssl_epochs": 60,
+    "ssl_scope": "outer fit IDs only, verified for every fit",
+    "ssl_optimizer": "Adam 1e-4; cosine warm restarts T0=50, Tmult=1",
+    "max_supervised_epochs": 50,
+    "patience": 20,
+    "supervised_optimizer": "Adam 1e-4; weight_decay=1e-5; cosine warm restarts T0=10,Tmult=2; gradient clip1; MSE",
+    "selection": "outer-validation MSE checkpoint selection; test predicted once after selection",
+    "previous_task_supervised_weights_reused": false
+  }
+}

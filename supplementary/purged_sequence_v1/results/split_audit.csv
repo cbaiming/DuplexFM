@@ -1,0 +1,17 @@
+setting,fold,fit,validation,test,purged,fit_val_direct_edges,fit_test_direct_edges,val_test_direct_edges
+Huesken,0,1564,175,439,18,0,0,0
+Huesken,1,1563,175,439,19,0,0,0
+Huesken,2,1564,175,440,17,0,0,0
+Huesken,3,1568,175,439,14,0,0,0
+Huesken,4,1575,176,439,6,0,0,0
+Mixset,0,319,38,94,18,0,0,0
+Mixset,1,289,34,94,52,0,0,0
+Mixset,2,317,38,93,21,0,0,0
+Mixset,3,319,38,94,18,0,0,0
+Mixset,4,321,38,94,16,0,0,0
+Takayuki,0,416,50,133,65,0,0,0
+Takayuki,1,347,43,133,141,0,0,0
+Takayuki,2,385,47,132,100,0,0,0
+Takayuki,3,388,47,133,96,0,0,0
+Takayuki,4,417,50,133,64,0,0,0
+Inter_Hu_to_Mix,0,1970,220,469,6,0,0,0
