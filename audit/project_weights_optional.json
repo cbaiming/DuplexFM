@@ -1,0 +1,95 @@
+{
+  "excluded": [
+    "RNA-FM/mRNABERT foundation weights",
+    "all per-fold siRNA baselines",
+    "new shuffled43/44 fits still in preparation",
+    "CNN structural comparison weights not located in this audit"
+  ],
+  "file_payload_bytes": 30519878,
+  "files": [
+    {
+      "bytes": 4836683,
+      "contains_optimizer": false,
+      "contains_rng": false,
+      "fusion_buffer_count": 0,
+      "id": "initial42",
+      "original_sha256": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870",
+      "path": "source/seed42/initial.pt",
+      "role": "PairAC compact source task weights",
+      "seed": 42,
+      "sha256": "9cfce3d8089793bedb4b31cd28c8f8e4a06e6506a387a4781bc564c0c8aad13d",
+      "source_bytes_unchanged": true,
+      "step": 0,
+      "trainable_tensor_count": 132
+    },
+    {
+      "bytes": 4836683,
+      "contains_optimizer": false,
+      "contains_rng": false,
+      "fusion_buffer_count": 0,
+      "id": "initial43",
+      "original_sha256": "e1f9be5c75e51957cf730eba852adcd90d656f0517498ac4a7ef54eea690141f",
+      "path": "source/seed43/initial.pt",
+      "role": "PairAC compact source task weights",
+      "seed": 43,
+      "sha256": "f1a389a37d62b7835a90a8203da167b7c508101068c254000c048e1b97ec3d24",
+      "source_bytes_unchanged": true,
+      "step": 0,
+      "trainable_tensor_count": 132
+    },
+    {
+      "bytes": 4836683,
+      "contains_optimizer": false,
+      "contains_rng": false,
+      "fusion_buffer_count": 0,
+      "id": "initial44",
+      "original_sha256": "e5722d6efe1d0f720e291771f66c8984af42b2b97ec383f15dcb2aef21de9ee3",
+      "path": "source/seed44/initial.pt",
+      "role": "PairAC compact source task weights",
+      "seed": 44,
+      "sha256": "a7142d9cd3b0ec884b864d72ddeb5af811f50e1ed212262208cce84df4fb860a",
+      "source_bytes_unchanged": true,
+      "step": 0,
+      "trainable_tensor_count": 132
+    },
+    {
+      "bytes": 4836282,
+      "id": "shuffle42",
+      "original_sha256": "27fc770ccfde6e01899c581e50a6546ce65f6166ba8ff91e7f5f0bf3d9910781",
+      "path": "source/shuffled_seed42/terminal.pt",
+      "permutation_seed": 42,
+      "role": "equal-budget shuffled-label source task weights",
+      "seed": 42,
+      "sha256": "b4fee951625847981028bcd1915f06d2e6251edcf80a55dbebfa5006482cbcbf",
+      "source_bytes_unchanged": true,
+      "step": 32728
+    },
+    {
+      "bytes": 11170826,
+      "path": "accessibility/rebuilt_epoch9/best_state.pt",
+      "role": "separate reconstructed reactivity comparison",
+      "selected_epoch": 9,
+      "sha256": "4acfef86b2442bc0814bc94a52be216e89bbc306f030b8c64f882ba54a866d8c",
+      "source_bytes_unchanged": true,
+      "used_in_released_PairAC_features": false
+    },
+    {
+      "bytes": 1090,
+      "path": "README.md",
+      "role": "release metadata",
+      "sha256": "abc06dd349978a850bea066779aa5a5c0734003f8aa7172a4c8aced9167e4da5"
+    },
+    {
+      "bytes": 1631,
+      "path": "source_registry.json",
+      "role": "release metadata",
+      "sha256": "5b2cdb0ab41f8134b68b74df95a77bea10d4b7d8ce3864145cfea955700ce1f2"
+    }
+  ],
+  "optimizer_or_rng_state_included": false,
+  "package": "duplexfm_optional_control_weights_20261106",
+  "public_backbone_weights_included": false,
+  "release_date": "2026-11-06",
+  "schema_version": 1,
+  "scope": "Exact initial source seeds 42/43/44, archived shuffled-label source seed42, separate reconstructed epoch9 reactivity comparison"
+}

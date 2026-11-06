@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-06",
+  "focused_tests": {
+    "passed": 21,
+    "files": [
+      "tests/test_fetch_public_backbones.py",
+      "tests/test_compact_inference_checkpoint.py",
+      "tests/test_mirbench_pipeline.py"
+    ]
+  },
+  "actual_packaged_compact_smoke": {
+    "passed": true,
+    "checkpoint_identity": {
+      "sha256": "a55da350fbdc8290691840c7871780e3a7998ffcebfd79780ec2095c1f164efa",
+      "source_seed": 42,
+      "registered_compact_identity": true,
+      "original_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+      "training_resume_supported": false
+    },
+    "device": "cpu",
+    "model_loaded": true,
+    "feature_rows": 1,
+    "feature_shape": [
+      1,
+      192
+    ],
+    "max_feature_difference": 1.9073486328125e-06,
+    "public_foundations_historical_hashes_verified": true,
+    "same_cached_structural_profile_used": true,
+    "fresh_raw_sequence_structural_inference_claimed": false
+  },
+  "main_archive_sha256": "bbcac083a3a794201ca1c06aa23bbe3d4b9fd1770bfdbc3c4202b8efb8950bdb",
+  "optional_archive_sha256": "ec3b206d3c2ffc14261c20ad85f03984c305db0f1f46cf2cf36574deb471db77",
+  "public_hosting_configured": false,
+  "all_related_source_control_tests_passed": 69
+}

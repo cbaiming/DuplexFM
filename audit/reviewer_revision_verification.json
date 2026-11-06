@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "status": "passed",
+  "scope": "Saved-result recomputation, focused source-control tests, corrected-T data provenance and icSHAPE checkpoint identity",
+  "saved_control_checks": {
+    "reproduce_mirna_supervision_control.py": {
+      "passed": true,
+      "prediction_rows": 54041,
+      "source_seeds": [
+        42,
+        43,
+        44
+      ],
+      "variants": 13,
+      "outer_folds": 26,
+      "fold_groups": 338,
+      "deterministic_TD24_repetitions": 1,
+      "tables": {
+        "per_seed.csv": {
+          "rows": 104,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        },
+        "summary.csv": {
+          "rows": 40,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        },
+        "paired_deltas_per_seed.csv": {
+          "rows": 48,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        },
+        "paired_deltas_summary.csv": {
+          "rows": 16,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        }
+      },
+      "input_sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980",
+      "split_sha256": "d4e2ca306f7074ff643d5ec60dc0f6c72fe692e6ca60ec0211e701c7c0c4de5b",
+      "files_sha256": {
+        "data/sirna_oligo_random/predictions/mirna_supervision_control.csv": "8f134a278bcfe7fa4a11902cf51b0d8bc2f6da7a48b6105445e0acec2431dfd6",
+        "results/siRNA_oligo_random/mirna_supervision_control/per_seed.csv": "b28774a84361d41703092bf7d15ce05adffd13428ccc3c3c9591a99ae2b2ee10",
+        "results/siRNA_oligo_random/mirna_supervision_control/summary.csv": "e202a3a165339a91132ce4326c3ce7c434dfb1a32aec9861a9f32fcfb501a896",
+        "results/siRNA_oligo_random/mirna_supervision_control/paired_deltas_per_seed.csv": "609e41435d8bf4ae252e18e1f307f4bf807a7edaca869f53a0df2b1ae6523a2c",
+        "results/siRNA_oligo_random/mirna_supervision_control/paired_deltas_summary.csv": "e5a6375637f608e5b00ec550ce0a551e7d7cc09a6fd30446727a1449c57d4c2f"
+      },
+      "macro_main_settings": [
+        "Huesken",
+        "Mixset",
+        "Takayuki",
+        "Inter_Hu_to_Mix"
+      ],
+      "macro_extension_settings": [
+        "wang2009",
+        "alas1_patent"
+      ],
+      "uncertainty": "sample SD across matched source seeds; no independent-fold significance",
+      "new_model_fits": 0,
+      "source_features_loaded": false,
+      "GPU_used": false
+    },
+    "reproduce_shuffled_supervision_control.py": {
+      "passed": true,
+      "source_seed": 42,
+      "prediction_rows": 29099,
+      "unchanged_reference_predictions": 20785,
+      "outer_groups": 26,
+      "feature_sha256": "527c2eab7c4ac60c48811161a4255b9b0c6892dbce6b17e9e0a15350af49a7ee",
+      "tables": {
+        "per_seed.csv": {
+          "rows": 56,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        },
+        "summary.csv": {
+          "rows": 56,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        },
+        "paired_deltas.csv": {
+          "rows": 32,
+          "max_numeric_error": 0,
+          "atol": 1e-10
+        }
+      },
+      "uncertainty": "One shuffled source seed; no source-seed SD or significance claim",
+      "model_execution": false,
+      "GPU_used": false
+    }
+  },
+  "focused_tests": {
+    "passed": 48,
+    "failed": 0,
+    "elapsed_seconds": 4.56,
+    "files": [
+      "tests/test_export_mirna_supervision_control.py",
+      "tests/test_mirna_supervision_control.py",
+      "tests/test_reproduce_mirna_supervision_control.py",
+      "tests/test_shuffled_supervision_control.py",
+      "tests/test_reproduce_shuffled_supervision_control.py"
+    ]
+  },
+  "accessibility_MAE_verification": {
+    "passed": true,
+    "internal_models_recomputed": 2,
+    "external_models_recomputed": 4,
+    "internal_windows": 207979,
+    "external_windows": 7347,
+    "rebuilt_internal_MAE_matches_historical_metadata": true,
+    "new_model_execution": false
+  },
+  "corrected_Takayuki_verification": {
+    "passed": true,
+    "source_rows": 702,
+    "retained_rows": 664,
+    "all_retained_guides_targets_labels_TD24_match": true,
+    "audit": "audit/oligoformer_data_audit.json"
+  },
+  "checkpoint_identity_verification": {
+    "passed": true,
+    "original_epoch": 22,
+    "rebuilt_epoch": 9,
+    "checkpoint_bytes_rehashed": true,
+    "audit": "audit/icshape_checkpoint_identity.json"
+  },
+  "scientific_scope": {
+    "shuffled_source_seeds": [
+      42
+    ],
+    "new_source_training": false,
+    "significance_claimed": false
+  },
+  "frozen_input_and_code_identity": {
+    "passed": true,
+    "same_accessibility_sha256": "fa80fb58814a69400708c18e31f1badde228fb85fb43c9dad5fe03934ee1ed60",
+    "same_PairStore_manifest_sha256": "d3f8abf7388d7fcf3b4efe61b68a8eb7c75c8444c7133fc0219c2223d47802ea",
+    "same_source_code": true
+  },
+  "checked_file_sha256": {
+    "scripts/export_shuffled_supervision_control.py": "c97034bc35ada3e189180089a7896719dfaf199264aa6f2a34cc3d7967b7c0f2",
+    "scripts/reproduce_shuffled_supervision_control.py": "df5f92058ea0204804f7858ac56790a3bc76276dc5fd763f2a2d245a2d2fa20c",
+    "audit/oligoformer_data_audit.json": "849d4c80df9d26e0d06ab1104507bf2b7db5a7098c445fb93b02bc7d212082f1",
+    "audit/icshape_checkpoint_identity.json": "96f6720ac47ee2329d97049ac7f76d25587f7cb705b2ebe87d5e3fa1bf7df8ae",
+    "data/sirna_oligo_random/shuffled_supervision_features.json": "31be0ea22ce30cd61c1cc0783e83cf850933d3f44db67808721d492dd0274f13",
+    "data/sirna_oligo_random/predictions/shuffled_supervision_control.csv": "41dc4b5f3a778b43839d73af52a5e20e6b1e5ac9aab2252f4ae25d444e5146a7",
+    "tests/test_export_mirna_supervision_control.py": "b5529a79a018109c22ad8c29d6566cccf990378b856a2b8a52896a8cf1dd1ccf",
+    "tests/test_mirna_supervision_control.py": "d4fdefbe4539e11d3d65450e2e200760a30188eac2fe58a7e5ec0af73dd293c3",
+    "tests/test_reproduce_mirna_supervision_control.py": "33e878c5c4a9a2c90a6b0e40a19666dfd4ca0f67fd962eec0c33a6d33a86a7e9",
+    "tests/test_shuffled_supervision_control.py": "f93fb5c9756e97fbf3fcfb4191eeb19711c2593a803d891e5339cd633bc577ad",
+    "tests/test_reproduce_shuffled_supervision_control.py": "8d5b172ac8de0f1aeeb54bf9b9b5ab7cd78b67ca091a6f537e8795fdf253cd62"
+  }
+}

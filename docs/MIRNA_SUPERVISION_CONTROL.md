@@ -1,6 +1,6 @@
 # Matched control without miRNA task supervision
 
-[Completed results and reviewer response](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md)
+[Completed results](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md)
  · [New-file guide](MIRNA_CONTROL_FILES.md)
 
 This experiment compares each exact saved pre-update state (`initial`, step 0)
@@ -99,11 +99,10 @@ alphas, numerical certificates, pooled per-seed metrics, mean/sample SDs and
 paired trained-minus-initial differences. Each source seed is scored separately;
 predictions are not ensembled. A partial smoke run is not a completed benchmark.
 
-## Interpretation for a reviewer
+## Interpretation
 
 The completed [result report](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md)
-contains all settings, paired differences, validation evidence and a filled
-reviewer-response draft.
+contains all settings, paired differences and validation evidence.
 
 Report all settings, both modes and all seeds, including negative differences.
 Compute the four-setting macro within each seed before its mean/sample SD;
@@ -115,18 +114,9 @@ the 26 outer groups as independent experiments. The scripts report descriptive
 paired differences without significance claims or confidence intervals.
 
 A positive difference supports useful transfer from miRNA task training under
-this fixed protocol. An equal-budget shuffled-miRNA-label source would provide
-an additional test of the role of true labels. This control alone does not
-establish biological causality, necessity on every dataset or generalization to
-a new blind cohort. Random-split sequence relatedness and repeated downstream
-development remain limitations.
-
-Suggested response structure, to fill only after experiment completion:
-
-> We added a matched control using the exact saved initialization of each source
-> model before any miRNA task update. Architecture, public pretrained backbones,
-> frozen structural-reactivity inputs, siRNA splits and supervised readout were
-> held fixed. We evaluated representation-only and representation-plus-TD24
-> readouts and report all settings and paired source seeds. [Insert the observed
-> per-setting and macro differences.] These results quantify the contribution
-> of miRNA task training under our fixed evaluation protocol.
+this fixed protocol. The completed [equal-budget shuffled-label control](SHUFFLED_LABEL_CONTROL.md)
+compares real and permuted source labels at 32,728 updates for matched seed42.
+Its main-macro real-minus-shuffled PCC differences are +0.0083 (source only) and
++0.0289 (source plus TD24). This single-seed comparison is reported separately
+from the three-seed initial-state experiment. Neither comparison establishes
+biological causality, necessity on every dataset or a new blind-cohort result.

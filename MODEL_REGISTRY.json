@@ -44,7 +44,7 @@
   "siRNA_split_plan_sha256": "d4e2ca306f7074ff643d5ec60dc0f6c72fe692e6ca60ec0211e701c7c0c4de5b",
   "siRNA_input_rows": 3688,
   "siRNA_outer_groups": 26,
-  "repository_result_scope": "Full PairAC main results, external method comparisons and matched exact-initial miRNA-supervision control",
+  "repository_result_scope": "Full PairAC main results, remeasured baseline comparisons, matched exact-initial control and equal-budget shuffled-label source control",
   "implementation_scope": "Source training, branch removals, single-branch sources, readout and main-result reproduction",
   "miRNA_supervision_control": {
     "date": "2026-11-06",
@@ -72,6 +72,95 @@
     "saved_predictions": "data/sirna_oligo_random/predictions/mirna_supervision_control.csv",
     "results": "results/siRNA_oligo_random/mirna_supervision_control",
     "execution_receipt": "audit/mirna_supervision_control.json",
-    "interpretation": "Contribution of miRNA task updates; does not isolate real-label semantics from update budget"
+    "interpretation": "Contribution of miRNA task updates across three source seeds; real-label information at matched budget is examined separately in equal_budget_shuffled_label_control"
+  },
+  "equal_budget_shuffled_label_control": {
+    "date": "2026-11-06",
+    "source_seeds": [
+      42
+    ],
+    "permutation_seeds": [
+      42
+    ],
+    "updates_each": 32728,
+    "batch_size": 512,
+    "source_row_presentations_each": 16752856,
+    "exact_initial_parameters_buffers_rng": true,
+    "only_source_training_labels_permuted": true,
+    "class_balance_preserved": true,
+    "source_model_training_repeated_in_this_revision": false,
+    "source_encoder_frozen": true,
+    "public_foundations_retained": true,
+    "structural_supervision_retained": true,
+    "initial_checkpoint_sha256": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870",
+    "real_terminal_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+    "shuffled_terminal_sha256": "27fc770ccfde6e01899c581e50a6546ce65f6166ba8ff91e7f5f0bf3d9910781",
+    "modes": [
+      "source_only",
+      "source_plus_td"
+    ],
+    "readout": "unchanged R55; fixed OligoFormer-derived random folds; five inner folds; same alpha grid",
+    "outer_groups": 26,
+    "unique_input_rows": 3688,
+    "predictions_per_state_mode": 4157,
+    "prediction_rows": 29099,
+    "features_manifest": "data/sirna_oligo_random/shuffled_supervision_features.json",
+    "feature_sha256": "527c2eab7c4ac60c48811161a4255b9b0c6892dbce6b17e9e0a15350af49a7ee",
+    "saved_predictions": "data/sirna_oligo_random/predictions/shuffled_supervision_control.csv",
+    "results": "results/siRNA_oligo_random/shuffled_supervision_control",
+    "execution_receipt": "audit/shuffled_supervision_control.json",
+    "verification": "audit/reviewer_revision_verification.json",
+    "interpretation": "Descriptive real-label minus shuffled-label comparison at matched update budget; one source seed/permutation, no source-seed SD or significance claim"
+  },
+  "baseline_remeasurement_audit": "audit/oligoformer_data_audit.json",
+  "reactivity_checkpoint_identity_audit": "audit/icshape_checkpoint_identity.json",
+  "compact_inference_checkpoints": {
+    "42": {
+      "path": "source/seed42/terminal.pt",
+      "bytes": 4829933,
+      "sha256": "a55da350fbdc8290691840c7871780e3a7998ffcebfd79780ec2095c1f164efa",
+      "original_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+      "step": 32728,
+      "trainable_tensor_count": 132
+    },
+    "43": {
+      "path": "source/seed43/terminal.pt",
+      "bytes": 4829933,
+      "sha256": "cf239884fde57cd2ecae9753b83fa664bb257ca63d5db56e45cf4605fd267ea9",
+      "original_sha256": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8",
+      "step": 32728,
+      "trainable_tensor_count": 132
+    },
+    "44": {
+      "path": "source/seed44/terminal.pt",
+      "bytes": 4829933,
+      "sha256": "3be367c9e4f8b3e53ed02720b7d7a9561f3283e83b921a835f5d15a2d570d97a",
+      "original_sha256": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a",
+      "step": 32728,
+      "trainable_tensor_count": 132
+    }
+  },
+  "project_weights_release": {
+    "date": "2026-11-06",
+    "main_archive": {
+      "filename": "duplexfm_project_weights_20261106.tar.gz",
+      "bytes": 23738758,
+      "sha256": "bbcac083a3a794201ca1c06aa23bbe3d4b9fd1770bfdbc3c4202b8efb8950bdb"
+    },
+    "optional_archive": {
+      "filename": "duplexfm_optional_control_weights_20261106.tar.gz",
+      "bytes": 23656568,
+      "sha256": "ec3b206d3c2ffc14261c20ad85f03984c305db0f1f46cf2cf36574deb471db77"
+    },
+    "public_backbones_included": false,
+    "hosting_status": "packaged_and_locally_verified; public hosting not yet configured",
+    "documentation": "docs/WEIGHTS.md",
+    "historical_rnafm_snapshot": {
+      "filename": "rnafm_historical_snapshot_20261106.tar.gz",
+      "bytes": 234649052,
+      "sha256": "e50c371f0aff6dcdc4527a2474f769edd096ac8bb6bc2f7bfec4493b92bebd4a",
+      "purpose": "Separate historical foundation snapshot prepared for author-hosted mirror; not included in project weight package",
+      "public_hosting_configured": false
+    }
   }
 }

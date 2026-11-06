@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "source_seed": 42,
+  "shuffled_source_seed_count": 1,
+  "original_initial_sha256": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870",
+  "real_terminal_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+  "shuffled_terminal_sha256": "27fc770ccfde6e01899c581e50a6546ce65f6166ba8ff91e7f5f0bf3d9910781",
+  "options": {
+    "seed": 42,
+    "batch_size": 512,
+    "micro_batch_size": 512,
+    "max_updates": 32728,
+    "reference_rows": 2094107,
+    "amp": "bf16",
+    "learning_rate": 0.0003,
+    "lora_learning_rate": 2e-05,
+    "weight_decay": 0.0001,
+    "clip_grad_norm": 1.0
+  },
+  "updates": 32728,
+  "reference_epochs": 8,
+  "source_seen_rows": 16752856,
+  "exact_initial_parameters_buffers_rng": true,
+  "labels": {
+    "train_rows": 2094107,
+    "validation_rows": 401428,
+    "positives": 1042521,
+    "shuffled_positives": 1042521,
+    "seed": 42,
+    "changed_labels": 1046888,
+    "outside_training_sentinel": -1,
+    "validation_and_test_labels_unchanged": true
+  },
+  "permutation_sha256": "f2c503929e0970188bf395b35b4b024b4294b5b8a67c795768423c91cf03dbf1",
+  "shuffled_labels_sha256": "4adfa1fc16a7287c48a8c1677b68237e0b674d8e761a0bda54618ca3ff1fc3b2",
+  "signature_sha256": "6ea482c55ee92df6048a7fe6903a2fde06e6b9a72210c3f311361902ab1c7f8c",
+  "history_sha256": "5002dfdd6fb3e6977eef9b73cb7456a64199284d79c5915169d4bcb371416950",
+  "execution_lock_sha256": "70c3689d20fa885ed36e233ae0211034689b106fa27bde71cc2c051a8a31be38",
+  "selection": "fixed_terminal_update_without_downstream_selection",
+  "archived_source_training_seconds": 34479.455486014485,
+  "limitation": "One shuffled source seed; matched updates/options do not imply bitwise cross-hardware training trajectories"
+}

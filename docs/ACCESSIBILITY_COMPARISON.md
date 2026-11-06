@@ -15,7 +15,7 @@ All three traceable supervised models use the same source split, masked per-wind
 
 MAE was chosen as the primary presentation measure after inspecting existing results. It supports a comparison of absolute reactivity error, not a claim of superior correlation or secondary-structure accuracy. Original validation logic and all recorded metrics remain under results/accessibility/supplementary_metrics/.
 
-The original PairAC epoch22 predictor is not the reconstructed epoch9 model. Its historical membership table is missing, so the filtered external inputs cannot be certified unseen for that predictor; matched internal-test MAE is unavailable. Do not substitute reconstructed internal performance for it.
+The [checkpoint identity table](ICSHAPE_CHECKPOINTS.md) gives the verified weight hashes, training counts, batch sizes and separate reporting roles. The original PairAC epoch22 predictor is not the reconstructed epoch9 model. Its historical membership table is missing, so the filtered external inputs cannot be certified unseen for that predictor; matched internal-test MAE is unavailable. Do not substitute reconstructed internal performance for it.
 
 The final external filter rejects local matches with ≥90% identity and ≥80% coverage of both true sequences, in either orientation, against reconstructed supervised train plus validation, followed by seen-gene exclusion. Public-backbone pretraining exposure remains unknown. GSE74353 had already been examined; the result is not a new blinded test.
 

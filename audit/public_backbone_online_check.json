@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-06",
+  "method": "Read official Hugging Face file pages and Xet pointer SHA256; model payloads were not downloaded for this check",
+  "rnafm": {
+    "repository": "multimolecule/rnafm",
+    "observed_main_revision": "7d6e73ad3b48e042b378f9a788a56ccb4d573a27",
+    "file": "model.safetensors",
+    "page": "https://huggingface.co/multimolecule/rnafm/blob/main/model.safetensors",
+    "required_sha256": "190ca603af367b65475b62c65c5f11d348f16a4b4c6ea4d710da2703b3bd133a",
+    "advertised_current_sha256": "ec69333eb894dbefb580e690b0cbe1cbae9845fefd2bc78da914cd14226a2828",
+    "file_identity_matches": false,
+    "tensor_equivalence_tested": false,
+    "action": "Require the recorded historical snapshot or a mirror containing the exact recorded files"
+  },
+  "mrnabert": {
+    "repository": "YYLY66/mRNABERT",
+    "observed_main_revision": "a1eb7df25804d23f08646e1cb996b234d7208a40",
+    "file": "pytorch_model.bin",
+    "page": "https://huggingface.co/YYLY66/mRNABERT/blob/main/pytorch_model.bin",
+    "required_sha256": "cb2eb64831a494d4cac14acb5df908f734e088c4d62256ac3e42cada60c3bf75",
+    "advertised_current_sha256": "cb2eb64831a494d4cac14acb5df908f734e088c4d62256ac3e42cada60c3bf75",
+    "weight_file_identity_matches": true,
+    "all_small_files_download_verified": false,
+    "action": "Downloader still verifies every required configuration, tokenizer and runtime file"
+  }
+}

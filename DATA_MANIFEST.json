@@ -57,6 +57,11 @@
       "sha256": "22f8f2b4a170ac25a25553c3fd95a5d8fe7580483bfa5cc5a4b0e1c83a58f555"
     },
     {
+      "path": "data/mirbench_v7/SOURCE.json",
+      "bytes": 3821,
+      "sha256": "81527358dc79cc7ccf3b3c0cbd60ac3083003c7f3f725f060e5d6015a9aff1af"
+    },
+    {
       "path": "data/mirbench_v7/fixed_split_manifest.json",
       "bytes": 78280,
       "sha256": "16945472723531c1f6de1f840fbff45d15e3b3c481db419880bcbfbde384e377"
@@ -90,11 +95,6 @@
       "path": "data/mirbench_v7/raw/AGO2_eCLIP_Manakov2022_leftout.tsv.gz",
       "bytes": 4413597,
       "sha256": "cdfa6ca2c03bda84d791fcde822d6c7d01300c9e8abb8dcc58650183bd099774"
-    },
-    {
-      "path": "data/mirbench_v7/SOURCE.json",
-      "bytes": 3821,
-      "sha256": "81527358dc79cc7ccf3b3c0cbd60ac3083003c7f3f725f060e5d6015a9aff1af"
     },
     {
       "path": "data/mirna_predictions/seed42/AGO2_CLASH_Hejret2023_test/00000000.npz",
@@ -812,6 +812,11 @@
       "sha256": "7b69ac15cf6a483e6716217e8a535d656946e38c5e8b4e2a3c2fa1d4de20d5e9"
     },
     {
+      "path": "data/sirna_oligo_random/features/shuffled_seed42.npy",
+      "bytes": 2832512,
+      "sha256": "527c2eab7c4ac60c48811161a4255b9b0c6892dbce6b17e9e0a15350af49a7ee"
+    },
+    {
       "path": "data/sirna_oligo_random/input_manifest.json",
       "bytes": 15010,
       "sha256": "a89366c36c356afb8abe231fb0f9a216b9fa87fbb8bb0b74fe6ea586c1787e73"
@@ -860,6 +865,16 @@
       "path": "data/sirna_oligo_random/predictions/pairac_modules.csv",
       "bytes": 4133875,
       "sha256": "c3927602d7c915c544141fa1c299e176b1c196ea1a525e7fd8e6023990a41a9b"
+    },
+    {
+      "path": "data/sirna_oligo_random/predictions/shuffled_supervision_control.csv",
+      "bytes": 2613696,
+      "sha256": "41dc4b5f3a778b43839d73af52a5e20e6b1e5ac9aab2252f4ae25d444e5146a7"
+    },
+    {
+      "path": "data/sirna_oligo_random/shuffled_supervision_features.json",
+      "bytes": 8583,
+      "sha256": "31be0ea22ce30cd61c1cc0783e83cf850933d3f44db67808721d492dd0274f13"
     }
   ],
   "weights_included": false,

@@ -1,0 +1,106 @@
+{
+  "file_payload_bytes": 25651748,
+  "files": [
+    {
+      "bytes": 4829933,
+      "contains_optimizer": false,
+      "contains_rng": false,
+      "fusion_buffer_count": 0,
+      "id": "full42",
+      "original_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+      "path": "source/seed42/terminal.pt",
+      "role": "PairAC compact source task weights",
+      "seed": 42,
+      "sha256": "a55da350fbdc8290691840c7871780e3a7998ffcebfd79780ec2095c1f164efa",
+      "source_bytes_unchanged": true,
+      "step": 32728,
+      "trainable_tensor_count": 132
+    },
+    {
+      "bytes": 4829933,
+      "contains_optimizer": false,
+      "contains_rng": false,
+      "fusion_buffer_count": 0,
+      "id": "full43",
+      "original_sha256": "1a22a5aa97e9aabdffc69545b370cf3a867e0fbc4d6e84d8a83d204c3d13eba8",
+      "path": "source/seed43/terminal.pt",
+      "role": "PairAC compact source task weights",
+      "seed": 43,
+      "sha256": "cf239884fde57cd2ecae9753b83fa664bb257ca63d5db56e45cf4605fd267ea9",
+      "source_bytes_unchanged": true,
+      "step": 32728,
+      "trainable_tensor_count": 132
+    },
+    {
+      "bytes": 4829933,
+      "contains_optimizer": false,
+      "contains_rng": false,
+      "fusion_buffer_count": 0,
+      "id": "full44",
+      "original_sha256": "be56cb0130b44b9af735653d86a9c068bed917a470395c70d04a41a42a4a7c2a",
+      "path": "source/seed44/terminal.pt",
+      "role": "PairAC compact source task weights",
+      "seed": 44,
+      "sha256": "3be367c9e4f8b3e53ed02720b7d7a9561f3283e83b921a835f5d15a2d570d97a",
+      "source_bytes_unchanged": true,
+      "step": 32728,
+      "trainable_tensor_count": 132
+    },
+    {
+      "bytes": 8791637,
+      "path": "accessibility/original_epoch22/best_film_residual_head.pt",
+      "role": "original epoch22 reactivity head",
+      "selected_epoch": 22,
+      "sha256": "61904966a61fd209c6ef00f37474e92fde10f7bfe5667568b7a6ca4c91550aa8",
+      "source_bytes_unchanged": true
+    },
+    {
+      "bytes": 2362568,
+      "path": "accessibility/original_epoch22/best_mrnabert_lora/adapter_model.safetensors",
+      "role": "original epoch22 structural mRNABERT LoRA",
+      "selected_epoch": 22,
+      "sha256": "bde9e864d7d3d3418557feb7efed4bc47f6af6d38ce958e5a56983878d016b8f",
+      "source_bytes_unchanged": true
+    },
+    {
+      "bytes": 1011,
+      "metadata_only_change": "base_model_name_or_path set to portable public/mrnabert; model tensor bytes unchanged",
+      "original_sha256": "4f9260f1a61802400330217425a997974fd9a9f6734d204850bc5aca8c553170",
+      "path": "accessibility/original_epoch22/best_mrnabert_lora/adapter_config.json",
+      "role": "LoRA configuration",
+      "sha256": "1576de3fef3d895801111756110108efeca61294e4411ae7aabd1e0fb778747e",
+      "source_bytes_unchanged": false
+    },
+    {
+      "bytes": 4076,
+      "path": "accessibility/original_epoch22/run_config.json",
+      "role": "original architecture and training metadata",
+      "sha256": "ea842a69eb3278bad89f2f31ec0dca65bb58c43a0850e1582cc0dd56bd0ac25f",
+      "source_bytes_unchanged": true
+    },
+    {
+      "bytes": 1424,
+      "path": "README.md",
+      "role": "release metadata",
+      "sha256": "b7e878e725a7b09cb471bf788378bc6aac98761ef920b7c9a1b5ebfe498b7105"
+    },
+    {
+      "bytes": 1233,
+      "path": "source_registry.json",
+      "role": "release metadata",
+      "sha256": "240a2f703bd45319a6a2a496a6879e5fd3aa5172ea03987308fbe6116945ed42"
+    }
+  ],
+  "fitted_R55_readout_included": false,
+  "optimizer_or_rng_state_included": false,
+  "package": "duplexfm_project_weights_20261106",
+  "public_backbone_weights_included": false,
+  "release_date": "2026-11-06",
+  "required_separate_assets": [
+    "SHA-locked RNA-FM foundation and tokenizer/config",
+    "SHA-locked mRNABERT foundation and tokenizer/config/runtime",
+    "R55 readout fit and normalization or canonical data for refit"
+  ],
+  "schema_version": 1,
+  "scope": "Three trained Full source seeds and the original epoch22 structural predictor"
+}

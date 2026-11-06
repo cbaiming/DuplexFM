@@ -1,6 +1,10 @@
 # Main results
 
-The siRNA tables follow OligoFormer random outer folds and their Wang/ALAS1 extensions. Results are not mixed with earlier purged-sequence experiments. Source seeds 42, 43 and 44 are evaluated separately; reported uncertainties are sample SDs, not prediction ensembles.
+The siRNA tables follow OligoFormer random outer folds and their Wang/ALAS1 extensions. Source seeds 42, 43 and 44 are evaluated separately; reported uncertainties are sample SDs, not prediction ensembles.
+
+## Equal-budget real versus shuffled miRNA labels
+
+Both source models use the same seed42 initialization and 32,728-update budget. The main four-setting macro PCC is **0.5080 versus 0.4997** for real versus shuffled labels using source192 alone (difference **+0.0083**), and **0.6371 versus 0.6083** with TD24 (difference **+0.0289**). This is a single-source-seed comparison with no source-seed SD or significance claim. Real-label source192 decreases on Huesken→Mixset; the TD24-augmented PCC is higher in all six settings for seed42. The [full equal-budget report](../results/siRNA_oligo_random/shuffled_supervision_control/REPORT.md) retains every setting and metric.
 
 ## Contribution of miRNA task supervision
 
@@ -15,7 +19,7 @@ These are descriptive differences across matched source seeds, with no
 independent-fold significance claim. This control estimates the contribution of
 miRNA task updates; it retains other pretraining/supervision. The complete
 [control report](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md)
-includes all settings, both modes, MSE/MAE, saved predictions and a response draft.
+includes all settings, both modes, MSE/MAE and saved predictions.
 The [new-file guide](MIRNA_CONTROL_FILES.md) lists all added scripts and evidence.
 
 ## miRBench v7
@@ -23,6 +27,8 @@ The [new-file guide](MIRNA_CONTROL_FILES.md) lists all added scripts and evidenc
 Full DuplexFM achieves four-test macro AP **0.878612 ± 0.001418**. Each source seed's AP is averaged equally over the four tests before summarizing across seeds. Per-test and per-seed values are in results/miRNA/.
 
 ## siRNA benchmark
+
+**OligoFormer-corrected, BERT-siRNA and RNAiSpline are computational reruns under the common protocol. Takayuki uses the pinned official `data/Taka.csv`.** Scores below are recalculated from saved predictions; [source and implementation details](OLIGOFORMER_REMEASUREMENT_AUDIT.md) document the data identity and model adaptation.
 
 | Method | Huesken | Mixset | Takayuki | Huesken→Mixset | Macro4 | Wang | ALAS1 | Macro2 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -66,4 +72,4 @@ Primary presentation by MAE was chosen after examining existing results. Checkpo
 
 ## Interpretation
 
-Four primary settings represent three cohorts because Mixset is reused. Sequence neighbors occur across random folds, and source keep-overlap, public pretraining and repeated downstream development remain relevant. These experiments support representation utility under the stated conditions, not universal transfer, a new blind external confirmation or biological causality. Ablation and single-branch implementations are retained, but their results are not reported in this repository.
+Four primary settings represent three cohorts because Mixset is reused. The reported scope is the OligoFormer-derived random-fold protocol; source keep-overlap, public pretraining and repeated downstream development remain relevant. These experiments support representation utility under the stated conditions, not universal transfer, a new blind external confirmation or biological causality. Ablation and single-branch implementations are retained, but their results are not reported in this repository.

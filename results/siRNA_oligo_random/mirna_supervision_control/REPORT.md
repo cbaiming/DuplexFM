@@ -12,7 +12,6 @@ Mean ± sample SD across paired source seeds 42, 43 and 44.
 These descriptive results support an average contribution of miRNA task training;
 public pretraining and independent structural supervision are retained.
 
-[Reviewer-response draft](#suggested-reviewer-response) ·
 [New-file guide](../../../docs/MIRNA_CONTROL_FILES.md) ·
 [Protocol and commands](../../../docs/MIRNA_SUPERVISION_CONTROL.md)
 
@@ -78,14 +77,8 @@ no artificial source-seed SD is assigned. Lower MSE/MAE is better.
 - A single RTX A6000 exported all six source states in FP32 (64.5 seconds reserved wall time). The three trained GPU feature banks passed elementwise CPU-bank parity at atol 1e-4/rtol 1e-5; maximum absolute difference was 5.23e-5.
 - The fixed readout ran on the server CPU in 361.2 seconds. The final focused suite passed 49 tests.
 - Source-seed SD is descriptive; neither folds nor repeated Mixset samples are independent training replicates. No significance test or confidence interval is claimed.
-- This comparison estimates the contribution of miRNA task updates. It does not isolate true-label semantics from training budget; an equal-budget label-shuffle control would address that additional question.
-- Existing random-split sequence relatedness and repeated downstream development still limit generalization.
-
-## Suggested reviewer response
-
-> We added a matched control using the exact saved initialization of each source model before any miRNA task update, paired with its corresponding terminal checkpoint. Architecture, public pretrained backbones, frozen structural-reactivity inputs, siRNA splits and the nested R55 readout were held fixed. Both source encoders were frozen, and the same supervised siRNA readout was fitted in each condition.
->
-> Across source seeds 42, 43 and 44, the main four-setting macro PCC increased from 0.4772 ± 0.0217 to 0.5179 ± 0.0090 for representation-only transfer, and from 0.6157 ± 0.0015 to 0.6330 ± 0.0054 when TD24 was included. The paired increases were 0.0407 ± 0.0240 and 0.0172 ± 0.0062, respectively. These results support an average contribution of miRNA task training to siRNA efficacy prediction under the fixed evaluation protocol. We report all settings and note that Huesken-to-Mixset did not improve; thus, we do not claim universal benefit. The control retains public pretraining and independent structural supervision, and does not establish that the benefit is unique to true miRNA labels.
+- This initial-state comparison estimates the contribution of miRNA task updates. The completed [equal-budget shuffled-label comparison](../shuffled_supervision_control/REPORT.md) separately tests real versus permuted labels at the same 32,728-update budget for seed42.
+- Interpretation is specific to the OligoFormer-derived random-fold protocol, with repeated downstream development taken into account.
 
 ## Files and reproduction
 

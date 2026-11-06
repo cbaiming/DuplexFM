@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "state": "shuffled",
+  "seed": 42,
+  "rows": 3688,
+  "input_sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980",
+  "row_ids_sha256": "10d2780beea65d2e9d311b5ef936827d08463f29b4bd89f78845f23ea4b6804c",
+  "sha256": "527c2eab7c4ac60c48811161a4255b9b0c6892dbce6b17e9e0a15350af49a7ee",
+  "checkpoint_sha256": "27fc770ccfde6e01899c581e50a6546ce65f6166ba8ff91e7f5f0bf3d9910781",
+  "original_initial_sha256": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870",
+  "real_terminal_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+  "source_audit": {
+    "passed": true,
+    "source_seed": 42,
+    "shuffled_source_seed_count": 1,
+    "original_initial_sha256": "94bd542f156045f6e73062197672298c955d4fd7ec0e938720966d9ff23bd870",
+    "real_terminal_sha256": "c65f522bbf6e99779601ddf024fcb68ebf7740b9b6289b6dd1f7258b25eb8baf",
+    "shuffled_terminal_sha256": "27fc770ccfde6e01899c581e50a6546ce65f6166ba8ff91e7f5f0bf3d9910781",
+    "options": {
+      "seed": 42,
+      "batch_size": 512,
+      "micro_batch_size": 512,
+      "max_updates": 32728,
+      "reference_rows": 2094107,
+      "amp": "bf16",
+      "learning_rate": 0.0003,
+      "lora_learning_rate": 2e-05,
+      "weight_decay": 0.0001,
+      "clip_grad_norm": 1.0
+    },
+    "updates": 32728,
+    "reference_epochs": 8,
+    "source_seen_rows": 16752856,
+    "exact_initial_parameters_buffers_rng": true,
+    "labels": {
+      "train_rows": 2094107,
+      "validation_rows": 401428,
+      "positives": 1042521,
+      "shuffled_positives": 1042521,
+      "seed": 42,
+      "changed_labels": 1046888,
+      "outside_training_sentinel": -1,
+      "validation_and_test_labels_unchanged": true
+    },
+    "permutation_sha256": "f2c503929e0970188bf395b35b4b024b4294b5b8a67c795768423c91cf03dbf1",
+    "shuffled_labels_sha256": "4adfa1fc16a7287c48a8c1677b68237e0b674d8e761a0bda54618ca3ff1fc3b2",
+    "signature_sha256": "6ea482c55ee92df6048a7fe6903a2fde06e6b9a72210c3f311361902ab1c7f8c",
+    "history_sha256": "5002dfdd6fb3e6977eef9b73cb7456a64199284d79c5915169d4bcb371416950",
+    "execution_lock_sha256": "70c3689d20fa885ed36e233ae0211034689b106fa27bde71cc2c051a8a31be38",
+    "selection": "fixed_terminal_update_without_downstream_selection",
+    "archived_source_training_seconds": 34479.455486014485,
+    "limitation": "One shuffled source seed; matched updates/options do not imply bitwise cross-hardware training trajectories"
+  },
+  "exporter_sha256": "c97034bc35ada3e189180089a7896719dfaf199264aa6f2a34cc3d7967b7c0f2",
+  "reused_exporter_sha256": "f4a114f26d331bb7ca5d985b904e81513b18e2e8934cc402f5383d979565fd3f",
+  "source_files_sha256": {
+    "duplexfm_joint/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "duplexfm_joint/backbones.py": "4c4d989915ca726992863f2600cbc9819f4e54725adfa5adc7a2fd75a13d3fce",
+    "duplexfm_joint/data.py": "8ac3117f6cbdb48520812329158734dd11cbf02c7667226aa4b1d4846a9c8c0c",
+    "duplexfm_joint/io_utils.py": "5bcb35d16c66a0dbd0f6d2a263a365a56c6a3d0063313a69067ae040105385ca",
+    "duplexfm_joint/model.py": "e6343621cdfbb904cc9fb1d5b66e5d77af0294b49992ded4d96a2655920c7726",
+    "duplexfm_mechanism/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "duplexfm_mechanism/common.py": "f014f298d35aa228be09d58418b7966b535d4bd3c44436589d643660a6b4f5d2",
+    "duplexfm_mechanism/data_plan.py": "64c1805783cef7a0edcfea804bbd53c9f8b1a134dd5dc5147cca2e89a20f74d9",
+    "duplexfm_mechanism/durable_io.py": "1513edd78d603ca489c9d52cad8e63edbc0fd43b21d714d754765d987ac8002c",
+    "duplexfm_mechanism/efficiency.py": "4e4c5ae7b403fc496f67181cce07819c5dc9d491c9041e5fa64d2e0d6a449329",
+    "duplexfm_mechanism/engineering_three.py": "b3e918869c74d23dbb81a48138d917715937d22474a54c81ffe4026e725548ab",
+    "duplexfm_mechanism/evaluation.py": "7cdda9797652c503fd7e15aab3453d079f477f60213c1d583acc0c71bd339426",
+    "duplexfm_mechanism/model.py": "da76b274f13120ea029d48c89388b790f70fd19c1f6e693a23021264a58adf39",
+    "duplexfm_mechanism/parallel.py": "5de26abfc69f59bfb6acf44ca170b4d8c091844f19e0ff5ac6177c2aa59a4774",
+    "duplexfm_mechanism/protocol.py": "c12ae3d60f4208caa198dcebdf95f77e1aa10a07b0e160f976448e836a4aba8e",
+    "duplexfm_mechanism/runtime.py": "929a8cb1ea88cc7634dc0ba33fddbf2f1c0ba5892b624368aaa22c2eb62cc086",
+    "duplexfm_mechanism/training_hourly.py": "0a987c2cebb4ef20d91412ae8c0b4ac2ac364534506c50b573766d1567d2b6cd",
+    "evaluate_sources.py": "75d3e8d8aebf58356f0681100237a89d5525f9738472a1e71109b7b6c018561d",
+    "foundation_reference.json": "d615c9ebf9983492a1cbb0366b4891172058ab215194eb67a5c2dfaff48b281d",
+    "parallel_run.py": "67c1b65e5e7d87a9b494d7c641019059339c2941b34100404edf7d435d000f2b",
+    "prepare_pairac.py": "7c8855b242ef6f572f6e0ebfde6622367176f4ade6ed75a0bc4343cdd8472bf9",
+    "tests/conftest.py": "ef04363027d9a79bfb2ab4f98da6299f98d20a0467cc45d73991524d8402a0dd",
+    "tests/test_controller.py": "bfc46149770c9478d6bf025268a9abd163ebd28fd12d1353070e5582d0b668e6",
+    "tests/test_durability.py": "8699c575b842a75814d79d6fbe654d9470d098a9508ffabb6838f3c14d893162",
+    "tests/test_pairac.py": "50853bdd52921070437e5a998ea20a886716eebb6e265efa08681646cc6a8e79"
+  },
+  "precision": "FP32",
+  "tf32": false,
+  "batch_size": 32,
+  "labels_forwarded": false,
+  "source_model_training": false,
+  "wall_seconds": 12.588945189490914,
+  "hardware": "NVIDIA RTX A6000",
+  "path": "features/shuffled_seed42.npy",
+  "source_audit_sha256": "51abfd10b31fd18a40a7148ecfd4e30d1e22fbf9ebd6e47f5528deaf2d9fdfba",
+  "raw_export_manifest_sha256": "66f550bba57235304f7cdd3c29bcb9631aeb8cf82a1f8a824d44244386ccf7b7",
+  "private_config_store_paths_and_backbone_paths_removed": true,
+  "frozen_input_stores": [
+    {
+      "rows_sha256": "ef186653580148e0dfec00cf2a69a0936be81ce8ea76eb97ba1dda449e209716",
+      "selected_rows": 3688,
+      "manifest_sha256": "d3f8abf7388d7fcf3b4efe61b68a8eb7c75c8444c7133fc0219c2223d47802ea",
+      "verified_files": 10,
+      "unused_legacy_physics_arrays_opened": false,
+      "files_sha256": {
+        "accessibility.npy": "fa80fb58814a69400708c18e31f1badde228fb85fb43c9dad5fe03934ee1ed60",
+        "data/guide_ids.npy": "0653ebd63c9953d195add999922944c5062bd4f8bd79f993a9297fe068d343bf",
+        "data/guide_lengths.npy": "7b4a6c649fa0c8604d9ee300efbb295571aa6ef9fee9984dea219a926db16408",
+        "data/guide_tokens.npy": "247c13883f00c25d82881e4931c19b78a0b4e90a6aac0d27e0d41199d249b23d",
+        "data/indices_train.npy": "0653ebd63c9953d195add999922944c5062bd4f8bd79f993a9297fe068d343bf",
+        "data/indices_val.npy": "0653ebd63c9953d195add999922944c5062bd4f8bd79f993a9297fe068d343bf",
+        "data/labels.npy": "708d0cd10e65c14d727467ee7deecbfe735bbfcdf69d46952794fe2a08f476fb",
+        "data/target_ids.npy": "0653ebd63c9953d195add999922944c5062bd4f8bd79f993a9297fe068d343bf",
+        "data/target_lengths.npy": "bb800edad3934b888ffd625750d512e342b86c1e5601264c2c30cf6ae15eb0c9",
+        "data/target_tokens.npy": "e861454b34f47a8112603da230ec8df2bb44dfafc364a90957a423bb4677efb6"
+      }
+    }
+  ],
+  "public_backbone_hashes": {
+    "target": {
+      "sha256": {
+        "bert_layers.py": "b67badfb0479166881a88d49ea851faef77766a5f814997d4f7c48657a31b82c",
+        "bert_padding.py": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421",
+        "config.json": "9e6a3c2aafa5b6025dc18b376f90e7fbf9937e186481d7805d1cfaa06994d7c5",
+        "configuration_bert.py": "5f64c7fb5938b0868b51fb35a1eed8671e19c51a38dfbf820ff10252870b5450",
+        "flash_attn_triton.py": "568d1ac3beca0b5e1df528a1f136aa19b6489a616fcf3784f33336a50bb1de81",
+        "pytorch_model.bin": "cb2eb64831a494d4cac14acb5df908f734e088c4d62256ac3e42cada60c3bf75",
+        "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+        "tokenizer.json": "a65092236d66f7b7e845d8f29ced9f97ec3d8eda47fd45f5afcbf6d47023e6ea",
+        "tokenizer_config.json": "cf2c3632a26a278941cbff142872170e190158d6fadeb3de50a0756f16d21d2f",
+        "vocab.txt": "a8c91751128fed67d58be62d19950e256dce31873f52f111a77ef4a45854c0e1"
+      }
+    },
+    "guide": {
+      "sha256": {
+        "config.json": "8c7d0a1b055d8c40e055ccb4b36f9ede14f1f4a9dadb3fcc5f222d8ae913be35",
+        "model.safetensors": "190ca603af367b65475b62c65c5f11d348f16a4b4c6ea4d710da2703b3bd133a",
+        "tokenizer_config.json": "f6150d2eadedf2e5cf9324f8e03cce3557af38076e070d24a3cf286786d256b9",
+        "vocab.txt": "686c991af8379cbb812ada930086ad17f820327a99097eb7857ae38ef2da2572"
+      }
+    }
+  }
+}

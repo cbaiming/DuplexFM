@@ -12,6 +12,10 @@ Use Python 3.11 and the pinned scientific dependencies in reference/pairac_conca
 
 The first two check file identities and aggregation. AP verification checks Full seeds42/43/44 on four tests, using retained labels and scores. siRNA verification checks the current Oligo plan, exact-once IDs and pooled per-seed metrics. MAE verification uses the retained observed-position error sums. Required prediction/statistic data must be installed first. These commands neither retrain source models nor use test results to select parameters.
 
+## Model assets
+
+[WEIGHTS.md](WEIGHTS.md) documents the compact project packages and public foundation downloader. The source evaluation wrapper accepts the registered compact Full checkpoints as inference-only states. Public foundations must match the historical SHA256 identities; RNA-FM requires the matching historical snapshot or mirror.
+
 ## Official miRBench data and prepared inputs
 
     python scripts/fetch_mirbench.py --download
@@ -55,6 +59,14 @@ archives before reporting the new control.
     python scripts/reproduce_mirna_supervision_control.py
     python scripts/run_mirna_supervision_control.py --features-manifest data/sirna_oligo_random/mirna_supervision_features.json --seed 42 43 44 --all --output ../supervision_control_refit
 
+## Equal-budget shuffled-label control
+
+The [shuffled-control protocol](SHUFFLED_LABEL_CONTROL.md) describes archived source-training verification and new frozen-feature extraction. Saved predictions and all table cells are independently verified with:
+
+    python scripts/reproduce_shuffled_supervision_control.py
+
+The verifier checks 29,099 predictions, fixed sample/fold identities, unchanged reference predictions, feature hashes and the single-source-seed reporting rule.
+
 ## Accessibility comparison
 
     python scripts/restore_data.py --dataset icshape_source --output external_data/icshape_source
@@ -73,4 +85,4 @@ Synthetic checks exercise masking, coordinates, feature construction, pooling an
 
 ## Scope
 
-Available data support saved-result verification and frozen-feature analyses for represented samples. Separately distributed weights, the exact historical reactivity cache and an executed full preparation/inference run remain necessary for complete raw-sequence performance reproduction. The cleaner, fixed family assignments and token/map/split hashes are now included. Preparing an equivalent-format dataset is not proof of that identity. Public-pretraining membership, random-split neighbors and repeated downstream development remain scientific limitations even after numerical agreement.
+Available data support saved-result verification and frozen-feature analyses for represented samples. Separately distributed weights, the exact historical reactivity cache and an executed full preparation/inference run remain necessary for complete raw-sequence performance reproduction. The cleaner, fixed family assignments and token/map/split hashes are now included. Preparing an equivalent-format dataset is not proof of that identity. Numerical agreement verifies the stated OligoFormer-derived protocol. Public-pretraining membership and repeated downstream development remain relevant to its interpretation.

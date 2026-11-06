@@ -1,6 +1,6 @@
 # Data and model assets
 
-Source terms are recorded in [DATA_LICENSE_NOTICES.md](../DATA_LICENSE_NOTICES.md). Project-trained weights are distributed separately. Upstream backbones, datasets and software retain their own conditions.
+Source terms are recorded in [DATA_LICENSE_NOTICES.md](../DATA_LICENSE_NOTICES.md). Project-trained weights are packaged separately; [WEIGHTS.md](WEIGHTS.md) records the verified archives and public-foundation acquisition procedure. Upstream backbones, datasets and software retain their own conditions.
 
 ## miRBench v7
 
@@ -24,12 +24,15 @@ The current prepared data are under data/sirna_oligo_random/.
 | mirna_supervision_features.json | Exact-initial and trained feature SHA, checkpoint and ordered-row bindings |
 | features/initial_seed42.npy, initial_seed43.npy, initial_seed44.npy | Frozen step-zero representations; retain public/structural pretraining |
 | predictions/mirna_supervision_control.csv | Full matched control, both modes, three source seeds and one TD24 baseline |
+| features/shuffled_seed42.npy | Frozen features from the equal-budget shuffled-label source (one source seed) |
+| shuffled_supervision_features.json | Shuffled checkpoint, source-budget audit and frozen-input/backbone hashes |
+| predictions/shuffled_supervision_control.csv | 29,099 predictions for matched seed42 initial, real, shuffled and TD24 conditions |
 
 There are 3,688 unique rows: Huesken 2,196; Mixset 469; Takayuki 664; Wang 131; ALAS1 228. Across 26 outer groups, each complete model/seed produces 4,157 predictions because Huesken→Mixset evaluates Mixset again.
 
 Original cohorts follow two seed42 shuffles of the OligoFormer raw rows before eligibility filtering. Wang/ALAS1 are same-rule extensions. Inner folds only use outer training rows. Prepared response values and labels are copied unchanged; do not apply normalization again. Preserve representation array order and sample IDs during refitting.
 
-These folds contain sequence neighbors and are not gene-isolated tests. Four primary settings are not four distinct cohorts. The random-split results cannot be combined with earlier differently split experiments.
+Takayuki uses the official `data/Taka.csv` at revision `e2f53ad63387bbe166bf123949151e2bc9bf6ec3`, SHA-256 `221672544ee0bd7e4c8029d9e8f5d7463c90aa9f5623976002b5e68c35300b2f`. All 664 retained records were verified against that source; 38 noncanonical padded target windows are excluded from the 702 source rows. See the [data identity and computational remeasurement audit](OLIGOFORMER_REMEASUREMENT_AUDIT.md). Four primary settings represent three distinct cohorts because Mixset is reused.
 
 ## Accessibility data
 
@@ -39,7 +42,7 @@ Reconstructed GSE145805 supervision has 2,332,794 windows: train 1,928,795, vali
 
 The external GSE74353 data use continuously measured 50–60-nt windows. A final screen removes local matches with ≥90% identity and ≥80% true coverage of both sequences, in either orientation, against reconstructed train plus validation. It retains 20,208 sequence-filtered windows, or 7,347 windows/347 genes after also excluding seen genes. Masks and per-window MAE statistics are retained. Filtering is heuristic and does not exhaustively certify homology.
 
-PairAC's original epoch22 reactivity predictor and the reconstructed epoch9 model are different. The original predictor's supervised membership is missing; purging against reconstructed supervision cannot establish that the original model never encountered the external inputs.
+PairAC's original epoch22 reactivity predictor and the reconstructed epoch9 model are different; their verified hashes, training counts and reporting roles are in [ICSHAPE_CHECKPOINTS.md](ICSHAPE_CHECKPOINTS.md). The original predictor's supervised membership is missing; purging against reconstructed supervision cannot establish that the original model never encountered the external inputs.
 
 ## Weights and inference assets
 

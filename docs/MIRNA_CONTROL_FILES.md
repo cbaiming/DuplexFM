@@ -1,10 +1,10 @@
 # miRNA supervision control: file index
 
 Start with the highlighted result in the [repository README](../README.md),
-then read the [full results and reviewer-response draft](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md),
+then read the [full results](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md),
 the [matched-control protocol](MIRNA_SUPERVISION_CONTROL.md), and the scripts below.
 
-This addition contains **20 new files**, including this index. Files follow the
+The original exact-initialization addition contains **20 files**, including this index. The subsequent equal-budget control, data identity audit and checkpoint clarification are indexed in [REVIEWER_REVISION_FILES.md](REVIEWER_REVISION_FILES.md). Files follow the
 repository's existing `scripts/`, `data/`, `results/`, `tests/`, `audit/` and
 `docs/` layout; their paths are retained so imports and manifest references
 continue to resolve.
@@ -31,7 +31,7 @@ continue to resolve.
 
 | File | Purpose |
 | --- | --- |
-| [REPORT.md](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md) | Main findings, all setting-level results, limitations and suggested English reviewer response. |
+| [REPORT.md](../results/siRNA_oligo_random/mirna_supervision_control/REPORT.md) | Main findings, all setting-level results, limitations and reproduction commands. |
 | [per_seed.csv](../results/siRNA_oligo_random/mirna_supervision_control/per_seed.csv) | PCC, Spearman, MSE and MAE by condition, source seed, readout mode and setting. |
 | [summary.csv](../results/siRNA_oligo_random/mirna_supervision_control/summary.csv) | Condition-level means and sample SD across source seeds. |
 | [paired_deltas_per_seed.csv](../results/siRNA_oligo_random/mirna_supervision_control/paired_deltas_per_seed.csv) | Trained-minus-initial differences computed within each matched source seed. |

@@ -18,9 +18,9 @@ Official data are accessed through the miRBench repository and its fixed Zenodo 
 
 ## Oligo random-split siRNA evaluation
 
-Original OligoFormer raw rows are shuffled twice with seed42 before the accepted eligibility filtering. The retained cohorts are Huesken 2,196, Mixset 469, Takayuki 664, Wang 131 and ALAS1 228, totaling 3,688 distinct inputs. Huesken, Mixset and Takayuki use five outer folds; Huesken→Mixset uses one cross-dataset evaluation. Wang/ALAS1 are fivefold extensions, not original paper experiments.
+We reuse the preprocessing and random outer-fold conventions derived from OligoFormer code: raw rows are shuffled twice with seed42 before the registered eligibility filtering. The retained cohorts are Huesken 2,196, Mixset 469, Takayuki 664, Wang 131 and ALAS1 228, totaling 3,688 distinct inputs. Huesken, Mixset and Takayuki use five outer folds; Huesken→Mixset uses one cross-dataset evaluation. Wang/ALAS1 are fivefold extensions, not original paper experiments.
 
-The 26 outer groups yield 4,157 predictions per model/seed because Mixset is evaluated again under transfer. Five inner folds are constructed from each outer training set, with seed42 shuffling. Test labels do not select parameters. Random folds neither purge sequence neighbors nor isolate genes.
+The 26 outer groups yield 4,157 predictions per model/seed because Mixset is evaluated again under transfer. Five inner folds are constructed from each outer training set, with seed42 shuffling. Test labels do not select parameters. Conclusions are specific to this OligoFormer-derived evaluation protocol.
 
 ### Frozen readout
 
@@ -40,9 +40,13 @@ state removes miRNA task updates while retaining other pretraining/supervision.
 The [control protocol](MIRNA_SUPERVISION_CONTROL.md) documents checkpoint binding,
 A6000 FP32 parity, train-only transformations and descriptive paired reporting.
 
+### Equal-budget shuffled-label source control
+
+A completed archived seed42 source fit uses one fixed RNG42 permutation of only the 2,094,107 training labels, retaining the 1,042,521 positive labels. Its initialization parameters, fusion buffers and RNG match the real-label source bitwise. Source inputs, optimizer options, batch/microbatch512, BF16, 32,728 terminal updates and 16,752,856 row presentations are matched. Validation/test labels are excluded from the permutation. The frozen shuffled source is evaluated in both R55 modes against seed42 real-label and initial states. Only one shuffled source seed is reported, with no source-seed SD or significance claim. See the [protocol and exact-budget audit](SHUFFLED_LABEL_CONTROL.md).
+
 ### Other siRNA methods
 
-OligoFormer-corrected, BERT-siRNA and RNAiSpline use the same eligible inputs and outer/inner membership. Registered seed42 inner search selects learning rate, weight decay and batch, then fixes them for final seeds42/43/44. Corrected implementations are not unchanged author code. Their siRNA-training SD and DuplexFM's source-training SD quantify different variability.
+OligoFormer-corrected, BERT-siRNA and RNAiSpline are computationally retrained and evaluated on the same eligible inputs and outer/inner membership. Takayuki uses the pinned upstream `data/Taka.csv`; all 664 retained rows match its guide, target, efficacy and TD24 values. The [data and remeasurement audit](OLIGOFORMER_REMEASUREMENT_AUDIT.md) documents the fixed source revision and implementation differences. Registered seed42 inner search selects learning rate, weight decay and batch, then fixes them for final seeds42/43/44. Corrected implementations are not unchanged author code. Their siRNA-training SD and DuplexFM's source-training SD quantify different variability.
 
 DSIR uses published Huesken-supervised weights. Huesken and the four-setting mean are therefore excluded from an independent test; Huesken→Mixset repeats the same Mixset prediction. A three-seed SD is not assigned to this fixed model.
 
@@ -54,4 +58,4 @@ The sequence CNN, sequence + LinearFold-V CNN and reconstructed mRNABERT predict
 
 Source supervision aggregates GSE145805 cells. Strict GSE74353 evaluation uses continuous measured 50–60-nt windows; high-similarity matches to supervised train plus validation and then seen genes are removed. MAE is pooled over observed positions, including measured zeros and excluding missing/PAD. Using MAE as the primary presentation measure was a post-hoc reporting choice; original selection code and full metrics remain available.
 
-The reconstructed epoch9 predictor and PairAC's original epoch22 predictor are different. The original supervised membership table is missing. Filtering against reconstructed supervision cannot certify previously unseen inputs for the original model.
+The [checkpoint identity table](ICSHAPE_CHECKPOINTS.md) binds the original epoch22 and reconstructed epoch9 predictors to separate verified weights, training populations and optimization settings. The reconstructed epoch9 predictor and PairAC's original epoch22 predictor are different. The original supervised membership table is missing. Filtering against reconstructed supervision cannot certify previously unseen inputs for the original model.

@@ -59,6 +59,21 @@ def validate_checkpoint_contract(checkpoint, args, digest):
     """A caller-supplied hash establishes bytes, not source seed or protocol."""
     from duplexfm_mechanism.protocol import contract, source_config
     recorded = read(ROOT / 'data/mirbench_v7/preparation_contract.json')
+    compact = read(ROOT / 'MODEL_REGISTRY.json').get('compact_inference_checkpoints', {})
+    matches = [(int(seed), item) for seed, item in compact.items() if item['sha256'] == digest]
+    if matches:
+        seed, item = matches[0]
+        if seed != args.seed:
+            raise ValueError('Registered compact checkpoint belongs to a different source seed')
+        if (checkpoint.get('step') != 32728
+                or checkpoint.get('original_sha256') != recorded['source_terminal_sha256'][str(seed)]
+                or checkpoint.get('original_sha256') != item['original_sha256']
+                or not isinstance(checkpoint.get('trainable_parameters'), dict)
+                or not isinstance(checkpoint.get('fusion_buffers'), dict)
+                or len(checkpoint['trainable_parameters']) != 132):
+            raise ValueError('Registered compact checkpoint metadata or tensor inventory differs')
+        return {'sha256': digest, 'source_seed': seed, 'registered_compact_identity': True,
+                'original_sha256': item['original_sha256'], 'training_resume_supported': False}
     if checkpoint.get('state', {}).get('step') != recorded['source_terminal_updates']:
         raise ValueError('Source inference requires the fixed 32728-update terminal checkpoint')
     historical = recorded['source_terminal_sha256']
@@ -136,8 +151,10 @@ def load_model(args, require_checkpoint=True):
         if args.checkpoint is None:
             raise ValueError('An explicit project-trained --checkpoint is required')
         contract = read(ROOT / 'data/mirbench_v7/preparation_contract.json')
-        expected = args.checkpoint_sha256 or contract['source_terminal_sha256'][str(args.seed)]
         actual = sha(args.checkpoint)
+        compact = read(ROOT / 'MODEL_REGISTRY.json').get('compact_inference_checkpoints', {}).get(str(args.seed), {})
+        default = compact['sha256'] if actual == compact.get('sha256') else contract['source_terminal_sha256'][str(args.seed)]
+        expected = args.checkpoint_sha256 or default
         if actual != expected:
             raise ValueError('Checkpoint SHA-256 differs from the supplied/registered identity')
         checkpoint = load_checkpoint(args.checkpoint)

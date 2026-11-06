@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-06",
+  "method": "Read historical metadata and recompute SHA256 of checkpoint bytes; no model retraining or inference in this audit.",
+  "original_epoch22": {
+    "role": "frozen structural-reactivity predictor used by the released PairAC representation and both supervision-control conditions",
+    "best_epoch": 22,
+    "epochs_run": 25,
+    "historical_split_sizes": {
+      "train": 1509015,
+      "val": 161167,
+      "test": 160112
+    },
+    "optimization": {
+      "optimizer": "AdamW with separate mRNABERT-LoRA and FiLM-residual-head groups",
+      "micro_batch_size": 768,
+      "eval_batch_size": 768,
+      "gradient_accumulation": 1,
+      "nominal_effective_batch_size": 768,
+      "epochs": 25,
+      "patience": 5,
+      "lora_learning_rate": 0.00005,
+      "head_learning_rate": 0.0003,
+      "weight_decay": 0.0001,
+      "warmup_fraction": 0.03,
+      "warmup_steps": 1474,
+      "schedule": "linear warm-up then cosine decay to zero",
+      "gradient_clip": 1,
+      "loss": "per-sequence mean masked L1 (absolute error)",
+      "selection_metric": "0.5*micro Pearson + 0.5*mean within-sequence Pearson",
+      "seed": 42,
+      "precision": "BF16"
+    },
+    "historical_test_mae": 0.16042782001600964,
+    "historical_test_mae_comparable_to_rebuilt_internal_test": false,
+    "data_contract": {
+      "dataset_manifest_sha256": "7cba6da1bce2486848627e869fbd74ac257acc8fefa6ff274c65e1553ff18c51",
+      "profile_sha256": "9dd38261077debc49a688c6ceded5c2ed9c5d68e7dd69eef611ae7271474002b",
+      "splits_sha256": "26f69c4544ff6d81dc42223b2632312bc3eea96472ef8b96773bc39d3ad2c080",
+      "view_ids_sha256": "055c57bfabcd53e6a79a85eeb2c9cc89b2b3e703dc8164aff8b7bea2d463b3c6"
+    },
+    "files": {
+      "best_film_residual_head.pt": {
+        "sha256": "61904966a61fd209c6ef00f37474e92fde10f7bfe5667568b7a6ca4c91550aa8",
+        "bytes": 8791637
+      },
+      "best_mrnabert_lora/adapter_config.json": {
+        "sha256": "4f9260f1a61802400330217425a997974fd9a9f6734d204850bc5aca8c553170",
+        "bytes": 1040
+      },
+      "best_mrnabert_lora/adapter_model.safetensors": {
+        "sha256": "bde9e864d7d3d3418557feb7efed4bc47f6af6d38ce958e5a56983878d016b8f",
+        "bytes": 2362568
+      },
+      "metrics.json": {
+        "sha256": "4588f90cfe38ec8223d7f3b60018df22c7db47a689d0a3db1f6c1d02a078d1dd",
+        "bytes": 11558
+      }
+    }
+  },
+  "rebuilt_epoch9": {
+    "role": "separately reconstructed supervised reactivity comparison; not substituted into the main PairAC siRNA features",
+    "best_epoch": 9,
+    "epochs_run": 14,
+    "initialization": "public backbone; fresh LoRA/FiLM/residual head",
+    "plan": {
+      "deterministic": true,
+      "device": "cuda",
+      "epochs": 25,
+      "eval_batch_size": 128,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1,
+      "head_learning_rate": 0.0003,
+      "lora_learning_rate": 0.00005,
+      "micro_batch_size": 128,
+      "min_region_coverage": 0.5,
+      "min_train_coverage": 0.5,
+      "patience": 5,
+      "precision": "bf16",
+      "region_weight": 0,
+      "samples_per_epoch": 1928795,
+      "seed": 42,
+      "selection_tolerance": 0.0001,
+      "warmup_fraction": 0.03,
+      "weight_decay": 0.0001
+    },
+    "selection": "0.5 micro PCC + 0.5 mean within-window PCC; near ties use region MAE; undefined PCC falls back to sequence MAE",
+    "validation": {
+      "rows": 196020,
+      "observations": 10102282,
+      "mae": 0.1633494442671101,
+      "micro_pearson": 0.6128596106993359,
+      "within_sequence_pearson": 0.6243168528059898
+    },
+    "test": {
+      "rows": 207979,
+      "observations": 10759454,
+      "mae": 0.16210830013001823,
+      "micro_pearson": 0.6166835858513144,
+      "within_sequence_pearson": 0.628822936881148
+    },
+    "data_sha256": {
+      "cross_cell_iqr.npy": "6df1515093eeeea8bc719889a33512a1b8be2c72ab6365c6d7a8f2122ac0232e",
+      "distinct_cell_counts.npy": "20f000e1901cd4113f5c05e496012f256d3fe2798e871f1d270101eeb81106e4",
+      "label_observation_counts.npy": "a65ca2652bf4e0195431aaf42fbb4829be77d97eb94119491e02f33bc5e7b21f",
+      "lengths.npy": "309de0f791cc7eb67893a610e43fc8c6a4daedf86dd5f9212d550c413399e9bf",
+      "manifest.json": "6f00175b6c986f5a2f138df8291776bcefe984407402a4578bee7472dc8d2e8e",
+      "median_accessibility_profiles.npy": "0b1be28d42c9b2518bec1f96b11a817a2f11aacae69832784a5b5cd5947c7324",
+      "observed_cell_bitmask.npy": "866cd9d14ddcb98147949108b9abfcf6e45747efc9a585ec571273b8444f78ba",
+      "observed_mask.npy": "45cb3e33fa5fb5714e573400a2063dd12c6e05f44730dcddc29d2db72d889958",
+      "sequences.npy": "ca7cdcafb22ac6eb2b31017646ff37a8e642f5806021d105b835de5608c55bc7",
+      "splits.npy": "7ec0d282d8b247926fdaa4f8d109e6c9f5dfc279ca89a9420263550cb87508ff",
+      "transcript_components.npy": "0c26180c95cdf5aacb8c9b3136ebf2581cd6bbc3e5c4a39c0995bf727676df07",
+      "view_ids.npy": "1f6d298e605cf8eeb19befb1548fe8b722e66c4b50fea2fd3d56a7c2b0eb49a1"
+    },
+    "selected_ids_sha256": {
+      "test": "ab52e735b04fa4292ecd6daa626128028c5c18b3083544d0807fbd65bd542dfe",
+      "train": "82f9c78834c44aed5c687639a6186235a4fc0c37ce6cf4a9ad698459a727d71b",
+      "val": "5eb95ce496b913be1958b089fffe439a716c8e03959159b73743e6ba31d0380a"
+    },
+    "files": {
+      "best_state.pt": {
+        "sha256": "4acfef86b2442bc0814bc94a52be216e89bbc306f030b8c64f882ba54a866d8c",
+        "bytes": 11170826
+      },
+      "metrics.json": {
+        "sha256": "33b6420f7dd5a82a4868657874acbb8e266e093b4e6bef82b18d3dd5654d3e77",
+        "bytes": 15985
+      },
+      "run_config.json": {
+        "sha256": "96533b2cfcc40af796426310c1cd950356796216c078129d23c8833bd9c37696",
+        "bytes": 16367
+      },
+      "complete.json": {
+        "sha256": "d2124c1a63029515b8be80bcb2ce2232b337f528e2f57bd09872c98c696b6396",
+        "bytes": 16581
+      }
+    }
+  },
+  "interpretation": {
+    "different_checkpoint_and_training_data": true,
+    "historical_original_membership_table_recovered": false,
+    "rebuilt_internal_test_mae_must_not_be_attributed_to_original": true,
+    "lower_MAE_is_not_proof_of_higher_correlation": true
+  }
+}

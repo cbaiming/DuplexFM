@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "verified_date": "2026-11-06",
+  "scope": "Computational OligoFormer rerun, corrected Takayuki input and baseline implementation identity",
+  "upstream": {
+    "repository": "https://github.com/lulab/OligoFormer",
+    "registered_commit": "e2f53ad63387bbe166bf123949151e2bc9bf6ec3",
+    "dataset_correction_description": "Official README reports correction of siRNA/passenger-strand labeling in Takayuki",
+    "corrected_file": {
+      "path": "data/Taka.csv",
+      "url": "https://raw.githubusercontent.com/lulab/OligoFormer/e2f53ad63387bbe166bf123949151e2bc9bf6ec3/data/Taka.csv",
+      "sha256": "221672544ee0bd7e4c8029d9e8f5d7463c90aa9f5623976002b5e68c35300b2f",
+      "bytes": 190506,
+      "rows": 702,
+      "same_bytes_at_current_main_when_checked": true,
+      "same_sha256_in_existing_input_manifest": true,
+      "first_guide": "CCUCGCCCUUGCUCACCAU"
+    },
+    "deprecated_file": {
+      "path": "data/deprecated_Taka.csv",
+      "url": "https://raw.githubusercontent.com/lulab/OligoFormer/main/data/deprecated_Taka.csv",
+      "sha256": "de2589970f89652dc33cdb5b4bbcdf0a28194348733bfb9974bc670d910cbe75",
+      "bytes": 190523,
+      "rows": 702,
+      "first_guide": "AUGGUGAGCAAGGGCGAGG"
+    },
+    "registered_model_source_sha256": "9bb055a5d08eaddd0dad7b3d8df90975f150fa2b23147b36adf0583ad015bc13",
+    "registered_train_single_sha256": "6f609eb61dfcae186f20c39b28d8cb43fd284e1b2f6784dd593adf138f3cb82c"
+  },
+  "prepared_input": {
+    "path": "data/sirna_oligo_random/input_rows.json",
+    "sha256": "a928975aa974a20bf3303ee46257336390a1e1a90b643a1d92960539c38c4980",
+    "all_cohorts_rows": 3688,
+    "Takayuki": {
+      "rows": 664,
+      "eligible_corrected_raw_rows": 664,
+      "excluded_raw_rows": 38,
+      "excluded_reason": "Target windows contain non-ACGU flank padding",
+      "compared_against_registered_corrected_source": true,
+      "comparison_implementation": "PowerShell CSV/JSON parsing; exact ordinal guide/target/id comparisons, numeric double comparisons for continuous label and each TD24 value, integer comparisons for binary y",
+      "exact_match_counts": {
+        "guide": 664,
+        "target57": 664,
+        "label_numeric": 664,
+        "y": 664,
+        "TD24_all_numeric_values": 664,
+        "sample_id_original_zero_based_row_index": 664
+      },
+      "label_min": 0.0,
+      "label_max": 1.0,
+      "label_renormalized": false,
+      "label_semantics": "Inherited continuous efficacy response; no new wet-lab measurement",
+      "y_semantics": "Inherited binary label; not the regression response"
+    }
+  },
+  "computational_rerun": {
+    "saved_predictions": "data/sirna_oligo_random/predictions/hpo.csv",
+    "saved_predictions_sha256": "79490e415205b0449170373df5a404c773800fbc16d354d974ad29fca6d11904",
+    "models": ["OligoFormer-corrected", "BERT-siRNA", "RNAiSpline"],
+    "seeds": [42, 43, 44],
+    "all_nine_model_seed_banks_verified": true,
+    "predictions_per_model_seed": 4157,
+    "settings_per_model_seed": 6,
+    "outer_groups_per_model_seed": 26,
+    "published_scores_transcribed": false,
+    "protocol": "oligo_double_shuffle42_random_fivefold_plus_two_extensions_v1",
+    "search": "seed42 fixed eight-candidate 8-to-3-to-1 inner-only search; sample-weighted validation MSE; fixed candidate order for exact ties",
+    "final_fit": "Winner frozen before outer prediction; per-seed median of five inner-selected epochs; fresh complete outer-training fit",
+    "specification_path": "workflows/sirna_oligo_random/baselines/hpo_specification.json",
+    "specification_sha256": "5dc08c745c635d380022d264d480d6c3c73dbe7a106f17cfe4a083862054005d",
+    "original_scientific_specification_sha256": "c1732923ed05f30b0c9c616cd4d18bd5ddf6d9d68dd407f23efedd0884b117e5"
+  },
+  "implementation": {
+    "unchanged_author_code": false,
+    "corrected_model_sha256": "13fac6ac99d2d5145b5e5fc87f8b7804f91fd5d6f2c8eef421e112c5189b6177",
+    "hpo_backend_path": "workflows/sirna_oligo_random/baselines/hpo_backend.py",
+    "hpo_backend_sha256": "567747c65735e547fb4dd10208d5d8f6634c9b303faaca366273080a2cb8e63e",
+    "baseline_adapter_path": "workflows/sirna_oligo_random/baselines/vendor/baseline_gpu_models.py",
+    "baseline_adapter_sha256": "05927ac83872372f77fed5efb25df2493f269ec820e230f8199eed69f8c45b28",
+    "OligoFormer_changes": [
+      "Explicit batch-first recurrent layout and guide padding handling",
+      "PyTorch TransformerEncoderLayer replaces upstream custom attention block",
+      "One sigmoid regression output replaces two-output softmax",
+      "280 frozen features comprise guide RNA-FM128, target RNA-FM128 and TD24",
+      "Training-only feature normalization and common nested model selection",
+      "AdamW and validation-MSE policy replace upstream optimizer/scheduler and joint loss/AUC selection"
+    ],
+    "dataset_corrected_and_model_corrected_are_distinct": true,
+    "full_retraining_requires_external_source_assets_and_weights": true
+  },
+  "report": "docs/OLIGOFORMER_REMEASUREMENT_AUDIT.md"
+}
